@@ -1,0 +1,971 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1">
+    <rdf:value>Accessions were obtained from the Nottingham Arabidopsis Stock Centre (http://www.arabidopsis.info). Strains with different combinations of FRI and FLC alleles have been described [[pgen-0010006-b06],[pgen-0010006-b07],[pgen-0010006-b28]].</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b28">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1"/>
+        <bibo:citedBy>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1">
+            <rdf:value>In total, our collection of 155 strains included 67 strains that carry either the common Col- or Ler-type lesions in FRI, and at least 23 accessions with alternative FRI/FLC lesions. A two-way analysis of variance (ANOVA) model showed that FRI and FLC can account for 63% of variation in 23LD TLN. In contrast, FRI and FLC accounted for only 23% variation in 23SD, consistent with this pathway being most important when other floral inductive stimuli are strong, as in long days. Nevertheless, our finding that FRI and FLC significantly affect flowering in short days in a large set of wild strains is at variance with previous surveys that did not find a significant effect of FRI [[pgen-0010006-b10],[pgen-0010006-b16]]. Twenty-four wild strains are in common between the previous studies and our study. A comparison of flowering times indicates limited correlation in these 24 strains (r
+2 = 0.55 for long days, 0.35 for short days). Consistent with the differences in observed flowering time, FRI and FLC are significant factors in our long day and short day conditions in this set of 24 strains, indicating that these discrepancies are not due to sampling bias, but different experimental conditions. Our results are consistent with earlier studies using FRI/FLC introgressed laboratory strains, which also displayed late flowering in short days [[pgen-0010006-b28],[pgen-0010006-b29]]. In addition, we did not limit our assessment of FRI and FLC activity to genotyping of major, previously known alleles.</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b29">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b28"/>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b16">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1"/>
+                <bibo:citedBy>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6">
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b04">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+                        <bibo:citedBy>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2">
+                            <dcterms:isPartOf>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_4">
+                                    <rdf:value>Despite the immense interest in exploiting natural variation to identify A. thaliana genes controlling flowering time, large studies that simultaneously compare the responses of wild accessions to different environments have been lacking. In three previous reports, summary statistics for short and long days, along with flowering times for about 70 strains in common garden experiments, were published [[pgen-0010006-b10],[pgen-0010006-b15],[pgen-0010006-b16]]. In these 70 strains, FRI and FLC significantly delayed flowering only in long days. Here, we present detailed data on the flowering responses of over 150 wild strains along with several mutants under four different conditions. We report substantial variation in pathways other than those affected by vernalization, including the pathway that mediates responses to ambient temperature, which so far has not been studied in a range of natural accessions.
+</rdf:value>                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b16"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b15">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_4"/>
+                                        <bibo:citedBy>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3">
+                                            <rdf:value>Natural variation in the flowering responses to other environmental variables has not been studied in as much detail as the vernalization response has been analyzed. A naturally occurring deletion in FLM, which causes early flowering in both long and short days [[pgen-0010006-b12]], has so far only been found in accessions from Niederzenz [[pgen-0010006-b13]]. Similarly, the EDI (EARLY DAY-LENGTH INSENSITIVE) allele of the photoreceptor CRY2 (CRYPTOCHROME 2) causes early flowering under short days, but appears to be restricted to accessions from the Cape Verde Islands [[pgen-0010006-b14]]. It has been proposed that other CRY2 alleles affect flowering in a wide range of accessions, but experimental data supporting this suggestion are still lacking [[pgen-0010006-b15]].</rdf:value>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b15"/>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b14">
+                                                <bibo:citedBy>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2">
+                                                    <rdf:value
+                                                    >Although there is less variation in the ambient temperature response compared to vernalization and photoperiod, we could identify accessions that responded more strongly or more weakly to temperature than the majority of accessions (see [pgen-0010006-g006]C and [pgen-0010006-g006]D). The identification of accessions that flower relatively early or late in specific environments suggests that many of the flowering-time pathways identified by mutagenesis, such as those that respond to photoperiod or temperature, participate in generating flowering-time variation in the wild. In contrast to variation in vernalization requirement, which appears to be largely due to FRI and FLC, it seems that variation in these other pathways is due to allelic effects at several different loci, a conclusion that is supported by a growing number of other studies [[pgen-0010006-b13],[pgen-0010006-b14],[pgen-0010006-b22]]. The hypothesis of a complex genetic basis of non-vernalization variation is further supported by the finding that, in contrast to vernalization response, none of the known flowering-time regulators are particularly highly correlated with photoperiod or temperature response. It will be interesting to learn which genes control variation in these other pathways.</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2"/>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1">
+                                                            <dcterms:isPartOf>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation">
+    <dcterms:isPartOf>
+      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion">
+        <dcterms:hasPart>
+          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2"/>
+            <dcterms:hasPart>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_1">
+                <rdf:value>We provide an extensive dataset on flowering-time associated traits in a large number of A. thaliana accessions across multiple environments, which forms a valuable resource for both experimental and population genetic studies. We have tested the response to three major environmental variables affecting flowering time: photoperiod, vernalization, as well as ambient growth temperature, whose effects had not been studied before in natural strains. Although our data confirm that FRI and FLC are indeed major factors regulating the rapid-cycling or winter-annual habit, loss of FRI and FLC function cannot explain all of the variation observed. Some of the remaining variation may be due to more subtle differences in the activity of the vernalization pathway.
+</rdf:value>    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions"/>
+              </doco:Paragraph>
+            </dcterms:hasPart>
+            <biotea:paragraphList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list7">
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_1"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2"/>
+              </rdf:Seq>
+            </biotea:paragraphList>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion"/>
+            <dcterms:title>Conclusions</dcterms:title>
+            <dcterms:isPartOf>
+              <bibo:Document rdf:about="http://linkingdata.io/pmcdoc/pmc/1183525">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                <dcterms:hasPart>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Abstract">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Abstract:para_1">
+                        <rdf:value></rdf:value>
+                        <rdf:value>Although multiple environmental cues regulate the transition to flowering in Arabidopsis thaliana, previous studies have suggested that wild A. thaliana accessions fall primarily into two classes, distinguished by their requirement for vernalization (extended winter-like temperatures), which enables rapid flowering under long days. Much of the difference in vernalization response is apparently due to variation at two epistatically acting loci, FRI and FLC. We present the response of over 150 wild accessions to three different environmental variables. In long days, FLC is among those genes whose expression is most highly correlated with flowering. In short days, FRI and FLC are less important, although their contribution is still significant. In addition, there is considerable variation not only in vernalization response, but also in the response to differences in day length or ambient growth temperature. The identification of accessions that flower relatively early or late in specific environments suggests that many of the flowering-time pathways identified by mutagenesis, such as those that respond to day length, contribute to flowering-time variation in the wild. In contrast to differences in vernalization requirement, which are mainly mediated by FRI and FLC, it seems that variation in these other pathways is due to allelic effects at several different loci.</rdf:value>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Abstract"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list1">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Abstract:para_1"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:title>Abstract</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                  </doco:Section>
+                </dcterms:hasPart>
+                <dcterms:hasPart>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_2">
+                        <rdf:value>Microarray data were generated as part of the AtGenExpress project (http://arabidopsis.org/info/expression/ATGenExpress.jsp) (see [pgen-0010006-st003]). RNA isolated from the aerial parts of 4-d-old seedlings was hybridized to Affymetrix ATH1 arrays as described [[pgen-0010006-b27]], and normalized expression estimates were obtained using gcRMA (bioconductor.org), a modification of the robust multi-array analysis (RMA) algorithm [[pgen-0010006-b37]]. Microarray data have been deposited with the ArrayExpress database (http://www.ebi.ac.uk/arrayexpress; experiment E-TABM-18 and E-TABM-19). In addition, normalized microarray data are available from our website (http://www.weigelworld.org/resources/microarray).</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b37">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b27">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_2"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-:para_1">
+                                <rdf:value>DNA was extracted using the CTAB method [[pgen-0010006-b27]] with minor modifications. For sequence analysis of FRI and FLC, 3.3 kb and 4.2 kb genomic fragments, respectively, were amplified using ExTaq polymerase (TaKaRa Biomedical, Shiga, Japan). Pooled products from four independent PCR reactions were directly sequenced on both strands. See [pgen-0010006-st005] for oligonucleotide primers used.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st005">
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_1">
+                                        <rdf:value>The aerial parts of plants grown on soil in 23LD for 12 d were collected at dusk and flash frozen in liquid nitrogen. RNA was extracted using Trizol, and 1 μg of total RNA was reverse transcribed using a Reverse Transcription kit (Invitrogen, Carlsbad, California, United States). See [pgen-0010006-st005] for a list of oligonucleotide primers. PCR was performed in the presence of SYBR Green (Invitrogen), and amplification was monitored in real time with the Opticon Continuous Fluorescence Detection System (MJ Research, Reno, Nevada, United States). Two biological replicates, each with two technical replicates, were analyzed. Threshold cycles (cT) were based on a reaction reaching a specific fluorescence intensity in the log-linear phase of the amplification curve. ΔcT was calculated as the difference in cT between FLC and UBQ10. PCR efficiency was assumed to be the same and relative transcript abundance compared to Col-0 was calculated as 2−ΔΔcT.</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st005"/>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b27"/>
+                                <dcterms:isPartOf>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-">
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-:para_1"/>
+                                    <biotea:paragraphList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list17">
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-:para_1"/>
+                                      </rdf:Seq>
+                                    </biotea:paragraphList>
+                                    <dcterms:isPartOf>
+                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1">
+                                        <dcterms:hasPart>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-">
+                                            <dcterms:hasPart>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-:para_1">
+                                                <rdf:value>Plants were grown in controlled growth rooms with a temperature variability of about plus or minus 0.1 °C under a 1:1 mixture of Cool White and Gro-Lux Wide Spectrum fluorescent lights, with a fluence rate of 125 to 175 μmol m−2 s−1. All light bulbs were of the same age. Long days had 16 h of light, short days had 8 h. Maximal humidity was 65%. Light, temperature, and humidity were continuously monitored online and logged data were stored in a Structured Query Language (SQL) database.</rdf:value>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-"/>
+                                              </doco:Paragraph>
+                                            </dcterms:hasPart>
+                                            <biotea:paragraphList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list11">
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-:para_1"/>
+                                              </rdf:Seq>
+                                            </biotea:paragraphList>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                            <dcterms:title>Growth conditions.</dcterms:title>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                          </doco:Section>
+                                        </dcterms:hasPart>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                        <dcterms:hasPart>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-">
+                                            <dcterms:hasPart>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-:para_1">
+                                                <rdf:value>The following traits were scored: DTF, TLN, juvenile leaf number (JLN), adult leaf number (ALN), cauline leaf number (CLN), and rosette leaf number (RLN). Flowering was scored on a daily basis for first macroscopic appearance of the inflorescence. DTF was calculated from the date of sowing. For vernalized plants, the vernalization period was subtracted. In our conditions, plants did not produce leaves during vernalization. Individual plants that had flowered were removed. Flats remained in their specific conditions throughout the entire experiment. Leaves were counted under the microscope, and juvenility was determined by the presence of trichomes on the abaxial side.</rdf:value>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-"/>
+                                              </doco:Paragraph>
+                                            </dcterms:hasPart>
+                                            <biotea:paragraphList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list14">
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-:para_1"/>
+                                              </rdf:Seq>
+                                            </biotea:paragraphList>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                            <dcterms:title>Scoring of traits.</dcterms:title>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                          </doco:Section>
+                                        </dcterms:hasPart>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-"/>
+                                        <biotea:sectionList>
+                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183525/list7">
+                                            <rdf:li>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-">
+                                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1"/>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list10">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Stocks.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                              </doco:Section>
+                                            </rdf:li>
+                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-"/>
+                                            <rdf:li>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-:para_1">
+                                                    <rdf:value
+                                                    >Seeds were stratified at 4 °C for 7 d (to minimize variation due to differences in stratification requirements) in 0.1% agarose, then planted on soil. Before vernalization, seed germination was induced at 16 °C for 24 h. Plants were cultivated for 5 wk at 4 °C in a vernalization room with 8 h light of about 50 μmol m−2 s−1, before transfer to normal growth rooms.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list12">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Plant culture.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                              </doco:Section>
+                                            </rdf:li>
+                                            <rdf:li>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-:para_1">
+                                                    <rdf:value
+                                                    >Twelve seeds per genotype were sown in a completely randomized design in individually numbered positions of multiple-well flats. If more than one seed had been deposited at a certain position, only one plant was allowed to remain after 1 wk. Flats were watered on alternating days and rotated every time to minimize the effects of positional light or stagnant water. Only genotypes with at least four germinated plants in a given environment were included in further analysis. Typically, eight to ten plants per genotype and condition were analyzed. For the first set of experiments (which included mostly the vernalization-requiring accessions), seeds from the stock center were used. For the second set of experiments, progeny derived by single-seed descent were used. We analyzed the efficiency of randomization by observing the total average across shelves. There was no statistically significant variation across the shelves.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list13">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Experimental design.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                              </doco:Section>
+                                            </rdf:li>
+                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-"/>
+                                            <rdf:li>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-:para_1">
+                                                    <rdf:value
+                                                    >As a first step of quality control, we analyzed variation between identical genotypes that had been included in both sets of experiments. No statistically significant variation could be detected. Therefore, we pooled the two datasets and treated them as a single experiment for further analysis. Some accessions displayed unusually large variation, suggestive of segregation or seed contamination. We therefore removed those genotypes from the analysis.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list15">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Quality control.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                              </doco:Section>
+                                            </rdf:li>
+                                            <rdf:li>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-">
+                                                <dcterms:references>
+                                                  <doco:Figure rdf:about="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183525/bin/pgen.0010006.ex001.jpg">
+                                                    <dcterms:isReferencedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                                    <dcterms:isReferencedBy rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-"/>
+                                                    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                                                  </doco:Figure>
+                                                </dcterms:references>
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1">
+                                                    <rdf:value
+                                                    >Data were analyzed using JMP (version 5.1, SAS Institute, Cary, North Carolina, United States), the “base” package of R (http://www.R-project.org) [[pgen-0010006-b34]], or Excel (Microsoft, Redmond, Washington, United States). The total variance was partitioned into between-line variance and the residuals with a one-way ANOVA using phenotype as a response and accession as a single factor of random effect. The variance component was estimated using a restricted maximum likelihood method (REML). Broad-sense heritability (H
+2) was calculated as between-line variance (V
+G) divided by total variance. The coefficient of genetic variation (CV
+G) was calculated as (100 ×  (see also http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183525/bin/pgen.0010006.ex001.jpg))/mean for each trait. Genetic correlations (r
+GE) were calculated from covariance and variance components estimated through REML, using those genotypes for which data across all environments were available. The significance of each genetic correlation was determined using a t-test after Z transformation of the correlation coefficient [[pgen-0010006-b35]]. Genotype-by-environment interactions were tested using a two-way ANOVA with strain and conditions as classifying factors. Hierarchical cluster analysis was performed with Cluster 3.0 [[pgen-0010006-b36]]. The data were normalized to the overall mean, followed by log transformation. Noncentric, average linkage (UPGMA) clustering was then performed using Pearson correlation. To evaluate environmental sensitivity, TLN was regressed onto the environmental mean, [log(TLNenvironmentA) − log(TLNenvironmentB)]/[log(mean TLNenvironmentA) − log(mean TLNenvironmentB)] [[pgen-0010006-b17]].
+</rdf:value>                                        <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b17">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1"/>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3">
+                                                            <rdf:value
+                                                            >Having found substantial variation in the flowering time of accessions, we asked how similar the accessions were in their responses to environmental cues. The degree of genetic correlation between different environments indicated that the largest differences were in the response to vernalization, and the smallest in the response to ambient temperature ([pgen-0010006-t001]). Genotype-by-environment interactions accounted for 27% of flowering-time variation in response to vernalization (16LDV vs. 16LD); 9% in response to photoperiod (23LD vs. 23SD); and 3% in response to ambient temperature (23LD vs. 16LD), all of which were significant at p &lt; 0.0001. The variation in sensitivity to different environmental factors was obvious when flowering times were regressed on the environmental mean ([pgen-0010006-g002]) [[pgen-0010006-b17]]. Accessions also differed extensively in other traits related to flowering, such as juvenile, adult, and cauline leaf number, indicating further differences in developmental physiology (see [pgen-0010006-st001]). Taken together, these results demonstrate that there is extensive variation in the responses of accessions to several environmental cues.</rdf:value>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st001">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3"/>
+    <bibo:citedBy>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1">
+        <rdf:value>We analyzed flowering time in a random set of accessions of single-seed descent, reflecting much of the geographic diversity represented in the European Arabidopsis Stock Centre (http://www.arabidopsis.info) at the time ([pgen-0010006-sd001]; [pgen-0010006-st001]; [pgen-0010006-sg001]). We measured several traits, including days to flowering (DTF) and total leaf number (TLN), which were highly correlated under different conditions (r
+2 = 0.6 to 0.9), with environment-dependent variation in growth rate found in only a few accessions. Heritability of TLN was higher than that of DTF ([pgen-0010006-st002]). We studied the effects of vernalization, ambient growth temperature, and photoperiod, using four different environments: 23 °C long days (23LD), 16 °C long days (16LD), 16 °C long days after 5 wk vernalization (16LDV), and 23 °C short days (23SD). DTF and TLN data from 155 wild strains, along with the common laboratory strains Col-0 and Ler and 32 flowering time mutants in Col-0 or Ler backgrounds, passed our quality controls in at least two conditions. A complete dataset across all environments was obtained from 177 strains.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st002">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg001">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st001"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sd001">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:references rdf:resource="http://www.arabidopsis.info"/>
+        <dcterms:isPartOf>
+          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions">
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion"/>
+            <dcterms:hasPart>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_4">
+                <rdf:value>Co-variation between environmental factors and a particular trait can be evidence for selection. Environmental factors such as light and temperature, in turn, are strongly correlated with latitude, and latitudinal clines for different phenotypes are not uncommon [[pgen-0010006-b18]]. Previously, a strong correlation between flowering time and latitude was demonstrated for accessions that were sown in fall and overwintered in a common garden in Rhode Island. Among strains with apparently functional FRI/FLC (see below), this correlation was particularly high (r
+2 = 0.38, n = 21) [[pgen-0010006-b10]].</rdf:value>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10">
+                    <bibo:citedBy>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_6">
+                        <rdf:value>We looked specifically for variation among putatively FRI/FLC functional accessions, by clustering them together with some of the accessions that we had identified as lacking FRI/FLC activity. This resulted in three major groups, which differ in their vernalization sensitivity ([pgen-0010006-sg005]). Several accessions from lower latitudes were found in a class that becomes particularly early after vernalization ([pgen-0010006-sg005]). This observation, although consistent both with our observation of a latitudinal cline in vernalization sensitivity ([pgen-0010006-g005]B) and with earlier findings [[pgen-0010006-b10]], does not imply that FRI promotes flowering after vernalization, but rather may reflect that other mechanisms, which otherwise delay flowering, are dispensable in this cluster of accessions.</rdf:value>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g005">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_6"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5">
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g005"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b08">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-t002">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b09">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b07">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg002">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b27"/>
+                                <rdf:value>There was a general association of low FLC levels with the Col- and Ler-type deletions in FRI and early flowering, but this relationship was not absolute. Several exceptions to this rule are explained by other nonfunctional FRI alleles or variation in FLC itself, as shown by a combination of genetic and molecular analyses ([pgen-0010006-t002]; [pgen-0010006-g005]; [pgen-0010006-sg002]). Several of the early accessions have missense mutations in FRI that are different from those described before [[pgen-0010006-b08],[pgen-0010006-b09]], whereas one nonfunctional FRI allele has extensive polymorphisms ([pgen-0010006-g005]A). Because the effects of FRI on flowering time are entirely dependent on FLC [[pgen-0010006-b07]], we were also curious whether there are any molecular effects of FRI in the absence of FLC. To this end, we compared the global expression profile at the shoot apex in response to floral induction by long days between FRI flc-3 and fri-Col flc-3 plants, similar to a design used before [[pgen-0010006-b27]]. We detected no significant differences between the two genotypes (data not shown), confirming that FRI function absolutely requires FLC activity.</rdf:value>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg005">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_6"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4">
+                                <rdf:value>One of our long-term goals is to identify genes and pathways that contribute to vernalization-independent variation in flowering time of natural accessions. To identify candidate accessions with interesting variation in flowering responses, we applied hierarchical clustering, which has been used before to group accessions according to light sensitivity during seedling development [[pgen-0010006-b31]] ([pgen-0010006-g006]A–[pgen-0010006-g006]C, [pgen-0010006-sg003]–[pgen-0010006-sg005]). Potentially interesting accessions were also identified as those having large residuals when comparing contrasting conditions, such as 23LD versus 16LD, 23LD versus 23SD, and 16LD versus 16LDV. These specific comparisons yielded similar results to hierarchical clustering ([pgen-0010006-g006]D–[pgen-0010006-g006]G).</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg005"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg003">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g006">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5">
+                                        <rdf:value>To associate accessions with variation in specific genetic pathways, the cluster analysis included a large number of known flowering-time mutants. The first major distinction was between accessions that flowered either relatively early or late in long days, with the first group comprising accessions that carry lesions at FRI or FLC. The second cluster consisted of late-flowering, vernalization-responsive accessions along with strains that behaved similarly to very late-flowering photoperiodic mutants such as constans (co) or gigantea (gi) [[pgen-0010006-b32],[pgen-0010006-b33]]. Because all the mutants we examined had been isolated from backgrounds that lacked FRI function, we independently clustered rapid-cycling accessions with laboratory-induced mutants (see [pgen-0010006-sg004]), which resulted in several major groups, two of which were similar to photoperiodic mutants in that there was relatively little difference in flowering under long and short days. One was relatively late in long days ([pgen-0010006-g006]F), whereas the other was relatively early in short days ([pgen-0010006-g006]G). Another group behaved similarly to autonomous pathway mutants and included accessions that were rather late in 16LD and 23LD, but not in 23SD ([pgen-0010006-g006]B).</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g006"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-sg004">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b33">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b32">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature">
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4"/>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                            <dcterms:title>Variation in Responses to Photoperiod and Ambient Temperature</dcterms:title>
+                                            <dcterms:hasPart>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_3">
+                                                <rdf:value>Consistent with FRI and FLC mediating most of the vernalization response, there is no significant difference between groups with and without FRI/FLC activity in 16LDV, suggesting that our vernalization treatment is largely saturating (see [pgen-0010006-g001]E). However, although vernalization strongly reduces late flowering, it does not abolish variation in flowering time, which still varies more than 4-fold (see [pgen-0010006-g001]C).</rdf:value>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g001">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_3"/>
+                                                    <bibo:citedBy>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_2">
+                                                        <rdf:value
+                                                        >In general, the distribution of flowering times reflected the action of genetic pathways known from the analysis of laboratory strains ([pgen-0010006-g001]). In these, both long days and elevated temperatures accelerate flowering, and the wild accessions flowered on average earlier in 23LD compared to 23SD and 16LD. Similarly, a large tail of late-flowering accessions seen in 16LD largely disappeared upon vernalization. In contrast to the prominent peak of early-flowering accessions observed in 23LD ([pgen-0010006-g001]A), flowering time in 23SD was more evenly distributed ([pgen-0010006-g001]D).</rdf:value>
+                                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g001"/>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                                                      </doco:Paragraph>
+                                                    </bibo:citedBy>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                                              </doco:Paragraph>
+                                            </dcterms:hasPart>
+                                            <biotea:paragraphList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list6">
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1"/>
+                                                <rdf:li>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_2">
+                                                    <rdf:value
+                                                    >It has been suggested that a disadvantage of growth chamber experiments compared to common garden experiments is an increased contribution of random environmental variation, which may obscure ecologically relevant responses [[pgen-0010006-b10],[pgen-0010006-b30]]. We believe that we have been able to limit random environmental variation with very accurate growth facilities along with a completely randomized experimental design (see [s3]).</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/s3">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_2"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b30">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_2"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                                                  </doco:Paragraph>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_3"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_6"/>
+                                                <rdf:li>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_7">
+                                                    <rdf:value
+                                                    >As a first step toward identifying the genetic mechanisms underlying the newly identified flowering behaviors, we examined F2 populations from crosses of Ei-6 and Fr-2, two strains that flower relatively early in 23SD, to the reference strain Col-0. In both cases, the earliness appeared to be recessive compared to Col-0 ([pgen-0010006-g007]A). Consistent with the recessive nature of earliness, neither strain carries the naturally occurring, dominantly acting EDI allele of CRY2, which can cause early flowering in short days accession [[pgen-0010006-b14]]. In addition, when we crossed Ei-6 and Fr-2 to each other, the F1 hybrids were later than either parent, indicating that earliness in short days has a different genetic basis in these strains ([pgen-0010006-g007]A). The F2 progeny from a cross of Fr-2 to Col-0 included a distinct early class, suggesting that early flowering is due to variation at a major locus ([pgen-0010006-g007]B). In contrast, in the Ei-6 × Col-0 cross, continuous variation can be seen, indicating the involvement of multiple loci ([pgen-0010006-g007]C).</rdf:value>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b14"/>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g007">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_7"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                                                  </doco:Paragraph>
+                                                </rdf:li>
+                                              </rdf:Seq>
+                                            </biotea:paragraphList>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_2"/>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_7"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_5"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_6"/>
+                                          </doco:Section>
+                                        </dcterms:isPartOf>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b31">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_4"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                      </doco:Paragraph>
+                    </bibo:citedBy>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_2"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_1"/>
+                    <bibo:citedBy>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_5">
+                        <rdf:value>In our set of accessions, we found the strongest correlation between latitude and flowering (TLN) in 16LDV ([pgen-0010006-g003]A; r
+2 = 0.18, p &lt; 0.0001), suggesting that the latitude correlation in the aforementioned common garden experiment is dependent on vernalization during natural winter conditions. This correlation is even higher in the group of accessions that was shared between our study and that of Stinchcombe and colleagues [[pgen-0010006-b10]], namely r
+2 = 0.38, n = 9. Thus, the differences in the strength of the latitudinal cline that we and Stinchcombe and colleagues [[pgen-0010006-b10]] observed might be due to different sampling biases.</rdf:value>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g003">
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_6">
+                                <rdf:value>Consistent with flowering time being correlated with the magnitude of the vernalization response, there is also a significant latitudinal cline in the vernalization sensitivity of accessions ([pgen-0010006-g003]B; r = 0.12, p &lt; 0.0001). Because there was very little correlation between latitude and longitude for the origin of strains (r
+2 = 0.035), we did not include longitude as a covariant in our analyses. Although population structure may be a confounding factor in evaluating latitudinal clines, this concern is somewhat mitigated by the relatively small amount of population structure in A. thaliana [[pgen-0010006-b19],[pgen-0010006-b20]].</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b20">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_6"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b19">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_6"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g003"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_5"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                      </doco:Paragraph>
+                    </bibo:citedBy>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_4"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_4"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b18">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_4"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+              </doco:Paragraph>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3"/>
+            <dcterms:title>Extensive Variation in Flowering Responses of A. thaliana Accessions</dcterms:title>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_2"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_6"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1"/>
+            <biotea:paragraphList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list4">
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_1"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_2"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_4"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_5"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_6"/>
+              </rdf:Seq>
+            </biotea:paragraphList>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_5"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+          </doco:Section>
+        </dcterms:isPartOf>
+      </doco:Paragraph>
+    </bibo:citedBy>                                           </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b17"/>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g002">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-t001">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions:para_3"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b36">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b35">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b34">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:references rdf:resource="http://www.R-project.org"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list16">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Statistical analyses.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                              </doco:Section>
+                                            </rdf:li>
+                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-"/>
+                                          </rdf:Seq>
+                                        </biotea:sectionList>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-"/>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-"/>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-"/>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-"/>
+                                        <dcterms:isPartOf>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods">
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                            <biotea:sectionList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183525/list6">
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                                              </rdf:Seq>
+                                            </biotea:sectionList>
+                                            <dcterms:title>Materials and Methods</dcterms:title>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                          </doco:Section>
+                                        </dcterms:isPartOf>
+                                        <dcterms:title>no-title_1</dcterms:title>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-"/>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-"/>
+                                      </doco:Section>
+                                    </dcterms:isPartOf>
+                                    <dcterms:title>DNA analyses.</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                                  </doco:Section>
+                                </dcterms:isPartOf>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st003">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_2"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_3">
+                                <rdf:value>To determine whether the substantial correlation between FLC expression levels and flowering time across 149 A. thaliana accessions was unusual compared to other genes known to control flowering, or even to the remainder of the transcriptome in general, we examined Affymetrix ATH1 array data for 34 accessions, which had been generated as part of the AtGenExpress project ([pgen-0010006-st003]). The correlation of FLC with TLN and DTF at 23LD that we obtained using array analyses was 37% and 42%, respectively, which is quite similar to the 42% and 40% estimated from qRT-PCR analyses. We found that, among a set of 68 floral regulators, FLC was the one most highly associated with either TLN or DTF ([pgen-0010006-g004]B; [pgen-0010006-st004]). In addition, when examining other conditions, we found none of the other floral regulators were as highly correlated with flowering time as FLC was for 23LD.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st004">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g004">
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_4">
+                                        <rdf:value>When we considered all genes represented on the ATH1 array, we found FLC to be among the ten most highly correlated genes at 23LD (both positively and negatively correlated) ([pgen-0010006-g004]C). This was true regardless of whether expression was regressed linearly or logarithmically onto flowering time, and whether Pearson or Spearman rank correlation was calculated. With respect to DTF, FLC levels were considerably more correlated with this trait than expression levels of any other gene. We determined significance by permutation analysis, and found that FLC was the only gene significantly correlated with DTF at a p &lt; 0.05 level under both Pearson and Spearman rank correlation. The prominence of FLC, whose levels are highly correlated with vernalization response, may reflect the fact that this response is the most important variable affecting flowering time in A. thaliana accessions. We note, however, that the analysis was biased, because we analyzed young seedlings, a stage in which FLC levels are particularly high.</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g004"/>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_3"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-st003"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:references rdf:resource="http://www.weigelworld.org/resources/microarray"/>
+                        <dcterms:references rdf:resource="http://www.ebi.ac.uk/arrayexpress"/>
+                        <dcterms:references rdf:resource="http://arabidopsis.org/info/expression/ATGenExpress.jsp"/>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_1"/>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list18">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-:para_2"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                    <dcterms:title>Expression studies.</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                  </doco:Section>
+                </dcterms:hasPart>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-"/>
+                <dcterms:title>Diversity of Flowering Responses in Wild Arabidopsis thaliana Strains</dcterms:title>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-"/>
+                <dcterms:references rdf:resource="http://www.arabidopsis.info"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion"/>
+                <dcterms:hasPart>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers:para_1">
+                        <rdf:value>GenBank (http://www.ncbi.nlm.nih.gov/Genbank/) accession numbers of the new sequences discussed in this paper are AY964090–AY964098 and AY0528–AY970557.</rdf:value>
+                        <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list20">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers:para_1"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:isPartOf>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information">
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers"/>
+                        <biotea:sectionList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183525/list16">
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers"/>
+                          </rdf:Seq>
+                        </biotea:sectionList>
+                        <dcterms:title>Supporting Information</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                      </doco:Section>
+                    </dcterms:isPartOf>
+                    <dcterms:title>Accession Numbers</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                  </doco:Section>
+                </dcterms:hasPart>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information"/>
+                <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183525/bin/pgen.0010006.ex001.jpg"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction"/>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <dcterms:references rdf:resource="http://www.ebi.ac.uk/arrayexpress"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                <dcterms:references rdf:resource="http://www.weigelworld.org/resources/microarray"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-"/>
+                <dcterms:references rdf:resource="http://arabidopsis.org/info/expression/ATGenExpress.jsp"/>
+                <dcterms:references rdf:resource="http://www.R-project.org"/>
+                <biotea:sectionList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183525/list1">
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Abstract"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Abstract"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Growth-conditions-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Plant-culture-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Experimental-design-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Scoring-of-traits-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Quality-control-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Statistical-analyses-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Expression-studies-"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Supporting-Information_Accession-Numbers"/>
+                  </rdf:Seq>
+                </biotea:sectionList>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_DNA-analyses-"/>
+              </bibo:Document>
+            </dcterms:isPartOf>
+          </doco:Section>
+        </dcterms:hasPart>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+        <biotea:sectionList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183525/list2">
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Extensive-Variation-in-Flowering-Responses-of-A--thaliana-Accessions"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions"/>
+          </rdf:Seq>
+        </biotea:sectionList>
+        <dcterms:title>Results/Discussion</dcterms:title>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+      </doco:Section>
+    </dcterms:isPartOf>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_3"/>
+    <dcterms:title>The Contribution of FLC Activity to Flowering-Time Variation</dcterms:title>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_4"/>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list5">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+        <rdf:li>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2">
+            <rdf:value>In other members of the Brassicaceae family, loci controlling flowering time co-localize with FLC orthologs [[pgen-0010006-b23]], but the relationship between expression of different FLC paralogs and flowering time appears to be more complex than in A. thaliana [[pgen-0010006-b24],[pgen-0010006-b25]]. Furthermore, FLC expression in Brassica oleracea var. capitata shows differential responses to vernalization, depending on the tissue examined [[pgen-0010006-b26]].</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b26">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b24">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+          </doco:Paragraph>
+        </rdf:li>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_3"/>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_4"/>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_2"/>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_5"/>
+                                                              </doco:Section>
+                                                            </dcterms:isPartOf>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b06">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-:para_1"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b05">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <rdf:value
+                                                            >In both laboratory-induced mutant strains and natural accessions, there is broad correlation of FLC expression levels, as determined by RNA blots, and flowering time, such that plants flower late when FLC levels are high and early when FLC levels are low [[pgen-0010006-b05],[pgen-0010006-b06],[pgen-0010006-b08],[pgen-0010006-b11],[pgen-0010006-b21]]. However, a recent study of 17 accessions revealed also considerable variation in FLC expression among late-flowering accessions [[pgen-0010006-b22]]. To evaluate more precisely the relationship between absolute FLC levels and quantitative variation in flowering time, we analyzed FLC expression by qRT-PCR in 149 accessions grown at 23LD ([pgen-0010006-g004]A). Across all strains, variation in FLC levels accounted for 42% and 40% of TLN and DTF variation (r
+2), respectively (p &lt; 0.0001). As expected, this is largely due to FLC mediating the vernalization response, which can be calculated as the relative reduction in TLN or DTF when 16LDV and 16LD are compared. The correlation of FLC expression level with vernalization response using TLN and DTF is 47% and 52%, respectively.</rdf:value>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b08"/>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g004"/>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b21">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b11">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_1"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b14"/>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b13">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Conclusions:para_2"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g006"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Conclusions"/>
+                                                  </doco:Paragraph>
+                                                </bibo:citedBy>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature:para_7"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b13"/>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b12">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction"/>
+                                          </doco:Paragraph>
+                                        </bibo:citedBy>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3"/>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_1">
+                                    <rdf:value>
+Arabidopsis thaliana, a facultative long-day plant, occurs throughout the northern hemisphere, and wild accessions show extensive variation in several traits including flowering time [[pgen-0010006-b01]]. The major environmental factors that control flowering time are light quantity (day length) and quality, ambient growth temperature, and vernalization. In general, long days, high ambient temperature, and vernalization promote flowering, and many genes with positive and negative roles in mediating these effects have been identified, primarily through the analysis of laboratory-induced mutations.</rdf:value>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b01">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Introduction"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183525/list2">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_1"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_3"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_4"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:title>Introduction</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                              </doco:Section>
+                            </dcterms:isPartOf>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b02">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b08"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b05"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b04"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b11"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b07"/>
+                            <rdf:value>Analysis of wild accessions has shown that there are winter annuals, in which flowering is strongly delayed unless plants are vernalized, as well as rapidly cycling strains [[pgen-0010006-b02],[pgen-0010006-b03]]. A major factor that prevents A. thaliana from flowering rapidly without vernalization is FRI (FRIGIDA) [[pgen-0010006-b04]]. FRI delays flowering by maintaining high expression levels of FLC (FLOWERING LOCUS C), which encodes a MADS domain protein that represses flowering [[pgen-0010006-b05]–[pgen-0010006-b07]]. The widely used laboratory strains Landsberg erecta (Ler) and Columbia (Col-0) lack FRI activity because of deletions at the FRI locus. These two deletions are found in many other rapid-cycling accessions, indicating that FRI is a major determinant of natural variation in flowering time [[pgen-0010006-b04]]. In addition, less commonly occurring deletions and point mutations in FRI have been reported [[pgen-0010006-b08]–[pgen-0010006-b10]]. Apart from loss of FRI function, attenuation of FLC activity provides an alternative mechanism to achieve rapid-cycling behavior in wild strains [[pgen-0010006-b08],[pgen-0010006-b11]].</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation:para_6"/>
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                          </doco:Paragraph>
+                        </bibo:citedBy>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <rdf:value>Although null alleles of FRI are easily found in natural accessions [[pgen-0010006-b04],[pgen-0010006-b09]], only transposon insertions with reduced expression level of a wild-type transcript have been described for FLC [[pgen-0010006-b06],[pgen-0010006-b08],[pgen-0010006-b11],[pgen-0010006-b16]], which has led to the proposal that null alleles of FLC have reduced fitness in the wild [[pgen-0010006-b03]]. However, we discovered three natural FLC alleles with severely affected protein function ([pgen-0010006-g005]B). At least one of the very early accessions, Ll-2, likely carries a null allele, because transgenic overexpression of the Ll-2 FLC cDNA, which lacks exons 2 to 6, in an flc-3 background has no effect on flowering (not shown). These findings demonstrate that FLC alleles with severely compromised protein function can be recovered from wild populations. We also found several new transposon insertions in the first intron of FLC ([pgen-0010006-g005]C).</rdf:value>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b06"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b09"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_The-Contribution-of-FLC-Activity-to-Flowering-Time-Variation"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b16"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-g005"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b11"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b08"/>
+                  </doco:Paragraph>
+                </bibo:citedBy>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183525/Introduction:para_4"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Results-Discussion_Variation-in-Responses-to-Photoperiod-and-Ambient-Temperature"/>
+          </doco:Paragraph>
+        </bibo:citedBy>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b07"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b06"/>
+    <dcterms:references rdf:resource="http://www.arabidopsis.info"/>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183525/Materials-and-Methods_no-title-1_Stocks-"/>
+  </doco:Paragraph>
+</rdf:RDF>

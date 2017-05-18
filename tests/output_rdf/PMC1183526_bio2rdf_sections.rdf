@@ -1,0 +1,1317 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2">
+    <sio:SIO_000300>The decline in neurological function in NPC patients is caused by mutations in either the npc1 or npc2 gene [[pgen-0010007-b05]–[pgen-0010007-b07]]. Npc1 is a multiple-membrane-spanning late endosomal/lysosomal protein that can bind cholesterol [[pgen-0010007-b08]] and acts as a transmembrane pump when expressed in bacteria [[pgen-0010007-b09]]. The Npc1 protein has a sequence related to the “sterol sensing domain” of known regulators of cholesterol metabolism (SCAP and HMG-CoA reductase) and Patched, a receptor for the secreted developmental signaling protein Hedgehog. The exact role of Npc1 in regulating lipid homeostasis and in maintaining neurological function is far from clear. Even less is known about Npc2, the small cholesterol-binding protein [[pgen-0010007-b10]–[pgen-0010007-b12]] responsible for a minority (&lt;5%) of NPC cases.</sio:SIO_000300>
+    <sio:SIO_000068>
+      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Introduction">
+        <sio:SIO_000028>
+          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_5">
+            <sio:SIO_000300>In this study, we employed chimeric mice to help resolve the fundamental mystery of why neurons degenerate in NPC disease. This powerful approach can distinguish intrinsic and extrinsic causes of cell death but has only rarely been used to study human neurodegenerative disease [[pgen-0010007-b23],[pgen-0010007-b24]]. The results indicate that PC loss in npc1
+−/− mutants is a cell-autonomous process, i.e., Npc1 function is critical within PCs. Ultrastructural and biochemical analyses support the idea that this cell-autonomous loss is due to the activation of a particular genetic program, autophagy, that leads to cell death.</sio:SIO_000300>
+            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b24">
+                <sio:SIO_000278>
+                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_4">
+                    <sio:SIO_000300>Our results are particularly interesting in light of the two other human neurodegenerative diseases that have been analyzed with chimeric mouse models. In amyotrophic lateral sclerosis, surrounding wild-type non-neuronal cells can prevent the degeneration of SOD1 mutant motor neurons, and the genotype of the motor neurons themselves appears to have no bearing on their probability of survival [[pgen-0010007-b23]]. In the mnd mouse, a model for neuronal ceroid lipofuscinosis, proteolipid storage is cell-autonomous, but retinal degeneration equivalent to the mnd controls was seen in all chimeric mice [[pgen-0010007-b24]]. The fact that three neurodegenerative diseases examined with this experimental approach exhibit three different modes of degeneration (non-cell-autonomous rescue for amyotrophic lateral sclerosis, cell-autonomous storage but non-cell-autonomous degeneration for neuronal ceroid lipofuscinosis, and cell-autonomous autophagic death for NPC) demonstrates the remarkable diversity in neuronal degeneration mechanisms and highlights how much still needs to be learned about the biology of neurodegeneration.</sio:SIO_000300>
+                    <sio:SIO_000068>
+                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice">
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_4"/>
+                        <sio:SIO_000028>
+                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3">
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g001">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                                <sio:SIO_000278>
+                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_4">
+                                    <sio:SIO_000300>Four broad categories of possible explanations for the PC degeneration have emerged ([pgen-0010007-g001]). (1) Npc1 is required within PCs and loss of the protein results in degeneration as a consequence of the toxic accumulation of lipids. High concentrations of unesterified cholesterol can cause cell death by altering membrane rigidity, forming intracellular crystals that may interfere with organelle function, or triggering apoptotic signaling events [[pgen-0010007-b21]]. (2) Npc1 is required within PCs and loss of the protein causes a deficiency at specific subcellular locations. In this model, the accumulation of cholesterol and other lipids is not harmful per se, but the diminished capacity to transport these or other molecules to the correct places within the cell leads to degeneration. (3) Npc1 is required within glia or another cell type within the cerebellum, or in a distant organ such as a secretory gland, and loss of the protein results in degeneration of PCs through a deficiency in a secreted molecule. This could be a trophic factor or possibly even cholesterol itself, as studies have shown that glia-derived cholesterol is required for synaptogenesis [[pgen-0010007-b22]]. (4) Loss of Npc1 function results in the release of toxic/pro-inflammatory compounds into the local environment or systemic circulation, causing PC degeneration.</sio:SIO_000300>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b22">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_4"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b21">
+                                        <sio:SIO_000278>
+                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_1">
+                                            <sio:SIO_000300>PCs may degenerate either (1) because the buildup of sterols and other lipids, or other unknown substances, poisons the PCs or (2) because trafficking defects resulting from Npc1 loss affect cell survival. Although excess cholesterol can have toxic effects [[pgen-0010007-b21]], intracellular cholesterol levels within PCs do not correlate with the loss of these cells: lobule X PCs accumulate cholesterol and do not degenerate during the 70 d that normally constitute the npc1 mouse life span. More subtle differences among lobules, in sterol mass or subcellular localization of cholesterol, are unlikely to be detected with filipin staining. In any case, blocking lipid accumulation is insufficient to slow neuronal loss, again arguing against the idea that cell death occurs because of accumulated lipid. Crossing the npc1 mouse to a GalNAcT-knockout mouse unable to synthesize complex gangliosides decreases levels of sphingolipids and cholesterol without any effect on neurodegeneration [[pgen-0010007-b59]]. Crossing the npc1 mouse to a low density lipoprotein receptor knockout also does not slow neurodegeneration [[pgen-0010007-b60]]. Although both of these experiments have their weaknesses—possible buildup of less complex sphingolipids in the GalNAcT experiment and possible redundancy in lipoprotein receptors in the low density lipoprotein receptor knockout—the findings at least suggest that intracellular toxicity due to lipid accumulation is not the primary mechanism of PC death.</sio:SIO_000300>
+                                            <sio:SIO_000068>
+                                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration">
+                                                <sio:SIO_000028>
+                                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_2">
+                                                    <sio:SIO_000300
+                                                    >Defects in lipid trafficking are likely to have particularly detrimental effects on synthetic processes that rely on lipids as substrates. A recent study demonstrates that neurosteroid synthesis is reduced in npc1 mice and administration of allopregnanolone increases life span and neuronal survival [[pgen-0010007-b61]]. PC loss involving interference with production of neurosteroids acting in a paracrine or endocrine manner is untenable in light of our findings. An autocrine mechanism of action, with PCs making substances that act in the producing cell, is still plausible and needs to be explored further. PCs synthesize several different neurosteroids and express progesterone receptors [[pgen-0010007-b62]]. PCs are unique in having an extensive smooth ER, the “hypolemmal cisternae,” that is “so well developed in PCs that it may be considered a specific characteristic…since it extends under the plasmalemma of the entire cell body, the dendritic tree, and the axon” [[pgen-0010007-b63]]. Palay and Chan-Palay [[pgen-0010007-b63]] also note that mitochondria are often found against the inner surface of the hypolemmal cisternae. Impaired cholesterol trafficking to mitochondria and the smooth ER may lead to a deficiency at these sites, lowering the production of neurosteroids.</sio:SIO_000300>
+                                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration"/>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b63">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b62">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b61">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                                                        <sio:SIO_000278>
+                                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3">
+                                                            <sio:SIO_000300
+                                                            >Destructive autophagy in NPC mutant PCs may also, or instead, be stimulated hormonally. In mammals, autophagy is inhibited by insulin [[pgen-0010007-b74]], and in insects, steroids regulate autophagy of neurons by a cell-autonomous mechanism [[pgen-0010007-b75],[pgen-0010007-b76]]. In Manduca (tobacco hawkmoth) motor neurons and in salivary glands and fat body of Drosophila, the steroid ecdysone triggers autophagy at specific developmental time points. We would infer a different regulatory relationship in mammalian NPC. Neurosteroids might inhibit autophagy in PCs and when their synthesis is severely decreased, as in NPC [[pgen-0010007-b61]], autophagic cell death might ensue. Neurotrophins may also be involved in regulating PC autophagy. Cultured PCs undergo autophagic cell death following neurotrophin withdrawal [[pgen-0010007-b77]]. These findings are relevant to NPC because neurons from NPC mice have decreased responsiveness to neurotrophins [[pgen-0010007-b78]].</sio:SIO_000300>
+                                                            <sio:SIO_000068>
+                                                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death">
+    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+    <sio:SIO_000028>
+      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_2">
+        <sio:SIO_000300>Why then is autophagy induced in degenerating PCs? Autophagy is a normal, cellular process that is regulated by nutritional status and by hormones. Loss of npc1 leads to trapping of lipids within aberrant membrane compartments, and this may induce a “lipid-starvation response” analogous to the well-characterized autophagic response to amino acid deprivation. In fact, there is already evidence that such a response occurs in npc1 homozygotes: despite the seeming overabundance of cholesterol in npc1 cells, the SREBP signaling pathway is activated. This results in increased cholesterol synthesis and low density lipoprotein receptor activity [[pgen-0010007-b72]]. Thus, NPC cells act as though they are “cholesterol starved.” NPC cells therefore may have three ways to adjust to a shortage of sterols and other lipids: increased lipid synthesis, increased lipid uptake, and autophagy. Microarray analysis of SREBP targets in liver [[pgen-0010007-b73]] did not reveal increased transcription of autophagy genes, but the targets may differ between tissues, or regulation may occur at the post-transcriptional level. In NPC cells, the autophagic response would be futile since transport systems are damaged. Instead of rescuing the cell, autophagy would hasten cell death by further sequestering and reducing available lipids.</sio:SIO_000300>
+        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b73">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_2"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b72">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_2"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+      </sio:SIO_000110>
+    </sio:SIO_000028>
+    <sio:SIO_000008>
+      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list12">
+        <rdf:li>
+          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1">
+            <sio:SIO_000300>Loss of npc1 function within PCs leads to increased autophagy and cell death. Apoptosis may also be involved in the death of neurons from NPC disease; both processes are likely at work in the degenerating NPC brain. In contrast to apoptosis, which has been demonstrated in many instances of neurodegeneration (reviewed in [[pgen-0010007-b31]]), activated autophagy has been demonstrated in only a few cases, but notably including death of PCs in Lurcher mice [[pgen-0010007-b64]]. The role of autophagy in neurodegenerative disease extends to Huntington disease and Parkinson disease [[pgen-0010007-b65]–[pgen-0010007-b67]]. These neurodegenerative diseases differ from NPC in that they are disorders of protein aggregation. Formation of insoluble aggregates of Huntingtin or alpha-synuclein is an early event in disease progression [[pgen-0010007-b68]–[pgen-0010007-b71]]. Autophagy may be activated by cells in order to dispose of the aggregates. Deliberately enhancing degradation of protein aggregates by triggering autophagy in animal models of Huntington disease can ameliorate the affects of the disease [[pgen-0010007-b67]]. No protein aggregation has been reported in NPC, but an analogous mechanism could be at work: during the first several weeks of life, cells may activate autophagy to degrade the abnormal lipid-laden lysosomes and allow the survival of PCs. If this is true, then cells with lipid-laden lysosomes should have high autophagic activity. This prediction is clearly contradicted by our data: activation of autophagy is seen only in older, degenerating PCs, and npc1 cells not undergoing cell death do not exhibit increased levels of the autophagic marker LC3-II.</sio:SIO_000300>
+            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b71">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b68">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b67">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b65">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b64">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b31">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+                <sio:SIO_000278>
+                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_1">
+                    <sio:SIO_000300>The evidence from chimeric mice highlighted the importance of possible cell-autonomous mechanisms of PC degeneration. Necrosis, apoptosis, and autophagy of PCs all occur in mouse models of neurodegeneration (reviewed in [[pgen-0010007-b31]]). The cell death mechanism at work in NPC is unknown, although a very recent report demonstrated TUNEL staining and increased caspase-8 levels in npc1
+−/− cerebellum, supporting a role for apoptosis in neurodegeneration in NPC [[pgen-0010007-b32]]. We addressed this question by ultrastructural comparison of wild-type and npc1 PCs using electron microscopy (EM). No apoptotic bodies were identified by EM, nor did we identify any TUNEL-positive PCs using immunofluorescence labeling of sections from 48-d-old npc1 mice (data not shown).</sio:SIO_000300>
+                    <sio:SIO_000068>
+                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs">
+                        <sio:SIO_000028>
+                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_4">
+                            <sio:SIO_000300>To determine whether loss of npc1 is sufficient to induce autophagy in all cell types, we examined CT60 cells, a cell line harboring a loss-of-function mutation in npc1 [[pgen-0010007-b40]]. No elevation of LC3-II was detected, though LC3-II accumulation can clearly be induced in Chinese hamster ovary (CHO) cells with rapamycin treatment ([pgen-0010007-g007]B). The lack of autophagy activation in an npc1 cell line and in cerebella from 22-d-old npc1 mice suggests that autophagy is activated only in npc1 cells actively undergoing degeneration.</sio:SIO_000300>
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g007">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_4"/>
+                                <sio:SIO_000278>
+                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3">
+                                    <sio:SIO_000300>Increased modification of an autophagosomal marker protein provides further evidence for the activation of autophagy in npc1 cerebellum. During autophagy induced by starvation or rapamycin, the light chain 3 (LC3) protein undergoes lipid modification by a ubiquitin-like conjugating system [[pgen-0010007-b36],[pgen-0010007-b37]]. This lipid-modified form of the protein (LC3-II) associates with autophagosome membranes, and levels of LC3-II correlate with the amount of autophagosome formation [[pgen-0010007-b38]]. In adult cerebellar cortex, LC3 protein is reported to be present primarily in PCs, based on immunofluorescence studies [[pgen-0010007-b39]]. The amount of LC3-II protein in npc1
+−/− cerebellum increases dramatically with age ([pgen-0010007-g007]A). When 22-d-old mice are compared, LC3-II levels are nearly equivalent. In wild-type mice, the level stays the same or may slightly decrease in 50- and 67-d-old mice. In the npc1 mice, there was a 7- and 11-fold increase in LC3-II compared to age-matched controls of these respective ages. Thus, morphological and biochemical criteria show that autophagy is activated in degenerating npc1 cerebella.</sio:SIO_000300>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g007"/>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b39">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b38">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b37">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b36">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                  </sio:SIO_000110>
+                                </sio:SIO_000278>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b40">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_4"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                          </sio:SIO_000110>
+                        </sio:SIO_000028>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                        <sio:SIO_000028>
+                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2">
+                            <sio:SIO_000300>In contrast, numerous structures with features consistent with autophagic vacuoles (AVs) were identified in npc1 PCs by EM. Previous EM studies of npc1 PCs [[pgen-0010007-b13],[pgen-0010007-b16]] noted the appearance of “lamellar inclusion bodies.” Such structures are consistent with the activation of autophagy, although to our knowledge there have been no reports of autophagy in NPC. AVs can be classified as autophagosomes or autolysosomes based on morphological criteria [[pgen-0010007-b33],[pgen-0010007-b34]]. Autophagosomes are bound by two or more membranes and contain seemingly unaltered cytoplasmic components. The autophagic and endocytic pathways converge following fusion of autophagosomes with late endosomes and subsequently with lysosomes [[pgen-0010007-b35]]. These fusion events result in autolysosomes, organelles enclosed by a single limiting membrane with degrading membranes and cellular components within. Numerous AVs are found in PCs from 48-d-old npc1 homozygous mice ([pgen-0010007-g006]A–[pgen-0010007-g006]E). Such structures are rarely seen in 48-d-old wild-type mice ([pgen-0010007-g006]F–[pgen-0010007-g006]H). Since NPC cells accumulate lipids within organelles containing late endocytic and lysosomal markers, the structures we identified as AVs could be aberrant late endosomes or lysosomes, with no autophagy involved. However, we can clearly identify cytoplasmic contents (free ribosomes, endoplasmic reticulum [ER] cisternae, and mitochondria) within these structures, a diagnostic for AVs. Quantification of AVs in wild-type and npc1 PCs demonstrates that these structures occupy 15 times more area in npc1 PCs ([pgen-0010007-g006]I). Rarely, the cell body of an npc1 PC filled up almost completely with autolysosomes ([pgen-0010007-g006]E). Degenerating PCs in npc1 mice clearly have morphological features consistent with autophagic cell death.</sio:SIO_000300>
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g006">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b35">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b34">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b33">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b16">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                                <sio:SIO_000278>
+                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_1">
+                                    <sio:SIO_000300>As a first step it was important to observe and measure progressive PC loss. PC loss in the cerebellar vermis progressed in an anterior (lobule I) to posterior (lobule X) sweep, as previously reported [[pgen-0010007-b15],[pgen-0010007-b16]] ([pgen-0010007-g002]A and [pgen-0010007-g002]B). There was a normal number and density of PCs in cerebellar sections from 30-d-old npc1 mice. At 50 d, most PCs in lobules I–III were no longer present. By 70 d, only lobule X PCs remained intact.</sio:SIO_000300>
+                                    <sio:SIO_000068>
+                                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice">
+                                        <sio:SIO_000028>
+                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_3">
+                                            <sio:SIO_000300>The anterior-to-posterior gradient of PC loss provides the opportunity to determine how cholesterol accumulation changes in relation to the PCs. If intracellular cholesterol accumulation is toxic to PCs, a correlation is expected between the amount of cholesterol and the rate or severity of degeneration. Instead, we find that at 30 d, intracellular cholesterol accumulation is noted even in lobule X PCs (which do not degenerate during the normal npc1 mouse life span). We did not find any consistent difference in filipin staining of cholesterol among the different cerebellar lobules in npc1 mice ([pgen-0010007-g002]F). Therefore, lysosomal cholesterol accumulation per se is not sufficient to explain the pattern of PC death.</sio:SIO_000300>
+                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g002">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_3"/>
+                                                <sio:SIO_000278>
+                                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2">
+                                                    <sio:SIO_000300
+                                                    >We next investigated whether Bergmann glia are affected in npc1 mice. Bergmann glia appose the PC soma and extend processes into the molecular layer that sheaths the PC dendritic trees (reviewed in [[pgen-0010007-b25]]). Loss or dysfunction of these glia could precede and precipitate the PC loss. In contrast to the degeneration and loss of PCs, Bergmann glia stained with anti-S100β maintain their density and their characteristic radial morphology, even at 70 d, in all lobules ([pgen-0010007-g002]C). Oligodendrocytes, the glia that myelinate axons, were normal in distribution and cell body morphology ([pgen-0010007-g002]D). Staining of myelin revealed axonal spheroids as previously reported ([pgen-0010007-g002]E) [[pgen-0010007-b15],[pgen-0010007-b26]]. Granule cells, the most abundant neurons in the cerebellum, were also grossly normal based on anti-GABAα6 staining (data not shown). This indicates that loss of PCs in npc1 mice is not due secondarily to a loss or other obvious morphological derangement of these other cell types. However, these observations do not rule out the possibility that a more subtle dysfunction in these cells contributes to the degeneration of PCs in npc1mice.</sio:SIO_000300>
+                                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b26">
+                                                        <sio:SIO_000278>
+                                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2">
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b85">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b81">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b82">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b84">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b80">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b79">
+    <sio:SIO_000278>
+      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-_para_2">
+        <sio:SIO_000300>For immunostaining, sections were rehydrated in PBS and blocked/permeabilized with 10% normal goat serum and 0.2% Triton X-100 in PBS. Incubation with primary antibody was carried out overnight at 4 °C. Following three washes with PBS, sections were incubated for 2–4 h with the appropriate fluorescently conjugated secondary antibody. Sections were washed again and mounted with Fluormount-G (Southern Biotechnology Associates, Birmingham, Alabama, United States). Filipin staining was carried out with 50 μg/ml filipin following treatment with 0.02% saponin as described previously [[pgen-0010007-b79]].</sio:SIO_000300>
+        <sio:SIO_000068>
+          <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-">
+            <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-_para_2"/>
+            <sio:SIO_000008>
+              <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list19">
+                <rdf:li>
+                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-_para_1">
+                    <sio:SIO_000300>Mice were anesthetized with avertin and perfused with 4% PFA. Brains were post-fixed for 24 h in 4% PFA, transferred to 25% sucrose overnight, embedded and frozen in OCT, and cut into 12-μm sections with a cryostat.</sio:SIO_000300>
+                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-"/>
+                  </sio:SIO_000110>
+                </rdf:li>
+                <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-_para_2"/>
+              </rdf:Seq>
+            </sio:SIO_000008>
+            <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-_para_1"/>
+            <sio:SIO_000068>
+              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1">
+                <sio:SIO_000028>
+                  <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_LC3-immunoblotting-">
+                    <sio:SIO_000008>
+                      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list21">
+                        <rdf:li>
+                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_LC3-immunoblotting-_para_1">
+                            <sio:SIO_000300>Cell extracts were obtained by solubilization with 2% IGEPAL-CA630, 0.2% SDS, and mini complete protease inhibitor tablet (Roche Applied Science, Indianapolis, Indiana, United States) in PBS, followed by centrifugation at 10,000 RPM for 10 min. Extracts were kept on ice and resolved with 15% SDS-PAGE. Following transfer to PVDF membrane (Bio-Rad, Hercules, California, United States), blocking was accomplished with 5% milk in PBS plus 0.1% Triton X-100. Primary incubation with anti-LC3 (rabbit, 1:1,000 in 1% milk PBST) was carried out overnight at 4 °C. Following three washes, the membrane was incubated with anti-rabbit-HRP (1:10,000), washed three times, and developed with WestPico reagent (Pierce Biotechnology, Rockford, Illinois, United States).</sio:SIO_000300>
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_LC3-immunoblotting-"/>
+                          </sio:SIO_000110>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </sio:SIO_000008>
+                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_LC3-immunoblotting-_para_1"/>
+                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                    <sio:SIO_000008>
+                      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node113_1495126521694">
+                        <sio:SIO_000300>LC3 immunoblotting.</sio:SIO_000300>
+                      </sio:SIO_000175>
+                    </sio:SIO_000008>
+                    <sio:SIO_000068>
+                      <sio:SIO_001029 rdf:about="http://bio2rdf.org/pmc:1183526">
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-"/>
+                        <sio:SIO_000028>
+                          <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_PC-counts-">
+                            <sio:SIO_000008>
+                              <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list20">
+                                <rdf:li>
+                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_PC-counts-_para_1">
+                                    <sio:SIO_000300>All PCs in five sections at least 100 μm apart were counted for each mouse. The length of the PC layer was measured using MetaMorph software (Universal Imaging, Downington, Pennsylvania, United States), and the density was determined by dividing the number of PCs by this length. Expected densities if no degeneration has occurred were calculated by multiplying the percentage of chimerism by the density of PCs observed in npc1 mice at 30 d. PC densities in the three chimeric mice sacrificed at 70 d were also compared to expected densities with degeneration (calculated from the percentage of chimerism and the density of PCs observed in npc1 mice at 70 d). p-Values were calculated with the unpaired t-test or one-way ANOVA with Tukey's multiple comparison test using GraphPad Prism (GraphPad Software, San Diego, California, United States).</sio:SIO_000300>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_PC-counts-"/>
+                                  </sio:SIO_000110>
+                                </rdf:li>
+                              </rdf:Seq>
+                            </sio:SIO_000008>
+                            <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_PC-counts-_para_1"/>
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                            <sio:SIO_000008>
+                              <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node112_1495126521693">
+                                <sio:SIO_000300>PC counts.</sio:SIO_000300>
+                              </sio:SIO_000175>
+                            </sio:SIO_000008>
+                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                          </sio:SIO_000111>
+                        </sio:SIO_000028>
+                        <sio:SIO_000008>
+                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list1">
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Abstract">
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node93_1495126521635">
+                                    <sio:SIO_000300>Abstract</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list1">
+                                    <rdf:li>
+                                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Abstract_para_1">
+                                        <sio:SIO_000300>Niemann-Pick type C is a neurodegenerative lysosomal storage disorder caused by mutations in either of two genes, npc1 and npc2. Cells lacking Npc1, which is a transmembrane protein related to the Hedgehog receptor Patched, or Npc2, which is a secreted cholesterol-binding protein, have aberrant organelle trafficking and accumulate large quantities of cholesterol and other lipids. Though the Npc proteins are produced by all cells, cerebellar Purkinje neurons are especially sensitive to loss of Npc function. Since Niemann-Pick type C disease involves circulating molecules such as sterols and steroids and a robust inflammatory response within the brain parenchyma, it is crucial to determine whether external factors affect the survival of Purkinje cells (PCs). We investigated the basis of neurodegeneration in chimeric mice that have functional npc1 in only some cells. Death of mutant npc1 cells was not prevented by neighboring wild-type cells, and wild-type PCs were not poisoned by surrounding mutant npc1 cells. PCs undergoing cell-autonomous degeneration have features consistent with autophagic cell death. Chimeric mice exhibited a remarkable delay and reduction of wasting and ataxia despite their substantial amount of mutant tissue and dying cells, revealing a robust mechanism that partially compensates for massive PC death.</sio:SIO_000300>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Abstract"/>
+                                      </sio:SIO_000110>
+                                    </rdf:li>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Abstract_para_1"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node92_1495126521635">
+                                    <sio:SIO_000300>Abstract</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Abstract"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results">
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                                <sio:SIO_000028>
+                                  <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice">
+                                    <sio:SIO_000008>
+                                      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list7">
+                                        <rdf:li>
+                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice_para_1">
+                                            <sio:SIO_000300>Despite substantial loss of npc1 PCs, some chimeric mice displayed minimal ataxia and no weight loss. Ataxia was assessed through measuring agility on a balance beam [[pgen-0010007-b29]] and by quantifying step size in a gait assay [[pgen-0010007-b30]]. At 190 d, more than twice the normal life span of npc1 mice, the two chimeras with more than 50% wild-type cells (C4.4 and C4.8) displayed no signs of wasting and only minimal ataxia ([pgen-0010007-g005]). Even more impressive was a mouse with only 15% wild-type cells (C2.1) that had significantly reduced symptoms. The genetic background of the mutant cells appears to influence the rate of disease progression. Delayed symptoms were not noted in C5.2 and C5.6, which had only slightly less wild-type contribution than C2.1. The npc1 mutant cells in the C5.2 and C5.6 mice were derived from a 75% FVB/25% BALB/c↔GFP /  background, and mutant mice of this genetic background demonstrated a faster progression of disease compared to the mutation in the BALB/c background of C2.1 (average life span of 67 ± 5 d versus 81 ± 8 d). It is remarkable that some 40% of the PCs can die without leading to severe ataxia or weight loss, and that even much smaller numbers of wild-type cells (15%) provide temporary protection against wasting, ataxia, and death.</sio:SIO_000300>
+                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice"/>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g005">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b30">
+                                                <sio:SIO_000278>
+                                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_2">
+                                                    <sio:SIO_000300
+                                                    >People born with NPC disease undergo a progressive decline in neurological function that can include ataxia, tremor, dystonia, dementia, and seizures. As the prominent ataxia would suggest, cerebellar involvement, including PC degeneration, has been well documented [[pgen-0010007-b47]–[pgen-0010007-b49]]. The mouse model of NPC faithfully recapitulates many of the human symptoms, and PC loss serves as an easily quantifiable measure of neurodegeneration. The involvement of circulating molecules such as steroids and sterols, and the ubiquitous expression of both NPC genes, make determining when and where the NPC genes are required a key first step in understanding neurodegeneration. A previous study highlighted the importance of events within the central nervous system, as expression of Npc1 driven by the prion promoter could prevent neurodegeneration even without complete rescue of the liver phenotype [[pgen-0010007-b30]]. In this study we have found that the most prominent neurodegenerative event, the death of the PCs, is due to lost Npc1 function within those cells and to a distinctive programmed cellular response, autophagy.</sio:SIO_000300>
+                                                    <sio:SIO_000068>
+                                                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Discussion">
+                                                        <sio:SIO_000028>
+                                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1">
+                                                            <sio:SIO_000300
+                                                            >Neurodegeneration is among the most devastating and feared types of human disease. No treatments exist that stop neurodegeneration and very few even provide transient symptomatic relief [[pgen-0010007-b41]]. Alzheimer disease, the most common cause of dementia, affects roughly 12 million people worldwide [[pgen-0010007-b42]]. Even for Alzheimer disease the pathophysiology is unclear. It is still controversial whether extracellular or intracellular beta-amyloid deposits are responsible for the bulk of neurotoxicity [[pgen-0010007-b43],[pgen-0010007-b44]], and the importance of inflammation to progression of the disease is unknown [[pgen-0010007-b45],[pgen-0010007-b46]]. For most neurodegenerative diseases, how much neuronal loss can be attributed to cell-autonomous versus non-cell-autonomous factors is unknown. We examined this crucial question in the neurodegenerative disorder NPC.</sio:SIO_000300>
+                                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b46">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b45">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b44">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b43">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b42">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b41">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                          </sio:SIO_000110>
+                                                        </sio:SIO_000028>
+                                                        <sio:SIO_000008>
+                                                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list7">
+                                                            <rdf:li>
+                                                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease">
+    <sio:SIO_000028>
+      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3">
+        <sio:SIO_000300>Secreted or released toxic molecules are also not responsible for PC death. Microglia produce pro-inflammatory and cytotoxic compounds including cytokines, proteases, and free radicals [[pgen-0010007-b55]–[pgen-0010007-b57]] and are present in higher-than-normal numbers in the NPC mutant cerebellum [[pgen-0010007-b28]]. A robust inflammatory response may play a role in the progressive neurodegeneration seen in NPC but is not the primary factor in causing neuronal loss: in the chimeric mice most wild-type PCs do not degenerate even while in the midst of numerous microglia. Our experiments do not exclude a more cell-specific role for microglia in PC death. Microglia could help trigger cell death by specific molecular interactions with susceptible PCs, as is proposed to occur during PC death normally seen at postnatal day 3 [[pgen-0010007-b58]]. A microglia-based mechanism would require a cell-autonomous component—PCs expressing the proper membrane receptors—and a non-cell-autonomous component—microglia to carry out the directed engulfment of only those cells.</sio:SIO_000300>
+        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b58">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b28">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3"/>
+            <sio:SIO_000278>
+              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_1">
+                <sio:SIO_000300>Examination of the relationships of other cell types to the PCs in the chimeras provides further evidence for the cell-autonomous nature of PC degeneration. Microglia have been observed in the cerebellum of npc1 mice, but their role in PC degeneration is unclear [[pgen-0010007-b28]]. Microglia are the phagocytic cells of the central nervous system, and their presence is indicative of an inflammatory process. The appearance of microglia within the cerebellum follows the anterior–posterior pattern of PC death. In wild-type mice or npc1 mutant mice at 30 d, almost no microglia are observed (data not shown). In 50-d-old npc1 mutant mice, very few microglia are present in lobule X ([pgen-0010007-g004]A). The other cerebellar lobules have numerous microglia in the white matter tract and granule cell layer prior to the loss of PCs ([pgen-0010007-g004]B). After more extensive PC loss (lobules I–IV at 50 d and I–IX at 70 d), microglia also appear in the molecular and PC layers ([pgen-0010007-g004]C). Thus, the arrival of microglia coincides with PC loss. However, the infiltration of numerous microglia is not sufficient to trigger PC degeneration. Microglia were present in all the chimeric mice (though to a lesser extent in mice sacrificed at a later age) and were in close proximity to wild-type PCs ([pgen-0010007-g004]D, white arrows). Despite this close association, there was no decrease in wild-type PC density in the chimeras except the two noted above. Furthermore, if nonspecific microglial killing of PCs were the main mechanism of PC loss, then wild-type and mutant PCs should demonstrate comparable decline percentages. This is not the case in any of the chimeras.</sio:SIO_000300>
+                <sio:SIO_000068>
+                  <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice">
+                    <sio:SIO_000028>
+                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_2">
+                        <sio:SIO_000300>Mutant PC loss occurred even with wild-type Bergmann glia in the immediate vicinity. In the chimeras, PCs were strikingly absent in regions containing abundant wild-type glia ([pgen-0010007-g004]E, arrowheads). Conversely, wild-type PCs ([pgen-0010007-g004]F, white arrows) survived even when surrounded by mutant glia ([pgen-0010007-g004]F, arrowheads). Oligodendrocytes of both genotypes were scattered in the cerebellar white matter of the chimeric mice ([pgen-0010007-g004]G). The loss of mutant PCs is unlikely to be due to the lack of a secreted factor from supporting cells. If Npc1 were necessary for the efficient secretion of this hypothetical survival factor, then surrounding wild-type glia should have been able to provide the molecule to mutant PCs. The ongoing degeneration of npc1 mutant PCs surrounded by a high percentage of wild-type cells indicates that cell-autonomous mechanisms play the primary role in PC death.</sio:SIO_000300>
+                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice"/>
+                        <sio:SIO_000277>
+                          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g004">
+                            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_2"/>
+                            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_1"/>
+                          </rdf:Description>
+                        </sio:SIO_000277>
+                      </sio:SIO_000110>
+                    </sio:SIO_000028>
+                    <sio:SIO_000008>
+                      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list6">
+                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_1"/>
+                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_2"/>
+                      </rdf:Seq>
+                    </sio:SIO_000008>
+                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice_para_1"/>
+                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                    <sio:SIO_000008>
+                      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node98_1495126521647">
+                        <sio:SIO_000300>Other Histologic Features of npc1 Chimeric Mice</sio:SIO_000300>
+                      </sio:SIO_000175>
+                    </sio:SIO_000008>
+                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                  </sio:SIO_000111>
+                </sio:SIO_000068>
+                <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g004"/>
+                <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b28"/>
+              </sio:SIO_000110>
+            </sio:SIO_000278>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b57">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b55">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+      </sio:SIO_000110>
+    </sio:SIO_000028>
+    <sio:SIO_000028>
+      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_2">
+        <sio:SIO_000300>In addition to surrounding glial cells, the health of PCs could be affected by their axonal targets in the cerebellar deep nuclei. Expression of GFP is very low in neurons of the cerebellar deep nuclei in the GFP mice (data not shown), so we were unable to assess the genotype of these cells in the chimeras. During the migration of PCs, their axons do not remain attached to their future post-synaptic targets [[pgen-0010007-b52]]. If PC death in npc1 mice was caused by loss of a target-derived factor, then the absence of a genotypic match between target neurons and PCs would mean that wild-type and npc1 PCs should be equally affected. This is not what we observe. In addition, completely depriving PCs of their axonal targets by axotomy does not cause PC degeneration even up to a year following axotomy [[pgen-0010007-b53],[pgen-0010007-b54]]. Thus, derangement of cerebellar deep nuclei is unlikely to be causing PC degeneration in NPC.</sio:SIO_000300>
+        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b54">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_2"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b53">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_2"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+        <sio:SIO_000277>
+          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b52">
+            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_2"/>
+          </rdf:Description>
+        </sio:SIO_000277>
+      </sio:SIO_000110>
+    </sio:SIO_000028>
+    <sio:SIO_000008>
+      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list10">
+        <rdf:li>
+          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_1">
+            <sio:SIO_000300>We have demonstrated that the loss of PCs in the mouse model of NPC, which has a mutant npc1 gene, is primarily a cell-autonomous defect. This finding places constraints on possible mechanisms of PC degeneration in NPC disease, and allows future investigations to focus on the cell type that matters. As is described in the introduction, several lines of evidence hinted that neurodegeneration in NPC disease could be a non-cell-autonomous process. However, the inability of a wild-type milieu, including surrounding wild-type glia, to prevent npc1 PC loss indicates that the degeneration of PCs is not due to the loss of a secreted factor such as glia-derived sterols, neurotrophins, or Npc2 protein. Consistent with this, two very recent studies failed to detect a difference in levels of secretion of cholesterol from wild-type versus npc1 glia [[pgen-0010007-b50],[pgen-0010007-b51]].</sio:SIO_000300>
+            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b51">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277>
+              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b50">
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_1"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+          </sio:SIO_000110>
+        </rdf:li>
+        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_2"/>
+        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_3"/>
+      </rdf:Seq>
+    </sio:SIO_000008>
+    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease_para_1"/>
+    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+    <sio:SIO_000008>
+      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node102_1495126521658">
+        <sio:SIO_000300>Cell-Autonomous PC Death in NPC Disease</sio:SIO_000300>
+      </sio:SIO_000175>
+    </sio:SIO_000008>
+    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                                              </sio:SIO_000111>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration"/>
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                                                          </rdf:Seq>
+                                                        </sio:SIO_000008>
+                                                        <sio:SIO_000008>
+                                                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list9">
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_1"/>
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_2"/>
+                                                          </rdf:Seq>
+                                                        </sio:SIO_000008>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration"/>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+                                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                                                        <sio:SIO_000008>
+                                                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node101_1495126521649">
+                                                            <sio:SIO_000300
+                                                            >Discussion</sio:SIO_000300>
+                                                          </sio:SIO_000175>
+                                                        </sio:SIO_000008>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_2"/>
+                                                      </sio:SIO_000111>
+                                                    </sio:SIO_000068>
+                                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b30"/>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b49">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b47">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                  </sio:SIO_000110>
+                                                </sio:SIO_000278>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b29">
+                                                <sio:SIO_000278>
+                                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Mouse-assays-_para_1">
+                                                    <sio:SIO_000300
+                                                    >Mice were weighed weekly on a gram scale. For balance beam measurements, mice were placed perpendicularly on a stainless steel bar (2 cm in diameter, 120 cm in length) wrapped in laboratory tape as described [[pgen-0010007-b29]]. Alternating 10-cm segments were marked by varying tape color. The level of ataxia was assessed based on time (180 s maximum), number of sections crossed, and qualitatively on a five-point ataxia scale: five, no ataxia; four, inability to turn around on the bar; three, difficulty walking to the end of the bar without falling off; two, the mouse can only cling to the bar and is unable to correct itself from its initial perpendicular orientation; and one, postural instability as the mouse quickly falls off the bar even when placed along the long axis.</sio:SIO_000300>
+                                                    <sio:SIO_000068>
+                                                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-">
+                                                        <sio:SIO_000028>
+                                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Mouse-assays-_para_2">
+                                                            <sio:SIO_000300
+                                                            >For gait assays, front paws were dipped in red paint and back paws in green paint, and mice were placed on Whatman paper at one end of a 14 × 44 cm box. The distance between the back edge of each same-side paw print was used to determine stride length.</sio:SIO_000300>
+                                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-"/>
+                                                          </sio:SIO_000110>
+                                                        </sio:SIO_000028>
+                                                        <sio:SIO_000008>
+                                                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list18">
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Mouse-assays-_para_1"/>
+                                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Mouse-assays-_para_2"/>
+                                                          </rdf:Seq>
+                                                        </sio:SIO_000008>
+                                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Mouse-assays-_para_1"/>
+                                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                                        <sio:SIO_000008>
+                                                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node110_1495126521693">
+                                                            <sio:SIO_000300
+                                                            >Mouse assays.</sio:SIO_000300>
+                                                          </sio:SIO_000175>
+                                                        </sio:SIO_000008>
+                                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                                      </sio:SIO_000111>
+                                                    </sio:SIO_000068>
+                                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b29"/>
+                                                  </sio:SIO_000110>
+                                                </sio:SIO_000278>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                          </sio:SIO_000110>
+                                        </rdf:li>
+                                      </rdf:Seq>
+                                    </sio:SIO_000008>
+                                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice_para_1"/>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                                    <sio:SIO_000008>
+                                      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node99_1495126521648">
+                                        <sio:SIO_000300>Prevention of Ataxia and Weight Loss in Chimeric Mice</sio:SIO_000300>
+                                      </sio:SIO_000175>
+                                    </sio:SIO_000008>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                  </sio:SIO_000111>
+                                </sio:SIO_000028>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice"/>
+                                <sio:SIO_000028>
+                                  <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous">
+                                    <sio:SIO_000028>
+                                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_4">
+                                        <sio:SIO_000300>In contrast to the mutant PCs, wild-type PCs did not degenerate in most of the chimeric mice. The observed wild-type PC densities agreed well with the expected densities based on the wild-type contribution in each mouse ([pgen-0010007-g003]F and [pgen-0010007-g003]G). The lone exceptions occurred in the two mice with 11% and 13% wild-type contribution. These mice were expected to have a very low number of wild-type PCs, but there were even fewer than expected. No significant decrease in wild-type PC density was observed in the other five chimeric mice, including C2.1, which was expected to have only a marginally greater wild-type contribution (15%). Although fluctuation in how small numbers of wild-type cells are distributed and consequent variability among analyzed sections provide a likely explanation, another interpretation is that when very few wild-type cells are present, the entire cerebellum begins to break down during the late stages of cerebellar degeneration. Toxins released by dying cells could contribute to PC loss but are clearly not the main cause of neurodegeneration.</sio:SIO_000300>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                                        <sio:SIO_000277>
+                                          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g003">
+                                            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_4"/>
+                                            <sio:SIO_000278>
+                                              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_3">
+                                                <sio:SIO_000300
+                                                >Three chimeric mice were analyzed at 70 d, at the end of the normal life span of npc1
+−/− mice. One of these three mice had a substantial wild-type contribution (33%; C1.4), but no significant prevention or delay of npc1 PC degeneration was observed ([pgen-0010007-g003]C). The vast majority of mutant PCs (except those in lobule X) degenerated despite the presence of a significant fraction of wild-type cells ([pgen-0010007-g003]D and [pgen-0010007-g003]E).</sio:SIO_000300>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                                                <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g003"/>
+                                              </sio:SIO_000110>
+                                            </sio:SIO_000278>
+                                            <sio:SIO_000278>
+                                              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_2">
+                                                <sio:SIO_000300
+                                                >The data from all seven mice demonstrated that PC degeneration in npc1 mice is primarily a cell-autonomous process. PC counts revealed that the presence of a milieu that was more than 60% wild-type was insufficient to prevent npc1 PC loss. In the two oldest mice analyzed (190 d), chimeras 4.4 and 4.8 (C4.4 and C4.8), nearly all npc1 PCs had degenerated, including those in lobule X. In these mice, the wild-type contributions were estimated to be 54% and 61%. Mutant npc1 PCs were observed at densities of 0.5 and 0.6 PCs/mm in the mice, strikingly lower than the expected densities of 12 and 10 PCs/mm if no degeneration had occurred ([pgen-0010007-g003]B). Expected PC densities, assuming no degeneration, were calculated by multiplying the observed density in 30 d npc1 mice by the percentage of chimerism. Similar measurements were made in all seven chimeras. Two mice sacrificed at a younger age (120 d; C2.1 and C5.8) had lost all but a few npc1 PCs, which were primarily in lobule X. The results demonstrate that surrounding wild-type cells are unable to prevent npc1 PC degeneration. These four mice also demonstrate that lobule X PCs will eventually degenerate; their loss is delayed rather than completely prevented.</sio:SIO_000300>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                                                <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g003"/>
+                                              </sio:SIO_000110>
+                                            </sio:SIO_000278>
+                                            <sio:SIO_000278>
+                                              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1">
+                                                <sio:SIO_000300
+                                                >To determine whether PC loss is due to dysfunction within the PCs, alterations in the surrounding glia and microenvironment, or a combination of both, we generated mice containing a mixture of npc1 mutant and wild-type cells. Morulas derived from mating npc1 heterozygotes (BALB/c npc) and from matings of wild-type mice homozygous for a ubiquitously expressed green fluorescent protein (GFP) gene (FVB.Cg-Tg(GFPU)5Nagy/J; [[pgen-0010007-b27]]) were aggregated to form chimeric embryos. A quarter of the embryos from npc1/+ parents should be homozygous for the npc1 mutation, but these embryos could not be distinguished at the time of morula isolation, so the embryos derived from aggregation had to be analyzed later to determine which were the useful chimeras. Chimeras were also created in which npc1 mutant cells were marked with GFP (genetic background 75% FVB/25% BALB/c; see [s4] for crosses), ensuring that the results were independent of the genetic background. Of 33 chimeric mice generated, seven were of the desired genotype, as determined using PCR analysis (two npc1
+−/− BALB/c↔GFP; two npc1
+−/− 75% FVB/25% BALB/c↔CD-1; three npcl
+−/− 75%FVB/25% BALB/c↔C57BL6/J) ([pgen-0010007-g003]A). These seven mice had wild-type contributions ranging from 11% to 61% based on skin fluorescence, granule cell counts, and lobule X PC counts. Wild-type contributions estimated from skin fluorescence always corresponded well to the value determined from cell counts; the numbers differed by 4%–22% (see [pgen-0010007-t001]). The reliability of skin fluorescence and granule cell counts as estimates of overall chimerism percentage was further validated by examination of two npc1 heterozygous chimeras that demonstrated similar chimerism percentage whether determined by skin, granule cell counts, or, most importantly, PC counts ([pgen-0010007-t001]). For each chimeric mouse, all PCs in five sagittal sections of the cerebellar vermis were counted and each cell's genotype was determined based on GFP fluorescence. Characteristics of the mice are summarized in [pgen-0010007-t001].</sio:SIO_000300>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                                                <sio:SIO_000277>
+                                                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-t001">
+                                                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1"/>
+                                                  </rdf:Description>
+                                                </sio:SIO_000277>
+                                                <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g003"/>
+                                                <sio:SIO_000277>
+                                                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_s4">
+                                                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1"/>
+                                                  </rdf:Description>
+                                                </sio:SIO_000277>
+                                                <sio:SIO_000277>
+                                                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b27">
+                                                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1"/>
+                                                  </rdf:Description>
+                                                </sio:SIO_000277>
+                                              </sio:SIO_000110>
+                                            </sio:SIO_000278>
+                                          </rdf:Description>
+                                        </sio:SIO_000277>
+                                      </sio:SIO_000110>
+                                    </sio:SIO_000028>
+                                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_3"/>
+                                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_2"/>
+                                    <sio:SIO_000008>
+                                      <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list5">
+                                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1"/>
+                                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_2"/>
+                                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_3"/>
+                                        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_4"/>
+                                      </rdf:Seq>
+                                    </sio:SIO_000008>
+                                    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous_para_1"/>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                                    <sio:SIO_000008>
+                                      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node97_1495126521646">
+                                        <sio:SIO_000300>PC Degeneration in npc1 Mice Is Cell-Autonomous</sio:SIO_000300>
+                                      </sio:SIO_000175>
+                                    </sio:SIO_000008>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                  </sio:SIO_000111>
+                                </sio:SIO_000028>
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list2">
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice"/>
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice"/>
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node95_1495126521637">
+                                    <sio:SIO_000300>Results</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods">
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list11">
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node106_1495126521692">
+                                    <sio:SIO_000300>Materials and Methods</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Materials-">
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list16">
+                                    <rdf:li>
+                                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Materials-_para_1">
+                                        <sio:SIO_000300>BALB/c npc1, FVB.Cg-Tg(GFPU)5Nagy/J, and C57BL/6J mice were obtained from Jackson Laboratory (Bar Harbor, Maine, United States). CD-1 mice were from Charles River Laboratories (Wilmington, Massachusetts, United States). Mouse anti-Calbindin D-28K (1:250 dilution used), mouse anti-S100β (1:250) ascites, rapamycin, and filipin were obtained from Sigma (St. Louis, Missouri, United States). Rabbit anti-GABAα6 (1:250), rabbit anti-NeuN (1:100), and rat anti-myelin basic protein (1:500) were obtained from Chemicon International (Temecula, California, United States). Rat anti-F4/80 (1:100) was obtained from Serotec (Raleigh, North Carolina, United States). Mouse anti-CC1 (1:100) was from EMD Biosciences (San Diego, California, United States). Rabbit anti-MAP LC3 (1:1,000) was the kind gift of Marlene Rabinovitch and Lihua Ying (Stanford University, Palo Alto, California, United States). Nuclear dyes 7AAD and TOTO-3 were obtained from Molecular Probes (Eugene, Oregon, United States).</sio:SIO_000300>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Materials-"/>
+                                      </sio:SIO_000110>
+                                    </rdf:li>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Materials-_para_1"/>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node108_1495126521692">
+                                    <sio:SIO_000300>Materials.</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-">
+                                <sio:SIO_000028>
+                                  <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_2">
+                                    <sio:SIO_000300>Tail preparation DNA was used to genotype mice using PCR primers for npc1 [[pgen-0010007-b06]]. To distinguish between the wild-type npc1 alleles in the BALB/c, FVB.Cg-Tg(GFPU)5Nagy/J, CD-1, and C57BL/6J strains, we took advantage of a polymorphism that could be detected with an ApaLI restriction digest. Digestion of the BALB/c, CD-1, or C57BL/6J wild-type PCR product results in 477-, 340-, and 130-bp fragments; the FVB.Cg-Tg(GFPU)5Nagy/J wild-type PCR product digest results in 817- and 130-bp fragments; the mutant npc1 PCR product digest results in 937- and 130-bp fragments. Therefore, for npc1 ↔FVB.Cg-Tg(GFPU)5Nagy/J mice, we expect 937-, 817-, and 130-bp bands. For npc1;GFP  / ↔CD-1 or C57BL/6J mice, we expect 937-, 477-, 340-, and 130-bp bands.</sio:SIO_000300>
+                                    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-"/>
+                                    <sio:SIO_000277>
+                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b06">
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_2"/>
+                                        <sio:SIO_000278>
+                                          <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3">
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b15">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2"/>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_1"/>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b14">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b20">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b13">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+                                            <sio:SIO_000300>Phenotypes similar to human NPC are seen in two mouse strains, C57BLKS/J spm [[pgen-0010007-b13]] and BALB/c npc1 [[pgen-0010007-b14]], both of which harbor spontaneous mutations in npc1 [[pgen-0010007-b06]]. The most striking and well-documented histological change in npc1 mice is the progressive loss of cerebellar Purkinje cells (PCs) [[pgen-0010007-b15],[pgen-0010007-b16]]. Stereotactic cell counting confirmed that the PC is the type that exhibits the greatest percentage loss in npc1 mice (&lt;10% remaining at 10 wk) but surprisingly revealed that glia in the corpus callosum have a greater early reduction in number (48% for glia versus 13% for PCs, at 3 wk) [[pgen-0010007-b17]]. This early decline in glia and the detection of Npc1 protein in astrocytic processes [[pgen-0010007-b18]] led to the idea that the primary function of the Npc1 protein may be in glia and that loss of PCs and other neurons may be a secondary consequence of glial dysfunction [[pgen-0010007-b17],[pgen-0010007-b19]]. However, Npc1 mRNA is abundantly present in neurons as well as glia throughout the brain [[pgen-0010007-b20]]. Thus, it is unclear which cells in the brain require Npc1 protein and why PCs degenerate in mice lacking Npc1.</sio:SIO_000300>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b19">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b18">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b17">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b06"/>
+                                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b16"/>
+                                          </sio:SIO_000110>
+                                        </sio:SIO_000278>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                  </sio:SIO_000110>
+                                </sio:SIO_000028>
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list17">
+                                    <rdf:li>
+                                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_1">
+                                        <sio:SIO_000300>Aggregation chimeras were made according to established procedures [[pgen-0010007-b92]]. Mice made up of npc1 cells and GFP-expressing wild-type cells were constructed using BALB/c npc1 and FVB.Cg-Tg(GFPU)5Nagy/J embryos. In order to make reciprocal chimeras, npc1 heterozygous mice were mated to FVB.Cg-Tg(GFPU)5Nagy/J mice. Offspring heterozygous for npc1 and GFP were backcrossed to FVB.Cg-Tg(GFPU)5Nagy/J mice to obtain mice heterozygous for npc1 and homozygous for GFP. Sibling matings were used to generate GFP-expressing npc1 embryos. Wild-type embryos were obtained from CD-1 and C57BL/6J strains. Week-old pups were examined with a blue LED and blue-filtering glasses to determine the ratio of mutant to wild-type cells based on skin fluorescence. The percentage of mutant cells in chimeras made with the C57BL/6J strain was also evaluated by measuring relative areas of coat color; the results were consistent with the percentage of GFP fluorescent cells.</sio:SIO_000300>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-"/>
+                                        <sio:SIO_000277>
+                                          <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b92">
+                                            <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_1"/>
+                                          </rdf:Description>
+                                        </sio:SIO_000277>
+                                      </sio:SIO_000110>
+                                    </rdf:li>
+                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_2"/>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-_para_1"/>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node109_1495126521692">
+                                    <sio:SIO_000300>Generation of npc1 chimeric mice.</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_PC-counts-"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_LC3-immunoblotting-"/>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Electron-microscopy-">
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list22">
+                                    <rdf:li>
+                                      <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Electron-microscopy-_para_1">
+                                        <sio:SIO_000300>Mice were anesthetized using avertin and were perfused with PBS followed by a solution of 2.5% glutaraldehyde and 4% paraformaldehyde in 0.1 M cacodylate buffer (pH 7.4) for 15 min using gravity flow. For microwave processing, a Pelco laboratory microwave equipped with variable wattage, Cold Spot water recirculator, and vacuum chamber was used (Ted Pella, Mountain Lakes, California, United States). Brains were removed, immersed in the same fixative, and microwaved at 100 W for 1 min on, 1 min off, 1 min on, with the Cold Spot set at 15 °C. A vacuum chamber was applied and the brains microwaved at 450 W for 20 s on, 20 s off, 20 s on, three times. After an additional 15 min at room temperature, the cerebellum was dissected away and sliced into anterior and posterior samples. Post-fixation was carried out using 2% osmium tetroxide containing 0.8% potassium ferricyanide and 5% sucrose in 0.1 M cacodylate buffer (pH 7.4) using the same microwave parameters as for primary fixation and followed by an additional 45 min at room temperature. After rinsing in distilled water, the tissue was dehydrated in an ascending alcohol (50%–95%) series at 350 W for 45 s, then switched to 100% ethanol under vacuum for 1 min on, 1 min off, 1 min on, three times. The tissue was microwaved in 100% acetone for 1 min on, 1 min off, 1 min on, at power level 3 using the vacuum chamber. The tissue was then infiltrated in Epon-Araldite-acetone mixture in the microwave for 4 min on, 4 min off, 4 min on, at 350 W for each resin mixture (1:2, 1:1, 2:1) under vacuum. For the final infiltration, the samples were placed in 100% resin and microwaved at 350 W under vacuum for 10 min on, 10 min off, 10 min on. The samples were embedded in fresh Epon-Araldite and hardened at 65 °C for 1–2 d. Semi-thin sections (1–2 μm) were cut using a Histoknife (Diatome, Fort Washington, Pennsylvania, United States) and stained with toludine blue. Thin sections (70 nm) were cut and mounted on formvar-coated multi-slot grids. Sections were post-stained with 5% aqueous uranyl acetate and lead citrate and examined at 80 kV in a JEOL (Tokyo, Japan) 1230 electron microscope. Digital images were captured with a Gatan (Pleasanton, California, United States) 967 slow-scan, cooled CCD camera. Images were analyzed with ImageJ Software (National Institutes of Health, Bethesda, Maryland, United States).</sio:SIO_000300>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Electron-microscopy-"/>
+                                      </sio:SIO_000110>
+                                    </rdf:li>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Materials-and-Methods_no-title-1_Electron-microscopy-_para_1"/>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node114_1495126521694">
+                                    <sio:SIO_000300>Electron microscopy.</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li>
+                              <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information">
+                                <sio:SIO_000008>
+                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list19">
+                                    <rdf:li>
+                                      <sio:SIO_000111 rdf:about="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information_Accession-Numbers">
+                                        <sio:SIO_000008>
+                                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list24">
+                                            <rdf:li>
+                                              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Supporting-Information_Accession-Numbers_para_1">
+                                                <sio:SIO_000300
+                                                >The OMIM (http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM) accession number for NPC is 257220. The NCBI Entrez (http://www.ncbi.nih.gov/entrez/query.fcgi?db=gene) accession numbers for the genes and gene products discussed in this paper are LC3 (GeneID 84557), npc1 (GeneID 4864), and npc2 (GeneID 10577).</sio:SIO_000300>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information_Accession-Numbers"/>
+                                                <sio:SIO_000631 rdf:resource="http://www.ncbi.nih.gov/entrez/query.fcgi?db=gene"/>
+                                                <sio:SIO_000631 rdf:resource="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM"/>
+                                              </sio:SIO_000110>
+                                            </rdf:li>
+                                          </rdf:Seq>
+                                        </sio:SIO_000008>
+                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Supporting-Information_Accession-Numbers_para_1"/>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information"/>
+                                        <sio:SIO_000008>
+                                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node116_1495126521694">
+                                            <sio:SIO_000300>Accession Numbers</sio:SIO_000300>
+                                          </sio:SIO_000175>
+                                        </sio:SIO_000008>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                      </sio:SIO_000111>
+                                    </rdf:li>
+                                  </rdf:Seq>
+                                </sio:SIO_000008>
+                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information_Accession-Numbers"/>
+                                <sio:SIO_000008>
+                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node115_1495126521694">
+                                    <sio:SIO_000300>Supporting Information</sio:SIO_000300>
+                                  </sio:SIO_000175>
+                                </sio:SIO_000008>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                              </sio:SIO_000111>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information_Accession-Numbers"/>
+                          </rdf:Seq>
+                        </sio:SIO_000008>
+                        <sio:SIO_000631 rdf:resource="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_PC-Degeneration-in-npc1-Mice-Is-Cell-Autonomous"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000148"/>
+                        <sio:SIO_000008>
+                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node91_1495126521622">
+                            <sio:SIO_000300>Cell-Autonomous Death of Cerebellar Purkinje Neurons with Autophagy in Niemann-Pick Type C Disease</sio:SIO_000300>
+                          </sio:SIO_000175>
+                        </sio:SIO_000008>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Other-Histologic-Features-of-npc1-Chimeric-Mice"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-"/>
+                        <sio:SIO_000631 rdf:resource="http://www.ncbi.nih.gov/entrez/query.fcgi?db=gene"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Abstract"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information_Accession-Numbers"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Electron-microscopy-"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Supporting-Information"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Materials-"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Cell-Autonomous-PC-Death-in-NPC-Disease"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Activation-of-Autophagy-in-Degenerating-PCs"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Autophagy-in-NPC-PC-Death"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_LC3-immunoblotting-"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results_Prevention-of-Ataxia-and-Weight-Loss-in-Chimeric-Mice"/>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Internal-Factors-in-Neurodegeneration"/>
+                      </sio:SIO_001029>
+                    </sio:SIO_000068>
+                  </sio:SIO_000111>
+                </sio:SIO_000028>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Materials-"/>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-"/>
+                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-"/>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-"/>
+                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods"/>
+                <sio:SIO_000008>
+                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfSections_list12">
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Materials-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Generation-of-npc1-chimeric-mice-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Mouse-assays-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Cerebellar-sectioning-and-staining-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_PC-counts-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_LC3-immunoblotting-"/>
+                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Electron-microscopy-"/>
+                  </rdf:Seq>
+                </sio:SIO_000008>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_Electron-microscopy-"/>
+                <sio:SIO_000008>
+                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node107_1495126521692">
+                    <sio:SIO_000300>no-title_1</sio:SIO_000300>
+                  </sio:SIO_000175>
+                </sio:SIO_000008>
+                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Materials-and-Methods_no-title-1_PC-counts-"/>
+              </sio:SIO_000111>
+            </sio:SIO_000068>
+            <sio:SIO_000008>
+              <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node111_1495126521693">
+                <sio:SIO_000300>Cerebellar sectioning and staining.</sio:SIO_000300>
+              </sio:SIO_000175>
+            </sio:SIO_000008>
+            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+          </sio:SIO_000111>
+        </sio:SIO_000068>
+        <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b79"/>
+      </sio:SIO_000110>
+    </sio:SIO_000278>
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b86">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                                                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b26"/>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b83">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000300
+                                                            >With so many PCs lost, other regions of the brain, other cerebellar cells, or the remaining PCs may compensate. Morphological changes that have been observed in the remaining npc1 neurons, such as occurrence of ectopic dendritic spines and meganeurites [[pgen-0010007-b26],[pgen-0010007-b79]] and increased width of the dendritic tree [[pgen-0010007-b80]], may be the physical manifestations of the remaining PCs taking on functions of their deceased counterparts. Compensation may also occur in other regions of the brain. In the pcd and Lurcher mouse models, compensatory mechanisms in the efferent targets of the PCs, the cerebellar deep nuclei, have been postulated to be responsible for the mild ataxia that occurs despite severe PC loss [[pgen-0010007-b81]]. Lurcher chimeric mice, in which PCs undergo cell-autonomous loss, have no behavioral abnormalities even when they have few wild-type cells [[pgen-0010007-b82]]. Recent studies using this model of PC degeneration have defined a minimum number of PCs required for normal motor control between 1,000–7,000, or roughly 1%–5% of the normal number of PCs [[pgen-0010007-b83],[pgen-0010007-b84]]. Thus, the loss of PCs may be significantly ameliorated by still-to-be-identified mechanisms, and slowing loss of PCs by any mechanism may allow increased compensation. Some of the phenotypes of the npc1 mouse are likely to be due to loss or derangement of other cells, such as certain populations of neurons in the thalamus [[pgen-0010007-b85]] or dorsal root ganglion [[pgen-0010007-b86]]. There appears to be a critical threshold of wild-type contribution between 30% and 60% required for near-complete rescue of both ataxia and weight loss. The delayed progression seen with low levels of wild-type cells (approximately 15%) is quite encouraging with respect to the potential for therapies that preserve even some of the cells.</sio:SIO_000300>
+                                                          </sio:SIO_000110>
+                                                        </sio:SIO_000278>
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b15"/>
+                                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g002"/>
+                                                    <sio:SIO_000277>
+                                                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b25">
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                  </sio:SIO_000110>
+                                                </sio:SIO_000278>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                          </sio:SIO_000110>
+                                        </sio:SIO_000028>
+                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2"/>
+                                        <sio:SIO_000008>
+                                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list4">
+                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_1"/>
+                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_2"/>
+                                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_3"/>
+                                          </rdf:Seq>
+                                        </sio:SIO_000008>
+                                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Pattern-of-Cerebellar-Degeneration-in-npc1-Mice_para_1"/>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                                        <sio:SIO_000008>
+                                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node96_1495126521637">
+                                            <sio:SIO_000300>Pattern of Cerebellar Degeneration in npc1 Mice</sio:SIO_000300>
+                                          </sio:SIO_000175>
+                                        </sio:SIO_000008>
+                                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                      </sio:SIO_000111>
+                                    </sio:SIO_000068>
+                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g002"/>
+                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b16"/>
+                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b15"/>
+                                  </sio:SIO_000110>
+                                </sio:SIO_000278>
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b13"/>
+                          </sio:SIO_000110>
+                        </sio:SIO_000028>
+                        <sio:SIO_000008>
+                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list8">
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_1"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_2"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_3"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_4"/>
+                          </rdf:Seq>
+                        </sio:SIO_000008>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_1"/>
+                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Results"/>
+                        <sio:SIO_000008>
+                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node100_1495126521648">
+                            <sio:SIO_000300>Activation of Autophagy in Degenerating PCs</sio:SIO_000300>
+                          </sio:SIO_000175>
+                        </sio:SIO_000008>
+                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                      </sio:SIO_000111>
+                    </sio:SIO_000068>
+                    <sio:SIO_000277>
+                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b32">
+                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Results_Activation-of-Autophagy-in-Degenerating-PCs_para_1"/>
+                      </rdf:Description>
+                    </sio:SIO_000277>
+                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b31"/>
+                  </sio:SIO_000110>
+                </sio:SIO_000278>
+              </rdf:Description>
+            </sio:SIO_000277>
+          </sio:SIO_000110>
+        </rdf:li>
+        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_2"/>
+        <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+      </rdf:Seq>
+    </sio:SIO_000008>
+    <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_1"/>
+    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+    <sio:SIO_000008>
+      <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node104_1495126521690">
+        <sio:SIO_000300>Autophagy in NPC PC Death</sio:SIO_000300>
+      </sio:SIO_000175>
+    </sio:SIO_000008>
+    <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                                              </sio:SIO_000111>
+                                                            </sio:SIO_000068>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b78">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b77">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b61"/>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b76">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b75">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                            <sio:SIO_000277>
+                                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b74">
+    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Autophagy-in-NPC-PC-Death_para_3"/>
+                                                              </rdf:Description>
+                                                            </sio:SIO_000277>
+                                                          </sio:SIO_000110>
+                                                        </sio:SIO_000278>
+                                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_2"/>
+                                                      </rdf:Description>
+                                                    </sio:SIO_000277>
+                                                  </sio:SIO_000110>
+                                                </sio:SIO_000028>
+                                                <sio:SIO_000008>
+                                                  <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list11">
+                                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_1"/>
+                                                    <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_2"/>
+                                                  </rdf:Seq>
+                                                </sio:SIO_000008>
+                                                <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_1"/>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+                                                <sio:SIO_000008>
+                                                  <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node103_1495126521658">
+                                                    <sio:SIO_000300
+                                                    >Internal Factors in Neurodegeneration</sio:SIO_000300>
+                                                  </sio:SIO_000175>
+                                                </sio:SIO_000008>
+                                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                                              </sio:SIO_000111>
+                                            </sio:SIO_000068>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b60">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277>
+                                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b59">
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Internal-Factors-in-Neurodegeneration_para_1"/>
+                                              </rdf:Description>
+                                            </sio:SIO_000277>
+                                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b21"/>
+                                          </sio:SIO_000110>
+                                        </sio:SIO_000278>
+                                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_4"/>
+                                      </rdf:Description>
+                                    </sio:SIO_000277>
+                                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-g001"/>
+                                  </sio:SIO_000110>
+                                </sio:SIO_000278>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000300>Several questions regarding the loss of PCs in NPC have been answered in this study. Of four possible mechanisms of PC loss (see [pgen-0010007-g001]), the chimeric mice demonstrate that the two strictly non-cell-autonomous models are invalid. Of the two cell-autonomous models, internal toxicity versus subcellular deficiency, we favor the latter based on the observed defects in organelle trafficking in npc1 cultured cells [[pgen-0010007-b87],[pgen-0010007-b88]], the lack of correlation between cholesterol levels and PC loss, the decreased levels of steroidogenesis in npc1 mice [[pgen-0010007-b61]], and the previous transgenic studies designed to decrease cholesterol or sphingolipid accumulation [[pgen-0010007-b59],[pgen-0010007-b60]]. We envision that in response to the proposed intracellular deficiency, cells compensate by increasing endogenous synthesis of cholesterol, by endocytosis, and/or by autophagy. In cells with a high lipid demand and insufficient supply, autophagy increases and cell death ensues. It may be that a similar series of events—defective trafficking leading to subcellular deficiency and autophagic cell death—occurs in many other lysosomal storage diseases. To our knowledge, Danon disease, caused by deficiency in the lysosomal membrane protein LAMP-2, is the only other lysosomal storage disease that has a demonstrated increase in AVs [[pgen-0010007-b89]]. The pattern of degeneration erupting in each disease would be determined by the cell-specific response to being deprived of a particular molecule or class of molecules. PCs appear to be highly sensitive to insufficient levels of sterols or sterol metabolites (and perhaps also to sphingolipid deficiency, since PC loss is prominent in Niemann-Pick type A as well [[pgen-0010007-b90],[pgen-0010007-b91]]).</sio:SIO_000300>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b90">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b88">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b60"/>
+                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b59"/>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b89">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b61"/>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b91">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                            <sio:SIO_000277>
+                              <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b87">
+                                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                              </rdf:Description>
+                            </sio:SIO_000277>
+                          </sio:SIO_000110>
+                        </sio:SIO_000028>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                        <sio:SIO_000008>
+                          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list13">
+                            <rdf:li>
+                              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_1">
+                                <sio:SIO_000300>The chimeric mice also provide information about the progression of the disease. Homozygous npc1 mice at 70 d are unable to maintain posture on the balance beam for even a few seconds and weigh only half as much as controls. Remarkably, some chimeras had only minimal ataxia and no wasting despite the loss of approximately 40% of PCs. The minimal ataxia phenotype, manifested as occasional falls off the balance beam while turning, stopped progressing by approximately 140 d. By this age, nearly all mutant PCs, including those in lobule X, had died. Presumably ataxia worsens until all mutant PCs die, at which point the phenotype stabilizes.</sio:SIO_000300>
+                                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice"/>
+                              </sio:SIO_000110>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_2"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_3"/>
+                            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_4"/>
+                          </rdf:Seq>
+                        </sio:SIO_000008>
+                        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_1"/>
+                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Discussion"/>
+                        <sio:SIO_000008>
+                          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node105_1495126521691">
+                            <sio:SIO_000300>Levels of Cerebellum Involvement in Chimeric npc1 Mice</sio:SIO_000300>
+                          </sio:SIO_000175>
+                        </sio:SIO_000008>
+                        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+                      </sio:SIO_000111>
+                    </sio:SIO_000068>
+                    <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b24"/>
+                    <sio:SIO_000277>
+                      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b23">
+                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Discussion_Levels-of-Cerebellum-Involvement-in-Chimeric-npc1-Mice_para_4"/>
+                        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_5"/>
+                      </rdf:Description>
+                    </sio:SIO_000277>
+                  </sio:SIO_000110>
+                </sio:SIO_000278>
+                <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_5"/>
+              </rdf:Description>
+            </sio:SIO_000277>
+            <sio:SIO_000277 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b23"/>
+          </sio:SIO_000110>
+        </sio:SIO_000028>
+        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_4"/>
+        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+        <sio:SIO_000008>
+          <rdf:Seq rdf:about="http://bio2rdf.org/pmc_resource:1183526_listOfParagraphs_list2">
+            <rdf:li>
+              <sio:SIO_000110 rdf:about="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1">
+                <sio:SIO_000300>Niemann-Pick type C (NPC) is a devastating autosomal recessive neurodegenerative disorder characterized by the accumulation of cholesterol and other lipids in viscera and the central nervous system. The clinical presentation typically includes progressive ataxia, dystonia, and dementia, first presenting in early childhood and ultimately leading to death in the early teens [[pgen-0010007-b01]]. NPC is one of over 40 known lysosomal storage disorders (reviewed in [[pgen-0010007-b02],[pgen-0010007-b03]]), which collectively have an incidence of one in 8,000 live births [[pgen-0010007-b04]]. The specific molecules that accumulate in each disease vary, but most of the disorders share the feature of prominent neurological symptoms. Though great progress has been made in characterizing the biochemical and genetic defects in these diseases, the pathways that lead from these defects to cell and tissue dysfunction are inadequately understood.</sio:SIO_000300>
+                <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_section_Introduction"/>
+                <sio:SIO_000277>
+                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b04">
+                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1"/>
+                  </rdf:Description>
+                </sio:SIO_000277>
+                <sio:SIO_000277>
+                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b03">
+                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1"/>
+                  </rdf:Description>
+                </sio:SIO_000277>
+                <sio:SIO_000277>
+                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b02">
+                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1"/>
+                  </rdf:Description>
+                </sio:SIO_000277>
+                <sio:SIO_000277>
+                  <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b01">
+                    <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1"/>
+                  </rdf:Description>
+                </sio:SIO_000277>
+              </sio:SIO_000110>
+            </rdf:li>
+            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_3"/>
+            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_4"/>
+            <rdf:li rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_5"/>
+          </rdf:Seq>
+        </sio:SIO_000008>
+        <sio:SIO_000028 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_1"/>
+        <sio:SIO_000008>
+          <sio:SIO_000175 rdf:about="http://bio2rdf.org/pmc_resource:1183526_other_dcterms_title_node94_1495126521635">
+            <sio:SIO_000300>Introduction</sio:SIO_000300>
+          </sio:SIO_000175>
+        </sio:SIO_000008>
+        <sio:SIO_000068 rdf:resource="http://bio2rdf.org/pmc:1183526"/>
+      </sio:SIO_000111>
+    </sio:SIO_000068>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b12">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b10">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b09">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b08">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b07">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+    <sio:SIO_000277>
+      <rdf:Description rdf:about="http://bio2rdf.org/pmc_resource:1183526_reference_pgen-0010007-b05">
+        <sio:SIO_000278 rdf:resource="http://bio2rdf.org/pmc_resource:1183526_paragraph_Introduction_para_2"/>
+      </rdf:Description>
+    </sio:SIO_000277>
+  </sio:SIO_000110>
+</rdf:RDF>

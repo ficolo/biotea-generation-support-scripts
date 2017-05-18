@@ -1,0 +1,2624 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/1684377">
+    <bibo:authorList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/1684377/list1">
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1684377/name/JCBecker">
+            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+            <foaf:familyName>Becker</foaf:familyName>
+            <foaf:givenName>JC</foaf:givenName>
+            <foaf:name>JC Becker</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1684377/name/RDummer">
+            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+            <foaf:familyName>Dummer</foaf:familyName>
+            <foaf:givenName>R</foaf:givenName>
+            <foaf:name>R Dummer</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1684377/name/AAHartmann">
+            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+            <foaf:familyName>Hartmann</foaf:familyName>
+            <foaf:givenName>AA</foaf:givenName>
+            <foaf:name>AA Hartmann</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1684377/name/GBurg">
+            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+            <foaf:familyName>Burg</foaf:familyName>
+            <foaf:givenName>G</foaf:givenName>
+            <foaf:name>G Burg</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1684377/name/RESchmidt">
+            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+            <foaf:familyName>Schmidt</foaf:familyName>
+            <foaf:givenName>RE</foaf:givenName>
+            <foaf:name>RE Schmidt</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+      </rdf:Seq>
+    </bibo:authorList>
+    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/1684377"/>
+    <dcterms:identifier>pmid:1684377</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/1684377"/>
+    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:1684377"/>
+    <bibo:volume>147</bibo:volume>
+    <bibo:citedBy>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/3903882">
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/21516396">
+            <bibo:pageEnd>43</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/21516396"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/MethodsMolBiol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21516396"/>
+                <dcterms:title>Methods Mol Biol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageStart>35</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Reid1"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/21516396/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21516396/name/YAReid">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21516396"/>
+                    <foaf:familyName>Reid</foaf:familyName>
+                    <foaf:givenName>YA</foaf:givenName>
+                    <foaf:name>YA Reid</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:issued>2011</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21516396"/>
+            <dcterms:identifier>pmid:21516396</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:21516396"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/21516396"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:title>Characterization and authentication of cancer cell lines: an overview</dcterms:title>
+            <bibo:pmid>21516396</bibo:pmid>
+            <bibo:volume>731</bibo:volume>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/3020539">
+            <dcterms:identifier>pmid:3020539</dcterms:identifier>
+            <dcterms:issued>1986</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/3020539"/>
+            <bibo:volume>83</bibo:volume>
+            <bibo:pageStart>7197</bibo:pageStart>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/3020539/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3020539/name/BWestermark">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                    <foaf:familyName>Westermark</foaf:familyName>
+                    <foaf:givenName>B</foaf:givenName>
+                    <foaf:name>B Westermark</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3020539/name/AJohnsson">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                    <foaf:familyName>Johnsson</foaf:familyName>
+                    <foaf:givenName>A</foaf:givenName>
+                    <foaf:name>A Johnsson</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3020539/name/YPaulsson">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                    <foaf:familyName>Paulsson</foaf:familyName>
+                    <foaf:givenName>Y</foaf:givenName>
+                    <foaf:name>Y Paulsson</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3020539/name/CBetsholtz">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                    <foaf:familyName>Betsholtz</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Betsholtz</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3020539/name/CHHeldin">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                    <foaf:familyName>Heldin</foaf:familyName>
+                    <foaf:givenName>CH</foaf:givenName>
+                    <foaf:name>CH Heldin</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:title>Human melanoma cell lines of primary and metastatic origin express the genes encoding the chains of platelet-derived growth factor (PDGF) and produce a PDGF-like growth factor</dcterms:title>
+            <bibo:pmid>3020539</bibo:pmid>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:3020539"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3020539"/>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/23901115">
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/23901115"/>
+                    <bibo:volume>110</bibo:volume>
+                    <bibo:pageStart>13481</bibo:pageStart>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/23901115/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23901115/name/JJGartner">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+                            <foaf:familyName>Gartner</foaf:familyName>
+                            <foaf:givenName>JJ</foaf:givenName>
+                            <foaf:name>JJ Gartner</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23901115/name/SCParker">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+                            <foaf:familyName>Parker</foaf:familyName>
+                            <foaf:givenName>SC</foaf:givenName>
+                            <foaf:name>SC Parker</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23901115/name/TDPrickett">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+                            <foaf:familyName>Prickett</foaf:familyName>
+                            <foaf:givenName>TD</foaf:givenName>
+                            <foaf:name>TD Prickett</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23901115/name/KDutton-Regester">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+                            <foaf:familyName>Dutton-Regester</foaf:familyName>
+                            <foaf:givenName>K</foaf:givenName>
+                            <foaf:name>K Dutton-Regester</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23901115/name/MLStitzel">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+                            <foaf:familyName>Stitzel</foaf:familyName>
+                            <foaf:givenName>ML</foaf:givenName>
+                            <foaf:name>ML Stitzel</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Gartner1"/>
+                    <dcterms:identifier>pmid:23901115</dcterms:identifier>
+                    <bibo:pmid>23901115</bibo:pmid>
+                    <dcterms:title>Whole-genome sequencing identifies a recurrent functional synonymous mutation in melanoma</dcterms:title>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/23901115"/>
+                    <dcterms:issued>2013</dcterms:issued>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/23901115"/>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:23901115"/>
+                    <bibo:pageEnd>13486</bibo:pageEnd>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/2602381">
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/2602381"/>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/2602381/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/2602381/name/JMLehmann">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/2602381"/>
+                            <foaf:familyName>Lehmann</foaf:familyName>
+                            <foaf:givenName>JM</foaf:givenName>
+                            <foaf:name>JM Lehmann</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/2602381/name/GRiethmuller">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/2602381"/>
+                            <foaf:familyName>Riethmuller</foaf:familyName>
+                            <foaf:givenName>G</foaf:givenName>
+                            <foaf:name>G Riethmuller</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/2602381/name/JPJohnson">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/2602381"/>
+                            <foaf:familyName>Johnson</foaf:familyName>
+                            <foaf:givenName>JP</foaf:givenName>
+                            <foaf:name>JP Johnson</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/2602381"/>
+                    <bibo:pageStart>9891</bibo:pageStart>
+                    <dcterms:issued>1989</dcterms:issued>
+                    <dcterms:identifier>pmid:2602381</dcterms:identifier>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lehmann1"/>
+                    <bibo:pmid>2602381</bibo:pmid>
+                    <bibo:pageEnd>9895</bibo:pageEnd>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                    <bibo:volume>86</bibo:volume>
+                    <dcterms:title>MUC18, a marker of tumor progression in human melanoma, shows sequence similarity to the neural cell adhesion molecules of the immunoglobulin superfamily</dcterms:title>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:2602381"/>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/2602381"/>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:title>Proc Natl Acad Sci U S A</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageEnd>7200</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/3020539"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/3020539"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Westermark1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <dcterms:description>research-article</dcterms:description>
+        <bibo:pmid>24475287</bibo:pmid>
+        <prov:generatedAtTime>18-05-2017 11:54:15</prov:generatedAtTime>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/23623661">
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lu1"/>
+            <bibo:volume>23</bibo:volume>
+            <dcterms:title>Restoring p53 function in human melanoma cells by inhibiting MDM2 and cyclin B1/CDK1-phosphorylated nuclear iASPP</dcterms:title>
+            <bibo:pageEnd>633</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:23623661"/>
+            <dcterms:issued>2013</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/23623661"/>
+            <bibo:pmid>23623661</bibo:pmid>
+            <dcterms:identifier>pmid:23623661</dcterms:identifier>
+            <bibo:pageStart>618</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/23623661"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/CancerCell">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                <dcterms:title>Cancer Cell</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/23623661"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/23623661/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23623661/name/MLu">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                    <foaf:familyName>Lu</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Lu</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23623661/name/HBreyssens">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                    <foaf:familyName>Breyssens</foaf:familyName>
+                    <foaf:givenName>H</foaf:givenName>
+                    <foaf:name>H Breyssens</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23623661/name/VSalter">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                    <foaf:familyName>Salter</foaf:familyName>
+                    <foaf:givenName>V</foaf:givenName>
+                    <foaf:name>V Salter</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23623661/name/SZhong">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                    <foaf:familyName>Zhong</foaf:familyName>
+                    <foaf:givenName>S</foaf:givenName>
+                    <foaf:name>S Zhong</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23623661/name/YHu">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23623661"/>
+                    <foaf:familyName>Hu</foaf:familyName>
+                    <foaf:givenName>Y</foaf:givenName>
+                    <foaf:name>Y Hu</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/9462258">
+            <dcterms:issued>1997</dcterms:issued>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/9462258"/>
+            <dcterms:identifier>pmid:9462258</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:9462258"/>
+            <bibo:volume>50</bibo:volume>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/9462258"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/9462258"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/9462258/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9462258/name/PJvan-Diest">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                    <foaf:familyName>van Diest</foaf:familyName>
+                    <foaf:givenName>PJ</foaf:givenName>
+                    <foaf:name>PJ van Diest</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9462258/name/Pvan-Dam">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                    <foaf:familyName>van Dam</foaf:familyName>
+                    <foaf:givenName>P</foaf:givenName>
+                    <foaf:name>P van Dam</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9462258/name/SCHenzen-Logmans">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                    <foaf:familyName>Henzen-Logmans</foaf:familyName>
+                    <foaf:givenName>SC</foaf:givenName>
+                    <foaf:name>SC Henzen-Logmans</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9462258/name/EBerns">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                    <foaf:familyName>Berns</foaf:familyName>
+                    <foaf:givenName>E</foaf:givenName>
+                    <foaf:name>E Berns</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9462258/name/MEvan-der-Burg">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                    <foaf:familyName>van der Burg</foaf:familyName>
+                    <foaf:givenName>ME</foaf:givenName>
+                    <foaf:name>ME van der Burg</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JClinPathol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9462258"/>
+                <dcterms:title>J Clin Pathol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-vanDiest1"/>
+            <bibo:pageEnd>804</bibo:pageEnd>
+            <bibo:pageStart>801</bibo:pageStart>
+            <dcterms:title>A scoring system for immunohistochemical staining: consensus report of the task force for basic research of the EORTC-GCCG. European Organization for Research and Treatment of Cancer-Gynaecological Cancer Cooperative Group</dcterms:title>
+            <bibo:pmid>9462258</bibo:pmid>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/24475287"/>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3903882"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/17210701">
+            <dcterms:issued>2007</dcterms:issued>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/CancerRes">
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11606406">
+                    <dcterms:issued>2001</dcterms:issued>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11606406"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/CancerRes"/>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11606406"/>
+                    <dcterms:title>HDM2 protein overexpression, but not gene amplification, is related to tumorigenesis of cutaneous melanoma</dcterms:title>
+                    <bibo:volume>61</bibo:volume>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/11606406/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11606406/name/DPolsky">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+                            <foaf:familyName>Polsky</foaf:familyName>
+                            <foaf:givenName>D</foaf:givenName>
+                            <foaf:name>D Polsky</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11606406/name/BCBastian">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+                            <foaf:familyName>Bastian</foaf:familyName>
+                            <foaf:givenName>BC</foaf:givenName>
+                            <foaf:name>BC Bastian</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11606406/name/CHazan">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+                            <foaf:familyName>Hazan</foaf:familyName>
+                            <foaf:givenName>C</foaf:givenName>
+                            <foaf:name>C Hazan</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11606406/name/KMelzer">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+                            <foaf:familyName>Melzer</foaf:familyName>
+                            <foaf:givenName>K</foaf:givenName>
+                            <foaf:name>K Melzer</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11606406/name/JPack">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+                            <foaf:familyName>Pack</foaf:familyName>
+                            <foaf:givenName>J</foaf:givenName>
+                            <foaf:name>J Pack</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11606406"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <dcterms:identifier>pmid:11606406</dcterms:identifier>
+                    <bibo:pageStart>7642</bibo:pageStart>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11606406"/>
+                    <bibo:pmid>11606406</bibo:pmid>
+                    <bibo:pageEnd>7646</bibo:pageEnd>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Polsky1"/>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/17145881">
+                    <bibo:pageStart>11348</bibo:pageStart>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/CancerRes"/>
+                    <dcterms:title>A novel BH3 mimetic reveals a mitogen-activated protein kinase-dependent mechanism of melanoma cell death controlled by p53 and reactive oxygen species</dcterms:title>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/17145881"/>
+                    <bibo:pageEnd>11359</bibo:pageEnd>
+                    <bibo:pmid>17145881</bibo:pmid>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:17145881"/>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/17145881/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17145881/name/MVerhaegen">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+                            <foaf:familyName>Verhaegen</foaf:familyName>
+                            <foaf:givenName>M</foaf:givenName>
+                            <foaf:name>M Verhaegen</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17145881/name/JABauer">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+                            <foaf:familyName>Bauer</foaf:familyName>
+                            <foaf:givenName>JA</foaf:givenName>
+                            <foaf:name>JA Bauer</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17145881/name/CMartin-de-la-Vega">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+                            <foaf:familyName>Martin de la Vega</foaf:familyName>
+                            <foaf:givenName>C</foaf:givenName>
+                            <foaf:name>C Martin de la Vega</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17145881/name/GWang">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+                            <foaf:familyName>Wang</foaf:familyName>
+                            <foaf:givenName>G</foaf:givenName>
+                            <foaf:name>G Wang</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17145881/name/KGWolter">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+                            <foaf:familyName>Wolter</foaf:familyName>
+                            <foaf:givenName>KG</foaf:givenName>
+                            <foaf:name>KG Wolter</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <bibo:volume>66</bibo:volume>
+                    <dcterms:issued>2006</dcterms:issued>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Verhaegen1"/>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17145881"/>
+                    <dcterms:identifier>pmid:17145881</dcterms:identifier>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/17145881"/>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12543800">
+                    <dcterms:identifier>pmid:12543800</dcterms:identifier>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <bibo:pageStart>441</bibo:pageStart>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12543800"/>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Takeuchi1"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/CancerRes"/>
+                    <bibo:pmid>12543800</bibo:pmid>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/12543800/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12543800/name/HTakeuchi">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+                            <foaf:familyName>Takeuchi</foaf:familyName>
+                            <foaf:givenName>H</foaf:givenName>
+                            <foaf:name>H Takeuchi</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12543800/name/CKuo">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+                            <foaf:familyName>Kuo</foaf:familyName>
+                            <foaf:givenName>C</foaf:givenName>
+                            <foaf:name>C Kuo</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12543800/name/DLMorton">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+                            <foaf:familyName>Morton</foaf:familyName>
+                            <foaf:givenName>DL</foaf:givenName>
+                            <foaf:name>DL Morton</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12543800/name/HJWang">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+                            <foaf:familyName>Wang</foaf:familyName>
+                            <foaf:givenName>HJ</foaf:givenName>
+                            <foaf:name>HJ Wang</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12543800/name/DSHoon">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+                            <foaf:familyName>Hoon</foaf:familyName>
+                            <foaf:givenName>DS</foaf:givenName>
+                            <foaf:name>DS Hoon</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <bibo:volume>63</bibo:volume>
+                    <bibo:pageEnd>448</bibo:pageEnd>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12543800"/>
+                    <dcterms:issued>2003</dcterms:issued>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12543800"/>
+                    <dcterms:title>Expression of differentiation melanoma-associated antigen genes is associated with favorable disease outcome in advanced-stage melanomas</dcterms:title>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12543800"/>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                <dcterms:title>Cancer Res</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:identifier>pmid:17210701</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/17210701"/>
+            <bibo:pageStart>209</bibo:pageStart>
+            <bibo:pmid>17210701</bibo:pmid>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/17210701"/>
+            <dcterms:title>An organometallic protein kinase inhibitor pharmacologically activates p53 and induces apoptosis in human melanoma cells</dcterms:title>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/17210701/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17210701/name/KSSmalley">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                    <foaf:familyName>Smalley</foaf:familyName>
+                    <foaf:givenName>KS</foaf:givenName>
+                    <foaf:name>KS Smalley</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17210701/name/RContractor">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                    <foaf:familyName>Contractor</foaf:familyName>
+                    <foaf:givenName>R</foaf:givenName>
+                    <foaf:name>R Contractor</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17210701/name/NKHaass">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                    <foaf:familyName>Haass</foaf:familyName>
+                    <foaf:givenName>NK</foaf:givenName>
+                    <foaf:name>NK Haass</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17210701/name/ANKulp">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                    <foaf:familyName>Kulp</foaf:familyName>
+                    <foaf:givenName>AN</foaf:givenName>
+                    <foaf:name>AN Kulp</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/17210701/name/GEAtilla-Gokcumen">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17210701"/>
+                    <foaf:familyName>Atilla-Gokcumen</foaf:familyName>
+                    <foaf:givenName>GE</foaf:givenName>
+                    <foaf:name>GE Atilla-Gokcumen</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:17210701"/>
+            <bibo:pageEnd>217</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Smalley1"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17210701"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:volume>67</bibo:volume>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <dcterms:title>p53 Regulation by TRP2 Is Not Pervasive in Melanoma</dcterms:title>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23901115"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/3903882/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/RHouben">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Houben</foaf:familyName>
+                <foaf:givenName>Roland</foaf:givenName>
+                <foaf:name>Roland Houben</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/CPSchmid">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Schmid</foaf:familyName>
+                <foaf:givenName>Corinna P.</foaf:givenName>
+                <foaf:name>Corinna P. Schmid</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/MMaier">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Maier</foaf:familyName>
+                <foaf:givenName>Melissa</foaf:givenName>
+                <foaf:name>Melissa Maier</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/MWobser">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Wobser</foaf:familyName>
+                <foaf:givenName>Marion</foaf:givenName>
+                <foaf:name>Marion Wobser</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/SMotschenbacher">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Motschenbacher</foaf:familyName>
+                <foaf:givenName>Stephanie</foaf:givenName>
+                <foaf:name>Stephanie Motschenbacher</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/J-CBecker">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Becker</foaf:familyName>
+                <foaf:givenName>Jürgen C.</foaf:givenName>
+                <foaf:name>Jürgen C. Becker</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/CSVetter-Kauczok">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Vetter-Kauczok</foaf:familyName>
+                <foaf:givenName>Claudia S.</foaf:givenName>
+                <foaf:name>Claudia S. Vetter-Kauczok</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/GWeyandt">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Weyandt</foaf:familyName>
+                <foaf:givenName>Gerhard</foaf:givenName>
+                <foaf:name>Gerhard Weyandt</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/SHesbacher">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Hesbacher</foaf:familyName>
+                <foaf:givenName>Sonja</foaf:givenName>
+                <foaf:name>Sonja Hesbacher</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/3903882/name/SHaferkamp">
+                <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                <foaf:familyName>Haferkamp</foaf:familyName>
+                <foaf:givenName>Sebastian</foaf:givenName>
+                <foaf:name>Sebastian Haferkamp</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12543800"/>
+        <dcterms:created>18-05-2017 11:54:15</dcterms:created>
+        <dcterms:isPartOf>
+          <bibo:Issue rdf:about="http://linkingdata.io/issue/journal_resource/issn:1932-6203/issue_1">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/issn/1932-6203">
+                <dcterms:publisher>
+                  <foaf:Organization rdf:about="http://linkingdata.io/publisher/pmc_internal_id/PONE-D-13-39681">
+                    <dcterms:identifier>PONE-D-13-39681</dcterms:identifier>
+                    <foaf:name>Public Library of Science</foaf:name>
+                  </foaf:Organization>
+                </dcterms:publisher>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/issue/journal_resource/issn:1932-6203/issue_1"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/nlmcatalog?term=1932-6203"/>
+                <bibo:issn>1932-6203</bibo:issn>
+                <dcterms:title>PLoS ONE</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:issue>1</bibo:issue>
+          </bibo:Issue>
+        </dcterms:isPartOf>
+        <dcterms:identifier>pmid:24475287</dcterms:identifier>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/1976385">
+            <bibo:pmid>1976385</bibo:pmid>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:1976385"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/1976385"/>
+            <bibo:pageStart>276</bibo:pageStart>
+            <bibo:pageEnd>285</bibo:pageEnd>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/1976385"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/1976385"/>
+            <dcterms:title>Regulation of mammalian melanogenesis. II: The role of metal cations</dcterms:title>
+            <dcterms:identifier>pmid:1976385</dcterms:identifier>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/BiochimBiophysActa">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                <dcterms:title>Biochim Biophys Acta</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/1976385/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1976385/name/JRJara">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                    <foaf:familyName>Jara</foaf:familyName>
+                    <foaf:givenName>JR</foaf:givenName>
+                    <foaf:name>JR Jara</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1976385/name/FSolano">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                    <foaf:familyName>Solano</foaf:familyName>
+                    <foaf:givenName>F</foaf:givenName>
+                    <foaf:name>F Solano</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1976385/name/JCGarcia-Borron">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                    <foaf:familyName>Garcia-Borron</foaf:familyName>
+                    <foaf:givenName>JC</foaf:givenName>
+                    <foaf:name>JC Garcia-Borron</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1976385/name/PAroca">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                    <foaf:familyName>Aroca</foaf:familyName>
+                    <foaf:givenName>P</foaf:givenName>
+                    <foaf:name>P Aroca</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1976385/name/JALozano">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1976385"/>
+                    <foaf:familyName>Lozano</foaf:familyName>
+                    <foaf:givenName>JA</foaf:givenName>
+                    <foaf:name>JA Lozano</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:volume>1035</bibo:volume>
+            <dcterms:issued>1990</dcterms:issued>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Jara1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <dcterms:identifier>pmc:3903882</dcterms:identifier>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/2602381"/>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11606406"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/16857183">
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Jiao1"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:16857183"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/DevBiol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                <dcterms:title>Dev Biol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/16857183"/>
+            <bibo:pageEnd>408</bibo:pageEnd>
+            <bibo:pageStart>396</bibo:pageStart>
+            <dcterms:issued>2006</dcterms:issued>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/16857183/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16857183/name/ZJiao">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                    <foaf:familyName>Jiao</foaf:familyName>
+                    <foaf:givenName>Z</foaf:givenName>
+                    <foaf:name>Z Jiao</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16857183/name/ZGZhang">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                    <foaf:familyName>Zhang</foaf:familyName>
+                    <foaf:givenName>ZG</foaf:givenName>
+                    <foaf:name>ZG Zhang</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16857183/name/TJHornyak">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                    <foaf:familyName>Hornyak</foaf:familyName>
+                    <foaf:givenName>TJ</foaf:givenName>
+                    <foaf:name>TJ Hornyak</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16857183/name/AHozeska">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                    <foaf:familyName>Hozeska</foaf:familyName>
+                    <foaf:givenName>A</foaf:givenName>
+                    <foaf:name>A Hozeska</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16857183/name/RLZhang">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16857183"/>
+                    <foaf:familyName>Zhang</foaf:familyName>
+                    <foaf:givenName>RL</foaf:givenName>
+                    <foaf:name>RL Zhang</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16857183"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/16857183"/>
+            <dcterms:title>Dopachrome tautomerase (Dct) regulates neural progenitor cell proliferation</dcterms:title>
+            <bibo:pmid>16857183</bibo:pmid>
+            <bibo:volume>296</bibo:volume>
+            <dcterms:identifier>pmid:16857183</dcterms:identifier>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben2">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/16682560">
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:16682560"/>
+            <bibo:pmid>16682560</bibo:pmid>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/16682560"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/16682560/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16682560/name/ALJackson">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                    <foaf:familyName>Jackson</foaf:familyName>
+                    <foaf:givenName>AL</foaf:givenName>
+                    <foaf:name>AL Jackson</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16682560/name/JBurchard">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                    <foaf:familyName>Burchard</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Burchard</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16682560/name/JSchelter">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                    <foaf:familyName>Schelter</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Schelter</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16682560/name/BNChau">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                    <foaf:familyName>Chau</foaf:familyName>
+                    <foaf:givenName>BN</foaf:givenName>
+                    <foaf:name>BN Chau</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16682560/name/MCleary">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                    <foaf:familyName>Cleary</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Cleary</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Rna">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16682560"/>
+                <dcterms:title>Rna</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:title>Widespread siRNA “off-target” transcript silencing mediated by seed region sequence complementarity</dcterms:title>
+            <bibo:pageEnd>1187</bibo:pageEnd>
+            <bibo:pageStart>1179</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Jackson1"/>
+            <dcterms:identifier>pmid:16682560</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16682560"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/16682560"/>
+            <bibo:volume>12</bibo:volume>
+            <dcterms:issued>2006</dcterms:issued>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/9662379">
+            <dcterms:issued>1998</dcterms:issued>
+            <dcterms:identifier>pmid:9662379</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/9662379"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/9662379"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/9662379"/>
+            <dcterms:title>Tissue microarrays for high-throughput molecular profiling of tumor specimens</dcterms:title>
+            <bibo:pageStart>844</bibo:pageStart>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pageEnd>847</bibo:pageEnd>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NatMed">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                <dcterms:title>Nat Med</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:9662379"/>
+            <bibo:volume>4</bibo:volume>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/9662379/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9662379/name/JKononen">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                    <foaf:familyName>Kononen</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Kononen</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9662379/name/LBubendorf">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                    <foaf:familyName>Bubendorf</foaf:familyName>
+                    <foaf:givenName>L</foaf:givenName>
+                    <foaf:name>L Bubendorf</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9662379/name/AKallioniemi">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                    <foaf:familyName>Kallioniemi</foaf:familyName>
+                    <foaf:givenName>A</foaf:givenName>
+                    <foaf:name>A Kallioniemi</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9662379/name/MBarlund">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                    <foaf:familyName>Barlund</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Barlund</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9662379/name/PSchraml">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9662379"/>
+                    <foaf:familyName>Schraml</foaf:familyName>
+                    <foaf:givenName>P</foaf:givenName>
+                    <foaf:name>P Schraml</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:pmid>9662379</bibo:pmid>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Kononen1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/14712208">
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:14712208"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/14712208/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14712208/name/BJPak">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                    <foaf:familyName>Pak</foaf:familyName>
+                    <foaf:givenName>BJ</foaf:givenName>
+                    <foaf:name>BJ Pak</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14712208/name/JLee">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                    <foaf:familyName>Lee</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Lee</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14712208/name/BLThai">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                    <foaf:familyName>Thai</foaf:familyName>
+                    <foaf:givenName>BL</foaf:givenName>
+                    <foaf:name>BL Thai</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14712208/name/SYFuchs">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                    <foaf:familyName>Fuchs</foaf:familyName>
+                    <foaf:givenName>SY</foaf:givenName>
+                    <foaf:name>SY Fuchs</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14712208/name/YShaked">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                    <foaf:familyName>Shaked</foaf:familyName>
+                    <foaf:givenName>Y</foaf:givenName>
+                    <foaf:name>Y Shaked</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/14712208"/>
+            <bibo:pmid>14712208</bibo:pmid>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Oncogene">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14712208"/>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15195137">
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/15195137/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15195137/name/MDaniotti">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+                            <foaf:familyName>Daniotti</foaf:familyName>
+                            <foaf:givenName>M</foaf:givenName>
+                            <foaf:name>M Daniotti</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15195137/name/MOggionni">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+                            <foaf:familyName>Oggionni</foaf:familyName>
+                            <foaf:givenName>M</foaf:givenName>
+                            <foaf:name>M Oggionni</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15195137/name/TRanzani">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+                            <foaf:familyName>Ranzani</foaf:familyName>
+                            <foaf:givenName>T</foaf:givenName>
+                            <foaf:name>T Ranzani</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15195137/name/VVallacchi">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+                            <foaf:familyName>Vallacchi</foaf:familyName>
+                            <foaf:givenName>V</foaf:givenName>
+                            <foaf:name>V Vallacchi</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15195137/name/VCampi">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+                            <foaf:familyName>Campi</foaf:familyName>
+                            <foaf:givenName>V</foaf:givenName>
+                            <foaf:name>V Campi</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <bibo:pageEnd>5977</bibo:pageEnd>
+                    <bibo:volume>23</bibo:volume>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15195137"/>
+                    <bibo:pageStart>5968</bibo:pageStart>
+                    <dcterms:title>BRAF alterations are associated with complex mutational profiles in malignant melanoma</dcterms:title>
+                    <dcterms:identifier>pmid:15195137</dcterms:identifier>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15195137"/>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15195137"/>
+                    <bibo:pmid>15195137</bibo:pmid>
+                    <dcterms:issued>2004</dcterms:issued>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Daniotti1"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/Oncogene"/>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15195137"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:title>Oncogene</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:title>Radiation resistance of human melanoma analysed by retroviral insertional mutagenesis reveals a possible role for dopachrome tautomerase</dcterms:title>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/14712208"/>
+            <bibo:pageEnd>38</bibo:pageEnd>
+            <bibo:pageStart>30</bibo:pageStart>
+            <bibo:volume>23</bibo:volume>
+            <dcterms:issued>2004</dcterms:issued>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Pak1"/>
+            <dcterms:identifier>pmid:14712208</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/14712208"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/14618632">
+            <dcterms:title>Alterations of DeltaTA-p 73 splice transcripts during melanoma development and progression</dcterms:title>
+            <bibo:pmid>14618632</bibo:pmid>
+            <bibo:volume>108</bibo:volume>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Tuve1"/>
+            <dcterms:identifier>pmid:14618632</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/14618632"/>
+            <bibo:pageStart>162</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/14618632"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:14618632"/>
+            <dcterms:issued>2004</dcterms:issued>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/IntJCancer">
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/21413015">
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21413015"/>
+                    <bibo:pmid>21413015</bibo:pmid>
+                    <dcterms:title>An intact retinoblastoma protein-binding site in Merkel cell polyomavirus large T antigen is required for promoting growth of Merkel cell carcinoma cells</dcterms:title>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <bibo:volume>130</bibo:volume>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:21413015"/>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/21413015/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21413015/name/RHouben">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+                            <foaf:familyName>Houben</foaf:familyName>
+                            <foaf:givenName>R</foaf:givenName>
+                            <foaf:name>R Houben</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21413015/name/CAdam">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+                            <foaf:familyName>Adam</foaf:familyName>
+                            <foaf:givenName>C</foaf:givenName>
+                            <foaf:name>C Adam</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21413015/name/ABaeurle">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+                            <foaf:familyName>Baeurle</foaf:familyName>
+                            <foaf:givenName>A</foaf:givenName>
+                            <foaf:name>A Baeurle</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21413015/name/SHesbacher">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+                            <foaf:familyName>Hesbacher</foaf:familyName>
+                            <foaf:givenName>S</foaf:givenName>
+                            <foaf:name>S Hesbacher</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21413015/name/JGrimm">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+                            <foaf:familyName>Grimm</foaf:familyName>
+                            <foaf:givenName>J</foaf:givenName>
+                            <foaf:name>J Grimm</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/21413015"/>
+                    <bibo:pageStart>847</bibo:pageStart>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben4"/>
+                    <bibo:pageEnd>856</bibo:pageEnd>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/21413015"/>
+                    <dcterms:issued>2012</dcterms:issued>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/IntJCancer"/>
+                    <dcterms:identifier>pmid:21413015</dcterms:identifier>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/8104906">
+                    <dcterms:title>Lack of allelic deletion and point mutation as mechanisms of p53 activation in human malignant melanoma</dcterms:title>
+                    <dcterms:issued>1993</dcterms:issued>
+                    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:8104906"/>
+                    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/8104906"/>
+                    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/8104906"/>
+                    <dcterms:identifier>pmid:8104906</dcterms:identifier>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/IntJCancer"/>
+                    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/8104906"/>
+                    <bibo:pageStart>562</bibo:pageStart>
+                    <bibo:volume>55</bibo:volume>
+                    <bibo:pmid>8104906</bibo:pmid>
+                    <bibo:pageEnd>565</bibo:pageEnd>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Castresana1"/>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/8104906/list1">
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8104906/name/JSCastresana">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+                            <foaf:familyName>Castresana</foaf:familyName>
+                            <foaf:givenName>JS</foaf:givenName>
+                            <foaf:name>JS Castresana</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8104906/name/MPRubio">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+                            <foaf:familyName>Rubio</foaf:familyName>
+                            <foaf:givenName>MP</foaf:givenName>
+                            <foaf:name>MP Rubio</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8104906/name/JJVazquez">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+                            <foaf:familyName>Vazquez</foaf:familyName>
+                            <foaf:givenName>JJ</foaf:givenName>
+                            <foaf:name>JJ Vazquez</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8104906/name/MIdoate">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+                            <foaf:familyName>Idoate</foaf:familyName>
+                            <foaf:givenName>M</foaf:givenName>
+                            <foaf:name>M Idoate</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                        <rdf:li>
+                          <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8104906/name/AJSober">
+                            <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+                            <foaf:familyName>Sober</foaf:familyName>
+                            <foaf:givenName>AJ</foaf:givenName>
+                            <foaf:name>AJ Sober</foaf:name>
+                          </foaf:Person>
+                        </rdf:li>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                  </bibo:AcademicArticle>
+                </dcterms:hasPart>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14618632"/>
+                <dcterms:title>Int J Cancer</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/14618632/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14618632/name/STuve">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14618632"/>
+                    <foaf:familyName>Tuve</foaf:familyName>
+                    <foaf:givenName>S</foaf:givenName>
+                    <foaf:name>S Tuve</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14618632/name/SNWagner">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14618632"/>
+                    <foaf:familyName>Wagner</foaf:familyName>
+                    <foaf:givenName>SN</foaf:givenName>
+                    <foaf:name>SN Wagner</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14618632/name/BSchittek">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14618632"/>
+                    <foaf:familyName>Schittek</foaf:familyName>
+                    <foaf:givenName>B</foaf:givenName>
+                    <foaf:name>B Schittek</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14618632/name/BMPutzer">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14618632"/>
+                    <foaf:familyName>Putzer</foaf:familyName>
+                    <foaf:givenName>BM</foaf:givenName>
+                    <foaf:name>BM Putzer</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/14618632"/>
+            <bibo:pageEnd>166</bibo:pageEnd>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/1752358">
+            <bibo:pageEnd>2909</bibo:pageEnd>
+            <dcterms:title>Enzymatic control of pigmentation in mammals</dcterms:title>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/FasebJ">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1752358"/>
+                <dcterms:title>Faseb J</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:volume>5</bibo:volume>
+            <dcterms:issued>1991</dcterms:issued>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/1752358/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1752358/name/VJHearing">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1752358"/>
+                    <foaf:familyName>Hearing</foaf:familyName>
+                    <foaf:givenName>VJ</foaf:givenName>
+                    <foaf:name>VJ Hearing</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1752358/name/KTsukamoto">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1752358"/>
+                    <foaf:familyName>Tsukamoto</foaf:familyName>
+                    <foaf:givenName>K</foaf:givenName>
+                    <foaf:name>K Tsukamoto</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pageStart>2902</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Hearing1"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/1752358"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/1752358"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/1752358"/>
+            <bibo:pmid>1752358</bibo:pmid>
+            <dcterms:identifier>pmid:1752358</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:1752358"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <prov:wasAttributedTo rdf:resource="http://biotea.github.io/agent/biotea_serializer"/>
+        <sio:SIO_001278 rdf:resource="http://linkingdata.io/linkingdata_dataset/linkingdata-pmc-March2017"/>
+        <dcterms:issued>2014</dcterms:issued>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12526791">
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Nikolaev1"/>
+            <dcterms:identifier>pmid:12526791</dcterms:identifier>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pmid>12526791</bibo:pmid>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Cell">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                <dcterms:title>Cell</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageStart>29</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12526791"/>
+            <dcterms:issued>2003</dcterms:issued>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12526791"/>
+            <bibo:volume>112</bibo:volume>
+            <dcterms:title>Parc: a cytoplasmic anchor for p53</dcterms:title>
+            <bibo:pageEnd>40</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12526791"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/12526791/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12526791/name/AYNikolaev">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                    <foaf:familyName>Nikolaev</foaf:familyName>
+                    <foaf:givenName>AY</foaf:givenName>
+                    <foaf:name>AY Nikolaev</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12526791/name/MLi">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                    <foaf:familyName>Li</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Li</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12526791/name/NPuskas">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                    <foaf:familyName>Puskas</foaf:familyName>
+                    <foaf:givenName>N</foaf:givenName>
+                    <foaf:name>N Puskas</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12526791/name/JQin">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                    <foaf:familyName>Qin</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Qin</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12526791/name/WGu">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12526791"/>
+                    <foaf:familyName>Gu</foaf:familyName>
+                    <foaf:givenName>W</foaf:givenName>
+                    <foaf:name>W Gu</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12526791"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Gembarska1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:creator rdf:resource="http://biotea.github.io/agent/biotea_serializer"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/19118578">
+            <bibo:volume>157</bibo:volume>
+            <dcterms:title>Advantages of COS-1 monkey kidney epithelial cells as packaging host for small-volume production of high-quality recombinant lentiviruses</dcterms:title>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/19118578/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/19118578/name/SLSmith">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/19118578"/>
+                    <foaf:familyName>Smith</foaf:familyName>
+                    <foaf:givenName>SL</foaf:givenName>
+                    <foaf:name>SL Smith</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/19118578/name/TShioda">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/19118578"/>
+                    <foaf:familyName>Shioda</foaf:familyName>
+                    <foaf:givenName>T</foaf:givenName>
+                    <foaf:name>T Shioda</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JVirolMethods">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/19118578"/>
+                <dcterms:title>J Virol Methods</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageStart>47</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:19118578"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/19118578"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Smith1"/>
+            <dcterms:identifier>pmid:19118578</dcterms:identifier>
+            <dcterms:issued>2009</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/19118578"/>
+            <bibo:pmid>19118578</bibo:pmid>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/19118578"/>
+            <bibo:pageEnd>54</bibo:pageEnd>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/22241441">
+            <bibo:volume>132</bibo:volume>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22241441"/>
+            <dcterms:issued>2012</dcterms:issued>
+            <dcterms:identifier>pmid:22241441</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/22241441"/>
+            <bibo:pmid>22241441</bibo:pmid>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JInvestDermatol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/22241441"/>
+                <dcterms:title>J Invest Dermatol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageEnd>265</bibo:pageEnd>
+            <bibo:pageStart>263</bibo:pageStart>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/22241441/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/22241441/name/JTLee">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/22241441"/>
+                    <foaf:familyName>Lee</foaf:familyName>
+                    <foaf:givenName>JT</foaf:givenName>
+                    <foaf:name>JT Lee</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/22241441/name/MHerlyn">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/22241441"/>
+                    <foaf:familyName>Herlyn</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Herlyn</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/22241441"/>
+            <dcterms:title>MEK'ing the most of p53 reactivation therapy in melanoma</dcterms:title>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:22241441"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lee1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <owl:sameAs rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/24475287"/>
+        <owl:sameAs rdf:resource="http://linkedlifedata.com/resource/pubmed/id/24475287"/>
+        <bibo:volume>9</bibo:volume>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15195137"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/20975744">
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20975744"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/20975744/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20975744/name/CFCheok">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20975744"/>
+                    <foaf:familyName>Cheok</foaf:familyName>
+                    <foaf:givenName>CF</foaf:givenName>
+                    <foaf:name>CF Cheok</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20975744/name/CSVerma">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20975744"/>
+                    <foaf:familyName>Verma</foaf:familyName>
+                    <foaf:givenName>CS</foaf:givenName>
+                    <foaf:name>CS Verma</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20975744/name/JBaselga">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20975744"/>
+                    <foaf:familyName>Baselga</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Baselga</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20975744/name/DPLane">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20975744"/>
+                    <foaf:familyName>Lane</foaf:familyName>
+                    <foaf:givenName>DP</foaf:givenName>
+                    <foaf:name>DP Lane</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:identifier>pmid:20975744</dcterms:identifier>
+            <bibo:pageStart>25</bibo:pageStart>
+            <bibo:volume>8</bibo:volume>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/20975744"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NatRevClinOncol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20975744"/>
+                <dcterms:title>Nat Rev Clin Oncol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:issued>2011</dcterms:issued>
+            <dcterms:title>Translating p53 into the clinic</dcterms:title>
+            <bibo:pmid>20975744</bibo:pmid>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:20975744"/>
+            <bibo:pageEnd>37</bibo:pageEnd>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Cheok1"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/20975744"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21413015"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/20137059">
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:20137059"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/20137059"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:title>Multicentre study on standardisation of melanoma cell culture—an initiative of the German Melanoma Research Network</dcterms:title>
+            <bibo:volume>23</bibo:volume>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/PigmentCellMelanomaRes">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                <dcterms:title>Pigment Cell Melanoma Res</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:pageStart>296</bibo:pageStart>
+            <bibo:pmid>20137059</bibo:pmid>
+            <dcterms:identifier>pmid:20137059</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20137059"/>
+            <dcterms:issued>2010</dcterms:issued>
+            <bibo:pageEnd>298</bibo:pageEnd>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/20137059"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/20137059/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20137059/name/JEberle">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                    <foaf:familyName>Eberle</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Eberle</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20137059/name/BSpangler">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                    <foaf:familyName>Spangler</foaf:familyName>
+                    <foaf:givenName>B</foaf:givenName>
+                    <foaf:name>B Spangler</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20137059/name/JCBecker">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                    <foaf:familyName>Becker</foaf:familyName>
+                    <foaf:givenName>JC</foaf:givenName>
+                    <foaf:name>JC Becker</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20137059/name/SHHeinemann">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                    <foaf:familyName>Heinemann</foaf:familyName>
+                    <foaf:givenName>SH</foaf:givenName>
+                    <foaf:name>SH Heinemann</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20137059/name/CAKlein">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20137059"/>
+                    <foaf:familyName>Klein</foaf:familyName>
+                    <foaf:givenName>CA</foaf:givenName>
+                    <foaf:name>CA Klein</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Eberle1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/21760960">
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/21760960"/>
+            <dcterms:title>High-level expression of wild-type p53 in melanoma cells is frequently associated with inactivity in p53 reporter gene assays</dcterms:title>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:21760960"/>
+            <bibo:pageStart>e22096</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21760960"/>
+            <dcterms:identifier>pmid:21760960</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben1"/>
+            <bibo:pmid>21760960</bibo:pmid>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:volume>6</bibo:volume>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/21760960/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21760960/name/RHouben">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                    <foaf:familyName>Houben</foaf:familyName>
+                    <foaf:givenName>R</foaf:givenName>
+                    <foaf:name>R Houben</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21760960/name/SHesbacher">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                    <foaf:familyName>Hesbacher</foaf:familyName>
+                    <foaf:givenName>S</foaf:givenName>
+                    <foaf:name>S Hesbacher</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21760960/name/CPSchmid">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                    <foaf:familyName>Schmid</foaf:familyName>
+                    <foaf:givenName>CP</foaf:givenName>
+                    <foaf:name>CP Schmid</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21760960/name/CSKauczok">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                    <foaf:familyName>Kauczok</foaf:familyName>
+                    <foaf:givenName>CS</foaf:givenName>
+                    <foaf:name>CS Kauczok</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21760960/name/UFlohr">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                    <foaf:familyName>Flohr</foaf:familyName>
+                    <foaf:givenName>U</foaf:givenName>
+                    <foaf:name>U Flohr</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/21760960"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/PLoSOne">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21760960"/>
+                <dcterms:title>PLoS One</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:issued>2011</dcterms:issued>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <owl:sameAs rdf:resource="http://linkingdata.io/doidoc/doi/10.1371/journal.pone.0087440"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/8032216">
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/MelanomaRes">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                <dcterms:title>Melanoma Res</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/8032216"/>
+            <bibo:pmid>8032216</bibo:pmid>
+            <dcterms:identifier>pmid:8032216</dcterms:identifier>
+            <dcterms:title>Mutation and expression of the p53 gene in human malignant melanoma</dcterms:title>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/8032216"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Albino2"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:8032216"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:issued>1994</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/8032216"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/8032216/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8032216/name/APAlbino">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                    <foaf:familyName>Albino</foaf:familyName>
+                    <foaf:givenName>AP</foaf:givenName>
+                    <foaf:name>AP Albino</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8032216/name/MJVidal">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                    <foaf:familyName>Vidal</foaf:familyName>
+                    <foaf:givenName>MJ</foaf:givenName>
+                    <foaf:name>MJ Vidal</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8032216/name/NSMcNutt">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                    <foaf:familyName>McNutt</foaf:familyName>
+                    <foaf:givenName>NS</foaf:givenName>
+                    <foaf:name>NS McNutt</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8032216/name/CRShea">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                    <foaf:familyName>Shea</foaf:familyName>
+                    <foaf:givenName>CR</foaf:givenName>
+                    <foaf:name>CR Shea</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8032216/name/VGPrieto">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8032216"/>
+                    <foaf:familyName>Prieto</foaf:familyName>
+                    <foaf:givenName>VG</foaf:givenName>
+                    <foaf:name>VG Prieto</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:pageEnd>45</bibo:pageEnd>
+            <bibo:volume>4</bibo:volume>
+            <bibo:pageStart>35</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Albino1"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/3856042">
+            <dcterms:identifier>pmid:3856042</dcterms:identifier>
+            <bibo:pageEnd>289</bibo:pageEnd>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JNatlCancerInst">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                <dcterms:title>J Natl Cancer Inst</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:3856042"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/3856042/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3856042/name/MHerlyn">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                    <foaf:familyName>Herlyn</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Herlyn</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3856042/name/GBalaban">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                    <foaf:familyName>Balaban</foaf:familyName>
+                    <foaf:givenName>G</foaf:givenName>
+                    <foaf:name>G Balaban</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3856042/name/JBennicelli">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                    <foaf:familyName>Bennicelli</foaf:familyName>
+                    <foaf:givenName>J</foaf:givenName>
+                    <foaf:name>J Bennicelli</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3856042/name/DGuerry">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                    <foaf:familyName>Guerry</foaf:familyName>
+                    <foaf:givenName>Dt</foaf:givenName>
+                    <foaf:name>Dt Guerry</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/3856042/name/RHalaban">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/3856042"/>
+                    <foaf:familyName>Halaban</foaf:familyName>
+                    <foaf:givenName>R</foaf:givenName>
+                    <foaf:name>R Halaban</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pmid>3856042</bibo:pmid>
+            <bibo:volume>74</bibo:volume>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/3856042"/>
+            <dcterms:title>Primary melanoma cells of the vertical growth phase: similarities to metastatic cells</dcterms:title>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Herlyn1"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/3856042"/>
+            <bibo:pageStart>283</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/3856042"/>
+            <dcterms:issued>1985</dcterms:issued>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pmc:3903882"/>
+        <dcterms:publisher rdf:resource="http://linkingdata.io/publisher/pmc_internal_id/PONE-D-13-39681"/>
+        <bibo:abstract>p53 is a central tumor suppressor protein and its inhibition is believed to be a prerequisite for cancer development. In approximately 50% of all malignancies this is achieved by inactivating mutations in the p53 gene. However, in several cancer entities, including melanoma, p53 mutations are rare. It has been recently proposed that tyrosinase related protein 2 (TRP2), a protein involved in melanin synthesis, may act as suppressor of the p53 pathway in melanoma. To scrutinize this notion we analyzed p53 and TRP2 expression by immunohistochemistry in 172 melanoma tissues and did not find any correlation. Furthermore, we applied three different TRP2 shRNAs to five melanoma cell lines and could not observe a target specific effect of the TRP2 knockdown on either p53 expression nor p53 reporter gene activity. Likewise, ectopic expression of TRP2 in a TRP2 negative melanoma cell line had no impact on p53 expression. In conclusion our data suggest that p53 repression critically controlled by TRP2 is not a general event in melanoma.</bibo:abstract>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/20444890">
+            <bibo:pmid>20444890</bibo:pmid>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/20444890"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pageStart>7064</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:20444890"/>
+            <bibo:pageEnd>7072</bibo:pageEnd>
+            <dcterms:issued>2010</dcterms:issued>
+            <bibo:volume>84</bibo:volume>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JVirol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                <dcterms:title>J Virol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:identifier>pmid:20444890</dcterms:identifier>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/20444890"/>
+            <dcterms:title>Merkel cell polyomavirus-infected Merkel cell carcinoma cells require expression of viral T antigens</dcterms:title>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/20444890/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20444890/name/RHouben">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                    <foaf:familyName>Houben</foaf:familyName>
+                    <foaf:givenName>R</foaf:givenName>
+                    <foaf:name>R Houben</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20444890/name/MShuda">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                    <foaf:familyName>Shuda</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Shuda</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20444890/name/RWeinkam">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                    <foaf:familyName>Weinkam</foaf:familyName>
+                    <foaf:givenName>R</foaf:givenName>
+                    <foaf:name>R Weinkam</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20444890/name/DSchrama">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                    <foaf:familyName>Schrama</foaf:familyName>
+                    <foaf:givenName>D</foaf:givenName>
+                    <foaf:name>D Schrama</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20444890/name/HFeng">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20444890"/>
+                    <foaf:familyName>Feng</foaf:familyName>
+                    <foaf:givenName>H</foaf:givenName>
+                    <foaf:name>H Feng</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben3"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20444890"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8104906"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11584300">
+            <bibo:volume>2</bibo:volume>
+            <dcterms:issued>2001</dcterms:issued>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/11584300/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11584300/name/CJSherr">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11584300"/>
+                    <foaf:familyName>Sherr</foaf:familyName>
+                    <foaf:givenName>CJ</foaf:givenName>
+                    <foaf:name>CJ Sherr</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:title>The INK4a/ARF network in tumour suppression</dcterms:title>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pmid>11584300</bibo:pmid>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11584300"/>
+            <dcterms:identifier>pmid:11584300</dcterms:identifier>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NatRevMolCellBiol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11584300"/>
+                <dcterms:title>Nat Rev Mol Cell Biol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sherr1"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11584300"/>
+            <bibo:pageStart>731</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11584300"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11584300"/>
+            <bibo:pageEnd>737</bibo:pageEnd>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/17145881"/>
+        <bibo:doi>10.1371/journal.pone.0087440</bibo:doi>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11171088">
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11171088"/>
+            <bibo:pageStart>131</bibo:pageStart>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11171088"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/11171088/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11171088/name/COlivares">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                    <foaf:familyName>Olivares</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Olivares</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11171088/name/CJimenez-Cervantes">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                    <foaf:familyName>Jimenez-Cervantes</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Jimenez-Cervantes</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11171088/name/JALozano">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                    <foaf:familyName>Lozano</foaf:familyName>
+                    <foaf:givenName>JA</foaf:givenName>
+                    <foaf:name>JA Lozano</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11171088/name/FSolano">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                    <foaf:familyName>Solano</foaf:familyName>
+                    <foaf:givenName>F</foaf:givenName>
+                    <foaf:name>F Solano</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11171088/name/JCGarcia-Borron">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                    <foaf:familyName>Garcia-Borron</foaf:familyName>
+                    <foaf:givenName>JC</foaf:givenName>
+                    <foaf:name>JC Garcia-Borron</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:pmid>11171088</bibo:pmid>
+            <bibo:volume>354</bibo:volume>
+            <bibo:pageEnd>139</bibo:pageEnd>
+            <dcterms:issued>2001</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11171088"/>
+            <dcterms:identifier>pmid:11171088</dcterms:identifier>
+            <dcterms:title>The 5,6-dihydroxyindole-2-carboxylic acid (DHICA) oxidase activity of human tyrosinase</dcterms:title>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Olivares1"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/BiochemJ">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11171088"/>
+                <dcterms:title>Biochem J</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11171088"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/24475287"/>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/24475287"/>
+        <dcterms:identifier>doi:10.1371/journal.pone.0087440</dcterms:identifier>
+        <prov:wasDerivedFrom rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3903882"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11902578">
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NatRevCancer">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11902578"/>
+                <dcterms:title>Nat Rev Cancer</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:volume>1</bibo:volume>
+            <dcterms:issued>2001</dcterms:issued>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:pageStart>233</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11902578"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/11902578/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11902578/name/TSoussi">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11902578"/>
+                    <foaf:familyName>Soussi</foaf:familyName>
+                    <foaf:givenName>T</foaf:givenName>
+                    <foaf:name>T Soussi</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11902578/name/CBeroud">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11902578"/>
+                    <foaf:familyName>Beroud</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Beroud</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Soussi1"/>
+            <bibo:pageEnd>240</bibo:pageEnd>
+            <bibo:pmid>11902578</bibo:pmid>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11902578"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11902578"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11902578"/>
+            <dcterms:title>Assessing TP53 status in human tumours to evaluate clinical outcome</dcterms:title>
+            <dcterms:identifier>pmid:11902578</dcterms:identifier>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/9605119">
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/9605119"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:issued>1998</dcterms:issued>
+            <dcterms:identifier>pmid:9605119</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Bakker1"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/9605119"/>
+            <bibo:volume>160</bibo:volume>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/9605119/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9605119/name/ABBakker">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9605119"/>
+                    <foaf:familyName>Bakker</foaf:familyName>
+                    <foaf:givenName>AB</foaf:givenName>
+                    <foaf:name>AB Bakker</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9605119/name/JHPhillips">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9605119"/>
+                    <foaf:familyName>Phillips</foaf:familyName>
+                    <foaf:givenName>JH</foaf:givenName>
+                    <foaf:name>JH Phillips</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9605119/name/CGFigdor">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9605119"/>
+                    <foaf:familyName>Figdor</foaf:familyName>
+                    <foaf:givenName>CG</foaf:givenName>
+                    <foaf:name>CG Figdor</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9605119/name/LLLanier">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9605119"/>
+                    <foaf:familyName>Lanier</foaf:familyName>
+                    <foaf:givenName>LL</foaf:givenName>
+                    <foaf:name>LL Lanier</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:pageEnd>5245</bibo:pageEnd>
+            <bibo:pageStart>5239</bibo:pageStart>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:9605119"/>
+            <bibo:pmid>9605119</bibo:pmid>
+            <dcterms:title>Killer cell inhibitory receptors for MHC class I molecules regulate lysis of melanoma cells mediated by NK cells, gamma delta T cells, and antigen-specific CTL</dcterms:title>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/9605119"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JImmunol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1684377"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9605119"/>
+                <dcterms:title>J Immunol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/20520707">
+            <dcterms:title>HIF-1 antagonizes p53-mediated apoptosis through a secreted neuronal tyrosinase</dcterms:title>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:20520707"/>
+            <bibo:pageStart>577</bibo:pageStart>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:issued>2010</dcterms:issued>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20520707"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Nature">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                <dcterms:title>Nature</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <dcterms:identifier>pmid:20520707</dcterms:identifier>
+            <bibo:volume>465</bibo:volume>
+            <bibo:pageEnd>583</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sendoel1"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/20520707"/>
+            <bibo:pmid>20520707</bibo:pmid>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/20520707/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20520707/name/ASendoel">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                    <foaf:familyName>Sendoel</foaf:familyName>
+                    <foaf:givenName>A</foaf:givenName>
+                    <foaf:name>A Sendoel</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20520707/name/IKohler">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                    <foaf:familyName>Kohler</foaf:familyName>
+                    <foaf:givenName>I</foaf:givenName>
+                    <foaf:name>I Kohler</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20520707/name/CFellmann">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                    <foaf:familyName>Fellmann</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Fellmann</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20520707/name/SWLowe">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                    <foaf:familyName>Lowe</foaf:familyName>
+                    <foaf:givenName>SW</foaf:givenName>
+                    <foaf:name>SW Lowe</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/20520707/name/MOHengartner">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/20520707"/>
+                    <foaf:familyName>Hengartner</foaf:familyName>
+                    <foaf:givenName>MO</foaf:givenName>
+                    <foaf:name>MO Hengartner</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/20520707"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <owl:sameAs rdf:resource="http://dx.doi.org/10.1371/journal.pone.0087440"/>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11753569">
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11753569"/>
+            <dcterms:issued>2001</dcterms:issued>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/11753569/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11753569/name/TJGrob">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                    <foaf:familyName>Grob</foaf:familyName>
+                    <foaf:givenName>TJ</foaf:givenName>
+                    <foaf:name>TJ Grob</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11753569/name/UNovak">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                    <foaf:familyName>Novak</foaf:familyName>
+                    <foaf:givenName>U</foaf:givenName>
+                    <foaf:name>U Novak</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11753569/name/CMaisse">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                    <foaf:familyName>Maisse</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Maisse</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11753569/name/DBarcaroli">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                    <foaf:familyName>Barcaroli</foaf:familyName>
+                    <foaf:givenName>D</foaf:givenName>
+                    <foaf:name>D Barcaroli</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11753569/name/AULuthi">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                    <foaf:familyName>Luthi</foaf:familyName>
+                    <foaf:givenName>AU</foaf:givenName>
+                    <foaf:name>AU Luthi</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11753569"/>
+            <dcterms:identifier>pmid:11753569</dcterms:identifier>
+            <bibo:pageEnd>1223</bibo:pageEnd>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11753569"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/CellDeathDiffer">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11753569"/>
+                <dcterms:title>Cell Death Differ</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Grob1"/>
+            <bibo:volume>8</bibo:volume>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11753569"/>
+            <bibo:pageStart>1213</bibo:pageStart>
+            <dcterms:title>Human delta Np73 regulates a dominant negative feedback loop for TAp73 and p53</dcterms:title>
+            <bibo:pmid>11753569</bibo:pmid>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/23420876">
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/23420876"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/23420876"/>
+            <bibo:pageStart>581</bibo:pageStart>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/23420876/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23420876/name/RNMatin">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                    <foaf:familyName>Matin</foaf:familyName>
+                    <foaf:givenName>RN</foaf:givenName>
+                    <foaf:name>RN Matin</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23420876/name/AChikh">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                    <foaf:familyName>Chikh</foaf:familyName>
+                    <foaf:givenName>A</foaf:givenName>
+                    <foaf:name>A Chikh</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23420876/name/SLChong">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                    <foaf:familyName>Chong</foaf:familyName>
+                    <foaf:givenName>SL</foaf:givenName>
+                    <foaf:name>SL Chong</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23420876/name/DMesher">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                    <foaf:familyName>Mesher</foaf:familyName>
+                    <foaf:givenName>D</foaf:givenName>
+                    <foaf:name>D Mesher</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/23420876/name/MGraf">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                    <foaf:familyName>Graf</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Graf</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <bibo:pmid>23420876</bibo:pmid>
+            <bibo:pageEnd>603</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Matin1"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:23420876"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/23420876"/>
+            <dcterms:identifier>pmid:23420876</dcterms:identifier>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JExpMed">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/23420876"/>
+                <dcterms:title>J Exp Med</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:volume>210</bibo:volume>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:issued>2013</dcterms:issued>
+            <dcterms:title>p63 is an alternative p53 repressor in melanoma that confers chemoresistance and a poor prognosis</dcterms:title>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/16831029">
+            <bibo:pageStart>1026</bibo:pageStart>
+            <bibo:volume>130</bibo:volume>
+            <dcterms:issued>2006</dcterms:issued>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/16831029/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16831029/name/MCregger">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16831029"/>
+                    <foaf:familyName>Cregger</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Cregger</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16831029/name/AJBerger">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16831029"/>
+                    <foaf:familyName>Berger</foaf:familyName>
+                    <foaf:givenName>AJ</foaf:givenName>
+                    <foaf:name>AJ Berger</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16831029/name/DLRimm">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16831029"/>
+                    <foaf:familyName>Rimm</foaf:familyName>
+                    <foaf:givenName>DL</foaf:givenName>
+                    <foaf:name>DL Rimm</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:identifier>pmid:16831029</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:16831029"/>
+            <bibo:pageEnd>1030</bibo:pageEnd>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Cregger1"/>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/ArchPatholLabMed">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16831029"/>
+                <dcterms:title>Arch Pathol Lab Med</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16831029"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/16831029"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/16831029"/>
+            <dcterms:title>Immunohistochemistry and quantitative analysis of protein expression</dcterms:title>
+            <bibo:pmid>16831029</bibo:pmid>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/21718309">
+            <bibo:pmid>21718309</bibo:pmid>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/21718309/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21718309/name/FEssmann">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21718309"/>
+                    <foaf:familyName>Essmann</foaf:familyName>
+                    <foaf:givenName>F</foaf:givenName>
+                    <foaf:name>F Essmann</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/21718309/name/KSchulze-Osthoff">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21718309"/>
+                    <foaf:familyName>Schulze-Osthoff</foaf:familyName>
+                    <foaf:givenName>K</foaf:givenName>
+                    <foaf:name>K Schulze-Osthoff</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:21718309"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21718309"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:issued>2012</dcterms:issued>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Essmann1"/>
+            <bibo:pageStart>328</bibo:pageStart>
+            <bibo:volume>165</bibo:volume>
+            <dcterms:title>Translational approaches targeting the p53 pathway for anti-cancer therapy</dcterms:title>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/BrJPharmacol">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/21718309"/>
+                <dcterms:title>Br J Pharmacol</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/21718309"/>
+            <bibo:pageEnd>344</bibo:pageEnd>
+            <dcterms:identifier>pmid:21718309</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/21718309"/>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/16419059">
+            <dcterms:identifier>pmid:16419059</dcterms:identifier>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Muthusamy1"/>
+            <bibo:volume>45</bibo:volume>
+            <bibo:pmid>16419059</bibo:pmid>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/16419059"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16419059"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:16419059"/>
+            <bibo:pageStart>447</bibo:pageStart>
+            <dcterms:issued>2006</dcterms:issued>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <dcterms:title>Amplification of CDK4 and MDM2 in malignant melanoma</dcterms:title>
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/GenesChromosomesCancer">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                <dcterms:title>Genes Chromosomes Cancer</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/16419059/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16419059/name/VMuthusamy">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                    <foaf:familyName>Muthusamy</foaf:familyName>
+                    <foaf:givenName>V</foaf:givenName>
+                    <foaf:name>V Muthusamy</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16419059/name/CHobbs">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                    <foaf:familyName>Hobbs</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Hobbs</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16419059/name/CNogueira">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                    <foaf:familyName>Nogueira</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Nogueira</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16419059/name/CCordon-Cardo">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                    <foaf:familyName>Cordon-Cardo</foaf:familyName>
+                    <foaf:givenName>C</foaf:givenName>
+                    <foaf:name>C Cordon-Cardo</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/16419059/name/PHMcKee">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16419059"/>
+                    <foaf:familyName>McKee</foaf:familyName>
+                    <foaf:givenName>PH</foaf:givenName>
+                    <foaf:name>PH McKee</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/16419059"/>
+            <bibo:pageEnd>454</bibo:pageEnd>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/1322242">
+            <dcterms:isPartOf>
+              <bibo:Journal rdf:about="http://linkingdata.io/journal/name/CancerSurv">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1322242"/>
+                <dcterms:title>Cancer Surv</dcterms:title>
+              </bibo:Journal>
+            </dcterms:isPartOf>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+            <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:1322242"/>
+            <owl:sameAs rdf:resource="http://identifiers.org/pubmed/1322242"/>
+            <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/1322242"/>
+            <bibo:pmid>1322242</bibo:pmid>
+            <bibo:pageEnd>217</bibo:pageEnd>
+            <dcterms:title>Interactions of HPV E6 and E7 oncoproteins with tumour suppressor gene products</dcterms:title>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/1322242"/>
+            <dcterms:identifier>pmid:1322242</dcterms:identifier>
+            <bibo:volume>12</bibo:volume>
+            <bibo:authorList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pubmeddoc_resource/1322242/list1">
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1322242/name/KMunger">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1322242"/>
+                    <foaf:familyName>Munger</foaf:familyName>
+                    <foaf:givenName>K</foaf:givenName>
+                    <foaf:name>K Munger</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1322242/name/MScheffner">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1322242"/>
+                    <foaf:familyName>Scheffner</foaf:familyName>
+                    <foaf:givenName>M</foaf:givenName>
+                    <foaf:name>M Scheffner</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1322242/name/JMHuibregtse">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1322242"/>
+                    <foaf:familyName>Huibregtse</foaf:familyName>
+                    <foaf:givenName>JM</foaf:givenName>
+                    <foaf:name>JM Huibregtse</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                  <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/1322242/name/PMHowley">
+                    <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/1322242"/>
+                    <foaf:familyName>Howley</foaf:familyName>
+                    <foaf:givenName>PM</foaf:givenName>
+                    <foaf:name>PM Howley</foaf:name>
+                  </foaf:Person>
+                </rdf:li>
+              </rdf:Seq>
+            </bibo:authorList>
+            <dcterms:issued>1992</dcterms:issued>
+            <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Munger1"/>
+            <bibo:pageStart>197</bibo:pageStart>
+          </bibo:AcademicArticle>
+        </bibo:cites>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:24475287"/>
+      </bibo:AcademicArticle>
+    </bibo:citedBy>
+    <bibo:pageStart>4398</bibo:pageStart>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/JImmunol"/>
+    <bibo:pageEnd>4401</bibo:pageEnd>
+    <dcterms:title>Shedding of ICAM-1 from human melanoma cell lines induced by IFN-gamma and tumor necrosis factor-alpha. Functional consequences on cell-mediated cytotoxicity</dcterms:title>
+    <dcterms:issued>1991</dcterms:issued>
+    <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Becker1"/>
+    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/1684377"/>
+    <bibo:pmid>1684377</bibo:pmid>
+  </bibo:AcademicArticle>
+</rdf:RDF>

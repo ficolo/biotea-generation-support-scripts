@@ -1,0 +1,1079 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_2">
+        <rdf:value>Among the HP1 paralogs, the HP1D/rhino gene appears to be particularly rapidly evolving. In phylogenetic analyses, both the rhino chromo and shadow domains appear to have evolved far more rapidly ([pgen-0010009-g001]B–C) than their counterparts in other HP1s in Drosophila (compare branch lengths between D. melanogaster, D. erecta, and D. pseudoobscura orthologs, which have bold branches). HP1E also appears to evolve rapidly in its chromo domain but is not preserved in D. pseudoobscura. Thus, rhino appears unique among the HP1-like genes in being well conserved yet evolving rapidly. Because rhino is evolving so rapidly, orthologs are not likely to be unambiguously identified in other organisms.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001">
+            <bibo:citedBy>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8">
+                <dcterms:isPartOf>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion">
+                    <dcterms:title>Discussion</dcterms:title>
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_1">
+                        <rdf:value>In this paper, we have undertaken an evolutionary study of HP1-like proteins, with the ultimate aim of discerning the selective pressures that act on heterochromatin. We have found that Rhino, the only HP1 paralog that is expressed predominantly in ovaries, encodes a protein that has a unique localization pattern in S2 cells. Although it is excluded from the euchromatic compartment, the Rhino protein does not overlap with HP1A or H3K9me. This immediately suggests that H3K9me or HP1A does not mark all Drosophila heterochromatin, and that Rhino has a uniquely different specificity for a previously unappreciated compartment in heterochromatin.</rdf:value>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2">
+                        <rdf:value>It has not been easy to discern the molecular function of rhino from mutant phenotypes in eggshell defects. Possibilities range from a role for Rhino in gross chromatin structural changes, to transcriptional or translational regulation and even microtubule organization in the oocyte [[pgen-0010009-b36]]. Despite our current lack of knowledge about the molecular function of rhino, the fact that mutations are female sterile, point to its importance to proper oogenesis [[pgen-0010009-b36]]. HP1A, which is far better understood, is an essential gene. Such chromosomal proteins serving crucial functions are expected to be under strong evolutionary constraints and purifying selection. Although this is true for four of the five D. melanogaster HP1s including HP1A (see [pgen-0010009-g004]), we find that all three domains of rhino have evolved under positive selection using multiple criteria, including dN/dS ratios, McDonald-Kreitman, and PAML analyses [[pgen-0010009-b39],[pgen-0010009-b43]]. What could be driving this positive selection of such an important HP1 protein?</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b43">
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_3">
+                                <rdf:value>Neighbor-joining phylogenetic trees were constructed using the PAUP software, version 4.0b10 [[pgen-0010009-b79]] and appropriate Clustal_X multiple alignments of either the chromo or chromo shadow domains. A total of 1,000 replicates were carried out for bootstrapping. Maximum likelihood analysis was performed with the PAML software package [[pgen-0010009-b43]] in separate analyses for multiple alignments of the chromo domain and the shadow domains (the rapid evolution of the hinge in both size and sequence precluded its comparison in such a multiple alignment). Codons that were repeatedly subject to positive selection were identified using N sites models (M1, M7) that do not permit positive selection compared to models (M2, M8) that permit sites to evolve under positive selection. The strength of positive selection was calculated by comparing twice the log likelihood difference (M2 vs. M1, M8 vs. M7) in a chi-square test with two degrees of freedom. Codons that were identified as having evolved under positive selection with high posterior probabilities (p &gt; 0.95) were highlighted on a three-dimensional structure of the respective domains and visualized using the Cn3D software (version 4.0) [[pgen-0010009-b80]].</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b80">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b43"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b79">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-">
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_3"/>
+                                    <dcterms:hasPart>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2">
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b41">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1">
+                                                <rdf:value>Phylogenetic analyses (see [pgen-0010009-g001]B and [pgen-0010009-g001]C) suggested that not just the hinge region, but also the chromo and shadow domains of Rhino are diverging more rapidly than similar domains of other HP1s. For the hinge and shadow domains, we have already presented evidence that this rapid evolution is not due to lack of selective constraint, but rather due to positive selection. However, we were unable to detect positive selection within the chromo domain using dN/dS or McDonald-Kreitman tests, nor were we able to detect significant evidence of an adaptive sweep using standard tests (Fu and Li [[pgen-0010009-b40]], Hudson-Kreitman-Aguade [[pgen-0010009-b42]], Tajima's D [[pgen-0010009-b41]]). We reasoned that it may be hard to detect positive selection of the chromo domain because the majority of its codons are likely to be functionally constrained and therefore under purifying selection. However, such purifying selection may be masking positive selection of a small number of codons within the chromo domain. We therefore used a codon by codon maximum likelihood test, PAML [[pgen-0010009-b43]], to ask if we could detect any codons that have been under repeated, strong positive selection.</rdf:value>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b43"/>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b41"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b42">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b40">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+                                                    <bibo:citedBy>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3">
+                                                        <rdf:value
+                                                        >Sliding window dN/dS analyses suggest that rhino is subject to positive selection. To follow up on this initial observation, we undertook a more detailed study in D. melanogaster and D. simulans. We used PCR to obtain rhino sequence from 17 strains of D. melanogaster and 11 strains of D. simulans. DNA sequence changes were categorized as replacement (R) or synonymous (S) ([pgen-0010009-st001]). Changes were further classified as either fixed between species (f) or polymorphic within species (p) ([pgen-0010009-st001]). Under a neutral evolutionary model, the ratio of replacement to synonymous changes that have been fixed between species (Rf:Sf) is expected to be roughly the same as the ratio for polymorphic changes (Rp:Sp) (McDonald-Kreitman test) [[pgen-0010009-b39]]. We did not find a significant deviation from neutrality when the entire rhino sequence was considered ([pgen-0010009-t001], entire coding region, p = 0.13). However, a sliding window analysis clearly showed that the observed fixed replacement changes far exceeded those expected under neutral evolution in the C terminal part of the protein ([pgen-0010009-g005]). Indeed, the shadow domain had a highly significant deviation from neutrality (p &lt; 0.01), suggesting that this domain has been subject to strong positive selection ([pgen-0010009-t001], shadow). We used parsimony to assign each DNA sequence change within the shadow domain to either the melanogaster or simulans lineage by polarizing the changes to outgroup species D. teissieri and D. yakuba ([pgen-0010009-st001], changes in the melanogaster lineage [m] or simulans lineage [s]). We concluded that the shadow domain has been subject to positive selection in the D. simulans lineage ([pgen-0010009-t001], shadow D. simulans only, p &lt; 0.05), but there were not enough polymorphisms to reach a similar conclusion for the D. melanogaster lineage despite a strong Rf:Sf ratio. Although the complete hinge alone does not reject neutrality, separating the long hinge domain into N- and C-terminal segments suggests that the C-terminal region of the hinge, abutting the shadow domain, has been subject to positive selection (p &lt; 0.01). We could not determine whether the positive selection in the hinge was lineage specific because of ambiguity in the alignment with outgroup species. Despite this strong signal for positive selection, we were unable to detect evidence of recent adaptive “sweeps” using Fu and Li [[pgen-0010009-b40]] or Tajima [[pgen-0010009-b41]] tests, suggesting that any such sweeps were not recent enough to result in standing single polymorphisms. Thus, both the hinge and shadow domains of the protein encoded by rhino show strong evidence for relatively old episodes of positive selection between the D. melanogaster and D. simulans lineages.</rdf:value>
+                                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b41"/>
+                                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b40"/>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g005">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-t001">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b39">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2"/>
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-st001">
+                                                            <bibo:citedBy>
+                                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1">
+    <rdf:value>A plasmid for expressing rhino as a C-terminal GFP fusion protein under control of the hsp70 heat shock promoter (HSRhiGFP) was constructed as follows: rhino coding sequence flanked by XbaI and NotI restriction enzyme sites was amplified by RT-PCR from D. melanogaster (Canton S) using primers KcRhiF and KcRhiB ([pgen-0010009-st001]). The PCR product was digested and cloned into a modified heat shock expression plasmid [[pgen-0010009-b81]] that had been digested with XbaI and EagI and phosphatase treated to yield the rhino open reading frame followed by a six amino acid linker and GFP. Correct cloning was verified by sequencing. An N-terminal fusion protein of a biotin recognition peptide (MAGGLNDIFEAQKIEWHEDTGGS) to rhino (BLRPRhi) was constructed as follows: Primers dv99 and dv100 were used to amplify rhino coding sequence with flanking NotI and BamHI restriction enzyme sites from the HSRhiGFP plasmid. The PCR fragment was TA cloned and the sequence verified before digestion of the TA clone and subcloning of the gel-isolated fragment into a BLRP expression vector with a metallotheionine promoter [[pgen-0010009-b82],[pgen-0010009-b83]]. A plasmid (pBirA) expressing the Escherichia coli biotin ligase enzyme (BirA) from a metallotheionine promoter was a gift from Takehito Furuyama.</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b83">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b82">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b81">
+        <bibo:citedBy>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-:para_1">
+            <rdf:value>S2 cells (Invitrogen, D-mel2) were maintained in serum-free insect media (Invitrogen) supplemented with 90 ml/l of 200 mM L-Glutamine (Sigma, St. Louis, Missouri, United States). Twenty micrograms of the HSRhiGFP plasmid was transfected as previously described [[pgen-0010009-b81]]. Cells were heat shocked for 1 h on the next day and allowed to recover for 2 h before immunostaining [[pgen-0010009-b84]]. In the case of the BLRPrhino construct, 10 μg of plasmid DNA were co-transfected with 10 μg of pBirA plasmid that contains the biotin ligase under control of a metallotheionine promoter. After overnight incubation, cells were induced for 3 h with 500 μM CuSO4, added directly to the media, followed by immunostaining. HP1A, HP1B, and HP1C antibodies have been previously described [[pgen-0010009-b35]]. Antibodies to H3K9me or H3K4me were purchased from Upstate Biotech (Waltham, Massachusetts, United States). Monoclonal mouse anti-Fibrillarin antibody was purchased from Encor Biotechnology Inc (Alachua, Florida, United States). All antibodies, including the secondary Texas-red fluorescently labeled goat anti-rabbit or anti-mouse antibodies (Amersham, Piscataway, New Jersey, United States), were used at a dilution of 1/200, with the exception of the anti-fibrillarin antibody that was used at 1/500. Images of nuclei were obtained and de-convolved using the Deltavision software (Applied Precision, Issaquah, Washington, United States).</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b35">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-:para_1"/>
+                <bibo:citedBy>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1">
+                    <rdf:value>The localization of protein products of three HP1 genes have been tested so far in Drosophila tissue culture cells. Only HP1A was found to localize predominantly to heterochromatin, whereas HP1C localized to euchromatin and HP1B to both euchromatin and heterochromatin [[pgen-0010009-b35]]. Therefore, we decided to first study the localization pattern of Rhino to determine whether it localized to heterochromatin. Drosophila S2 interphase cells have a DAPI-dense staining area that helps demarcate cytological boundaries of heterochromatin, although it is worth noting that DAPI does not stain all heterochromatic DNA, owing to sequence-dependent DNA-binding preference [[pgen-0010009-b38]]. H3K4me is an excellent cytological marker for euchromatin, whereas H3K9me marks heterochromatin [[pgen-0010009-b10],[pgen-0010009-b11]]. The localization patterns of green fluorescent protein (GFP) fused to HP1A, HP1B, or HP1C and expressed in tissue culture cells were previously shown to be faithful representations of the localization of the endogenous proteins by antibody staining [[pgen-0010009-b35]]. We therefore expressed rhino as a C-terminal GFP fusion protein in Drosophila S2 cells, followed by immunostaining with antibodies to HP1A, HP1B, HP1C, or specific modifications of histone H3 ([pgen-0010009-g003]) for comparison of localization patterns.</rdf:value>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g003">
+                        <bibo:citedBy>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6">
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b55">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b57">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <rdf:value>A second model is that positive selection on rhino is a direct result of genetic conflict between rhino and mobile genetic elements. Although we have no evidence to support this hypothesis, it is attractive for several reasons. Transposable elements can evolve rapidly and differ significantly between Drosophila species, including D. melanogaster and D. simulans [[pgen-0010009-b55],[pgen-0010009-b56]]. Rhino-GFP localizes to the heterochromatic region of the nucleus (see [pgen-0010009-g003]), which is highly enriched in transposable elements [[pgen-0010009-b57]]. Finally, genome-bound transposable elements can only increase their genomic copy number by transposing in the germline, increasing selective pressures on host proteins that act as suppressors of germline transposition. Rhino may either interact with the integration machinery of transposons to direct their integration into transcriptionally silent heterochromatin, or it may directly bind and transcriptionally repress transposable elements that are newly introduced into heterochromatin. Some transposable elements are known to be major in vivo targets of HP1A, apparently involving the RNAi (RNA interference) pathway [[pgen-0010009-b01],[pgen-0010009-b11],[pgen-0010009-b58]–[pgen-0010009-b62]]. Similarly, rhino may be under continual selection to directly bind transposable elements.</rdf:value>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b62">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g003"/>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b01">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                                <bibo:citedBy>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1">
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b05">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <dcterms:isPartOf>
+                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction">
+                                        <dcterms:hasPart>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3">
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b22">
+                                                <bibo:citedBy>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4">
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b35"/>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b22"/>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b34">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <rdf:value
+                                                    >Multiple HP1-like genes, which may have different functions, can be found in the same genome. In vertebrates, for example, there are at least three HP1-like genes (HP1α, HP1β, and HP1γ) that each encode proteins with distinct localization patterns, despite being about 65% identical [[pgen-0010009-b22],[pgen-0010009-b30]–[pgen-0010009-b33]]. Drosophila melanogaster contains five genes with HP1-like domain organization. We undertook a molecular evolutionary study of these HP1 paralogs in Drosophila, aiming to use them as a surrogate for studying heterochromatic DNA evolution. HP1A (or Su[Var]205) was the first of these to be identified. This HP1A gene encodes the prototypic HP1 protein required for heterochromatin maintenance [[pgen-0010009-b18],[pgen-0010009-b34]]. The functions of the other four HP1 proteins are unknown. However, HP1B and HP1C differ from HP1A in their chromatin localization [[pgen-0010009-b35]], suggesting that their function is not redundant with HP1A. The fourth HP1-like protein, HP1D/Rhino (hereafter referred to as “Rhino”), was discovered in a screen for female sterile mutants [[pgen-0010009-b36]] whereas we identified the fifth, HP1E, using bioinformatic criteria in this study.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b30">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36">
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_4">
+                                                            <rdf:value
+                                                            >Positive selection need not involve rhino's “normal” function, whatever that may be, but rather underlie a second and unrelated “defense” function of rhino. In such a scenario the positive selection on rhino would be driven by a recurrent intracellular conflict that yields a selection advantage to the “winner.” Genes encoding proteins involved in direct host–parasite interactions are often subject to positive selection. In this case, changes that are beneficial for the parasite (to evade interactions for instance) will be followed by selection favoring changes in the host proteins (that restore interactions). Thus, two antagonistic entities locked in genetic conflict face repeated episodes of positive selection, only to arrive at the same quasi-steady state, a scenario formalized as the “Red Queen” hypothesis [[pgen-0010009-b52]]. rhino may be subject to the same kind of genetic conflict that occurs intracellularly. It is especially intriguing that the only HP1 we have found to be subject to positive selection is expressed predominantly in ovaries ([[pgen-0010009-b36]] and [pgen-0010009-g002]), where such a competitive advantage has directly heritable consequences. We consider two models of genetic conflict to explain rhino's positive selection.</rdf:value>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g002">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_4"/>
+    <bibo:citedBy>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_1">
+        <rdf:value>The indication that rhino may be a rapidly evolving HP1 (see [pgen-0010009-g001]), its predominant expression in ovaries (see [pgen-0010009-g002]), and its interesting cytological localization pattern ([pgen-0010009-g003]), led us to investigate its evolutionary history in further detail. Uncovering evolutionary constraints under which different HP1 genes evolve can provide insight into the evolutionary forces that shape heterochromatin. To study the molecular evolution of HP1 proteins in Drosophila, we obtained DNA sequence for HP1 orthologs in the closely related D. simulans species (diverged from D. melanogaster about 2.5 million years ago) by PCR.</rdf:value>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g003"/>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g002"/>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001"/>
+        <dcterms:isPartOf>
+          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+            <dcterms:hasPart>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_2">
+                <rdf:value>Rapid evolution of HP1s may be attributed to relaxed constraint, allowing sequence changes to accumulate, especially if different gene copies are functionally redundant. Alternatively, amino acid replacement changes may confer a selective advantage, in which case they would be expected to accumulate at a rate higher than expected under neutral evolution (positive selection). To evaluate whether any of the HP1s are undergoing such positive selection between the closely related D. melanogaster and D. simulans species, we performed a 100-bp sliding window analysis of the number of replacement changes per site (dN) compared to the number of synonymous changes per site (dS) ([pgen-0010009-g004]). HP1B, HP1C and HP1E had dN &lt; dS in all windows, consistent with purifying selection, as expected for structural proteins evolving under strict constraints. To our surprise, we found dN &gt; dS for several windows in the rhino gene corresponding to the hinge region of the encoded protein ([pgen-0010009-g004]E). We used Monte Carlo simulations in the K-estimator program to show that three of these windows were statistically significant (dN &gt; dS, p &lt; 0.02, indicated by asterisks), consistent with positive selection of rhino between D. melanogaster and D. simulans. We also found two windows with dN &gt; dS for the HP1A-encoded hinge with borderline significance (p-value approximately 0.05), but further detailed analysis including a population study of D. melanogaster and D. simulans, and dN/dS comparisons among several other pairs of closely related Drosophila species (D. Vermaak, H. S. Malik, unpublished data) led to the conclusion that there was no positive selection of HP1A. Thus, no other HP1 homolog other than rhino showed any evidence of positive selection, suggesting that HP1D/rhino is again unique in this respect, not just among Drosophila
+HP1 paralogs, but also among all HP1 genes identified so far.</rdf:value>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g004">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_2"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+              </doco:Paragraph>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_1"/>
+            <biotea:paragraphList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list7">
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_1"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_2"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+              </rdf:Seq>
+            </biotea:paragraphList>
+            <dcterms:isPartOf>
+              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results">
+                <dcterms:hasPart>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_2">
+                        <rdf:value>The localization pattern of Rhino-GFP differed from that of HP1A, -B, and -C in interphase tissue culture cells ([pgen-0010009-g003] and [pgen-0010009-sg001]). Rhino-GFP formed distinct foci that occupied a limited area in the nucleus. These Rhino-GFP foci were located in the heterochromatic compartment as defined by the absence of H3K4me staining. Strikingly, Rhino-GFP also did not directly overlap with common markers of heterochromatin, HP1A or H3K9me, rather appearing interspersed with, or surrounding these signals. Thus, unlike HP1A, we expect that the Rhino chromo domain does not bind H3K9me. The Rhino-GFP localization pattern was not an artifact of GFP-tagging because it was also observed with a Rhino protein that was N-terminally tagged with a biotinylated peptide ([pgen-0010009-sg001]). We conclude that among HP1 paralogs, Rhino-GFP has a unique localization pattern within the heterochromatic domain in tissue culture cells. Its localization pattern in oocytes is currently unknown.</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-sg001">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g003"/>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list6">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_2"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                    <dcterms:title>Rhino Localization in D. melanogaster Cells</dcterms:title>
+                    <dcterms:isPartOf>
+                      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/1183528">
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+                        <dcterms:references rdf:resource="http://flybase.bio.indiana.edu"/>
+                        <dcterms:hasPart>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1">
+                                <rdf:value>
+Drosophila species and strains ([pgen-0010009-st001]) were obtained from the Drosophila stock center (currently in Tucson, Arizona) and genomic DNA was prepared by standard methods [[pgen-0010009-b19]]. The rhino locus was amplified using PCR Supermix High Fidelity (Invitrogen, Carlsbad, California, United States) with the primers indicated in [pgen-0010009-st002]. PCR products were either sequenced directly or following Topo-TA cloning (Invitrogen). RNA was prepared from whole male or female flies or different tissues (head, ovary, testis, or carcass) using a kit (Qiagen RNeasy; Qiagen, Valencia, California, United States) and cleared of genomic DNA by DNase I digestion (Ambion DNA-free; Ambion, Austin, Texas, United States). RNA concentrations were measured from various tissues, and the same amount of total RNA was used as template in the RT-PCR analysis. RT-PCR (Invitrogen) to evaluate the presence of rhino mRNA was carried out using Dmid1f and Dmid2b primers ([pgen-0010009-st002]) that span the rhino intron, along with actin-42A primers [[pgen-0010009-b72]] as a control. For D. bipectinata, primers dv15 and dv230 that span the rhino intron were used. RT-PCR and sequencing was carried out to confirm the predicted splice-site positions for rhino from D. simulans (strain 2), D. bipectinata, and D. miranda. Splice sites for rhino from other species were predicted using Berkeley Drosophila Genome Project Splice site predictor (http://www.fruitfly.org/seq_tools/splice.html). All sequences have been deposited in Genbank (accession numbers AY944308–AY944358, [pgen-0010009-st002]).</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b72">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-st002">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b19">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5">
+                                        <rdf:value>Under the first model, rhino participates in suppressing “selfish” behavior of centromeres, which can compete to maximize their transmission advantage in female meiosis, where only one of four meiotic products is destined to become the egg [[pgen-0010009-b21]]. We have previously proposed that this kind of drive can have deleterious consequences for male meiosis and is likely to be suppressed either by centromeric proteins altering their DNA-binding specificity [[pgen-0010009-b19],[pgen-0010009-b20]] or by heterochromatin proteins evolving to limit centromere boundaries, and thereby limiting “strength” [[pgen-0010009-b04],[pgen-0010009-b21],[pgen-0010009-b53]]. Similar selective pressures have been previously proposed to result in deleterious mutations in the nod chromokinesin in D. melanogaster [[pgen-0010009-b54]]. rhino may represent another repressor of the drive by directly or indirectly influencing centromere strength.</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b54">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b53">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b04">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b20">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b19"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b21">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2">
+                                                <rdf:value>The study of repetitive heterochromatic DNA lags far behind that of euchromatic regions because heterochromatin is hard to sequence and manipulate experimentally. Even when DNA sequence is available, the underlying evolutionary forces that shape patterns of rapidly changing repetitive sequences and chromosomal architecture are hard to discern. A complementary approach is to study the evolution of protein components that associate with repetitive DNA instead of studying the DNA directly. These protein components have been well studied, especially in Drosophila genomes [[pgen-0010009-b15]–[pgen-0010009-b18]]. Using a similar strategy, the discovery of positive selection acting on the proteins that bind centromeric DNA has led to the centromere-drive hypothesis that may account for the sequence complexity of centromeres [[pgen-0010009-b19]–[pgen-0010009-b21]].</rdf:value>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b21"/>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b19"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b18">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b15">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-st001"/>
+                                <dcterms:references rdf:resource="http://www.fruitfly.org/seq_tools/splice.html"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list13">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1">
+                                <dcterms:hasPart>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-">
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-:para_1"/>
+                                    <biotea:paragraphList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list16">
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-:para_1"/>
+                                      </rdf:Seq>
+                                    </biotea:paragraphList>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                                    <dcterms:title>Cell culture, transfection, and immunostaining.</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                                  </doco:Section>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-">
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1"/>
+                                    <biotea:paragraphList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list15">
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1"/>
+                                      </rdf:Seq>
+                                    </biotea:paragraphList>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                                    <dcterms:title>Plasmid constructs.</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                                  </doco:Section>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-"/>
+                                <biotea:sectionList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183528/list9">
+                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-"/>
+                                  </rdf:Seq>
+                                </biotea:sectionList>
+                                <dcterms:isPartOf>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods">
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                                    <biotea:sectionList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183528/list8">
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                                      </rdf:Seq>
+                                    </biotea:sectionList>
+                                    <dcterms:title>Materials and Methods</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                                  </doco:Section>
+                                </dcterms:isPartOf>
+                                <dcterms:title>no-title_1</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                              </doco:Section>
+                            </dcterms:isPartOf>
+                            <dcterms:title>Sequences from Drosophila and databases and RT-PCR.</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                          </doco:Section>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+                        <dcterms:title>Positive Selection Drives the Evolution of rhino, a Member of the Heterochromatin Protein 1 Family in Drosophila
+</dcterms:title>        <dcterms:hasPart>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers:para_1">
+                                <rdf:value>The Flybase (http://flybase.bio.indiana.edu) accession numbers of the genes discussed in this paper are rhino (CG10683) and HP1E (CG8120). New sequences obtained during the course of this study have been deposited in Genbank under the accession numbers AY944308–AY944358. The Molecular Modeling Database (MMDB; http://www.ncbi.nlm.nih.gov/Structure/MMDB/mmdb.shtml) accession numbers of the proteins discussed in this paper are H3K9me (19011, PDB 1KNE) and HP1β shadow domain dimer (13286, PDB 1DZ1).</rdf:value>
+                                <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Structure/MMDB/mmdb.shtml"/>
+                                <dcterms:references rdf:resource="http://flybase.bio.indiana.edu"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list18">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information">
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers"/>
+                                <biotea:sectionList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183528/list13">
+                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers"/>
+                                  </rdf:Seq>
+                                </biotea:sectionList>
+                                <dcterms:title>Supporting Information</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                              </doco:Section>
+                            </dcterms:isPartOf>
+                            <dcterms:title>Accession Numbers</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                          </doco:Section>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells"/>
+                        <dcterms:hasPart>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_2">
+                                <rdf:value>We find that rhino is evolving at an unprecedented rate for an HP1. The hinge regions cannot be unambiguously aligned between different species groups or in some cases not even within the same species group. We did not detect any significant similarity of the Rhino hinge regions to other proteins or motifs, yet all the hinge regions share certain sequence features, most noticeably long runs of serines as well as proline- and glutamine-rich sequences ([pgen-0010009-g006]A). In some instances, we found clear evidence of positive selection (dN/dS &gt; 1) for alignable segments of hinge regions of closely related pairs, D. yakuba versus D. teissieri, D. erecta versus D. orena, D. lutescens versus D prostipennis, D. bipectinata versus D. parabipectinata, and D. pseudoobscura versus D. miranda (representative examples shown in [pgen-0010009-g006]B). Our ability to detect instances of dN/dS &gt; 1 within the hinge region for multiple species pairs within a small sampling of Drosophila species suggests that positive selection of the hinge is a common feature in rhino evolution.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g006">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_2"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_1">
+                                        <rdf:value>Is the positive selection of rhino limited to the melanogaster species group? To address this question, we identified D. pseudoobscura
+rhino by synteny with D. melanogaster;
+rhino is contained within an intron of another gene in both species. We used RT-PCR to confirm the predicted splice sites for rhino from the obscura species group. D. pseudoobscura
+rhino is very different in length (317 vs. 418 encoded amino acids) and sequence from D. melanogaster
+rhino (see [pgen-0010009-g001]). In fact, the hinge region of the Rhino protein is changing so rapidly that it is unrecognizable in a BLAST comparison between D. melanogaster and D. pseudoobscura (e-value &gt; 1,000). To trace the evolution of rhino beyond the melanogaster species group, we obtained rhino sequence from intervening species between D. melanogaster and D. pseudoobscura. Despite the evolutionary distance of D. melanogaster from D. pseudoobscura, we could identify noncoding conserved sequences both upstream and downstream of the rhino gene, allowing us to design primers to amplify rhino from 12 additional Drosophila species, shown schematically in [pgen-0010009-g006]A.</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g006"/>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001"/>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_1"/>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list8">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_1"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_2"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                            <dcterms:title>
+rhino Evolution in Other Drosophila Species</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                          </doco:Section>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                        <dcterms:hasPart>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4">
+                                <rdf:value>PAML analyses like these are very useful to highlight codons that have been repeatedly subject to positive selection [[pgen-0010009-b43],[pgen-0010009-b50]]; however, they do run a risk of false positives. This is somewhat ameliorated in our dataset because the tree lengths are of moderate value ([pgen-0010009-t002]). Similar tree lengths have been shown by simulations to have a significantly lower risk of false positives [[pgen-0010009-b51]]. Nonetheless, the true test for the significance of these positively selected residues will come from functional assays on Rhino function and localization.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b51">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-t002">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3">
+                                        <rdf:value>We have already shown that the shadow domain is under strong positive selection between D. melanogaster and D. simulans. To find out if some codons of the shadow domain have also been under continuous positive selection, we carried out a PAML analysis. A tree based on the shadow domain amino acid alignment also recapitulates Drosophila phylogeny ([pgen-0010009-g007]B). We found significant evidence for positive selection, with most of the signal coming from just three codons ([pgen-0010009-t002]; Positions S31, I33, and I59 in [pgen-0010009-g007]B). On the structure of a mouse HP1β shadow domain dimer [[pgen-0010009-b46]], positions 31 and 33 are on the same side of the shadow dimer and should be available for protein–protein interactions. The vertebrate HP1 chromo shadow domain dimerization site is known to bind to many proteins through their PxVxL motif [[pgen-0010009-b47]–[pgen-0010009-b49]]. It is unclear if these interactions are conserved in Rhino, but rapid evolution in this region (including position 59 identified in our PAML analysis) certainly has the potential to easily influence protein–protein interactions.</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b49">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b47">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b46">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-t002"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g007">
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7">
+                                                <rdf:value>Whatever is driving the positive selection of rhino, mutations in any of Rhino's three domains appear to be selected to give rhino the upper hand in the current round of competition. The chromo and related shadow domains are very versatile interaction domains that can influence binding to DNA, RNA, and proteins [[pgen-0010009-b63]]. The hinge domain can also strongly influence localization of HP1-like proteins [[pgen-0010009-b64],[pgen-0010009-b65]]. Future experiments will address the functional role of the three amino acids under recurrent positive selection in the chromo and shadow domains ([pgen-0010009-g007]) and help to distinguish between our models of what drives the positive selection of rhino. These experiments promise to reveal insights into the organization of a substantial portion of Drosophila genomes. It is probably not a coincidence that we have found positive selection only in an HP1-family member that is expressed predominantly in ovaries. Indeed, a restricted expression pattern may have allowed detection of a previously unremarked conflict that shapes at least a fraction of Drosophila heterochromatin, via the positive selection of rhino. Such a signal may have been masked for other HP1s due to their constrained roles in other tissues.</rdf:value>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g007"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b65">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b64">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b63">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2">
+                                                <rdf:value>We used a DNA sequence alignment of the rhino gene corresponding to the encoded chromo domain from different Drosophila species. The corresponding amino acid sequence alignment is shown in [pgen-0010009-g007]A. We note that a tree based upon this amino acid alignment is in agreement with the accepted Drosophila phylogeny [[pgen-0010009-b44]], suggesting that we are considering strict orthologs. Remarkably, models that allow codons to evolve under positive selection (M8 and M2) fit the data significantly better than associated models that do not permit positive selection (M7 and M1) (p &lt; 0.001 in all cases, [pgen-0010009-t002]). Just a few codons account for this positive selection. In particular, three codons repeatedly show highly significant posterior probabilities (1E, 9L, and 25S in [pgen-0010009-t002]; arrows [pgen-0010009-g007]A). The Rhino chromo domain structure is likely to be similar to that of known HP1 chromo domains, so we show the likely positions of the three adaptively evolving amino acids of the Rhino chromo domain on the known structure of Drosophila HP1A chromo domain bound to H3K9me peptide ([pgen-0010009-g007]A; [[pgen-0010009-b45]]). Position 1 is in close proximity to the groove that binds the methylated peptide, suggesting that this amino acid may be driven to adapt to a constantly changing substrate of Rhino. We cannot rule out that positions 9 and 25 may also be adapting to a substrate binding in the same position, because they could influence the overall conformation and thus binding specificity of the chromo domain. However, positions 9 and 25 are expected to be solvent accessible on the opposite side of the Rhino chromo domain and may represent an additional, potentially novel, interaction surface.</rdf:value>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b45">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-t002"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b44">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g007"/>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b50">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b43"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2"/>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list9">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_2"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_3"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                            <dcterms:title>Positive Selection of rhino Chromo Domain</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                          </doco:Section>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                        <dcterms:hasPart>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_2">
+                                <rdf:value>We confirmed the predominant expression of rhino in D. melanogaster ovaries, although low levels of transcript could also be detected in testis, head, and faintly in carcass, likely below detection limits for Northern analysis ([pgen-0010009-g002]A). Endogenous rhino transcript was also present in S2 tissue culture cells that were used for our localization studies. Furthermore, the absence of any rhino transcript from rhi mutant flies by RT-PCR confirms that the large cross-reacting band seen on previous Northern analysis [[pgen-0010009-b36]] does not contain rhino transcript. We have extended this finding to show that the predominant expression of rhino is restricted to ovaries in another distantly related species, D. bipectinata ([pgen-0010009-g002]B). In contrast, we found that HP1A, -B, and -C genes were abundantly expressed in all gross adult tissues that we examined ([pgen-0010009-g002]C). Interestingly, HP1E showed an expression pattern restricted predominantly to the male testis, suggesting that two of the five HP1 paralogs in D. melanogaster are each devoted predominantly to testes and ovaries respectively. This may highlight the fact that chromatin structure is likely to be inherently different in somatic versus germline cells, that may have spurred this specialization.</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g002"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_1">
+                                <rdf:value>Previous Northern blot analysis had detected a 1.6 kb rhino mRNA in female flies, early embryos, and ovary, but not in male flies and rhino mutants [[pgen-0010009-b36]]. In situ analysis showed that the rhino transcript was present both within the germline and somatic cells of the ovary [[pgen-0010009-b36]]. However, an abundant and much larger band on the Northern blot did not show the same restricted expression pattern. This band was also present in RNA made from rhi mutant flies suggesting that it did not contain rhino transcript. In order to further delineate the expression pattern of this unusual HP1 gene, we used RT-PCR to assess the presence of rhino mRNA in male or female flies and in different tissues, because it provides a more sensitive assay that complements the previous Northern analysis ([pgen-0010009-g002]).</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g002"/>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list5">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_1"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_2"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                            <dcterms:title>
+rhino Is Expressed Predominantly in Ovaries</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                          </doco:Section>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-"/>
+                        <biotea:sectionList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183528/list1">
+                            <rdf:li>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183528/Abstract">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Abstract:para_1">
+                                    <rdf:value></rdf:value>
+                                    <rdf:value>Heterochromatin comprises a significant component of many eukaryotic genomes. In comparison to euchromatin, heterochromatin is gene poor, transposon rich, and late replicating. It serves many important biological roles, from gene silencing to accurate chromosome segregation, yet little is known about the evolutionary constraints that shape heterochromatin. A complementary approach to the traditional one of directly studying heterochromatic DNA sequence is to study the evolution of proteins that bind and define heterochromatin. One of the best markers for heterochromatin is the heterochromatin protein 1 (HP1), which is an essential, nonhistone chromosomal protein. Here we investigate the molecular evolution of five HP1 paralogs present in Drosophila melanogaster. Three of these paralogs have ubiquitous expression patterns in adult Drosophila tissues, whereas HP1D/rhino and HP1E are expressed predominantly in ovaries and testes respectively. The HP1 paralogs also have distinct localization preferences in Drosophila cells. Thus, Rhino localizes to the heterochromatic compartment in Drosophila tissue culture cells, but in a pattern distinct from HP1A and lysine-9 dimethylated H3. Using molecular evolution and population genetic analyses, we find that rhino has been subject to positive selection in all three domains of the protein: the N-terminal chromo domain, the C-terminal chromo-shadow domain, and the hinge region that connects these two modules. Maximum likelihood analysis of rhino sequences from 20 species of Drosophila reveals that a small number of residues of the chromo and shadow domains have been subject to repeated positive selection. The rapid and positive selection of rhino is highly unusual for a gene encoding a chromosomal protein and suggests that rhino is involved in a genetic conflict that affects the germline, belying the notion that heterochromatin is simply a passive recipient of “junk DNA” in eukaryotic genomes.</rdf:value>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Abstract"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list1">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Abstract:para_1"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:title>Abstract</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                              </doco:Section>
+                            </rdf:li>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Abstract"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Supporting-Information_Accession-Numbers"/>
+                          </rdf:Seq>
+                        </biotea:sectionList>
+                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                        <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Structure/MMDB/mmdb.shtml"/>
+                        <dcterms:references rdf:resource="http://www.fruitfly.org/seq_tools/splice.html"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Abstract"/>
+                      </bibo:AcademicArticle>
+                    </dcterms:isPartOf>
+                  </doco:Section>
+                </dcterms:hasPart>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+                <biotea:sectionList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183528/list2">
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                  </rdf:Seq>
+                </biotea:sectionList>
+                <dcterms:title>Results</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+              </doco:Section>
+            </dcterms:isPartOf>
+            <dcterms:title>Molecular Evolution of rhino: Positive Selection of the Hinge and Chromo Shadow Domains</dcterms:title>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+          </doco:Section>
+        </dcterms:isPartOf>
+      </doco:Paragraph>
+    </bibo:citedBy>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_2"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b52">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_4"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_2"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Is-Expressed-Predominantly-in-Ovaries:para_1"/>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_1">
+                                                            <rdf:value
+                                                            >
+D. melanogaster contains five HP1-like genes, defined as such because they all encode an N-terminal chromo domain and a C-terminal shadow domain ([pgen-0010009-g001]A). Four of these paralogs have been identified in previous analyses [[pgen-0010009-b36],[pgen-0010009-b37]], whereas HP1E is newly identified in this report. These paralogs show differences in their conservation across Drosophila species. HP1A, HP1B, and HP1C are highly conserved, even between D. melanogaster and the more distantly related D. pseudoobscura ([pgen-0010009-g001]A). In contrast, rhino differs significantly in size and amino acid sequence between D. melanogaster and D. simulans. In addition, the HP1E gene appears to have degenerated in the D. pseudoobscura genome, whereas D. pseudoobscura possesses HP1F, a novel HP1 that the D. melanogaster genome lacks altogether.</rdf:value>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b37">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_5">
+                                                            <rdf:value
+                                                            >
+rhino mutants display a variety of late-stage eggshell defects, among them the fused dorsal appendages for which the gene was named [[pgen-0010009-b36]]. Careful characterization of mutant egg chambers revealed several defects [[pgen-0010009-b36]]. First, nurse cells failed to undergo a higher-order chromatin structure reorganization from a “five-blob” state to a dispersed state at stage 5. Second, although transcript levels of several patterning genes were unaffected, transcripts of key patterning genes such as gurken and oskar were mislocalized. Furthermore, Gurken protein synthesis was delayed in early egg chambers and germaria, and Gurken protein showed aberrant accumulation in later egg chambers [[pgen-0010009-b36]]. Unlike other HP1 proteins, Rhino is expressed predominantly during oogenesis [[pgen-0010009-b36]]. Its unusual expression pattern suggested that the evolutionary constraints on rhino might more accurately reflect pressures on heterochromatin in the female germline, relatively free from constraints imposed during somatic expression.</rdf:value>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b33">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b18"/>
+                                                  </doco:Paragraph>
+                                                </bibo:citedBy>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b23">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b28">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b29">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b06">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b18"/>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b24">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <rdf:value>Here, we examine the evolutionary pressures that shape proteins that bind heterochromatic DNA. Heterochromatin protein 1 (HP1) is a ubiquitous component of heterochromatin that is the best available surrogate to study heterochromatin complexity. HP1 was first identified in flies [[pgen-0010009-b18],[pgen-0010009-b22]] and is present in most eukaryotes where it is required for maintenance of most aspects of the heterochromatic state [[pgen-0010009-b06],[pgen-0010009-b10],[pgen-0010009-b11],[pgen-0010009-b23]]. HP1 consists of a N-terminal chromo domain, a hinge region, and a C-terminal chromo shadow (or simply “shadow”) domain that structurally resembles the chromo domain and mediates homodimerization [[pgen-0010009-b16],[pgen-0010009-b22],[pgen-0010009-b24]–[pgen-0010009-b26]]. The chromo domain binds to histone H3 tails methylated at lysine 9 (H3K9me), a covalent modification associated with heterochromatin maintenance and transcriptional silencing [[pgen-0010009-b10],[pgen-0010009-b11],[pgen-0010009-b27],[pgen-0010009-b28]] and can directly influence the targeting of HP1 in vivo [[pgen-0010009-b29]].</rdf:value>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b11">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b26">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b27">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b10">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b16">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                                          </doco:Paragraph>
+                                        </dcterms:hasPart>
+                                        <dcterms:hasPart>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_6">
+                                            <rdf:value>In this report, we show that tagged Rhino protein localizes to distinct foci within the heterochromatic domain of tissue culture cells. Remarkably, we find that all three domains of Rhino show strong evidence of recurrent positive selection. Such positive selection implies that rhino is involved in a heritable and recurrent genetic conflict, raising the intriguing possibility that heterochromatin itself might represent a paleontological record of this genetic conflict.</rdf:value>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Introduction"/>
+                                          </doco:Paragraph>
+                                        </dcterms:hasPart>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_5"/>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                                        <biotea:paragraphList>
+                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list2">
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_3"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_5"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_6"/>
+                                          </rdf:Seq>
+                                        </biotea:paragraphList>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_2"/>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                        <dcterms:title>Introduction</dcterms:title>
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+                                      </doco:Section>
+                                    </dcterms:isPartOf>
+                                    <rdf:value>Repetitive DNA sequences can constitute large parts of many genomes (approximately 30% in human and fly genomes) and are involved in fundamental cellular processes [[pgen-0010009-b01]–[pgen-0010009-b03]]. For example, centromeres in higher eukaryotes consist of large, repetitive regions required for accurate chromosome segregation during each cell division [[pgen-0010009-b04]]. Heterochromatin flanks the centromere and is also essential for segregation [[pgen-0010009-b05]–[pgen-0010009-b07]]. It is composed largely of repetitive DNA and transposable elements and their relics, but can contain genes important for fertility and viability [[pgen-0010009-b08],[pgen-0010009-b09]]. Transcriptionally silent heterochromatin can influence the expression of not only mobile elements embedded in heterochromatin, but also euchromatic genes [[pgen-0010009-b06],[pgen-0010009-b10]–[pgen-0010009-b12]]. Given the importance of heterochromatin, it is not surprising that perturbation of heterochromatic proteins is associated with cancer and other diseases [[pgen-0010009-b13],[pgen-0010009-b14]].</rdf:value>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b03">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b01"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b14">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b08">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b12">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b06"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b09">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b10"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b13">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b04"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b07">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                  </doco:Paragraph>
+                                </bibo:citedBy>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b56">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b11"/>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b58">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                          </doco:Paragraph>
+                        </bibo:citedBy>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_1"/>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_2"/>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b11"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b10"/>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b38">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells:para_1"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b35"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Rhino-Localization-in-D--melanogaster-Cells"/>
+                  </doco:Paragraph>
+                </bibo:citedBy>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Introduction:para_4"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b84">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-:para_1"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b81"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Cell-culture--transfection--and-immunostaining-"/>
+          </doco:Paragraph>
+        </bibo:citedBy>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-st001"/>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Plasmid-constructs-"/>
+                                                              </doco:Paragraph>
+                                                            </bibo:citedBy>
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequences-from-Drosophila-and-databases-and-RT-PCR-:para_1"/>
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains"/>
+                                                      </doco:Paragraph>
+                                                    </bibo:citedBy>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001"/>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_3"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b40"/>
+                                        <rdf:value>The DNASP software package [[pgen-0010009-b77]] was used to perform several tests for positive selection using genomic sequence of rhino from 17 strains of D. melanogaster and 11 strains of D. simulans. The Fu and Li [[pgen-0010009-b40]], Tajima's D [[pgen-0010009-b41]], and Hudson-Kreitman-Aguade [[pgen-0010009-b42]] tests were carried out on the complete sequence, including the intron, whereas the McDonald-Kreitman test [[pgen-0010009-b39]] was carried out on coding regions only (1,209 total positions with indels removed). Fixed replacement changes in the chromo and chromo shadow domains were polarized using D. yakuba and D. teissieri sequences as outgroups, but we could not unambiguously polarize all changes in the hinge region. The expected fixed replacement changes (Rfexpected) shown in [pgen-0010009-g004]B were calculated from the ratio Rfexpected = Sfobserved(Rpobserved/Spobserved) according to the neutral expectation in the McDonald-Kreitman test, where R = replacement, S = synonymous, f = fixed between population, p = polymorphic within the population (similar to the previously proposed “Neutrality Index” [[pgen-0010009-b78]]). A sliding window of 300 nucleotides with step size of 25 was used for presentation purposes.</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b39"/>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g004"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b78">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b42"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b77">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1">
+                                                <rdf:value>Sequences were assembled using DNA Strider [[pgen-0010009-b73]]. Clustal_X [[pgen-0010009-b74]] was used to obtain pairwise or multiple alignments and to generate formatted files for further analysis. Pairwise sequence alignments used for dN/dS analysis were hand edited, using the amino acid sequence as a guide to place indels. For instance, there is an 80 amino acid length difference between the D. melanogaster and D. simulans hinge regions. These regions cannot be compared in tests for positive selection. Pairwise dN and dS comparisons and confidence values were calculated using the K-estimator software [[pgen-0010009-b75],[pgen-0010009-b77]]. Sliding window size was arbitrarily chosen as 100 bases with 35 base steps for all pairwise dN/dS comparisons. Confidence interval estimates were calculated using Monte Carlo simulations, taking into account (1) dN and dS values, (2) the number of codons, (3) transition: transversion ratio, and (4) GC content and amino acid composition. Thus, K-estimator [[pgen-0010009-b75]] at least takes into account most of the confounding variables that are known to give false positives in terms of dN/dS. We also present a dN/dS analysis using the reconstructed hypothetical ancestors to all the D. melanogaster and D. simulans
+rhino sequences ([pgen-0010009-sg002]).</rdf:value>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-sg002">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b77"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b75">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b74">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b73">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                      </doco:Paragraph>
+                                    </dcterms:hasPart>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                    <biotea:paragraphList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list14">
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_1"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_2"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1_Sequence-analysis-:para_3"/>
+                                      </rdf:Seq>
+                                    </biotea:paragraphList>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Materials-and-Methods_no-title-1"/>
+                                    <dcterms:title>Sequence analysis.</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                                  </doco:Section>
+                                </dcterms:isPartOf>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_4"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b39"/>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g004"/>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b36"/>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_3">
+                        <rdf:value>Can co-evolutionary pressures explain the positive selection acting on rhino? For instance, rhino might be continually “catching up” to mutations in interacting proteins required for its function. We believe this is unlikely, because mutations that compromise a required interaction are likely to be culled out of the population by purifying selection, long before a chance compensatory mutation in rhino can occur. A second possibility is that the positive selection of rhino may be driven by changes in the regulation of key genes between two species. Although we cannot formally rule out such a scenario, it appears unlikely to explain the relatively constant positive selection that we have seen for approximately 25 million years of Drosophila evolution.</rdf:value>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Discussion"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list10">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_2"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_3"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_4"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_5"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_4"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_6"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_7"/>
+                  </doco:Section>
+                </dcterms:isPartOf>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b68">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b54"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b67">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <rdf:value>Our results complement previous findings that other proteins that bind heterochromatin appear to be among the most rapidly evolving proteins in an unbiased screen in Drosophila [[pgen-0010009-b67]–[pgen-0010009-b68]], although this does not appear to be the result of positive selection [[pgen-0010009-b69]]. Polymorphisms in heterochromatin-binding proteins can have direct effects on non-disjunction frequencies [[pgen-0010009-b54],[pgen-0010009-b70],[pgen-0010009-b71]]. Similarly, although HP1A, -B, and -C appear to be conserved and evolving under purifying selection, HP1 evolution (in both sequence and gene copy number; see [pgen-0010009-g001]) in general appears quite rapid for a chromosomal protein with a highly conserved function in most eukaryotes. Thus, rapid changes in the genomic landscape may underlie rapid diversification of genes encoding HP1s and chromosomal proteins in general.</rdf:value>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-g001"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b71">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b69">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183528/pgen-0010009-b70">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Discussion:para_8"/>
+                  </bibo:Document>
+                </bibo:cites>
+              </doco:Paragraph>
+            </bibo:citedBy>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Positive-Selection-of-rhino-Chromo-Domain:para_1"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_-rhino-Evolution-in-Other-Drosophila-Species:para_1"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_Molecular-Evolution-of-rhino--Positive-Selection-of-the-Hinge-and-Chromo-Shadow-Domains:para_1"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_2"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_1"/>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183528/list4">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_1"/>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183528/Results_HP1-Paralogs-in-Drosophila-Genomes:para_2"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183528/Results"/>
+    <dcterms:title>HP1 Paralogs in Drosophila Genomes</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183528"/>
+  </doco:Section>
+</rdf:RDF>

@@ -1,0 +1,1081 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_2">
+    <rdf:value>Probes were classified as differentially expressed based on two criteria: fold-change and statistical significance. For Affymetrix data, fold-change was calculated as the average expression in the mutant divided by average expression in wild-type. For printed arrays (mec-3), fold-change was calculated by averaging the expression ratio in each of the mutant–versus–wild-type replicate hybridizations. This ratio provides a measure of the magnitude of expression difference between mutant and wild-type samples. To assess the statistical significance of expression differences, we compared the replicate expression values in the mutant hybridizations to replicate expression values in the wild-type hybridizations using a Student's t-test, and calculated a p-value. We then constructed a volcano plot with the log2(fold-change) on the x-axis and negative log10(p-value) on the y-axis [[pgen-0010002-b31]]. Cutoffs for differential expression were based on shape and distribution of individual volcano plots.</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b31">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_2"/>
+        <bibo:citedBy>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_3">
+            <rdf:value>Using this dataset, we classified genes as differentially expressed in mec-3(e1338) based on two criteria: average fold-change in expression level and statistical significance using a Student's t-test. We constructed a volcano plot with the log2(fold-change) on the x-axis and negative log10(p-value) on the y-axis [[pgen-0010002-b31]]. This provides a useful way to visualize differentially expressed genes—those whose expression level is down (negative on the x-axis) and that show high statistical significance (large on the y-axis). Seventy genes were identified as having significantly reduced expression in mec-3(e1338), using fold-change greater than −1.0 (log2 scale) and p &lt; 0.01 as thresholds for decreased expression ([pgen-0010002-g002]). Had e1338 been an uncharacterized mutation that we were attempting to clone, the next step would be to narrow the candidate list of 70 genes using mapping data. Fifteen of these genes are on Chromosome 4, which contains mec-3 and approximately 2,900 other genes. Of these, only three differentially expressed genes fall within a two-map-unit interval spanning mec-3 and approximately 100 other genes. Thus, even in the case of a transcription factor, microarray hybridizations are sufficiently sensitive to detect changes in the mutant mRNA abundance despite broader changes in gene expression. In the case of MEC-3, it is likely that the reduced abundance of e1338 mRNA is due both to NMD and to positive autoregulation of mec-3 transcription [[pgen-0010002-b32]]. Therefore, triangulating between rough mapping information and microarray data would have facilitated the rapid cloning of mec-3.</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b32">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_3"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g002">
+                <bibo:citedBy>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-:para_1">
+                    <rdf:value>Descriptions of all available hybridizations in the C. elegans whole-genome expression profiles were downloaded from the Stanford Microarray Database (http://genome-www5.stanford.edu). These were then searched to find direct mutant versus wild-type comparisons. The 368 hybridizations that were publicly accessible included a large number of developmental time courses, aging experiments, and heat-shock and tissue-specific expression profiles (see [pgen-0010002-g002] in [[pgen-0010002-b27]] for more detail). The only direct mutant versus wild-type comparison was the mec-3(e1338) analysis, which consisted of six hybridizations. For these experiments, normalized log expression ratios were downloaded from the Stanford Microarray Database (ExptSetNo = 1461). Affymetrix expression values for mouse and Arabidopsis datasets were downloaded from NCBI's Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo).</rdf:value>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b27">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-:para_1"/>
+                        <bibo:citedBy>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-:para_1">
+                            <rdf:value>Animals analyzed in microarray experiments were first synchronized by hypochlorite treatment and arrested at the first larval stage by incubation for 22 h in M9 [[pgen-0010002-b27],[pgen-0010002-b69]]. Animals were then grown at 20 °C on 15-cm NG HB101 plates until the fourth larval stage (approximately 46 h). Animals were washed, harvested in M9, and then flash-frozen in liquid nitrogen and stored at −80 °C. Total RNA was prepared by Trizol extraction (Invitrogen, Carlsbad, California, United States).</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b69">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-:para_1"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b27"/>
+                            <dcterms:isPartOf>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-">
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-:para_1"/>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list13">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-:para_1"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1">
+                                    <dcterms:hasPart>
+                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-">
+                                        <dcterms:hasPart>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-:para_1">
+                                            <rdf:value>Targets were prepared and hybridized at the Harvard Medical School Biopolymer Facility. Starting with 10 μg of total RNA, first-strand cDNA was synthesized as described in the Affymetrix (Santa Clara, California, United States) expression technical manual. Briefly, 10 μg of RNA was added to 1 μl of 50 μM T7 primer (HPLC purified) (Integrated DNA Technologies, Coralville, Iowa, United States) in a volume of 9 μl. Then 1 μl of each Poly A spike control (5 nM) was added to the RNA, and T7 was added as an internal control. Poly A spikes were created from Poly A–tailed genes from Bacillus subtilis cloned into Stratagene (La Jolla, California, United States) pBluescript as an XhoI-to-NotI insert 5′–3′, respectively, and commercially available through ATCC (Manassas, Virginia, United States) (see Affymetrix technical expression manual). The RNA, T7, and Poly A spike controls were heated to 70 °C for 10 min and then placed on ice for 5 min. The RNA, T7, and Poly A mix was then heated to 42 °C. Then 4 μl of 5× first-strand buffer (Invitrogen), 2 μl of 0.1 M DTT (Invitrogen), 1 μl of 10 mM dNTP (Invitrogen), and 1 μl of Superscript II, RNase H− was added to the RNA and incubated at 42 °C for 1 h. Double-strand DNA was created via a replacement reaction under the following conditions. To the 20-μl first-strand reaction was added 91 μl of water, 30 μl of second-strand buffer (Invitrogen), 3 μl of 10 mM dNTP (Invitrogen), 1μl of Escherichia coli DNA ligase (Invitrogen), 1 μl of RNase H (Invitrogen), and 4 μl of E. coli DNA polymerase (Invitrogen). This 130-μl second-strand mix was added to the first-strand reaction and incubated at 16 °C for 2 h, then 2 μl of T4 DNA polymerase was added for 5 min at 16 °C, then the reaction was phenol-chloroform-extracted using 150 μl of phenol chloroform isoamyl alcohol (pH 7) (Ambion, Austin, Texas, United States), and the organic and aqueous phases were separated using a 1.5-ml phase lock heavy gel (Brinkmann Eppendorf, Westbury, New York, United States). The 150-μl aqueous layer was removed and precipitated in 375 μl of 100% ethanol and 15 μl of 3 M sodium acetate (Sigma, St. Louis, Missouri, United States). The cDNA pellet was isolated using an Eppendorf (Hamburg, Germany) 5415C centrifuge at room temperature for 20 min. Ethanol was aspirated and the pellet washed in 75% ethanol, centrifuged for 10 min, and aspirated. The cDNA pellet was rehydrated using 22 μl of nuclease-free water (Ambion) and used with the BioArray HighYield RNA Transcript Labeling Kit T7 (Enzo Life Sciences, Farmingdale, New York, United States). The resulting biotinylated cRNA probes were purified using RNeasy columns (Qiagen, Valencia, California, United States) and quantitated using A260 with an Agilent (Palo Alto, California, United States) 8453 spectrophotometer. Then 15 μg of labeled probe was fragmented with 5× fragmentation buffer (see Affymetrix technical manual) and combined with hybridization controls (Affymetrix), herring sperm DNA (Promega, Madison, Wisconsin, United States), and BSA (Invitrogen) to create 300 μl of hybridization mix. Of this, 200 μl was added to the Affymetrix C. elegans GeneChip. Hybridization was done in a GeneChip Hybridization Oven 320 for 16 h at 45 °C, processed on an Affymetrix Fluidics Station 400 using double amplification staining (see Affymetrix technical manual), and washed using fluidics protocol EukGE-WS2v4. The GeneChips were then scanned on a Hewlett-Packard (Palo Alto, California, United States) GeneArray Scanner.</rdf:value>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-"/>
+                                          </doco:Paragraph>
+                                        </dcterms:hasPart>
+                                        <biotea:paragraphList>
+                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list14">
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-:para_1"/>
+                                          </rdf:Seq>
+                                        </biotea:paragraphList>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                        <dcterms:title>Microarray target preparation and hybridization.</dcterms:title>
+                                        <dcterms:isPartOf>
+                                          <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/1183521">
+                                            <dcterms:references rdf:resource="http://www.wormbase.com"/>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-:para_1">
+                                                    <rdf:value
+                                                    >Information about 930 recessive single base-pair substitution alleles was downloaded from WormBase (http://www.wormbase.com), Release WS123 (see [pgen-0010002-st001]). Information about 82 additional alleles was obtained through literature searches. Based on their molecular description, 943 alleles were classified as either NMD targets (nonsense) or non-NMD targets (missense). Excluded from the analysis were 69 alleles that could not be definitively classified. These alleles included those with incomplete molecular descriptions and those with lesions such as splice site mutations that could not be classified without further characterization.</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-st001">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-:para_1"/>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1">
+                                                            <rdf:value
+                                                            >The utility of microarrays in cloning depends on the frequency with which nonsense alleles are recovered in phenotypic screens. Since 15 of the 61 amino acid–encoding codons are mutable to stop codons by a single base-pair substitution, nonsense alleles are likely to represent a large fraction of all alleles recovered after random mutagenesis with agents that increase the rate of nucleotide misincorporation. To assess the prevalence of nonsense alleles isolated following random mutagenesis, we compiled a list of sequenced C. elegans mutant alleles by downloading information from WormBase and conducting targeted literature searches ([pgen-0010002-g001]; [pgen-0010002-st001]). We focused on misincorporation mutations because these represent the most common lesion caused by alkylating agents such as ethyl methane sulfonate or N-ethyl-N-nitrosourea. In total, we examined 943 single-nucleotide-substitution loss-of-function alleles in 246 genes, which were published by 99 laboratories. We then classified these alleles as putative NMD targets (nonsense) or non-NMD targets (missense). We found that 41% of the alleles were putative NMD targets. Interestingly, this figure is comparable to estimates that one-third of human genetic diseases are the result of nonsense mutations [[pgen-0010002-b21],[pgen-0010002-b22]].</rdf:value>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b22">
+    <bibo:citedBy>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7">
+        <rdf:value>Can microarrays be used to aid the cloning of human disease genes? One-third of human disease genes are predicted to be caused by nonsense lesions or mutations that decrease transcript abundance [[pgen-0010002-b21],[pgen-0010002-b22]]. Furthermore, nonsense mutant transcripts encoded by disease genes such as BRCA1 and hepatocyte nuclear factor 1α have been shown to be effectively degraded by NMD [[pgen-0010002-b67],[pgen-0010002-b68]]. Given the enormous time and expense involved in mapping genes in humans, the strategy described here could provide a valuable addition to the toolbox of human geneticists.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b68">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b67">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b22"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b21">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7"/>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf>
+          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion">
+            <dcterms:hasPart>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_6">
+                <rdf:value>The principal costs of positional cloning are those incurred in isolating, phenotyping, and genotyping a sufficient number of recombinants (i.e., informative meioses) to map a mutation to a small genetic interval. A typical positional cloning requires 2,000–10,000 informative meioses. Our results suggest that microarray hybridizations can significantly reduce the number of meioses required for positional clonings. In five of six cases, microarray data in conjunction with chromosomal linkage data were sufficient for gene identification. Therefore, while we expect that this strategy will be useful in many genetic systems, microarray-assisted cloning promises to provide the greatest value in organisms such as mouse and zebrafish, where long generation times and large genomes make meiotic mapping more time consuming and costly. Furthermore, microarray-assisted cloning may be particularly useful in cases where mutant phenotypes are more difficult to assess, such as behavioral mutants, or incompletely penetrant or complex (i.e., multigenic) traits [[pgen-0010002-b65],[pgen-0010002-b66]]. Given the effort and challenges involved in meiotic mapping and the relative ease and speed of microarray hybridizations, we believe that this microarray-based strategy provides significant benefit, even though it will be successful in only a subset of cases.</rdf:value>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b66">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_6"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b65">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_6"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+              </doco:Paragraph>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7"/>
+            <dcterms:title>Discussion</dcterms:title>
+            <biotea:paragraphList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list9">
+                <rdf:li>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_1">
+                    <rdf:value>We present evidence demonstrating the utility of microarray hybridizations in facilitating the rapid identification of mutations isolated in forward genetic screens. Several results suggest that this technique will be widely applicable. This strategy was successful in identification of C. elegans, mouse, and Arabidopsis mutations. Mutations were successfully identified in both transcription factors and signal transduction components, which are likely to be the most challenging cases. Mutant genes were successfully detected using data obtained with both printed arrays and Affymetrix chips. And finally, we were able to identify two previously uncharacterized C. elegans mutations with this approach.</rdf:value>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                  </doco:Paragraph>
+                </rdf:li>
+                <rdf:li>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_2">
+                    <rdf:value>Will this strategy work for genes that regulate the expression of many other genes? We provide examples for successful identification of three genes that directly affect transcription—two transcription factors (mec-3 and hif-1) and a protein kinase that regulates neuronal gene expression (unc-43). Although 70 genes were differentially expressed in mec-3 mutants, only three differentially expressed genes mapped within a 2-cM interval containing mec-3 and 100 other genes. Therefore, microarray hybridizations would have facilitated identification of mec-3.</rdf:value>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                  </doco:Paragraph>
+                </rdf:li>
+                <rdf:li>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_3">
+                    <rdf:value>The success rate for this strategy depends on three factors: (1) the fraction of genes that are detectable by microarray, (2) the frequency of nonsense alleles recovered in screens, and (3) the efficiency with which nonsense mutated mRNAs are degraded by NMD. In our hybridizations using mRNA prepared from whole worms, 80% of the genes on the array showed detectable expression. In cases where a mutation affects a particular cell type or tissue, the likelihood of detecting a particular transcript can be increased using RNA isolated from that tissue or cell type [[pgen-0010002-b28],[pgen-0010002-b56]].</rdf:value>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b56">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_3"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b28">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_3"/>
+                        <bibo:citedBy>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2">
+                            <rdf:value>To address some of these concerns, we examined the large collection of microarray experiments used to build a whole-genome expression profile for C. elegans [[pgen-0010002-b27]]. Most of these experiments, which were done with printed microarrays, were designed to identify gene-expression profiles associated with various developmental programs or specific tissues. However, one set of experiments analyzed changes in gene expression in mutants lacking the MEC-3 transcription factor (see [s4]) [[pgen-0010002-b28]]. The mec-3(e1338) allele corresponds to a W69Stop mutation, and homozygous animals carrying this mutation are touch-insensitive [[pgen-0010002-b29],[pgen-0010002-b30]].</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b30">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b29">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b28"/>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/s4">
+                                <bibo:citedBy>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_2">
+                                    <rdf:value>For these two examples, we asked retrospectively whether hybridization data would have aided identification of the mutant genes. To do this, we reanalyzed the PMR4 and MDX data as described for the C. elegans mutants and constructed volcano plots ([pgen-0010002-g008]). Each of these datasets had a different distribution on the fold-change and significance axes because of differences in the sample preparation, labeling efficiency, type of GeneChip, and number of hybridizations. We therefore adjusted our significance and ratio thresholds for differential expression (see [s4]). In the PMR4 hybridizations, 17 genes showed significantly decreased expression (fold-change &lt; −1.0, p &lt; 0.01). Of these, two genes were on Chromosome 4, the most significant of which was PMR4 ([pgen-0010002-g008]A). In the case of the MDX data, 22 genes showed significantly decreased expression (fold-change &lt; −1.5, p &lt; 0.0001). Of these, only the dystrophin gene was on X ([pgen-0010002-g008]B). In each case, there was only one probe on the GeneChip corresponding to the mutant gene. For both of these examples, the combination of microarray data and chromosomal mapping quickly reduced the number of candidates to one or two genes.</rdf:value>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/s4"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g008">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <dcterms:isPartOf>
+                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning">
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_2"/>
+                                        <dcterms:hasPart>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1">
+                                            <rdf:value>Since NMD functions in all eukaryotes [[pgen-0010002-b16],[pgen-0010002-b18]], we wondered whether our strategy could be applied to other model systems. To address this, we conducted a retrospective analysis of microarray data from mutants in other organisms. We searched the public microarray databases for experiments in which researchers had analyzed mutants in other organisms. Specifically, we looked for hybridizations where mutant RNA had been compared to wild-type RNA and where the mutation was the result of a premature stop codon (and thus a predicted NMD target). For practical reasons, we also required that the mutant gene be represented and detectable on the microarray. Surprisingly, we found that only two experiments met these criteria. The first was a study of pmr4
+(powdery mildew resistant 4), a cell-wall biosynthesis gene in Arabidopsis that confers pathogen resistance when mutated. The lesion used in the microarray studies was a premature stop codon in the second exon (PMR4 dataset) [[pgen-0010002-b53]]. The second was a study of the mdx mouse, an animal model of Duchenne muscular dystrophy, with a premature stop codon in exon 23 of dystrophin (MDX dataset) [[pgen-0010002-b54],[pgen-0010002-b55]]. In both of these studies, the authors knew the nature of the mutation and were attempting to find genes whose expression changed in the mutant background.</rdf:value>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b55">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b54">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b53">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b18">
+                                                <bibo:citedBy>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5">
+                                                    <rdf:value
+                                                    >What fraction of nonsense alleles are efficiently targeted by the NMD machinery? In each of the six examples we present above, this was the case, but how often do nonsense transcripts evade degradation by the NMD machinery? Rules governing NMD recognition of mutant mRNAs have been described in yeast, C. elegans, and mammals [[pgen-0010002-b16]–[pgen-0010002-b18],[pgen-0010002-b59]–[pgen-0010002-b63]]. The NMD machinery distinguishes premature stop codons from natural stops using the exon-junction complexes that are deposited at exon–exon boundaries by the spliceosome. Stops that are greater than 50–55 base pairs upstream of the last exon-junction complex are recognized by the NMD machinery as premature and are efficiently targeted for destruction [[pgen-0010002-b61],[pgen-0010002-b64]]. Prior studies have shown that 100% (n = 23) of C. elegans nonsense mutations were susceptible to NMD surveillance (measured either by mRNA abundance or by suppression of mutant phenotypes by NMD pathway mutations) [[pgen-0010002-b17]]. Of these, six mutations (26%) were judged to be only partially targeted by NMD. Based on these examples and those we describe here, we estimate that 75%–100% of nonsense alleles in C. elegans would show a detectable decrease in mRNA levels. Considering all three of these factors (gene detection by microarray, nonsense allele frequency, and NMD efficiency), we expect microarray-assisted cloning to be successful in 25%–30% of positional clonings (assuming only one allele is hybridized per gene).</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b64">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b18"/>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b63">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b17">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b16">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b59">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_4">
+                                                            <rdf:value
+                                                            >What fraction of newly isolated mutations will be nonsense alleles (see [pgen-0010002-g001])? Our analysis suggests that for 20% of C. elegans genes, nonsense mutations are rarely recovered. For the remaining 80% of C. elegans genes, 45% of alleles recovered were nonsense alleles. Given these ratios, the rate of successful gene identification by microarray hybridization could be increased by analyzing multiple alleles of the same gene and by selecting genes for which null alleles are the most frequently isolated class of alleles recovered in screens. Furthermore, microarray-assisted cloning will likely be useful for other categories of alleles that decrease transcript abundance, e.g., the spontaneous hif-1(nu469) mutation. These include mutations altering pre-mRNA splicing, mutations in promoters, frameshift mutations, and mutations yielding transcripts that lack termination codons [[pgen-0010002-b57]–[pgen-0010002-b59]].</rdf:value>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b59"/>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b57">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_4"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g001">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_4"/>
+    <bibo:citedBy>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_2">
+        <rdf:value>We calculated the percentage of nonsense alleles recovered for each of the 117 genes in our dataset with three or more characterized alleles ([pgen-0010002-g001]). For 20% of these genes, no nonsense alleles have been identified, even in cases where ten alleles are known. Many of these genes are known to cause a lethal phenotype as a null mutation (e.g., acy-1, unc-17, and let-502). Since many screens demand homozygous viable phenotypes, it is not surprising that nonsense alleles were rarely recovered in these genes. For another 20% of these genes, all known alleles are nonsense mutations. These might comprise genes for which mutant phenotypes are expressed only when gene function is completely eliminated. For all other genes, there appears to be a broad distribution in the fraction of nonsense alleles recovered, with a mode occurring at 40% nonsense alleles. Thus, while a high frequency of nonsense alleles seems to be a general feature common to many screens in C. elegans, this is likely to vary considerably for different gene classes.</rdf:value>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g001"/>
+        <dcterms:isPartOf>
+          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_2"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1"/>
+            <biotea:paragraphList>
+              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list4">
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_2"/>
+              </rdf:Seq>
+            </biotea:paragraphList>
+            <dcterms:isPartOf>
+              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning"/>
+                <biotea:paragraphList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list3">
+                    <rdf:li>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results:para_1">
+                        <rdf:value>To test the feasibility of using microarrays to facilitate positional cloning, we will address four questions. (1) How frequently are nonsense alleles recovered in forward genetic screens? (2) Are microarray hybridizations sensitive enough to detect the decreased abundance of a nonsense mutant transcript? (3) Can microarray hybridizations be used to identify an uncloned behavioral mutant in C. elegans? (4) Is this microarray-based strategy applicable to other model organisms?</rdf:value>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                      </doco:Paragraph>
+                    </rdf:li>
+                  </rdf:Seq>
+                </biotea:paragraphList>
+                <dcterms:hasPart>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4">
+                        <rdf:value>Tomosyn is an approximately 1,100–amino acid protein with two functional domains: (1) the C-terminal coiled-coil domain, which shares homology with synaptobrevin and has been shown to bind to syntaxin and SNAP-25, and (2) the approximately 600-residue WD40-rich N-terminal region, which shows strong homology to the fly tumor suppressor protein Lethal giant larvae ([pgen-0010002-g007]A) [[pgen-0010002-b49],[pgen-0010002-b50]]. Previous studies have shown that the synaptobrevin-like coiled-coil domain of rat tomosyn binds syntaxin and SNAP-25, forming a SNARE-like complex that occludes synaptobrevin [[pgen-0010002-b51]]. This suggests a mechanism whereby tomosyn competitively inhibits secretion by preventing SNARE complex formation. Supporting this hypothesis, overexpression of tomosyn in neuroendocrine cells results in a decrease in exocytosis in response to depolarization [[pgen-0010002-b49]–[pgen-0010002-b52]]. While these overexpression studies show that tomosyn can function to inhibit dense core vesicle release, they do not address the endogenous function of tomosyn. Our results provide the first in vivo evidence suggesting that endogenously expressed tomosyn inhibits neurotransmitter secretion in neurons.</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b52">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b51">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b50">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b49">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g007">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_3">
+                                <rdf:value>We performed several experiments to confirm that the tom-1(nu468) mutation caused the aldicarb hypersensitivity observed in the KP3293 strain. First, we tested a second tom-1 allele, ok285, which was generated by the C. elegans Gene Knockout Consortium (http://celeganskoconsortium.omrf.org). This allele, tom-1(ok285), encodes a mutant protein lacking 202 residues in a highly conserved region, and homozygous tom-1(ok285) mutants exhibited aldicarb hypersensitivity similar to that observed in KP3293 tom-1(nu468) mutants (triangles in [pgen-0010002-g005]). Second, the aldicarb hypersensitivity of KP3293 tom-1(nu468) animals was rescued by a transgene driving expression of a tom-1 cDNA in cholinergic neurons (open circles in [pgen-0010002-g005]). Third, we found that a 4.2-kb tom-1 promoter fragment was sufficient to drive expression of green fluorescent protein in the ventral cord motor neurons ([pgen-0010002-g007]B), consistent with the idea that tomosyn acts as an inhibitor of ACh secretion in motor neurons. Tomosyn also showed expression in several neurons in head ([pgen-0010002-g007]C) and tail ganglia ([pgen-0010002-g007]D).</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g007"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g005">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_3"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1">
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b39">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b41">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b48">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b43">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g005"/>
+                                        <rdf:value>To further address whether microarray hybridizations can be used to identify uncharacterized mutations, we analyzed a behavioral mutant that was isolated in a forward genetic screen for inhibitors of neurotransmitter secretion. Neurotransmission serves as the primary mode of communication between cells in the nervous system. Neurotransmitters such as acetylcholine (ACh) are secreted by presynaptic nerve cells, and activate receptors on postsynaptic cells. Behavioral and pharmacological screens in C. elegans have proven to be a powerful approach to identifying molecules involved in synaptic transmission and nervous system function [[pgen-0010002-b39]–[pgen-0010002-b42]]. The cholinesterase inhibitor aldicarb is widely used as a means to monitor ACh secretion at the C. elegans neuromuscular junction [[pgen-0010002-b41],[pgen-0010002-b43]–[pgen-0010002-b46]]. In the presence of aldicarb, ACh accumulates in the synaptic cleft, causing the body wall muscles to become hypercontracted and animals to become paralyzed. Mutations that increase ACh secretion cause hypersensitivity to the paralytic effects of aldicarb [[pgen-0010002-b46]–[pgen-0010002-b48]]. To identify negative regulators of ACh secretion, we used hypersensitivity to aldicarb as the basis for a forward genetic screen. One of the strongest mutations recovered in our screen was nu468 (filled squares in [pgen-0010002-g005]).</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b42">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b46">
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-:para_1">
+                                                <rdf:value>Aldicarb sensitivity was assessed essentially as described [[pgen-0010002-b45],[pgen-0010002-b46]]. Briefly, for each experiment, 20 to 25 animals were transferred to agar plates containing 1 mM aldicarb (Chem Service). Paralysis was assessed every 10 min by prodding each animal with a platinum wire. Data from independent trials were averaged and used to calculate standard error. All experiments were conducted blind with respect to the genotype of the animals.</rdf:value>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b46"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b45">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-">
+                                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-:para_1"/>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list19">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-:para_1"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                    <dcterms:title
+                                                    >Analysis of aldicarb sensitivity.</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </dcterms:isPartOf>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:references rdf:resource="http://celeganskoconsortium.omrf.org"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2">
+                                <rdf:value>We meiotically mapped nu468 to Chromosome 1, which contains approximately 2,700 genes. We then hybridized RNA from KP3293 nu468 animals to the C. elegans GeneChip, comparing the hybridizations to wild-type hybridizations as previously described ([pgen-0010002-sd001]). Six probesets showed significantly decreased expression in KP3293 animals (fold-change &lt; −0.5, p &lt; 0.01) ([pgen-0010002-g006]), of which two corresponded to genes on Chromosome 1. Sequencing DNA from the mutant revealed a nonsense mutation in one of these genes, tom-1, the C. elegans ortholog of mammalian tomosyn ([pgen-0010002-g007]A and [pgen-0010002-sg002]). This lesion, a predicted NMD target, is consistent with the decreased transcript levels that we observed by the microarray hybridization. This is the only probe corresponding to tom-1 on the C. elegans GeneChip.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-sg002">
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---:para_1">
+                                        <rdf:value>
+tom-1(nu468) was rescued using the full-length cDNA of the major splice form of tom-1 (M01A10.2a) under the promoter of unc-17 synaptic vesicle ACh transporter. A transgenic strain was isolated by microinjecting the rescuing plasmid at 100 ng/μl using pttx-3::dsRed as a marker into nu468. During characterization and rescue of tom-1, we discovered that the start site and first exon were incorrectly predicted and described in WormBase. We identified the correct start site and initial two exons of tom-1 by performing RT-PCR using a primer complementary to the trans-splice acceptor (SL1). This corrected version of tom-1 shows much better alignment to the N-terminus of mammalian homologs (see [pgen-0010002-sg002]).</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-sg002"/>
+                                        <dcterms:isPartOf>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---">
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---:para_1"/>
+                                            <biotea:paragraphList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list21">
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---:para_1"/>
+                                              </rdf:Seq>
+                                            </biotea:paragraphList>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                            <dcterms:title>Rescue of tom-1(nu468).
+</dcterms:title>                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                          </doco:Section>
+                                        </dcterms:isPartOf>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g007"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g006">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-sd001">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_5">
+                                        <rdf:value>We hybridized total RNA isolated from wild-type and KP3365 unc-43(n1186) CaMKII mutant animals to the Affymetrix C. elegans GeneChip ([pgen-0010002-sd001]). Using fold-changes greater than 0.5 (log2 scale) and p &lt; 0.01 as thresholds, we found 20 probesets with decreased expression in KP3365 unc-43(n1186) CaMKII mutants as compared to wild-type controls ([pgen-0010002-g003]). Eight of these probesets correspond to sequences on Chromosome 4, which contains unc-43 CaMKII and approximately 2,900 other genes. Strikingly, seven of these eight probesets correspond to the unc-43 gene. These seven probesets correspond to nonoverlapping regions of the coding sequence, as well as the 5′ and 3′ untranslated region of unc-43 ([pgen-0010002-sg001]). Only two of these probesets (193459_s_at and 193463_s_at) were annotated as corresponding to the unc-43 CaMKII mRNA transcript according to the annotation of the C. elegans GeneChip provided by Affymetrix (downloadable at http://www.affymetrix.com). During our examination of the eight candidate probesets that showed decreased expression and were on Chromosome 4, we discovered the five additional probesets that corresponded to unc-43 CaMKII. These additional probesets provided a serendipitous blind control, since we were not aware of their existence until they appeared on our candidate list from the hybridization. This redundancy in probes is a result of overlap in the various databases used to design the GeneChip and inaccuracies in gene predications at the time of design (December 2000). Approximately 2,400 (13%) of the genes on the C. elegans GeneChip are represented by multiple probes. While it is unusual to have seven probesets on a microarray corresponding to a single gene, this illustrates the robustness of our ability to measure the changes in expression of unc-43 CaMKII. This demonstrates that microarray hybridizations can be used to measure the decrease in unc-43 transcript in the unc-43(n1186) mutant. These results also suggest that microarray hybridizations utilizing printed arrays and those utilizing Affymetrix chips are both sufficiently sensitive to detect changes in the abundance of mutant mRNAs, even in the relatively stringent cases of transcription factors and signal transduction components.</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-sg001">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g003">
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_1">
+                                                <rdf:value>One potential limitation of our strategy is that mutant strains may contain multiple mutations, some of which do not contribute to the mutant phenotype. This will be particularly true in heavily mutagenized strains, and in cases where the mutants have not been extensively backcrossed with wild-type strains. Therefore, we examined the KP3365 unc-43(n1186) CaMKII hybridization data for other genes with significantly reduced expression. Interestingly, the gene with the largest decrease in expression in KP3365 unc-43(n1186) animals was not unc-43; rather, it was hif-1 ([pgen-0010002-g003]), which encodes the worm ortholog of hypoxia-inducible factor 1α, a transcription factor that mediates transcriptional responses to oxygen deprivation [[pgen-0010002-b35]]. This is the only probe corresponding to hif-1 on the C. elegans GeneChip. There are two likely explanations for the observed decrease in hif-1 transcript levels: either hif-1 expression is regulated by unc-43 CaMKII, or the KP3365 strain contains a loss-of-function polymorphism in the hif-1 gene. Sequencing genomic DNA from KP3365 animals revealed two mutations in the last exon of hif-1 (nu469) ([pgen-0010002-g004]A). Since neither of these mutations results in a premature stop, why is transcript level decreased? To address this issue, we sequenced hif-1 cDNA made from wild-type and KP3365 animals. This revealed that the nu469 mutations cause an aberrant splicing of the hif-1 mRNA, removing 135 base pairs from the last exon ([pgen-0010002-g004]A). We confirmed this change in hif-1 splicing by RT-PCR ([pgen-0010002-g004]B). The aberrantly spliced hif-1(nu469) transcript is likely to have reduced stability.</rdf:value>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g004">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b35">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g003"/>
+                                                <dcterms:isPartOf>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain">
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_2">
+                                                        <rdf:value
+                                                        >In aerobic conditions, the HIF-1 protein is constitutively degraded by the von Hippel–Lindau ubiquitin ligase [[pgen-0010002-b36]–[pgen-0010002-b38]]; consequently, the hif-1(nu469) mutation would presumably be phenotypically silent in normal growth conditions. The hif-1(nu469) mutation was not present in several other strains containing the unc-43(n1186) allele, suggesting that this mutation occurred spontaneously during culturing in our laboratory (data not shown). In summary, KP3365 animals carry a previously uncharacterized polymorphism in hif-1, which we identified based solely on our microarray hybridization results. Identifying such polymorphisms may allow researchers to explain unexpected aspects of mutant phenotypes of particular strains.</rdf:value>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b38">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b36">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_1"/>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list6">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_1"/>
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain:para_2"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                                                    <dcterms:title
+                                                    >Identification of a hif-1 Polymorphism in the KP3365 Strain</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </dcterms:isPartOf>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_5"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-sd001"/>
+                                        <dcterms:references rdf:resource="http://www.affymetrix.com"/>
+                                        <dcterms:isPartOf>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray">
+                                            <biotea:paragraphList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list5">
+                                                <rdf:li>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1">
+                                                    <rdf:value
+                                                    >Are microarray hybridizations sensitive enough to detect changes in mutant transcript abundance due to a nonsense lesion above the global variation in gene expression between mutant and control strains? Some potential sources of variance in gene expression include random fluctuations in gene expression [[pgen-0010002-b23],[pgen-0010002-b24]], uncontrolled differences between the mutant and control populations (e.g., differences in developmental stage or physiological status), and differences in genetic backgrounds [[pgen-0010002-b25],[pgen-0010002-b26]]. Perhaps the most important potential limitation is changes in gene expression that are a secondary consequence of a mutation. This could be particularly problematic for mutations in genes encoding transcription factors or other components of signal transduction cascades, the loss of which would be expected to alter the expression of many downstream genes.</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b26">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b25">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b24">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b23">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                                                  </doco:Paragraph>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_3"/>
+                                                <rdf:li>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_4">
+                                                    <rdf:value
+                                                    >To further address the sensitivity of microarray-assisted cloning, we analyzed changes in gene expression observed in KP3365 unc-43(n1186) mutants. The unc-43 gene encodes type II calcium- and calmodulin-dependent protein kinase (CaMKII), which is broadly expressed in the worm nervous system as well as in muscles and in the intestine [[pgen-0010002-b33]]. This provides another demanding test case because CaMKII plays a pivotal role in calcium-mediated signaling in neurons, and unc-43 mutations are known to cause changes in the expression of other genes [[pgen-0010002-b34]]. The n1186 allele corresponds to a Q67Stop mutation, and homozygous animals carrying this mutation have relatively subtle behavioral defects [[pgen-0010002-b33]].</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b34">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b33">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_4"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                                                  </doco:Paragraph>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_5"/>
+                                              </rdf:Seq>
+                                            </biotea:paragraphList>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_3"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_4"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_5"/>
+                                            <dcterms:title>Proof of Principle: mec-3 and unc-43 CaMKII Mutations Are Detectable by Microarray</dcterms:title>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_1"/>
+                                          </doco:Section>
+                                        </dcterms:isPartOf>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_3"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list7">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_2"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_3"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion:para_4"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                    <dcterms:title>Using Microarrays to Identify a Mutation in Tomosyn, an Inhibitor of Neurotransmitter Secretion</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                  </doco:Section>
+                </dcterms:hasPart>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                <dcterms:title>Results</dcterms:title>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations"/>
+                <biotea:sectionList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183521/list2">
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning"/>
+                  </rdf:Seq>
+                </biotea:sectionList>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results:para_1"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+              </doco:Section>
+            </dcterms:isPartOf>
+            <dcterms:title>Nonsense Alleles Represent a Large Fraction of C. elegans Mutations</dcterms:title>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+          </doco:Section>
+        </dcterms:isPartOf>
+      </doco:Paragraph>
+    </bibo:citedBy>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b61">
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                                                  </doco:Paragraph>
+                                                </bibo:citedBy>
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b16"/>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning"/>
+                                          </doco:Paragraph>
+                                        </dcterms:hasPart>
+                                        <biotea:paragraphList>
+                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list8">
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_1"/>
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning:para_2"/>
+                                          </rdf:Seq>
+                                        </biotea:paragraphList>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                                        <dcterms:title>Generalizability of Microarray-Assisted Cloning</dcterms:title>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                      </doco:Section>
+                                    </dcterms:isPartOf>
+                                  </doco:Paragraph>
+                                </bibo:citedBy>
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b27"/>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                          </doco:Paragraph>
+                        </bibo:citedBy>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                  </doco:Paragraph>
+                </rdf:li>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_4"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_6"/>
+                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_7"/>
+              </rdf:Seq>
+            </biotea:paragraphList>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_4"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_3"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_5"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_1"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Discussion:para_2"/>
+          </doco:Section>
+        </dcterms:isPartOf>
+      </doco:Paragraph>
+    </bibo:citedBy>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b21"/>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-st001"/>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g001"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations"/>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <dcterms:references rdf:resource="http://www.wormbase.com"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list12">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Allele analysis.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:references rdf:resource="http://www.bioconductor.org"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                                            <dcterms:references rdf:resource="http://www.r-project.org"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-"/>
+                                            <dcterms:references rdf:resource="http://genome-www5.stanford.edu"/>
+                                            <dcterms:references rdf:resource="http://celeganskoconsortium.omrf.org"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-"/>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods">
+                                                <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <biotea:sectionList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183521/list7">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                  </rdf:Seq>
+                                                </biotea:sectionList>
+                                                <dcterms:title
+                                                >Materials and Methods</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-"/>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_3">
+                                                    <rdf:value
+                                                    >Raw image files were converted to probeset data (.cel files) in Microarray Suite (MAS 5.0). The nine probeset data files were normalized together and expression values were determined using the Robust Multi-chip Average (RMA) method as implemented in RMA Express (http://stat-www.berkeley.edu/~bolstad/RMAExpress/RMAExpress.html). Subsequent analysis was done using the R statistical computing package (http://www.r-project.org) and the Bioconductor libraries (http://www.bioconductor.org). Graphs were produced in Igor Pro 4.0 (WaveMetrics, Lake Oswego, Oregon, United States). Probeset annotations were downloaded from the Affymetrix Web site (http://www.affymetrix.com).</rdf:value>
+                                                    <dcterms:references rdf:resource="http://www.affymetrix.com"/>
+                                                    <dcterms:references rdf:resource="http://www.bioconductor.org"/>
+                                                    <dcterms:references rdf:resource="http://www.r-project.org"/>
+                                                    <dcterms:references rdf:resource="http://stat-www.berkeley.edu/~bolstad/RMAExpress/RMAExpress.html"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_2"/>
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_1">
+                                                    <rdf:value
+                                                    >For Affymetrix data, probesets were first filtered to eliminate those that showed no detectable signal. A threshold of 32 was used for the C. elegans and Arabidopsis data. A threshold of 256 was used for the mdx data because these data showed significantly higher signals than the other datasets. This is most likely because the RNA for these experiments was prepared from a single tissue (mouse skeletal muscle), as opposed to the C. elegans and Arabidopsis RNA, which was derived from the whole organism. For printed arrays, only spots that showed detectable signal (mean signals greater than 1.5 standard deviations above background) were included in the analysis.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list16">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_1"/>
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_2"/>
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-:para_3"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Microarray data analysis.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---:para_1">
+                                                    <rdf:value
+                                                    >Genomic sequence from VC223 animals, available on WormBase, shows a deletion of 1,580 nucleotides that removes all of exons 11–13 and part of exon 10. To characterize the effect of this lesion on the tom-1 gene product, we purified RNA from VC223 animals and amplified the mutated tom-1 mRNA by RT-PCR (Invitrogen). Sequencing revealed that the genomic deletion results in an in-frame lesion in the mRNA, removing 606 nucleotides of coding sequence, and adding 23 nucleotides of intronic sequence and a 490-base-pair alternative exon from isoform C of tom-1 that is located just downstream of the deletion.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list20">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Molecular characterization of tom-1(ok285).
+</dcterms:title>                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-">
+                                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-:para_1"/>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list15">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Public datasets.</dcterms:title>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:hasPart>
+                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---">
+                                                <dcterms:hasPart>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---:para_1">
+                                                    <rdf:value
+                                                    >Using RNA prepared from KP3365 and wild-type animals, first-strand cDNA was synthesized using a primer specific for the 3′ UTR of hif-1 (Invitrogen). The hif-1 gene was then amplified by PCR from this cDNA and sequenced.</rdf:value>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---"/>
+                                                  </doco:Paragraph>
+                                                </dcterms:hasPart>
+                                                <biotea:paragraphList>
+                                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list17">
+                                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---:para_1"/>
+                                                  </rdf:Seq>
+                                                </biotea:paragraphList>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <dcterms:title
+                                                >Molecular characterization of hif-1(nu469).
+</dcterms:title>                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                              </doco:Section>
+                                            </dcterms:hasPart>
+                                            <dcterms:references rdf:resource="http://stat-www.berkeley.edu/~bolstad/RMAExpress/RMAExpress.html"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations"/>
+                                            <biotea:sectionList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183521/list1">
+                                                <rdf:li>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Abstract">
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Abstract:para_1">
+                                                        <rdf:value
+                                                        ></rdf:value>
+                                                        <rdf:value
+                                                        >Forward genetic screens have been used as a powerful strategy to dissect complex biological pathways in many model systems. A significant limitation of this approach has been the time-consuming and costly process of positional cloning and molecular characterization of the mutations isolated in these screens. Here, the authors describe a strategy using microarray hybridizations to facilitate positional cloning. This method relies on the fact that premature stop codons (i.e., nonsense mutations) constitute a frequent class of mutations isolated in screens and that nonsense mutant messenger RNAs are efficiently degraded by the conserved nonsense-mediated decay pathway. They validate this strategy by identifying two previously uncharacterized mutations: (1) tom-1, a mutation found in a forward genetic screen for enhanced acetylcholine secretion in Caenorhabditis elegans, and (2) an apparently spontaneous mutation in the hif-1 transcription factor gene. They further demonstrate the broad applicability of this strategy using other known mutants in C. elegans,
+Arabidopsis, and mouse. Characterization of tom-1 mutants suggests that TOM-1, the C. elegans ortholog of mammalian tomosyn, functions as an endogenous inhibitor of neurotransmitter secretion. These results also suggest that microarray hybridizations have the potential to significantly reduce the time and effort required for positional cloning.</rdf:value>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Abstract"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list1">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Abstract:para_1"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:title
+                                                    >Abstract</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Abstract"/>
+                                                <rdf:li>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction">
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_4">
+                                                        <rdf:value
+                                                        >It has been proposed that NMD could be used as a basis to identify nonsense mutations in cell lines [[pgen-0010002-b19],[pgen-0010002-b20]]. In principle, a nonsense mutation in mutant animals could be identified using microarray hybridizations to find transcripts with decreased abundance. In practice, microarray data alone are unlikely to be sufficient to identify nonsense mutations. In addition to the expected statistical noise associated with microarray experiments, there are likely to be transcriptional changes in other genes that are caused by the mutation being studied. The most powerful cloning approach would thus be one that uses microarray data together with traditional mapping information. Here, we present evidence supporting the feasibility and general utility of this strategy.</rdf:value>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b20">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b19">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_3">
+                                                        <rdf:value
+                                                        >We wondered whether microarray expression data could facilitate the identification of mutations responsible for behavioral defects isolated in forward genetic screens. It is well established that nonsense mutations result in the degradation of the mutant messenger RNA (mRNA) via the nonsense-mediated decay (NMD) pathway. A surveillance mechanism common to all eukaryotes, NMD serves as a quality control system to destroy faulty mRNAs whose translation would lead to an inappropriately truncated protein [16−18]. NMD protects cells by eliminating inactive or potentially deleterious dominant negative proteins that are the result of somatic mutation, transcriptional mistakes, or splicing errors.</rdf:value>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2">
+                                                        <rdf:value
+                                                        >To circumvent these difficulties, several new technologies have been developed to isolate mutations by reverse genetics. Reverse genetic strategies include use of insertional mutagens [6−10], PCR screens for randomly induced deletions [[pgen-0010002-b11]], homologous gene targeting [[pgen-0010002-b12],[pgen-0010002-b13]], and physical or genetic detection of point mutations in sequenced genes [[pgen-0010002-b14],[pgen-0010002-b15]]. While reverse genetic strategies circumvent the positional cloning bottleneck, these approaches also have limitations. Mutations isolated by reverse genetics often lack obvious phenotypic defects (e.g., because they are in functionally redundant genes). Phenotypic differences observed in mutants isolated by reverse genetics can be confounded by other mutations in the genetic background, particularly since animals are typically heavily mutagenized in these strategies. For these reasons, it would be useful to develop methods that would allow more rapid characterization of mutations isolated in forward genetic screens.</rdf:value>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b15">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b14">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b13">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b12">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b11">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1">
+                                                        <rdf:value
+                                                        >Forward genetic screens have been traditionally utilized in model systems (e.g., Caenorhabditis elegans, Drosophila, yeast, and Arabidopsis). More recently, large-scale screens have been undertaken in vertebrate systems such as zebrafish [[pgen-0010002-b01],[pgen-0010002-b02]] and mouse [[pgen-0010002-b03]–[pgen-0010002-b05]]. Mutations isolated in genetic screens are typically identified by positional cloning. The difficulty posed by positional cloning is determined by the size of the genome, the recombination rate, and the difficulty of assessing the mutant phenotype. For example, the mouse genome comprises 3,600 centimorgans (cM) and 3 × 109 base pairs. The ultimate goal of a typical positional cloning project is to analyze a sufficient number of recombinants to map the mutation to a small genetic interval (typically approximately 0.1 cM). Once a mutation has been precisely mapped, gene identification is typically achieved by a variety of strategies: direct sequencing of the region (100 kb in the mouse), candidate gene testing, or screening for informative alleles (e.g., microdeletions). The difficulty of a particular positional cloning can be compounded by the nature of the mutant phenotype. This problem is particularly acute for behavioral mutants, which often have phenotypes that must be scored in multiple trials, or in populations of animals. Together, these issues conspire to make traditional positional cloning a significant and costly bottleneck.</rdf:value>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b05">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b03">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b02">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b01">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list2">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_1"/>
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_2"/>
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_3"/>
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Introduction:para_4"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:title
+                                                    >Introduction</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Nonsense-Alleles-Represent-a-Large-Fraction-of-C--elegans-Mutations"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---"/>
+                                                <rdf:li>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-">
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-:para_1">
+                                                        <rdf:value
+                                                        >The tom-1(nu468) allele was isolated in an ethyl methane sulfonate screen for mutants that displayed hypersensitivity to aldicarb. F2 progeny of mutagenized animal were transferred to agar plates containing 0.5 mM aldicarb (Chem Service, West Chester, Pennsylvania, United States). After 1 h, a time point at which all wild-type worms were still moving, paralyzed animals were transferred to separate plates and rescreened for aldicarb sensitivity in subsequent generations. nu468 was determined to be recessive and was mapped to Chromosome 1 using conventional meiotic mapping.</rdf:value>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list18">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-:para_1"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1"/>
+                                                    <dcterms:title
+                                                    >Isolation and mapping of the tom-1 mutation.</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---"/>
+                                                <rdf:li>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information">
+                                                    <dcterms:hasPart>
+                                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers">
+                                                        <dcterms:hasPart>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_3">
+                                                            <rdf:value
+                                                            >The Ensembl (http://www.ensembl.org/) accession numbers for genes and gene products discussed in this paper are human tomosyn (ENSP00000179882) and mouse tomosyn (ENSRNOP00000018806).</rdf:value>
+                                                            <dcterms:references rdf:resource="http://www.ensembl.org/"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                                          </doco:Paragraph>
+                                                        </dcterms:hasPart>
+                                                        <dcterms:hasPart>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_2">
+                                                            <rdf:value
+                                                            >The GenBank (http://www.ncbi.nlm.nih.gov/Genbank) accession numbers for genes and gene products discussed in this paper are tom-1(ok285) (AY912103) and tomosyn (AY912102).</rdf:value>
+                                                            <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                                          </doco:Paragraph>
+                                                        </dcterms:hasPart>
+                                                        <dcterms:hasPart>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_1">
+                                                            <rdf:value
+                                                            >The National Center for Biotechnology Information Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo) accession number for the data generated by the authors and discussed in this publication is GSE2210. The GEO accession numbers for datasets downloaded by the authors and discussed in this paper are mdx mouse (GDS236), mdx mutant (GDS236), PMR4 Arabidopsis (GDS417), and PMR4 mutant (GDS417).</rdf:value>
+                                                            <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/geo"/>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                                          </doco:Paragraph>
+                                                        </dcterms:hasPart>
+                                                        <biotea:paragraphList>
+                                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183521/list23">
+                                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_1"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_2"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers:para_3"/>
+                                                          </rdf:Seq>
+                                                        </biotea:paragraphList>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information"/>
+                                                        <dcterms:title
+                                                        >Accession Numbers</dcterms:title>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                      </doco:Section>
+                                                    </dcterms:hasPart>
+                                                    <biotea:sectionList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183521/list18">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                                      </rdf:Seq>
+                                                    </biotea:sectionList>
+                                                    <dcterms:title
+                                                    >Supporting Information</dcterms:title>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                                  </doco:Section>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                              </rdf:Seq>
+                                            </biotea:sectionList>
+                                            <dcterms:title>Using Microarrays to Facilitate Positional Cloning: Identification of Tomosyn as an Inhibitor of Neurosecretion</dcterms:title>
+                                            <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank"/>
+                                            <dcterms:references rdf:resource="http://www.affymetrix.com"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Identification-of-a-hif-1-Polymorphism-in-the-KP3365-Strain"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Abstract"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Introduction"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Generalizability-of-Microarray-Assisted-Cloning"/>
+                                            <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information_Accession-Numbers"/>
+                                            <dcterms:references rdf:resource="http://www.ensembl.org/"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Using-Microarrays-to-Identify-a-Mutation-in-Tomosyn--an-Inhibitor-of-Neurotransmitter-Secretion"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Discussion"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Supporting-Information"/>
+                                            <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/geo"/>
+                                          </bibo:AcademicArticle>
+                                        </dcterms:isPartOf>
+                                      </doco:Section>
+                                    </dcterms:hasPart>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-"/>
+                                    <biotea:sectionList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183521/list8">
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_RNA-sample-preparation-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-target-preparation-and-hybridization-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-hif-1-nu469---"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Isolation-and-mapping-of-the-tom-1-mutation-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Analysis-of-aldicarb-sensitivity-"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Rescue-of-tom-1-nu468---"/>
+                                      </rdf:Seq>
+                                    </biotea:sectionList>
+                                    <dcterms:title>no-title_1</dcterms:title>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Molecular-characterization-of-tom-1-ok285---"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods"/>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Allele-analysis-"/>
+                                  </doco:Section>
+                                </dcterms:isPartOf>
+                                <dcterms:title>RNA sample preparation.</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183521"/>
+                              </doco:Section>
+                            </dcterms:isPartOf>
+                          </doco:Paragraph>
+                        </bibo:citedBy>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_2"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-g002"/>
+                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/geo"/>
+                    <dcterms:references rdf:resource="http://genome-www5.stanford.edu"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Public-datasets-"/>
+                  </doco:Paragraph>
+                </bibo:citedBy>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray:para_3"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183521/pgen-0010002-b31"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Results_Proof-of-Principle--mec-3-and-unc-43-CaMKII-Mutations-Are-Detectable-by-Microarray"/>
+          </doco:Paragraph>
+        </bibo:citedBy>
+      </bibo:Document>
+    </bibo:cites>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183521/Materials-and-Methods_no-title-1_Microarray-data-analysis-"/>
+  </doco:Paragraph>
+</rdf:RDF>

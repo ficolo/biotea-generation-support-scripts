@@ -1,0 +1,376 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3">
+    <rdf:value>Sequence data were analyzed using DNASP [[pgen-0010005-b29]]. Population subdivision was tested by a permutations test according to the source categories from which each strain was obtained ([pgen-0010005-t101]). The average time since divergence of two strains was obtained by k = 2μt, where k is the substitution rate, μ is the mutation rate per bp and t is the time in generations. The mutation rate has been estimated at CAN1 and SUP3 at 2.25 × 10−10 per base pair per generation [[pgen-0010005-b30]]. Given that 82% of spontaneous mutations are single base substitutions [[pgen-0010005-b31]], we estimate the point mutation rate is 1.84 × 10−10 per bp per generation. S. cerevisiae can reproduce in 90 min, or 16 generations per day. However, even under optimal laboratory conditions the number of generations over a 24-h period is typically much less. To obtain divergence time in years rather than generations, we assumed S. cerevisiae can go through a maximum of eight generations per day or 2,920 generations per year.</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b31">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b30">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-t101">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+        <bibo:citedBy>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_2">
+            <rdf:value>Five genes, CCA1, CYT1, MLS1,
+PDR10, and ZDS2, and their promoters were sequenced in 81 strains (see [pgen-0010005-t101]). These genes were randomly chosen from all divergently transcribed intergenic sequences upstream of functionally annotated genes with clear orthologs in S. paradoxus. The sequenced regions include 3,671 bp of coding sequence and 3,561 bp of noncoding sequence. For each gene, both strands of purified PCR products were sequenced using Big Dye (Perkin Elmer, Boston, Massachusetts, United States) termination reactions. Sequence variation was identified using phred, phrap, and consed [[pgen-0010005-b27]]. For construction of the neighbor-joining tree, a single allele was used from strains with heterozygous sites. The allele was randomly chosen from the two haplotypes inferred by PHASE [[pgen-0010005-b28]].</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b28">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b27">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-t101"/>
+            <dcterms:isPartOf>
+              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Materials-and-Methods">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_2"/>
+                <dcterms:hasPart>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_1">
+                    <rdf:value>Strains were obtained from a number of individuals and stock centers. B1–B6 were obtained from B. Dunn; I14 from J. Fay; CDB and PR from Red Star, Berkeley, California, United States; K1–K15 from N. Goto-Yamamoto and the NODAI culture collection; M1–M34 from R. Mortimer; SB from Whole Foods, Berkeley, California, United States; UC1–UC10 from the University of California, Davis stock center; Y1–Y12 from C. Kurtzman and the ARS culture collection; YJM145–YJM1129 from J. McCusker; and YPS163–YPS1009 were from the collection of P. Sniegowski.</rdf:value>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Materials-and-Methods"/>
+                  </doco:Paragraph>
+                </dcterms:hasPart>
+                <biotea:paragraphList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183524/list4">
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_1"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_2"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+                  </rdf:Seq>
+                </biotea:paragraphList>
+                <dcterms:title>Materials and Methods</dcterms:title>
+                <dcterms:isPartOf>
+                  <bibo:Document rdf:about="http://linkingdata.io/pmcdoc/pmc/1183524">
+                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                    <dcterms:title>Evidence for Domesticated and Wild Populations of Saccharomyces cerevisiae
+</dcterms:title>    <biotea:sectionList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183524/list1">
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Abstract">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Abstract:para_1">
+                                <rdf:value></rdf:value>
+                                <rdf:value>
+Saccharomyces cerevisiae is predominantly found in association with human activities, particularly the production of alcoholic beverages. S. paradoxus, the closest known relative of S. cerevisiae, is commonly found on exudates and bark of deciduous trees and in associated soils. This has lead to the idea that S. cerevisiae is a domesticated species, specialized for the fermentation of alcoholic beverages, and isolates of S. cerevisiae from other sources simply represent migrants from these fermentations. We have surveyed DNA sequence diversity at five loci in 81 strains of S. cerevisiae that were isolated from a variety of human and natural fermentations as well as sources unrelated to alcoholic beverage production, such as tree exudates and immunocompromised patients. Diversity within vineyard strains and within saké strains is low, consistent with their status as domesticated stocks. The oldest lineages and the majority of variation are found in strains from sources unrelated to wine production. We propose a model whereby two specialized breeds of S. cerevisiae have been created, one for the production of grape wine and one for the production of saké wine. We estimate that these two breeds have remained isolated from one another for thousands of years, consistent with the earliest archeological evidence for winemaking. We conclude that although there are clearly strains of S. cerevisiae specialized for the production of alcoholic beverages, these have been derived from natural populations unassociated with alcoholic beverage production, rather than the opposite.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Abstract"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183524/list1">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Abstract:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:title>Abstract</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183524"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Abstract"/>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_4">
+                                <rdf:value>To examine the relationship between vineyard and non-vineyard strains of S. cerevisiae and to understand their evolutionary origin, we have surveyed DNA sequence variation in 81 strains isolated from geographically and ecologically diverse sources ([pgen-0010005-t101]). These include 60 strains associated with human fermentations, predominantly from vineyards, and 19 strains not associated with human fermentations, predominantly from immunocompromised patients and tree exudates.</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-t101"/>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3">
+                                <rdf:value>The first use of S. cerevisiae is likely to have been for the production of wine, rather then bread or beer [[pgen-0010005-b03],[pgen-0010005-b15]]. S. cerevisiae has been associated with winemaking since 3150 BC, based on extraction of DNA from ancient wine containers [[pgen-0010005-b16]], and the earliest evidence for winemaking is to 7000 BC from the molecular analysis of pottery jars found in China [[pgen-0010005-b17]]. The idea that S. cerevisiae was first used to produce wine rather than beer or bread is further supported by the fact that the production of wine requires no inoculum of yeast [[pgen-0010005-b07]]. In addition, strains associated with whisky, ale, and bakeries show amplified fragment length polymorphism (AFLP) profiles similar to various wine strains [[pgen-0010005-b18]].</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b18">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b07">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b17">
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_3">
+                                        <rdf:value>Although the genealogical relationships among strains of S. cerevisiae show that the species as a whole is not domesticated, the data do support the hypothesis that some strains are domesticated. Based on the low levels of diversity within vineyard and saké strains and the clear separation of these two groups, we propose two domestication events, one for yeast used to produce grape wine and one for yeast used to produce rice wine. When might these events have occurred? Domestication would have occurred after the divergence between the vineyard and saké strains but before differentiation among the vineyard and among the saké strains. These two time points can be roughly estimated by the average number of differences per synonymous site between the saké and vineyard strains, 1.28 × 10−2, and the average number of differences among the vineyard, 2.92 × 10−3, and among the saké strains, 4.06 × 10−3, respectively (see [s3]). Assuming a point mutation rate of 1.84 × 10−10 per base pair (bp) per generation and 2,920 generations per year, the estimate for the divergence time between the two groups is approximately 11,900 years ago, and within the vineyard group and saké group is approximately 2,700 and approximately 3,800 years ago, respectively (see [s3]). These dates could easily be an order of magnitude older if the number of generations per year is one tenth that obtained assuming an exponential growth rate. Interestingly, the time period is consistent with the earliest archeological evidence for winemaking, approximately 9,000 years ago [[pgen-0010005-b17]]. It should be noted that proof that these strains are domesticated requires evidence that they have acquired characteristics advantageous to humans through human activity, whether intentional or not. The alternative hypothesis to domestication is that initial fermentations selected those natural isolates most amenable to alcoholic beverage production and that these initial isolates have been used by humans ever since.</rdf:value>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b17"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/s3">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_3"/>
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1">
+                                                <rdf:value>DNA sequence variation was examined in 81 yeast strains at five unlinked loci (see [s3]). A total of 184 polymorphic sites were found. [pgen-0010005-g001] shows all of the variable sites along with a neighbor-joining tree constructed from these sites. There are two immediately striking features of the data. First, there are high levels of linkage disequilibrium between sites found in unlinked genes. This linkage disequilibrium cannot be explained by a lack of recombination because the four gamete test [[pgen-0010005-b19]] shows evidence of recombination both within and between loci. The high level of linkage disequilibrium is most likely caused by population subdivision and suggests that the data from these five genes provide a genomic view of population differentiation among these strains. Second, there are significant levels of population differentiation based on the source from which the samples were isolated (see [s3]). A number of strains are worth noting. Y9 is very closely related to the saké strains and was obtained from Indonesian ragi, or yeast cake, which like saké is made by fermenting koji, a mixture of rice and the mold Aspergillus oryzae [[pgen-0010005-b20]]. Y3 and Y12 were isolated from African palm wine, made from fermenting sap of the oil palm, Elaeis guineensis. Y5 was isolated from African bili wine.</rdf:value>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b20">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b19">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-g001">
+                                                    <bibo:citedBy>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4">
+                                                        <rdf:value
+                                                        >The source population for both the saké and grape wine strains is not clear, but is likely similar to the source population for the clinical strains. Insects, particularly fruit flies, present one possibility [[pgen-0010005-b22],[pgen-0010005-b23]]. Numerous strains of S. cerevisiae and S. paradoxus have been isolated from oak tree exudates in North America [[pgen-0010005-b24]], and tree exudates are often visited by insects [[pgen-0010005-b22]]. Three of these oak tree isolates were included in our study and are among the most diverse of the strains ([pgen-0010005-g001]). Given that S. paradoxus is most often found in association with tree exudates from both Europe [[pgen-0010005-b25],[pgen-0010005-b26]] and North America [[pgen-0010005-b24]], strains of S. cerevisiae isolated from tree exudates may be truly “wild” yeast. Whether the yeast isolated from African palm wine is domesticated remains an open question, although it is worth noting that African palm wine is made by collecting sap tapped from oil palm trees and fermentation occurs naturally without the addition of yeast.</rdf:value>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b26">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b25">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-g001"/>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b24">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b23">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <bibo:cites>
+                                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b22">
+                                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                          </bibo:Document>
+                                                        </bibo:cites>
+                                                        <dcterms:isPartOf>
+                                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion">
+                                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_3"/>
+                                                            <dcterms:hasPart>
+                                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_2">
+    <rdf:value>If strains of S. cerevisiae that are not associated with human fermentations have escaped their manmade environments, their progenitors should be closely related to strains isolated from human fermentations. Two aspects of the data indicate this is not the case. First, the oldest lineages at the root of the tree, that are most similar to S. paradoxus, were isolated from tree exudates in North America and Africa, or from immunocompromised patients. Although one of the clinical samples is most closely related to vineyard strains, the majority of clinical isolates are not closely related to strains obtained from human-associated fermentations. Second, strains from grape wine and saké wine production contain significantly less variation, as measured by the average number of pairwise differences between strains [[pgen-0010005-b21]], than is found in natural and clinical isolates, which contain just as much variation as is found in the total sample ([pgen-0010005-t002]). However, diversity in strains associated with human fermentations other than grape and saké wine production is not reduced compared to the clinical and natural isolates. The four strains associated with fermentations, three of which were isolated from traditional African wines, show the greatest diversity and represent some of the oldest lineages. This raises the possibility that S. cerevisiae was domesticated in Africa and that most vineyard and saké strains were derived from a domesticated African strain. If so, one would expect clinical and natural isolates to be more closely related to strains isolated from vineyards, which have a cosmopolitan distribution compared to strains from traditional African wine. Clinical and natural isolates, however, show no obvious relationship to strains associated with manmade fermentations.</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-t002">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_2"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b21">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_2"/>
+      </bibo:Document>
+    </bibo:cites>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion"/>
+                                                              </doco:Paragraph>
+                                                            </dcterms:hasPart>
+                                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1"/>
+                                                            <biotea:paragraphList>
+                                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183524/list3">
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1"/>
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_2"/>
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_3"/>
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_4"/>
+                                                              </rdf:Seq>
+                                                            </biotea:paragraphList>
+                                                            <dcterms:title
+                                                            >Results/ Discussion</dcterms:title>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183524"/>
+                                                          </doco:Section>
+                                                        </dcterms:isPartOf>
+                                                      </doco:Paragraph>
+                                                    </bibo:citedBy>
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Results--Discussion:para_1"/>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/s3"/>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b16">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b15">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b03">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2">
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b13">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b10">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b03"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b05">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <rdf:value>Since the discovery of yeast as the cause of fermentation [[pgen-0010005-b05]], numerous strains of S. cerevisiae have been isolated, the majority of which have been found associated with the production of alcoholic beverages [[pgen-0010005-b06]–[pgen-0010005-b09]]. In many instances, the strains are clearly specialized for use in the lab [[pgen-0010005-b10]] and the production of wine [[pgen-0010005-b11]], beer [[pgen-0010005-b12]], and bread [[pgen-0010005-b13]]. This has lead to the common view that S. cerevisiae is a domesticated species that has continuously evolved in association with the production of alcoholic beverages [[pgen-0010005-b03],[pgen-0010005-b06],[pgen-0010005-b14]]. Under this model, the occasional strains of S. cerevisiae found in nature are thought to be migrants from human-associated fermentations.</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b14">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b11">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b09">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b06">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b12">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                    <bibo:citedBy>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1">
+                                        <rdf:value>Sensu strictu species of the genus Saccharomyces, as their scientific name implies, are yeast specialized for growth on sugar. In comparison to other yeasts, Saccharomyces favor aerobic fermentation over respiration in the presence of high concentrations of sugar [[pgen-0010005-b01]]. Fermentation results in the production of ethanol and a competitive advantage, as these yeasts are tolerant to high concentrations of ethanol [[pgen-0010005-b02]]. One of these species, S. cerevisiae, has served as one of the best model systems for understanding the eukaryotic cell and has served as the dominant species for the production of beer, bread, and wine [[pgen-0010005-b03]]. However, it is worth noting that strains of S. bayanus are sometimes used for wine production and strains of S. pastorianus, hybrids between S. cerevisiae and S. bayanus, are used to brew lagers [[pgen-0010005-b04]].</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b04">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b03"/>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b02">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b01">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction"/>
+                                      </doco:Paragraph>
+                                    </bibo:citedBy>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1"/>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183524/list2">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_1"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_2"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_3"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_4"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:title>Introduction</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183524"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Materials-and-Methods"/>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information">
+                            <dcterms:hasPart>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers:para_1">
+                                    <rdf:value>The sequences of the genes CCA1, CYT1, MLS1, PDR10, and ZDS2 that are discussed in this paper have been deposited into GenBank (http://www.ncbi.nlm.nih.gov/Genbank/) as accession numbers AY942206–AY942556.</rdf:value>
+                                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183524/list6">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers:para_1"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information"/>
+                                <dcterms:title>Accession Numbers</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183524"/>
+                              </doco:Section>
+                            </dcterms:hasPart>
+                            <biotea:sectionList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183524/list2">
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers"/>
+                              </rdf:Seq>
+                            </biotea:sectionList>
+                            <dcterms:title>Supporting Information</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183524"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers"/>
+                      </rdf:Seq>
+                    </biotea:sectionList>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Results--Discussion"/>
+                    <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information_Accession-Numbers"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Supporting-Information"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Abstract"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Introduction"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Materials-and-Methods"/>
+                  </bibo:Document>
+                </dcterms:isPartOf>
+              </doco:Section>
+            </dcterms:isPartOf>
+          </doco:Paragraph>
+        </bibo:citedBy>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Introduction:para_4"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183524/pgen-0010005-b29">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183524/Materials-and-Methods:para_3"/>
+      </bibo:Document>
+    </bibo:cites>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183524/Materials-and-Methods"/>
+  </doco:Paragraph>
+</rdf:RDF>

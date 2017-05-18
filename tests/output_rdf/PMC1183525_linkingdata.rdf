@@ -1,0 +1,2023 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/1183525">
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12045273">
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12045273"/>
+        <bibo:volume>14</bibo:volume>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12045273"/>
+        <dcterms:identifier>pmid:12045273</dcterms:identifier>
+        <dcterms:issued>2002</dcterms:issued>
+        <bibo:pageEnd>130</bibo:pageEnd>
+        <bibo:pmid>12045273</bibo:pmid>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b32"/>
+        <bibo:pageStart>S111</bibo:pageStart>
+        <dcterms:title>Control of flowering time: Interacting pathways as a basis for diversity</dcterms:title>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12045273"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12045273"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12045273/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12045273/name/AMouradov">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12045273"/>
+                <foaf:familyName>Mouradov</foaf:familyName>
+                <foaf:givenName>A</foaf:givenName>
+                <foaf:name>A Mouradov</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12045273/name/FCremer">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12045273"/>
+                <foaf:familyName>Cremer</foaf:familyName>
+                <foaf:givenName>F</foaf:givenName>
+                <foaf:name>F Cremer</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12045273/name/GCoupland">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12045273"/>
+                <foaf:familyName>Coupland</foaf:familyName>
+                <foaf:givenName>G</foaf:givenName>
+                <foaf:name>G Coupland</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/PlantCell">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12045273"/>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11283346">
+                <bibo:pmid>11283346</bibo:pmid>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11283346"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b07"/>
+                <dcterms:issued>2001</dcterms:issued>
+                <bibo:pageStart>935</bibo:pageStart>
+                <bibo:pageEnd>941</bibo:pageEnd>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11283346"/>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantCell"/>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11283346"/>
+                <dcterms:identifier>pmid:11283346</dcterms:identifier>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11283346/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11283346/name/SDMichaels">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11283346"/>
+                        <foaf:familyName>Michaels</foaf:familyName>
+                        <foaf:givenName>SD</foaf:givenName>
+                        <foaf:name>SD Michaels</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11283346/name/RMAmasino">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11283346"/>
+                        <foaf:familyName>Amasino</foaf:familyName>
+                        <foaf:givenName>RM</foaf:givenName>
+                        <foaf:name>RM Amasino</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <bibo:volume>13</bibo:volume>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11283346"/>
+                <dcterms:title>Loss of FLOWERING LOCUS C activity eliminates the late-flowering phenotype of FRIGIDA and autonomous pathway mutations but not responsiveness to vernalization</dcterms:title>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/10330478">
+                <dcterms:issued>1999</dcterms:issued>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10330478"/>
+                <dcterms:title>
+FLOWERING LOCUS C encodes a novel MADS domain protein that acts as a repressor of flowering</dcterms:title>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b06"/>
+                <bibo:volume>11</bibo:volume>
+                <dcterms:identifier>pmid:10330478</dcterms:identifier>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/10330478"/>
+                <bibo:pmid>10330478</bibo:pmid>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/10330478/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10330478/name/SDMichaels">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10330478"/>
+                        <foaf:familyName>Michaels</foaf:familyName>
+                        <foaf:givenName>SD</foaf:givenName>
+                        <foaf:name>SD Michaels</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10330478/name/RMAmasino">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10330478"/>
+                        <foaf:familyName>Amasino</foaf:familyName>
+                        <foaf:givenName>RM</foaf:givenName>
+                        <foaf:name>RM Amasino</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <bibo:pageStart>949</bibo:pageStart>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/10330478"/>
+                <bibo:pageEnd>956</bibo:pageEnd>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantCell"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:10330478"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/10072403">
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/10072403"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b05"/>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/10072403/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10072403/name/CCSheldon">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+                        <foaf:familyName>Sheldon</foaf:familyName>
+                        <foaf:givenName>CC</foaf:givenName>
+                        <foaf:name>CC Sheldon</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10072403/name/JEBurn">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+                        <foaf:familyName>Burn</foaf:familyName>
+                        <foaf:givenName>JE</foaf:givenName>
+                        <foaf:name>JE Burn</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10072403/name/PPPerez">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+                        <foaf:familyName>Perez</foaf:familyName>
+                        <foaf:givenName>PP</foaf:givenName>
+                        <foaf:name>PP Perez</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10072403/name/JMetzger">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+                        <foaf:familyName>Metzger</foaf:familyName>
+                        <foaf:givenName>J</foaf:givenName>
+                        <foaf:name>J Metzger</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10072403/name/JAEdwards">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+                        <foaf:familyName>Edwards</foaf:familyName>
+                        <foaf:givenName>JA</foaf:givenName>
+                        <foaf:name>JA Edwards</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10072403"/>
+                <dcterms:identifier>pmid:10072403</dcterms:identifier>
+                <dcterms:issued>1999</dcterms:issued>
+                <bibo:volume>11</bibo:volume>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/10072403"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <bibo:pmid>10072403</bibo:pmid>
+                <bibo:pageStart>445</bibo:pageStart>
+                <dcterms:title>The FLF MADS box gene: a repressor of flowering in Arabidopsis regulated by vernalization and methylation</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantCell"/>
+                <bibo:pageEnd>458</bibo:pageEnd>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:10072403"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:title>Plant Cell</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11283346"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15070783">
+        <bibo:volume>101</bibo:volume>
+        <bibo:pageEnd>4717</bibo:pageEnd>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:pmid>15070783</bibo:pmid>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15070783"/>
+        <dcterms:title>A latitudinal cline in flowering time in Arabidopsis thaliana modulated by the flowering time gene FRIGIDA
+</dcterms:title>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15070783"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/15070783/list1">
+            <rdf:li>
+              <foaf:Organization rdf:about="http://linkingdata.io/organization/pubmeddoc_resource/15070783/name/Stinchcombe-JR--Weinig-C--Ungerer-M--Olsen-KM--Mays-Cet-al-"/>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:pageStart>4712</bibo:pageStart>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b10"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA">
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/9843981">
+                <bibo:pmid>9843981</bibo:pmid>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/9843981"/>
+                <bibo:pageStart>14863</bibo:pageStart>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <dcterms:title>Cluster analysis and display of genome-wide expression patterns</dcterms:title>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/9843981/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9843981/name/MBEisen">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9843981"/>
+                        <foaf:familyName>Eisen</foaf:familyName>
+                        <foaf:givenName>MB</foaf:givenName>
+                        <foaf:name>MB Eisen</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9843981/name/PTSpellman">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9843981"/>
+                        <foaf:familyName>Spellman</foaf:familyName>
+                        <foaf:givenName>PT</foaf:givenName>
+                        <foaf:name>PT Spellman</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9843981/name/POBrown">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9843981"/>
+                        <foaf:familyName>Brown</foaf:familyName>
+                        <foaf:givenName>PO</foaf:givenName>
+                        <foaf:name>PO Brown</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/9843981/name/DBotstein">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9843981"/>
+                        <foaf:familyName>Botstein</foaf:familyName>
+                        <foaf:givenName>D</foaf:givenName>
+                        <foaf:name>D Botstein</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:issued>1998</dcterms:issued>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b36"/>
+                <bibo:volume>95</bibo:volume>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/9843981"/>
+                <dcterms:identifier>pmid:9843981</dcterms:identifier>
+                <bibo:pageEnd>14868</bibo:pageEnd>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/9843981"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:9843981"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/10716723">
+                <dcterms:issued>2000</dcterms:issued>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/10716723"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10716723"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/10716723"/>
+                <bibo:pmid>10716723</bibo:pmid>
+                <bibo:volume>97</bibo:volume>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b21"/>
+                <bibo:pageEnd>3758</bibo:pageEnd>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:10716723"/>
+                <dcterms:title>The molecular basis of vernalization: the central role of FLOWERING LOCUS C (FLC)
+</dcterms:title>
+                <dcterms:identifier>pmid:10716723</dcterms:identifier>
+                <bibo:pageStart>3753</bibo:pageStart>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/10716723/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10716723/name/CCSheldon">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+                        <foaf:familyName>Sheldon</foaf:familyName>
+                        <foaf:givenName>CC</foaf:givenName>
+                        <foaf:name>CC Sheldon</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10716723/name/DTRouse">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+                        <foaf:familyName>Rouse</foaf:familyName>
+                        <foaf:givenName>DT</foaf:givenName>
+                        <foaf:name>DT Rouse</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10716723/name/EJFinnegan">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+                        <foaf:familyName>Finnegan</foaf:familyName>
+                        <foaf:givenName>EJ</foaf:givenName>
+                        <foaf:name>EJ Finnegan</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10716723/name/WJPeacock">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+                        <foaf:familyName>Peacock</foaf:familyName>
+                        <foaf:givenName>WJ</foaf:givenName>
+                        <foaf:name>WJ Peacock</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10716723/name/ESDennis">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+                        <foaf:familyName>Dennis</foaf:familyName>
+                        <foaf:givenName>ES</foaf:givenName>
+                        <foaf:name>ES Dennis</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15505218">
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15505218"/>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/15505218/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15505218/name/ALCaicedo">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+                        <foaf:familyName>Caicedo</foaf:familyName>
+                        <foaf:givenName>AL</foaf:givenName>
+                        <foaf:name>AL Caicedo</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15505218/name/JRStinchcombe">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+                        <foaf:familyName>Stinchcombe</foaf:familyName>
+                        <foaf:givenName>JR</foaf:givenName>
+                        <foaf:name>JR Stinchcombe</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15505218/name/KMOlsen">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+                        <foaf:familyName>Olsen</foaf:familyName>
+                        <foaf:givenName>KM</foaf:givenName>
+                        <foaf:name>KM Olsen</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15505218/name/JSchmitt">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+                        <foaf:familyName>Schmitt</foaf:familyName>
+                        <foaf:givenName>J</foaf:givenName>
+                        <foaf:name>J Schmitt</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15505218/name/MDPurugganan">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+                        <foaf:familyName>Purugganan</foaf:familyName>
+                        <foaf:givenName>MD</foaf:givenName>
+                        <foaf:name>MD Purugganan</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15505218"/>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                <dcterms:title>Epistatic interaction between Arabidopsis
+FRI and FLC flowering time genes generates a latitudinal cline in a life history trait</dcterms:title>
+                <bibo:pageStart>15670</bibo:pageStart>
+                <bibo:pmid>15505218</bibo:pmid>
+                <dcterms:issued>2004</dcterms:issued>
+                <dcterms:identifier>pmid:15505218</dcterms:identifier>
+                <bibo:pageEnd>15675</bibo:pageEnd>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15505218"/>
+                <bibo:volume>101</bibo:volume>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b16"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15505218"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15695584">
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15695584"/>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+                <dcterms:identifier>pmid:15695584</dcterms:identifier>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15695584"/>
+                <bibo:pmid>15695584</bibo:pmid>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/15695584/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15695584/name/JDWerner">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+                        <foaf:familyName>Werner</foaf:familyName>
+                        <foaf:givenName>JD</foaf:givenName>
+                        <foaf:name>JD Werner</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15695584/name/JOBorevitz">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+                        <foaf:familyName>Borevitz</foaf:familyName>
+                        <foaf:givenName>JO</foaf:givenName>
+                        <foaf:name>JO Borevitz</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15695584/name/NWarthmann">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+                        <foaf:familyName>Warthmann</foaf:familyName>
+                        <foaf:givenName>N</foaf:givenName>
+                        <foaf:name>N Warthmann</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15695584/name/GTTrainer">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+                        <foaf:familyName>Trainer</foaf:familyName>
+                        <foaf:givenName>GT</foaf:givenName>
+                        <foaf:name>GT Trainer</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15695584/name/JREcker">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+                        <foaf:familyName>Ecker</foaf:familyName>
+                        <foaf:givenName>JR</foaf:givenName>
+                        <foaf:name>JR Ecker</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15695584"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15695584"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b13"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <dcterms:issued>2005</dcterms:issued>
+                <bibo:pageEnd>2465</bibo:pageEnd>
+                <dcterms:title>Quantitative trait locus mapping and DNA array hybridization identify an FLM deletion as a cause for natural flowering-time variation</dcterms:title>
+                <bibo:pageStart>2460</bibo:pageStart>
+                <bibo:volume>102</bibo:volume>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12904584">
+                <dcterms:title>Attenuation of FLOWERING LOCUS C activity as a mechanism for the evolution of summer-annual flowering behavior in Arabidopsis
+</dcterms:title>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12904584"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12904584"/>
+                <dcterms:identifier>pmid:12904584</dcterms:identifier>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12904584"/>
+                <bibo:pageEnd>10107</bibo:pageEnd>
+                <dcterms:issued>2003</dcterms:issued>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12904584/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12904584/name/SDMichaels">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12904584"/>
+                        <foaf:familyName>Michaels</foaf:familyName>
+                        <foaf:givenName>SD</foaf:givenName>
+                        <foaf:name>SD Michaels</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12904584/name/YHe">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12904584"/>
+                        <foaf:familyName>He</foaf:familyName>
+                        <foaf:givenName>Y</foaf:givenName>
+                        <foaf:name>Y He</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12904584/name/KCScortecci">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12904584"/>
+                        <foaf:familyName>Scortecci</foaf:familyName>
+                        <foaf:givenName>KC</foaf:givenName>
+                        <foaf:name>KC Scortecci</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12904584/name/RMAmasino">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12904584"/>
+                        <foaf:familyName>Amasino</foaf:familyName>
+                        <foaf:givenName>RM</foaf:givenName>
+                        <foaf:name>RM Amasino</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b11"/>
+                <bibo:pmid>12904584</bibo:pmid>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12904584"/>
+                <bibo:pageStart>10102</bibo:pageStart>
+                <bibo:volume>100</bibo:volume>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/ProcNatlAcadSciUSA"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15070783"/>
+            <dcterms:title>Proc Natl Acad Sci U S A</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15070783"/>
+        <dcterms:issued>2004</dcterms:issued>
+        <dcterms:identifier>pmid:15070783</dcterms:identifier>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15070783"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <dcterms:isPartOf>
+      <bibo:Issue rdf:about="http://linkingdata.io/issue/journal_resource/issn:1553-7390/issue_1">
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/issn/1553-7390">
+            <dcterms:publisher>
+              <foaf:Organization rdf:about="http://linkingdata.io/publisher/pmc_internal_id/05-PLGE-RA-0008R2">
+                <dcterms:identifier>05-PLGE-RA-0008R2</dcterms:identifier>
+                <foaf:name>Public Library of Science</foaf:name>
+              </foaf:Organization>
+            </dcterms:publisher>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/issue/journal_resource/issn:1553-7390/issue_1"/>
+            <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/nlmcatalog?term=1553-7390"/>
+            <bibo:issn>1553-7404</bibo:issn>
+            <bibo:issn>1553-7390</bibo:issn>
+            <dcterms:title>PLoS Genetics</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:issue>1</bibo:issue>
+      </bibo:Issue>
+    </dcterms:isPartOf>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/14732435">
+        <bibo:pageStart>4</bibo:pageStart>
+        <dcterms:title>Vernalization and epigenetics: How plants remember winter</dcterms:title>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/14732435/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14732435/name/SSung">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14732435"/>
+                <foaf:familyName>Sung</foaf:familyName>
+                <foaf:givenName>S</foaf:givenName>
+                <foaf:name>S Sung</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14732435/name/RMAmasino">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14732435"/>
+                <foaf:familyName>Amasino</foaf:familyName>
+                <foaf:givenName>RM</foaf:givenName>
+                <foaf:name>RM Amasino</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:issued>2004</dcterms:issued>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/14732435"/>
+        <dcterms:identifier>pmid:14732435</dcterms:identifier>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/14732435"/>
+        <bibo:volume>7</bibo:volume>
+        <bibo:pageEnd>10</bibo:pageEnd>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/14732435"/>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:14732435"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/CurrOpinPlantBiol">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14732435"/>
+            <dcterms:title>Curr Opin Plant Biol</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pmid>14732435</bibo:pmid>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b02"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <owl:sameAs rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/16103920"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12805638">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12805638/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12805638/name/SGazzani">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12805638"/>
+                <foaf:familyName>Gazzani</foaf:familyName>
+                <foaf:givenName>S</foaf:givenName>
+                <foaf:name>S Gazzani</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12805638/name/ARGendall">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12805638"/>
+                <foaf:familyName>Gendall</foaf:familyName>
+                <foaf:givenName>AR</foaf:givenName>
+                <foaf:name>AR Gendall</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12805638/name/CLister">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12805638"/>
+                <foaf:familyName>Lister</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Lister</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12805638/name/CDean">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12805638"/>
+                <foaf:familyName>Dean</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Dean</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12805638"/>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12805638"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12805638"/>
+        <bibo:pageStart>1107</bibo:pageStart>
+        <bibo:pageEnd>1114</bibo:pageEnd>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/PlantPhysiol">
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12228459">
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantPhysiol"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12228459"/>
+                <bibo:pmid>12228459</bibo:pmid>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12228459"/>
+                <bibo:volume>108</bibo:volume>
+                <dcterms:issued>1995</dcterms:issued>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b29"/>
+                <dcterms:identifier>pmid:12228459</dcterms:identifier>
+                <bibo:pageStart>157</bibo:pageStart>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12228459/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12228459/name/ILee">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12228459"/>
+                        <foaf:familyName>Lee</foaf:familyName>
+                        <foaf:givenName>I</foaf:givenName>
+                        <foaf:name>I Lee</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12228459/name/RMAmasino">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12228459"/>
+                        <foaf:familyName>Amasino</foaf:familyName>
+                        <foaf:givenName>RM</foaf:givenName>
+                        <foaf:name>RM Amasino</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <bibo:pageEnd>162</bibo:pageEnd>
+                <dcterms:title>Effect of vernalization, photoperiod, and light quality on the flowering phenotype of Arabidopsis plants containing the FRIGIDA gene</dcterms:title>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12228459"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12228459"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15734903">
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15734903"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b26"/>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/15734903/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15734903/name/SILin">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+                        <foaf:familyName>Lin</foaf:familyName>
+                        <foaf:givenName>SI</foaf:givenName>
+                        <foaf:name>SI Lin</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15734903/name/JGWang">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+                        <foaf:familyName>Wang</foaf:familyName>
+                        <foaf:givenName>JG</foaf:givenName>
+                        <foaf:name>JG Wang</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15734903/name/SYPoon">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+                        <foaf:familyName>Poon</foaf:familyName>
+                        <foaf:givenName>SY</foaf:givenName>
+                        <foaf:name>SY Poon</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15734903/name/CLSu">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+                        <foaf:familyName>Su</foaf:familyName>
+                        <foaf:givenName>CL</foaf:givenName>
+                        <foaf:name>CL Su</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15734903/name/SSWang">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+                        <foaf:familyName>Wang</foaf:familyName>
+                        <foaf:givenName>SS</foaf:givenName>
+                        <foaf:name>SS Wang</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:title>Differential regulation of FLOWERING LOCUS C expression by vernalization in cabbage and Arabidopsis</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantPhysiol"/>
+                <dcterms:identifier>pmid:15734903</dcterms:identifier>
+                <bibo:pageEnd>1048</bibo:pageEnd>
+                <bibo:pageStart>1037</bibo:pageStart>
+                <dcterms:issued>2005</dcterms:issued>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15734903"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <bibo:volume>137</bibo:volume>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15734903"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15734903"/>
+                <bibo:pmid>15734903</bibo:pmid>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12805638"/>
+            <dcterms:title>Plant Physiol</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <dcterms:issued>2003</dcterms:issued>
+        <bibo:volume>132</bibo:volume>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12805638"/>
+        <bibo:pmid>12805638</bibo:pmid>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b08"/>
+        <dcterms:identifier>pmid:12805638</dcterms:identifier>
+        <dcterms:title>Analysis of the molecular basis of flowering time variation in Arabidopsis accessions</dcterms:title>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b22:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JDWerner">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                <foaf:familyName>Werner</foaf:familyName>
+                <foaf:givenName>JD</foaf:givenName>
+                <foaf:name>JD Werner</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JOBorevitz">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                <foaf:familyName>Borevitz</foaf:familyName>
+                <foaf:givenName>JO</foaf:givenName>
+                <foaf:name>JO Borevitz</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/NHUhlenhaut">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                <foaf:familyName>Uhlenhaut</foaf:familyName>
+                <foaf:givenName>NH</foaf:givenName>
+                <foaf:name>NH Uhlenhaut</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JREcker">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                <foaf:familyName>Ecker</foaf:familyName>
+                <foaf:givenName>JR</foaf:givenName>
+                <foaf:name>JR Ecker</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JChory">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b22"/>
+                <foaf:familyName>Chory</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J Chory</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:comment>DOI: 10.1534/genetics.104.036889</rdfs:comment>
+        <dcterms:issued>2005</dcterms:issued>
+        <dcterms:title>E-pub ahead of print</dcterms:title>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11780140">
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11780140/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11780140/name/MNordborg">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+                <foaf:familyName>Nordborg</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Nordborg</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11780140/name/JOBorevitz">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+                <foaf:familyName>Borevitz</foaf:familyName>
+                <foaf:givenName>JO</foaf:givenName>
+                <foaf:name>JO Borevitz</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11780140/name/JBergelson">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+                <foaf:familyName>Bergelson</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J Bergelson</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11780140/name/CCBerry">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+                <foaf:familyName>Berry</foaf:familyName>
+                <foaf:givenName>CC</foaf:givenName>
+                <foaf:name>CC Berry</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11780140/name/JChory">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+                <foaf:familyName>Chory</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J Chory</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11780140"/>
+        <dcterms:title>The extent of linkage disequilibrium in Arabidopsis thaliana
+</dcterms:title>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11780140"/>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b20"/>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11780140"/>
+        <bibo:pageStart>190</bibo:pageStart>
+        <bibo:volume>30</bibo:volume>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NatGenet">
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11726931">
+                <bibo:volume>29</bibo:volume>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11726931/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726931/name/JNMaloof">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+                        <foaf:familyName>Maloof</foaf:familyName>
+                        <foaf:givenName>JN</foaf:givenName>
+                        <foaf:name>JN Maloof</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726931/name/JOBorevitz">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+                        <foaf:familyName>Borevitz</foaf:familyName>
+                        <foaf:givenName>JO</foaf:givenName>
+                        <foaf:name>JO Borevitz</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726931/name/TDabi">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+                        <foaf:familyName>Dabi</foaf:familyName>
+                        <foaf:givenName>T</foaf:givenName>
+                        <foaf:name>T Dabi</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726931/name/JLutes">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+                        <foaf:familyName>Lutes</foaf:familyName>
+                        <foaf:givenName>J</foaf:givenName>
+                        <foaf:name>J Lutes</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726931/name/RBNehring">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+                        <foaf:familyName>Nehring</foaf:familyName>
+                        <foaf:givenName>RB</foaf:givenName>
+                        <foaf:name>RB Nehring</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:identifier>pmid:11726931</dcterms:identifier>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b31"/>
+                <bibo:pageStart>441</bibo:pageStart>
+                <dcterms:title>Natural variation in light sensitivity of Arabidopsis
+</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/NatGenet"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11726931"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11726931"/>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11726931"/>
+                <dcterms:issued>2001</dcterms:issued>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <bibo:pageEnd>446</bibo:pageEnd>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11726931"/>
+                <bibo:pmid>11726931</bibo:pmid>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11780140"/>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11726930">
+                <dcterms:identifier>pmid:11726930</dcterms:identifier>
+                <bibo:pageStart>435</bibo:pageStart>
+                <bibo:pageEnd>440</bibo:pageEnd>
+                <dcterms:issued>2001</dcterms:issued>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <bibo:volume>29</bibo:volume>
+                <bibo:pmid>11726930</bibo:pmid>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11726930/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726930/name/SEDEl-Assal">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+                        <foaf:familyName>El-Assal</foaf:familyName>
+                        <foaf:givenName>SE-D</foaf:givenName>
+                        <foaf:name>SE-D El-Assal</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726930/name/CAlonso-Blanco">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+                        <foaf:familyName>Alonso-Blanco</foaf:familyName>
+                        <foaf:givenName>C</foaf:givenName>
+                        <foaf:name>C Alonso-Blanco</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726930/name/AJPeeters">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+                        <foaf:familyName>Peeters</foaf:familyName>
+                        <foaf:givenName>AJ</foaf:givenName>
+                        <foaf:name>AJ Peeters</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726930/name/VRaz">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+                        <foaf:familyName>Raz</foaf:familyName>
+                        <foaf:givenName>V</foaf:givenName>
+                        <foaf:name>V Raz</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11726930/name/MKoornneef">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+                        <foaf:familyName>Koornneef</foaf:familyName>
+                        <foaf:givenName>M</foaf:givenName>
+                        <foaf:name>M Koornneef</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11726930"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11726930"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11726930"/>
+                <dcterms:title>A QTL for flowering time in Arabidopsis reveals a novel allele of CRY2
+</dcterms:title>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11726930"/>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b14"/>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/NatGenet"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:title>Nat Genet</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11780140"/>
+        <bibo:pageEnd>193</bibo:pageEnd>
+        <bibo:pmid>11780140</bibo:pmid>
+        <dcterms:issued>2002</dcterms:issued>
+        <dcterms:identifier>pmid:11780140</dcterms:identifier>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:16103920"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15695584"/>
+    <owl:sameAs rdf:resource="http://dx.doi.org/10.1371/journal.pgen.0010006"/>
+    <bibo:cites>
+      <bibo:Book rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b35">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b35:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/RRSokal">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b35"/>
+                <foaf:familyName>Sokal</foaf:familyName>
+                <foaf:givenName>RR</foaf:givenName>
+                <foaf:name>RR Sokal</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/FJRohlf">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b35"/>
+                <foaf:familyName>Rohlf</foaf:familyName>
+                <foaf:givenName>FJ</foaf:givenName>
+                <foaf:name>FJ Rohlf</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:comment>p.</rdfs:comment>
+        <dcterms:issued>1981</dcterms:issued>
+        <dcterms:publisher>
+          <foaf:Organization rdf:about="http://linkingdata.io/publisher/name/WH-Freeman-and-Company">
+            <foaf:name>WH Freeman and Company</foaf:name>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:numPages>859</bibo:numPages>
+        <dcterms:title>Biometry, 2nd ed</dcterms:title>
+      </bibo:Book>
+    </bibo:cites>
+    <prov:wasDerivedFrom rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183525"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b25:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JCPires">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+                <foaf:familyName>Pires</foaf:familyName>
+                <foaf:givenName>JC</foaf:givenName>
+                <foaf:name>JC Pires</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JZhao">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+                <foaf:familyName>Zhao</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J Zhao</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/MESchranz">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+                <foaf:familyName>Schranz</foaf:familyName>
+                <foaf:givenName>ME</foaf:givenName>
+                <foaf:name>ME Schranz</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/EJLeon">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+                <foaf:familyName>Leon</foaf:familyName>
+                <foaf:givenName>EJ</foaf:givenName>
+                <foaf:name>EJ Leon</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/PAQuijada">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+                <foaf:familyName>Quijada</foaf:familyName>
+                <foaf:givenName>PA</foaf:givenName>
+                <foaf:name>PA Quijada</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:pageEnd>688</bibo:pageEnd>
+        <bibo:pageStart>675</bibo:pageStart>
+        <dcterms:issued>2004</dcterms:issued>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/BiolJLinneanSoc">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b25"/>
+            <dcterms:title>Biol J Linnean Soc</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:volume>82</bibo:volume>
+        <dcterms:title>Flowering time divergence and genomic rearrangements in resynthesized Brassica polyploids (Brassicaceae)</dcterms:title>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726930"/>
+    <dcterms:identifier>pmc:1183525</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16103920"/>
+    <dcterms:publisher rdf:resource="http://linkingdata.io/publisher/pmc_internal_id/05-PLGE-RA-0008R2"/>
+    <owl:sameAs rdf:resource="http://bio2rdf.org/pmc:1183525"/>
+    <dcterms:created>18-05-2017 11:54:15</dcterms:created>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12582260">
+        <bibo:pageStart>e15</bibo:pageStart>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12582260"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/NucleicAcidsRes">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+            <dcterms:title>Nucleic Acids Res</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pmid>12582260</bibo:pmid>
+        <dcterms:issued>2003</dcterms:issued>
+        <bibo:volume>31</bibo:volume>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12582260"/>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12582260"/>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b37"/>
+        <dcterms:identifier>pmid:12582260</dcterms:identifier>
+        <dcterms:title>Summaries of Affymetrix GeneChip probe level data</dcterms:title>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12582260/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12582260/name/RAIrizarry">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+                <foaf:familyName>Irizarry</foaf:familyName>
+                <foaf:givenName>RA</foaf:givenName>
+                <foaf:name>RA Irizarry</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12582260/name/BMBolstad">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+                <foaf:familyName>Bolstad</foaf:familyName>
+                <foaf:givenName>BM</foaf:givenName>
+                <foaf:name>BM Bolstad</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12582260/name/FCollin">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+                <foaf:familyName>Collin</foaf:familyName>
+                <foaf:givenName>F</foaf:givenName>
+                <foaf:name>F Collin</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12582260/name/LMCope">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+                <foaf:familyName>Cope</foaf:familyName>
+                <foaf:givenName>LM</foaf:givenName>
+                <foaf:name>LM Cope</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12582260/name/BHobbs">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12582260"/>
+                <foaf:familyName>Hobbs</foaf:familyName>
+                <foaf:givenName>B</foaf:givenName>
+                <foaf:name>B Hobbs</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12582260"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11123622">
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b19"/>
+        <bibo:pageStart>2109</bibo:pageStart>
+        <dcterms:issued>2000</dcterms:issued>
+        <bibo:pmid>11123622</bibo:pmid>
+        <bibo:pageEnd>2118</bibo:pageEnd>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11123622"/>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <dcterms:title>Genetic isolation by distance in Arabidopsis thaliana: Biogeography and postglacial colonization of Europe</dcterms:title>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11123622"/>
+        <dcterms:identifier>pmid:11123622</dcterms:identifier>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11123622/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11123622/name/TFSharbel">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11123622"/>
+                <foaf:familyName>Sharbel</foaf:familyName>
+                <foaf:givenName>TF</foaf:givenName>
+                <foaf:name>TF Sharbel</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11123622/name/BHaubold">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11123622"/>
+                <foaf:familyName>Haubold</foaf:familyName>
+                <foaf:givenName>B</foaf:givenName>
+                <foaf:name>B Haubold</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11123622/name/TMitchell-Olds">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11123622"/>
+                <foaf:familyName>Mitchell-Olds</foaf:familyName>
+                <foaf:givenName>T</foaf:givenName>
+                <foaf:name>T Mitchell-Olds</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:volume>9</bibo:volume>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/MolEcol">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11123622"/>
+            <dcterms:title>Mol Ecol</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11123622"/>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11123622"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Book rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b18">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b18:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JAEndler">
+                <foaf:publications>
+                  <bibo:BookSection rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b30">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                    <bibo:authorList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthorsEditorsAndTranslators/pmcdoc_resource/1183525/pgen-0010006-b30:list1">
+                        <rdf:li rdf:resource="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JAEndler"/>
+                      </rdf:Seq>
+                    </bibo:authorList>
+                    <rdfs:comment>p.</rdfs:comment>
+                    <dcterms:issued>1986</dcterms:issued>
+                    <dcterms:publisher>
+                      <foaf:Organization rdf:about="http://linkingdata.io/publisher/name/Princeton-University-Press">
+                        <foaf:name>Princeton University Press</foaf:name>
+                      </foaf:Organization>
+                    </dcterms:publisher>
+                    <bibo:numPages>354</bibo:numPages>
+                  </bibo:BookSection>
+                </foaf:publications>
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b18"/>
+                <foaf:familyName>Endler</foaf:familyName>
+                <foaf:givenName>JA</foaf:givenName>
+                <foaf:name>JA Endler</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:comment>p.</rdfs:comment>
+        <dcterms:issued>1977</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://linkingdata.io/publisher/name/Princeton-University-Press"/>
+        <bibo:numPages>262</bibo:numPages>
+        <dcterms:title>Geographic variation, speciation, and the clines</dcterms:title>
+      </bibo:Book>
+    </bibo:cites>
+    <dcterms:description>research-article</dcterms:description>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11849594">
+        <dcterms:identifier>pmid:11849594</dcterms:identifier>
+        <bibo:volume>28</bibo:volume>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b24"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11849594"/>
+        <dcterms:title>Control of flowering time by FLC orthologues in Brassica napus
+</dcterms:title>
+        <bibo:pmid>11849594</bibo:pmid>
+        <dcterms:issued>2001</dcterms:issued>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11849594"/>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11849594"/>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:pageEnd>553</bibo:pageEnd>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11849594"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11849594/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11849594/name/MTadege">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+                <foaf:familyName>Tadege</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Tadege</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11849594/name/CCSheldon">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+                <foaf:familyName>Sheldon</foaf:familyName>
+                <foaf:givenName>CC</foaf:givenName>
+                <foaf:name>CC Sheldon</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11849594/name/CAHelliwell">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+                <foaf:familyName>Helliwell</foaf:familyName>
+                <foaf:givenName>CA</foaf:givenName>
+                <foaf:name>CA Helliwell</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11849594/name/PStoutjesdijk">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+                <foaf:familyName>Stoutjesdijk</foaf:familyName>
+                <foaf:givenName>P</foaf:givenName>
+                <foaf:name>P Stoutjesdijk</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11849594/name/ESDennis">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+                <foaf:familyName>Dennis</foaf:familyName>
+                <foaf:givenName>ES</foaf:givenName>
+                <foaf:name>ES Dennis</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/PlantJ">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11849594"/>
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11389763">
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b12"/>
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11389763"/>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11389763"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11389763"/>
+                <bibo:pmid>11389763</bibo:pmid>
+                <bibo:pageEnd>236</bibo:pageEnd>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11389763"/>
+                <dcterms:issued>2001</dcterms:issued>
+                <dcterms:identifier>pmid:11389763</dcterms:identifier>
+                <bibo:pageStart>229</bibo:pageStart>
+                <bibo:volume>26</bibo:volume>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11389763/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11389763/name/KCScortecci">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11389763"/>
+                        <foaf:familyName>Scortecci</foaf:familyName>
+                        <foaf:givenName>KC</foaf:givenName>
+                        <foaf:name>KC Scortecci</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11389763/name/SDMichaels">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11389763"/>
+                        <foaf:familyName>Michaels</foaf:familyName>
+                        <foaf:givenName>SD</foaf:givenName>
+                        <foaf:name>SD Michaels</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11389763/name/RMAmasino">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11389763"/>
+                        <foaf:familyName>Amasino</foaf:familyName>
+                        <foaf:givenName>RM</foaf:givenName>
+                        <foaf:name>RM Amasino</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <dcterms:title>Identification of a MADS-box gene, FLOWERING LOCUS M, that represses flowering</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/PlantJ"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:title>Plant J</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pageStart>545</bibo:pageStart>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/12140238">
+        <dcterms:identifier>pmid:12140238</dcterms:identifier>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b09"/>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/12140238"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/12140238/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12140238/name/VLe-Corre">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12140238"/>
+                <foaf:familyName>Le Corre</foaf:familyName>
+                <foaf:givenName>V</foaf:givenName>
+                <foaf:name>V Le Corre</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12140238/name/FRoux">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12140238"/>
+                <foaf:familyName>Roux</foaf:familyName>
+                <foaf:givenName>F</foaf:givenName>
+                <foaf:name>F Roux</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/12140238/name/XReboud">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12140238"/>
+                <foaf:familyName>Reboud</foaf:familyName>
+                <foaf:givenName>X</foaf:givenName>
+                <foaf:name>X Reboud</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:title>DNA polymorphism at the FRIGIDA gene in Arabidopsis thaliana: Extensive nonsynonymous variation is consistent with local selection for flowering time</dcterms:title>
+        <bibo:pageStart>1261</bibo:pageStart>
+        <bibo:volume>19</bibo:volume>
+        <bibo:pageEnd>1271</bibo:pageEnd>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/12140238"/>
+        <dcterms:issued>2002</dcterms:issued>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/MolBiolEvol">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12140238"/>
+            <dcterms:title>Mol Biol Evol</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pmid>12140238</bibo:pmid>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:12140238"/>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12140238"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:abstract>Although multiple environmental cues regulate the transition to flowering in Arabidopsis thaliana, previous studies have suggested that wild A. thaliana accessions fall primarily into two classes, distinguished by their requirement for vernalization (extended winter-like temperatures), which enables rapid flowering under long days. Much of the difference in vernalization response is apparently due to variation at two epistatically acting loci, FRI and FLC. We present the response of over 150 wild accessions to three different environmental variables. In long days, FLC is among those genes whose expression is most highly correlated with flowering. In short days, FRI and FLC are less important, although their contribution is still significant. In addition, there is considerable variation not only in vernalization response, but also in the response to differences in day length or ambient growth temperature. The identification of accessions that flower relatively early or late in specific environments suggests that many of the flowering-time pathways identified by mutagenesis, such as those that respond to day length, contribute to flowering-time variation in the wild. In contrast to differences in vernalization requirement, which are mainly mediated by FRI and FLC, it seems that variation in these other pathways is due to allelic effects at several different loci.</bibo:abstract>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/14573523">
+        <bibo:pageEnd>6012</bibo:pageEnd>
+        <bibo:pageStart>6001</bibo:pageStart>
+        <dcterms:identifier>pmid:14573523</dcterms:identifier>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <dcterms:title>Dissection of floral induction pathways using global expression analysis</dcterms:title>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b27"/>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/14573523"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Development">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+            <dcterms:title>Development</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pmid>14573523</bibo:pmid>
+        <dcterms:issued>2003</dcterms:issued>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:14573523"/>
+        <bibo:volume>130</bibo:volume>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/14573523"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/14573523/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14573523/name/MSchmid">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+                <foaf:familyName>Schmid</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Schmid</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14573523/name/NHUhlenhaut">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+                <foaf:familyName>Uhlenhaut</foaf:familyName>
+                <foaf:givenName>NH</foaf:givenName>
+                <foaf:name>NH Uhlenhaut</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14573523/name/FGodard">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+                <foaf:familyName>Godard</foaf:familyName>
+                <foaf:givenName>F</foaf:givenName>
+                <foaf:name>F Godard</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14573523/name/MDemar">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+                <foaf:familyName>Demar</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Demar</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/14573523/name/RBressan">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/14573523"/>
+                <foaf:familyName>Bressan</foaf:familyName>
+                <foaf:givenName>R</foaf:givenName>
+                <foaf:name>R Bressan</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/14573523"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10072403"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b34">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b34:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/RIhaka">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b34"/>
+                <foaf:familyName>Ihaka</foaf:familyName>
+                <foaf:givenName>R</foaf:givenName>
+                <foaf:name>R Ihaka</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/RGentleman">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b34"/>
+                <foaf:familyName>Gentleman</foaf:familyName>
+                <foaf:givenName>R</foaf:givenName>
+                <foaf:name>R Gentleman</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:pageEnd>314</bibo:pageEnd>
+        <bibo:pageStart>299</bibo:pageStart>
+        <dcterms:issued>1996</dcterms:issued>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/JComputGraphStat">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b34"/>
+            <dcterms:title>J Comput Graph Stat</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:volume>5</bibo:volume>
+        <dcterms:title>R: A language for data analysis and graphics</dcterms:title>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183525"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/10637658">
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/10637658/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10637658/name/CAlonso-Blanco">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10637658"/>
+                <foaf:familyName>Alonso-Blanco</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Alonso-Blanco</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/10637658/name/MKoornneef">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10637658"/>
+                <foaf:familyName>Koornneef</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Koornneef</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/TrendsPlantSci">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10637658"/>
+            <dcterms:title>Trends Plant Sci</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <dcterms:issued>2000</dcterms:issued>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:pageEnd>29</bibo:pageEnd>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/10637658"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:10637658"/>
+        <bibo:pmid>10637658</bibo:pmid>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10637658"/>
+        <bibo:pageStart>22</bibo:pageStart>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b01"/>
+        <bibo:volume>5</bibo:volume>
+        <dcterms:identifier>pmid:10637658</dcterms:identifier>
+        <dcterms:title>Naturally occurring variation in Arabidopsis: An underexploited resource for plant genetics</dcterms:title>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/10637658"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <dcterms:identifier>pmid:16103920</dcterms:identifier>
+    <prov:wasAttributedTo rdf:resource="http://biotea.github.io/agent/biotea_serializer"/>
+    <bibo:pmid>16103920</bibo:pmid>
+    <sio:SIO_001278 rdf:resource="http://linkingdata.io/linkingdata_dataset/linkingdata-pmc-March2017"/>
+    <bibo:cites>
+      <bibo:Book rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b17">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b17:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/DSFalconer">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b17"/>
+                <foaf:familyName>Falconer</foaf:familyName>
+                <foaf:givenName>DS</foaf:givenName>
+                <foaf:name>DS Falconer</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/TFCMackay">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b17"/>
+                <foaf:familyName>Mackay</foaf:familyName>
+                <foaf:givenName>TFC</foaf:givenName>
+                <foaf:name>TFC Mackay</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <rdfs:comment>p.</rdfs:comment>
+        <dcterms:issued>1996</dcterms:issued>
+        <dcterms:publisher>
+          <foaf:Organization rdf:about="http://linkingdata.io/publisher/name/Addison-Wesley-Longman">
+            <foaf:name>Addison Wesley Longman</foaf:name>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <bibo:numPages>463</bibo:numPages>
+        <dcterms:title>Introduction to quantitative genetics, 4th ed</dcterms:title>
+      </bibo:Book>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b30"/>
+    <owl:sameAs rdf:resource="http://linkedlifedata.com/resource/pubmed/id/16103920"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11030654">
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11030654"/>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11030654"/>
+        <bibo:pageStart>344</bibo:pageStart>
+        <bibo:pageEnd>347</bibo:pageEnd>
+        <dcterms:identifier>pmid:11030654</dcterms:identifier>
+        <dcterms:title>Molecular analysis of FRIGIDA, a major determinant of natural variation in Arabidopsis flowering time</dcterms:title>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b04"/>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11030654"/>
+        <bibo:pmid>11030654</bibo:pmid>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11030654"/>
+        <bibo:volume>290</bibo:volume>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11030654/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11030654/name/UJohanson">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+                <foaf:familyName>Johanson</foaf:familyName>
+                <foaf:givenName>U</foaf:givenName>
+                <foaf:name>U Johanson</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11030654/name/JWest">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+                <foaf:familyName>West</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J West</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11030654/name/CLister">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+                <foaf:familyName>Lister</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Lister</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11030654/name/SMichaels">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+                <foaf:familyName>Michaels</foaf:familyName>
+                <foaf:givenName>S</foaf:givenName>
+                <foaf:name>S Michaels</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11030654/name/RAmasino">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+                <foaf:familyName>Amasino</foaf:familyName>
+                <foaf:givenName>R</foaf:givenName>
+                <foaf:name>R Amasino</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:issued>2000</dcterms:issued>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Science">
+            <dcterms:hasPart>
+              <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/11951029">
+                <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:11951029"/>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/journal/name/Science"/>
+                <owl:sameAs rdf:resource="http://identifiers.org/pubmed/11951029"/>
+                <bibo:authorList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/11951029/list1">
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11951029/name/GGSimpson">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11951029"/>
+                        <foaf:familyName>Simpson</foaf:familyName>
+                        <foaf:givenName>GG</foaf:givenName>
+                        <foaf:name>GG Simpson</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                    <rdf:li>
+                      <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/11951029/name/CDean">
+                        <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11951029"/>
+                        <foaf:familyName>Dean</foaf:familyName>
+                        <foaf:givenName>C</foaf:givenName>
+                        <foaf:name>C Dean</foaf:name>
+                      </foaf:Person>
+                    </rdf:li>
+                  </rdf:Seq>
+                </bibo:authorList>
+                <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b33"/>
+                <dcterms:title>
+Arabidopsis, the Rosetta stone of flowering time?</dcterms:title>
+                <bibo:pageStart>285</bibo:pageStart>
+                <dcterms:identifier>pmid:11951029</dcterms:identifier>
+                <bibo:volume>296</bibo:volume>
+                <bibo:pageEnd>289</bibo:pageEnd>
+                <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11951029"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+                <dcterms:issued>2002</dcterms:issued>
+                <bibo:pmid>11951029</bibo:pmid>
+                <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/11951029"/>
+              </bibo:AcademicArticle>
+            </dcterms:hasPart>
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11030654"/>
+            <dcterms:title>Science</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11389763"/>
+    <dcterms:title>Diversity of Flowering Responses in Wild Arabidopsis thaliana Strains</dcterms:title>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10330478"/>
+    <dcterms:issued>2005</dcterms:issued>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <bibo:cites>
+      <bibo:Book rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b23:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/CKole">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23"/>
+                <foaf:familyName>Kole</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Kole</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/PQuijada">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23"/>
+                <foaf:familyName>Quijada</foaf:familyName>
+                <foaf:givenName>P</foaf:givenName>
+                <foaf:name>P Quijada</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/SDMichaels">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23"/>
+                <foaf:familyName>Michaels</foaf:familyName>
+                <foaf:givenName>SD</foaf:givenName>
+                <foaf:name>SD Michaels</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/RMAmasino">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23"/>
+                <foaf:familyName>Amasino</foaf:familyName>
+                <foaf:givenName>RM</foaf:givenName>
+                <foaf:name>RM Amasino</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/TCOsborn">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b23"/>
+                <foaf:familyName>Osborn</foaf:familyName>
+                <foaf:givenName>TC</foaf:givenName>
+                <foaf:name>TC Osborn</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:issued>2001</dcterms:issued>
+        <dcterms:publisher>
+          <foaf:Organization rdf:about="http://linkingdata.io/publisher/name/425-430">
+            <foaf:name>425–430</foaf:name>
+          </foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:title>Evidence for homology of flowering-time genes VFR2 from Brassica rapa and FLC from Arabidopsis thaliana</dcterms:title>
+      </bibo:Book>
+    </bibo:cites>
+    <dcterms:creator rdf:resource="http://biotea.github.io/agent/biotea_serializer"/>
+    <owl:sameAs rdf:resource="http://identifiers.org/pubmed/16103920"/>
+    <prov:generatedAtTime>18-05-2017 11:54:15</prov:generatedAtTime>
+    <bibo:volume>1</bibo:volume>
+    <bibo:authorList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/list1">
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/JLempe">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Lempe</foaf:familyName>
+            <foaf:givenName>Janne</foaf:givenName>
+            <foaf:name>Janne Lempe</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/SBalasubramanian">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Balasubramanian</foaf:familyName>
+            <foaf:givenName>Sureshkumar</foaf:givenName>
+            <foaf:name>Sureshkumar Balasubramanian</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/SSureshkumar">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Sureshkumar</foaf:familyName>
+            <foaf:givenName>Sridevi</foaf:givenName>
+            <foaf:name>Sridevi Sureshkumar</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/ASingh">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Singh</foaf:familyName>
+            <foaf:givenName>Anandita</foaf:givenName>
+            <foaf:name>Anandita Singh</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/MSchmid">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Schmid</foaf:familyName>
+            <foaf:givenName>Markus</foaf:givenName>
+            <foaf:name>Markus Schmid</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+        <rdf:li>
+          <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/DWeigel">
+            <foaf:publications rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+            <foaf:familyName>Weigel</foaf:familyName>
+            <foaf:givenName>Detlef</foaf:givenName>
+            <foaf:name>Detlef Weigel</foaf:name>
+          </foaf:Person>
+        </rdf:li>
+      </rdf:Seq>
+    </bibo:authorList>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15505218"/>
+    <dcterms:identifier>doi:10.1371/journal.pgen.0010006</dcterms:identifier>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11726931"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/10716723"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/15280248">
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15280248"/>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/15280248"/>
+        <dcterms:identifier>pmid:15280248</dcterms:identifier>
+        <bibo:pageEnd>1369</bibo:pageEnd>
+        <dcterms:title>Linkage disequilibrium mapping of Arabidopsis CRY2 flowering time alleles</dcterms:title>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/15280248"/>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b15"/>
+        <bibo:pageStart>1361</bibo:pageStart>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:15280248"/>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/15280248/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15280248/name/KMOlsen">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+                <foaf:familyName>Olsen</foaf:familyName>
+                <foaf:givenName>KM</foaf:givenName>
+                <foaf:name>KM Olsen</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15280248/name/SSHalldorsdottir">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+                <foaf:familyName>Halldorsdottir</foaf:familyName>
+                <foaf:givenName>SS</foaf:givenName>
+                <foaf:name>SS Halldorsdottir</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15280248/name/JRStinchcombe">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+                <foaf:familyName>Stinchcombe</foaf:familyName>
+                <foaf:givenName>JR</foaf:givenName>
+                <foaf:name>JR Stinchcombe</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15280248/name/CWeinig">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+                <foaf:familyName>Weinig</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Weinig</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/15280248/name/JSchmitt">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+                <foaf:familyName>Schmitt</foaf:familyName>
+                <foaf:givenName>J</foaf:givenName>
+                <foaf:name>J Schmitt</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:volume>167</bibo:volume>
+        <dcterms:issued>2004</dcterms:issued>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/Genetics">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15280248"/>
+            <dcterms:title>Genetics</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pmid>15280248</bibo:pmid>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pmcdoc_resource/1183525/pgen-0010006-b03:list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/MKoornneef">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03"/>
+                <foaf:familyName>Koornneef</foaf:familyName>
+                <foaf:givenName>M</foaf:givenName>
+                <foaf:name>M Koornneef</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/CAlonso-Blanco">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03"/>
+                <foaf:familyName>Alonso-Blanco</foaf:familyName>
+                <foaf:givenName>C</foaf:givenName>
+                <foaf:name>C Alonso-Blanco</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pmcdoc_resource/1183525/name/DVreugdenhil">
+                <foaf:publications rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03"/>
+                <foaf:familyName>Vreugdenhil</foaf:familyName>
+                <foaf:givenName>D</foaf:givenName>
+                <foaf:name>D Vreugdenhil</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <bibo:pageEnd>172</bibo:pageEnd>
+        <bibo:pageStart>141</bibo:pageStart>
+        <dcterms:issued>2004</dcterms:issued>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/AnnuRevPlantPhysiolPlantMolBiol">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b03"/>
+            <dcterms:title>Annu Rev Plant Physiol Plant Mol Biol</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:volume>55</bibo:volume>
+        <dcterms:title>Naturally occurring genetic variation in Arabidopsis thaliana
+</dcterms:title>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <owl:sameAs rdf:resource="http://linkingdata.io/doidoc/doi/10.1371/journal.pgen.0010006"/>
+    <bibo:cites>
+      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pubmeddoc/pubmed/8455554">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183525"/>
+        <bibo:volume>237</bibo:volume>
+        <dcterms:issued>1993</dcterms:issued>
+        <owl:sameAs rdf:resource="http://identifiers.org/pubmed/8455554"/>
+        <dcterms:identifier>pmid:8455554</dcterms:identifier>
+        <dcterms:isPartOf>
+          <bibo:Journal rdf:about="http://linkingdata.io/journal/name/MolGenGenet">
+            <dcterms:hasPart rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8455554"/>
+            <dcterms:title>Mol Gen Genet</dcterms:title>
+          </bibo:Journal>
+        </dcterms:isPartOf>
+        <bibo:pageStart>171</bibo:pageStart>
+        <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/8455554"/>
+        <bibo:authorList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfAuthors/pubmeddoc_resource/8455554/list1">
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8455554/name/ILee">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8455554"/>
+                <foaf:familyName>Lee</foaf:familyName>
+                <foaf:givenName>I</foaf:givenName>
+                <foaf:name>I Lee</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8455554/name/ABleecker">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8455554"/>
+                <foaf:familyName>Bleecker</foaf:familyName>
+                <foaf:givenName>A</foaf:givenName>
+                <foaf:name>A Bleecker</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+              <foaf:Person rdf:about="http://linkingdata.io/person/pubmeddoc_resource/8455554/name/RAmasino">
+                <foaf:publications rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/8455554"/>
+                <foaf:familyName>Amasino</foaf:familyName>
+                <foaf:givenName>R</foaf:givenName>
+                <foaf:name>R Amasino</foaf:name>
+              </foaf:Person>
+            </rdf:li>
+          </rdf:Seq>
+        </bibo:authorList>
+        <owl:sameAs rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183525/pgen-0010006-b28"/>
+        <bibo:pageEnd>176</bibo:pageEnd>
+        <rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/8455554"/>
+        <dcterms:title>Analysis of naturally occurring late flowering in Arabidopsis thaliana
+</dcterms:title>
+        <bibo:pmid>8455554</bibo:pmid>
+        <owl:sameAs rdf:resource="http://bio2rdf.org/pubmed:8455554"/>
+      </bibo:AcademicArticle>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/11951029"/>
+    <bibo:doi>10.1371/journal.pgen.0010006</bibo:doi>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12904584"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/15734903"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/9843981"/>
+    <rdfs:seeAlso rdf:resource="http://info.identifiers.org/pubmed/16103920"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/pubmeddoc/pubmed/12228459"/>
+  </bibo:AcademicArticle>
+</rdf:RDF>

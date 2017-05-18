@@ -1,0 +1,886 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-:para_1">
+        <rdf:value>
+Tas1r2 and Tas1r3 overgo probes were radioactively labeled by the random hexa-nucleotide method, and hybridization and washing of membranes were as described [[pgen-0010003-b29]]. We identified 47 positive BAC clones for cat Tas1r2 and cat Tas1r3, and sequenced all of the positive BAC ends. By aligning BAC ends sequences with human syntenic regions (human TAS1R2 and TAS1R3 are located on chromosome 1p36), we picked BAC clones positive for cat Tas1r2 and Tas1r3 for shotgun library preparation.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b29">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-:para_1"/>
+            <bibo:citedBy>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1">
+                <rdf:value>Taste receptors are shaped by and reflect a species' food choices. The genes encoding taste receptors often show a good deal of variation both among species and among individuals. These variations, both subtle and obvious, can have a variety of effects on taste sensitivity and preference behavior. A textbook example of this effect is the individual variation seen in sensitivity to the bitter compound, phenylthiocarbamide (PTC). A gene of the human TAS2R family of bitter taste receptors, TAS2R38, associated with this individual variation, shows three coding single-nucleotide polymorphisms giving rise to five haplotypes worldwide, accounting for the 55% to 85% of the variance in PTC sensitivity [[pgen-0010003-b26]]. Further, in Drosophila, the behavioral and electrophysiological responses to trehalose are diminished in two mutants that carry deletions in the trehalose recognition gene, Gr5a [[pgen-0010003-b27]]. In the mouse, variation in preference for sweet-tasting stimuli maps to the gene for T1R3, located within the Sac locus [[pgen-0010003-b28],[pgen-0010003-b29]]. This gene is allelic in mice, and several reports identify a missense mutation (I60T) as being the most likely mutation accounting for the phenotypic differences [[pgen-0010003-b13],[pgen-0010003-b14],[pgen-0010003-b16],[pgen-0010003-b30]–[pgen-0010003-b33]]. However, the same alleles are not involved in strain-dependent sweet-taste preference in rats [[pgen-0010003-b34]].</rdf:value>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b16">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                    <bibo:citedBy>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1">
+                        <rdf:value>The taste receptors for sweetness and for umami (an amino acid–taste modality) are members of the T1R family of taste receptors [[pgen-0010003-b15],[pgen-0010003-b16],[pgen-0010003-b17]]. These are Class C, family 3, G protein–coupled receptors (GPCR). The three known members of the T1R family are T1R1, T1R2, and T1R3 (for review, see [[pgen-0010003-b18]]). In rodents and primates the primary sweet-taste receptor is composed of a dimer of two closely related GPCRs, T1R2 and T1R3 [[pgen-0010003-b14],[pgen-0010003-b15],[pgen-0010003-b16],[pgen-0010003-b17]].</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b14">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                            <bibo:citedBy>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_2">
+                                <rdf:value>The molecular basis for this sweet blindness in cats is not known. Because the taste blindness appears specific to this single modality, we postulated that the defect in the cat (and likely in other obligate carnivores of Felidae) lies at the receptor step subtending the sweet-taste modality. The possible defects at the molecular level that might cause this sweet blindness could range from a single to a few amino acid substitutions, such as is found between sweet “taster” and “nontaster” strains of mice [[pgen-0010003-b13],[pgen-0010003-b14]], to more radical mechanisms, such as an unexpressed pseudogene.</rdf:value>
+                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b14"/>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b13">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_2"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf>
+                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Introduction">
+                                    <dcterms:hasPart>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_3">
+                                        <rdf:value>To distinguish among these possibilities, we identified the DNA sequence and examined the structures of the two known genes, Tas1r2 and Tas1r3, that in other mammals encode the sweet-taste receptor heteromer, T1R2/T1R3. We compared these with the sequence and structure of the same genes in dog, human, mouse, and rat—all species that display a functional sweet-taste modality. We also sought to detect the expression of the two cat genes at both the RNA and protein levels. Our results lead us to conclude that Tas1r3 is expressed in cat taste buds and very likely is functional, whereas cat Tas1r2 is an unexpressed pseudogene. The immediate repercussion of this unexpressed gene is that the heteromer normally acting as a sweet-taste receptor in most other mammals likely does not form in the cat.</rdf:value>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Introduction"/>
+                                      </doco:Paragraph>
+                                    </dcterms:hasPart>
+                                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_2"/>
+                                    <dcterms:hasPart>
+                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1">
+                                        <rdf:value>The domestic cat (Felis silvestris catus), of the family Felidae in the order Carnivora, is an obligate carnivore. Its sense of taste is distinguished by a lack of attraction to, or indifference toward, compounds that taste sweet to humans, such as sweet carbohydrates (sugars) and high-intensity sweeteners [[pgen-0010003-b01]–[pgen-0010003-b03]]. This behavior toward sweet stimuli is in marked contrast to the avidity for sweets shown by most omnivores and herbivores and even some other carnivores such as the dog [[pgen-0010003-b04]]. The indifference that cats display toward sweet-tasting compounds contrasts with their otherwise normal taste behavior toward stimuli of other taste modalities. For example, they show preference for selected amino acids [[pgen-0010003-b05]] and generally avoid stimuli that to humans taste either bitter or very sour [[pgen-0010003-b01],[pgen-0010003-b05]]. Congruent with these behavioral responses to taste stimuli, recordings from cat taste nerve fibers, and from units of the geniculate ganglion innervating taste cells, demonstrate responses to salty, sour, and bitter stimuli as well as to amino acids and nucleotides, but do not show neural responses to sucrose and several other sugars [[pgen-0010003-b05]–[pgen-0010003-b12]]. The sense of taste in the cat, in general, is therefore similar to that of other mammals, with the exception of an inability to taste sweet stimuli.</rdf:value>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b12">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b05">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b04">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b03">
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <bibo:cites>
+                                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b01">
+                                            <bibo:citedBy>
+                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_1">
+                                                <rdf:value>The generality of the pseudogene nature of cat Tas1r2 was confirmed by sequencing the deletion and stop codon areas from six individual healthy adult cats. All showed the deletion and similar stop codons with some polymorphism (see [pgen-0010003-t002]). To assess the generality of the pseudogene nature of Tas1r2 in Felidae, we sequenced the stop codon areas and the area including the exon 3 microdeletion from genomic DNA of tiger and cheetah. These too displayed microdeletion and stop codons at the same location as the domestic cat. These observations, suggesting that in at least three species of Felidae Tas1r2 is not expressed, are consistent with behavioral evidence showing that, not only domestic cats, but also tigers and cheetahs do not prefer sweetened water over plain water [[pgen-0010003-b01]].</rdf:value>
+                                                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b01"/>
+                                                <bibo:cites>
+                                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t002">
+                                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_1"/>
+                                                    <bibo:citedBy>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah:para_1">
+                                                        <rdf:value
+                                                        >Because the feline BAC genomic library was constructed from a single individual cat, we confirmed the sequence of Tas1r2 in six additional, unrelated, healthy adult domestic cats. Genomic DNA was obtained by cheek swabs from five of the six cats and through a blood sample from the remaining cat, amplified by PCR using primers that flanked the deletion and stop codons of the known cat Tas1r2, and sequenced. In addition, to test whether other species of Felidae display similar sequence anomalies in their Tas1r2 gene, we performed PCR on genomic DNA of one tiger (Therion International, Saratoga Springs, New York, United States) and one cheetah (a gift from the San Diego Zoo). We found that Tas1r2 in all six cats, the tiger, and the cheetah show the identical 247-bp deletion in exon 3, and all have stop codons at the same positions in exon 4 ([pgen-0010003-t002]). In exon 6, we found evidence for two alleles at position 93–95 in domestic cat, wherein two cats show the stop codon, TGA (homozygotes TGA/TGA); one cat shows TGR (heterozygote TGA/TGG); and three of the domestic cats, the one tiger, and the single cheetah show TGG (homozygotes TGG/TGG) ([pgen-0010003-t002]). The second exon 6 stop codon is also common to all three species (TGA for domestic cat, TAG for tiger and cheetah). Although the third stop codon of exon 6 at bp 697–699 was found in all six domestic cats, the corresponding region in tiger and cheetah could not be amplified by PCR.</rdf:value>
+                                                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t002"/>
+                                                        <dcterms:isPartOf>
+                                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah">
+                                                            <dcterms:hasPart>
+                                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah:para_2">
+    <rdf:value>Collectively, these data indicate that cat Tas1r3 is an expressed and likely functional receptor, whereas cat Tas1r2 is an unexpressed pseudogene.</rdf:value>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah"/>
+                                                              </doco:Paragraph>
+                                                            </dcterms:hasPart>
+                                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah:para_1"/>
+                                                            <biotea:paragraphList>
+                                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list6">
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah:para_1"/>
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah:para_2"/>
+                                                              </rdf:Seq>
+                                                            </biotea:paragraphList>
+                                                            <dcterms:isPartOf>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Results">
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah"/>
+    <dcterms:hasPart>
+      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression">
+        <dcterms:hasPart>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_2">
+            <rdf:value>To detect the presence of taste receptor proteins from Tas1r2 and from Tas1r3, we exposed 10-μm sections of cat circumvallate and fungiform papillae to polyclonal antibodies developed against deduced amino acid peptide antigens marked by the line labeled “A” in [pgen-0010003-g002]A and [pgen-0010003-g002]B. T1R3-like immunoreactivity was present in the taste buds of every circumvallate (10) and fungiform (4) papilla used in this study ([pgen-0010003-g004]A and [pgen-0010003-g004]B) whereas immunoreactivity to T1R2 was not detected in these same tissues ([pgen-0010003-g004]C and [pgen-0010003-g004]D). (Each circumvallate papilla of the cat contains approximately 400 taste buds, whereas the large fungiform papillae used in this study, located in the area of the eminence, contain from 1 to about 15 taste buds each.) The antibody to cat T1R2 did, however, label a subset of taste buds in rat circumvallate papillae (results not shown).</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g004">
+                <bibo:citedBy>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1">
+                    <rdf:value>Cat Tas1r2, on the other hand, while retaining structure similar with that of the human TAS1R2 gene (see [pgen-0010003-g002]B), is an unexpressed pseudogene. The likely important molecular event that resulted in cat Tas1r2 becoming a pseudogene is the 247-bp deletion in exon 3. This deletion results in a frame shift that brings about a premature stop codon in exon 4 ([pgen-0010003-g002]B). An additional stop codon can be found in exon 4, with three more in exon 6 ([pgen-0010003-g002]B). This apparent accumulation of mutations suggests that there is no pressure from natural selection on the cat Tas1r2 gene. To determine if this gene is expressed, we performed studies to detect message from cat Tas1r2 by RT-PCR of taste bud–containing lingual papillae and by in situ hybridization. For RT-PCR, numerous (&gt;70) primers were constructed based on sequences from exons 1–6. For in situ hybridization, probes were designed from exon 3 and from exon 6 ([pgen-0010003-g002]B;
+[pgen-0010003-t003]). Both techniques failed to detect message from cat Tas1r2 (see [pgen-0010003-g003]C and [pgen-0010003-g003]D). Consistent with these attempts to detect message from cat Tas1r2, immunohistochemistry using an antibody developed from a deduced amino acid sequence spanning exons 2 and 3 revealed no labeling of taste buds in circumvallate or fungiform papillae ([pgen-0010003-g004]C and [pgen-0010003-g004]D).</rdf:value>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g004"/>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g003">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1"/>
+                        <bibo:citedBy>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_2">
+                            <rdf:value>Available evidence indicates that the products of cat Tas1r3 are expressed in taste buds. RT-PCR readily detected the message from Tas1r3 in lingual taste bud–containing tissues (results not shown). In situ hybridization studies confirmed the presence of message and localized it to taste buds (see [pgen-0010003-g003]A). Polyclonal antibodies developed against T1R3 labeled taste buds in both cat circumvallate ([pgen-0010003-g004]A) and fungiform papillae ([pgen-0010003-g004]B). While only a few cells showed evidence of T1R3-like immunoreactivity, nearly every taste bud was labeled by both in situ hybridization and immunohistochemistry.</rdf:value>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g004"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g003"/>
+                            <dcterms:isPartOf>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_3">
+                                    <rdf:value>These commonalities in gene structure and sequence, together with evidence that the cat Tas1r3 gene is expressed, are consistent with the assumption that cat Tas1r3 codes for a functional receptor.</rdf:value>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_2"/>
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1">
+                                    <rdf:value>By comparison with other known T1R3 proteins and other proteins of Class C, family 3, the sequence and gene structure of cat Tas1r3 predict a functional receptor of 865 amino acids (see [pgen-0010003-g001]). Cat Tas1r3 is assumed to be located on cat Chromosome C1, syntenic with human 1p36, where human TAS1R3 is located [[pgen-0010003-b19],[pgen-0010003-b20]]. As with other Tas1r3 genes, the cat Tas1r3 is composed of six exons, each approximately the same size as those of human (see [pgen-0010003-g002]A). The sequence of cat Tas1r3 predicts a seven-transmembrane GPCR with extended N-terminal domain (first transmembrane region spanning amino acids 572–595), features common to other T1R3 receptors. Important Class C, family 3, structural motifs can also be located in cat T1R3 including the xPKxY motif at amino acids 814–818, and the FHSCCY motif at amino acids 517–522. Additionally, although most members of Class C, family 3, GPCRs show a highly conserved arginine residue at the extreme 3′ end of transmembrane segment 3, an exception is found with human, mouse, and rat T1R3, which substitute glutamic acid (E) for arginine (R) [[pgen-0010003-b21]]. This substitution is also found in cat T1R3 at amino acid 660 (see [pgen-0010003-g001]; the deduced dog T1R3 substitutes glutamine (Q) for arginine at the end of TM3).</rdf:value>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b21">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1"/>
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_2"/>
+                                        <bibo:citedBy>
+                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_1">
+                                            <rdf:value>Having detected message from cat Tas1r3, but not from cat Tas1r2, by RT-PCR, we used the more tissue-specific approaches of in situ hybridization and immunohistochemistry to refine the search for cat Tas1r2 gene expression, using the cat Tas1r3 gene for comparison. Probes for in situ hybridization were constructed from the gene sequences corresponding to the lines marked “P” in [pgen-0010003-g002]A and [pgen-0010003-g002]B. (See [s4] for details.) [pgen-0010003-g003] shows that message from Tas1r3 is expressed in taste buds of cat circumvallate papillae whereas Tas1r2 expression is not detectable by in situ hybridization. Antisense probes for Tas1r3 result in positive labeling ([pgen-0010003-g003]A); the arrows indicate three of the many labeled taste buds. The control sense probes show no labeling ([pgen-0010003-g003]B). In contrast, antisense probes for cat Tas1r2 show no detectable labeling ([pgen-0010003-g003]C) as is the case for the sense control ([pgen-0010003-g003]D).</rdf:value>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g003"/>
+                                            <bibo:cites>
+                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/s4">
+                                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_1"/>
+                                                <bibo:citedBy>
+                                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_1">
+                                                    <rdf:value
+                                                    >By sequencing positive BAC clones retrieved from a feline genomic BAC library (Felis silvestris catus; BACPAC Resources, Oakland, California, United States), we obtained more than 3 kb of genomic sequences containing the open reading frame for cat Tas1r3, and approximately 10 kb of genomic sequences containing the open reading frame for cat Tas1r2. Because exons 1 and 2 of Tas1r2 were not found in the positive BAC clones, we employed a PCR strategy using degenerate primers to amplify these regions from cat genomic DNA (Novagen, San Diego, California, United States) (See [s4]). We aligned the cDNA sequences and the deduced amino acid sequences from cat Tas1r3 and Tas1r2 with their dog, human, mouse, and rat orthologs ([pgen-0010003-g001]). (We obtained the sequences of domestic dog genes, Tas1r3 and Tas1r2, by screening a dog genomic library using the same overgo probes and methods as for the feline genomic BAC library and by taking advantage of the limited data available at that time from the public dog genome database at http://www.ncbi.nlm.nih.gov/genome/guide/dog/).</rdf:value>
+                                                    <bibo:cites>
+                                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001">
+                                                        <bibo:citedBy>
+                                                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-:para_1">
+                                                            <rdf:value
+                                                            >Polyclonal anti-cat T1R2 rabbit antisera directed against an N-terminal peptide of cat T1R2 (exons 2 and 3; see [pgen-0010003-g001]) were generated by Zymed Laboratories, Inc. (South San Francisco, California, United States). Generation of antisera directed against N-terminal peptide of mouse T1R3 has been described previously [[pgen-0010003-b33]]. Lingual tissue blocks containing cat circumvallate and fungiform papillae were fixed in 4% paraformaldehyde for 2–6 h, then processed [[pgen-0010003-b40]]. The antibodies were incubated with the sections (10 μm/section) for 60 h at 4 °C. After washing, the sections were incubated with the secondary antibody (Cy3-conjugated goat anti-rabbit IgG; The Jackson Laboratory, Bar Harbor, Maine, United States) and observed with a Leica TCS SP2 Spectral Confocal Microscope (Leica Microsystems Inc., Mannheim, Germany). Single-channel fluorescence images (average projection of 20–25, 0.3-μm optical sections) were processed with Adobe Photoshop software and overlaid on their respective difference interference contrast images.</rdf:value>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b40">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites>
+                                                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b33">
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-:para_1"/>
+    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                                                              </bibo:Document>
+                                                            </bibo:cites>
+                                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001"/>
+                                                            <dcterms:isPartOf>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-">
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-:para_1"/>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list22">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf>
+      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1">
+        <biotea:sectionList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list11">
+            <rdf:li>
+              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-">
+                <dcterms:hasPart>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-:para_1">
+                    <rdf:value>We obtained cat taste tissue from healthy young-adult animals euthanized for reasons unrelated to this study. Animals were cared for under protocols 033400 and 057600 approved by the Institutional Animal Care and Use Committee of the University of Pennsylvania to Dr. Mark Haskins of the School of Veterinary Medicine, University of Pennsylvania.</rdf:value>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-"/>
+                  </doco:Paragraph>
+                </dcterms:hasPart>
+                <biotea:paragraphList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list15">
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-:para_1"/>
+                  </rdf:Seq>
+                </biotea:paragraphList>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                <dcterms:title>Animal tissue.</dcterms:title>
+                <dcterms:isPartOf>
+                  <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/1183522">
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-:para_1">
+                            <rdf:value>To examine the RNA expression and to determine the intron–exon boundaries of the cat Tas1r2 and Tas1r3 genes, we extracted total RNA using TRIZOl Reagent (Life Technologies Inc., Rockville, Maryland, United States) from cat taste bud–containing tissues, followed by reverse transcription (Superscript reverse transcriptase, Life Technologies). The cDNA samples were amplified using AmpliTaq DNA Polymerase with GeneAmp (Perkin Elmer Corporation, Branchburg, New Jersey, United States) and intron-spanning primers selected to distinguish genomic and cDNA. Single bands of expected sizes were excised from the gel, purified, and sequenced.</rdf:value>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list20">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-:para_1"/>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                        <dcterms:title>RT-PCR.</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression"/>
+                    <dcterms:references rdf:resource="http://genome.wustl.edu/tools/?overgo=1"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Introduction"/>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_3">
+                            <rdf:value>We identified the exon–intron boundaries of cat Tas1r2 by comparison with known human boundaries ([pgen-0010003-g002]B). Examining the sequence of cat Tas1r2, we discovered a microdeletion of 247 base pairs (bp) within exon 3. This deletion is responsible for a frame shift that results in a premature stop codon at bp 57–59 of exon 4 ([pgen-0010003-g002]B). Assuming, for the moment, that a protein is translated from cat Tas1r2, then, because of the deletion and premature stop codon, the gene sequence predicts a peptide of 355 amino acids, the first 315 of which show high similarity with their rat, mouse, human, and dog counterparts (see [pgen-0010003-g001]). Because of the frame shift introduced by the 247-bp deletion, the remaining deduced 40 amino acids show no similarity with their rat, mouse, human, or dog counterparts (underlined sequence of cat T1R2; [pgen-0010003-g001]). The predicted similarity of this hypothetical 355–amino acid protein was compared with its truncated counterparts from dog, human, mouse, and rat. It ranges from 55% to 69% ([pgen-0010003-t001]). In contrast, the percent similarity of the full-length T1R2 protein within pairs of other species is between 91% (mouse–rat) and 69% (mouse–human).</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t001">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_3"/>
+                                <bibo:citedBy>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_2">
+                                    <rdf:value>
+[pgen-0010003-t001] presents the percent similarity of the Tas1r3 and Tas1r2 genes at both the cDNA and the protein levels between all possible pairs of five species: cat, dog, human, mouse, and rat. The cat Tas1r3 gene shows high similarity at the cDNA level with that of dog (87%), human (79%), rat (75%), and mouse (74%) ([pgen-0010003-t001]). The cat Tas1r3 gene predicts a protein of 865 amino acids ([pgen-0010003-g001]) showing 85% similarity with deduced protein of dog, and 73%, 72%, and 72% with that of human, mouse, and rat, respectively ([pgen-0010003-t001]). Initially we predicted the exon–intron boundaries of cat Tas1r3 by comparison with the known boundaries of human TAS1R3. To confirm these exon–intron boundaries for cat Tas1r3, we performed both RT-PCR on cDNA from cat taste bud–containing circumvallate and fungiform papillae, and PCR on cat genomic DNA using intron-spanning primers. By comparing the cDNA sequence with the genomic sequence, we confirmed the boundaries predicted from human TAS1R3 ([pgen-0010003-g002]A). Both the cat Tas1r3 and human TAS1R3 genes are composed of six similarly sized exons and five introns ([pgen-0010003-g002]A).</rdf:value>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001"/>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t001"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                                  </doco:Paragraph>
+                                </bibo:citedBy>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001"/>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results"/>
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_4">
+                            <rdf:value>By aligning cat Tas1r2 DNA sequences of exons 4, 5, and 6 with their human counterparts, we found four additional stop codons: one in exon 4 due to a deletion at bp 123, and three in exon 6 due to a substitution at bp 95 and a deletion at bp 247 ([pgen-0010003-g002]B). The multiple stop codons indicate that the cat Tas1r2 is a pseudogene.</rdf:value>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <dcterms:title>Molecular Cloning of Cat Tas1r3 and Tas1r2: Sequence and Gene Structure</dcterms:title>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list4">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_1"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_2"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_3"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_4"/>
+                            <rdf:li>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_5">
+                                <rdf:value>In an attempt to confirm the cat Tas1r2 exon–intron boundaries, we performed RT-PCR on cDNA from cat circumvallate and fungiform taste papillae. Despite using numerous (&gt; 70) primers corresponding to deduced message from the Tas1r2 gene, we were unable to detect it.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                              </doco:Paragraph>
+                            </rdf:li>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_2"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_1"/>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_5"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-"/>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods">
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                        <biotea:sectionList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list10">
+                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                          </rdf:Seq>
+                        </biotea:sectionList>
+                        <dcterms:title>Materials and Methods</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-:para_1">
+                            <rdf:value>To confirm that Tas1r2 is a pseudogene in other cats, we obtained genomic DNA from cheek swabs or blood of six unrelated healthy adult cats. We sequenced the areas around the microdeletion and the stop codons by PCR using primers that flanked these areas of interest. In addition, to test whether other species of Felidae have a functional Tas1r2 gene, we performed PCR on genomic DNA of one tiger (Therion International, Saratoga Springs, New York, United States) and one cheetah (a gift from the San Diego Zoo) using the same primers above. All the PCR products are purified and sequenced.</rdf:value>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list23">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-:para_1"/>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                        <dcterms:title>Examination of stop codons in six individual cats and other species within Feliformia.</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-:para_1">
+                            <rdf:value>Overgo probes are comprised of two 22mers with a complementary eight-base overlap. They can be designed by a computer program (http://genome.wustl.edu/tools/?overgo=1) and are readily synthesized. To identify cat Tas1r2 and Tas1r3, overgo probes were designed by aligning conserved coding regions of Tas1r2 and Tas1r3 sequences from different species. The single-stranded overhangs (14 bases) were filled in with 33P-labeled dATP and dCTP, and the overgo probes were used in hybridization procedures with the BAC libraries.</rdf:value>
+                            <dcterms:references rdf:resource="http://genome.wustl.edu/tools/?overgo=1"/>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list16">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-:para_1"/>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                        <dcterms:title>Preparation of overgo probes.</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_3">
+                            <rdf:value>In the extreme case, where a species fails to respond to stimuli representative of an entire modality, such as the cat with sweet taste, the development of a unique food preference behavior, based on the remaining taste receptors, might be anticipated. Because, with the exception of the sweetness modality, the taste system of the cat is organized much like that of most other mammals, discovering the molecular basis for the cats' lack of response to sweet-tasting compounds gives us a window on the development of strict carnivorous behavior in Felidae.</rdf:value>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2">
+                            <rdf:value>In addition to the modulation of behavior that can be caused by point mutations, more profound behavioral changes can result from the abolishment of gene function through, for example, the generation of pseudogenes. An example of this effect in mammalian chemoreception lies within the large repertoire of olfactory receptor genes. More than 60% of the human olfactory receptor genes are pseudogenes [[pgen-0010003-b35]], whereas, only 20% are classified as such in mouse [[pgen-0010003-b35],[pgen-0010003-b36]]. Strikingly, the accumulation of these olfactory pseudogenes in primates reportedly occurred concomitant with the acquisition of trichromatic color vision, perhaps reflecting the overarching behavioral changes that such an acquisition engendered [[pgen-0010003-b37]]. Similar generation of bitter-taste receptor pseudogenes, accompanied by a large number of coding region single-nucleotide polymorphism, can account for the broad diversity displayed by the bitter-taste receptor family. This diversity may possibly play an important role in both species-specific and individually manifested taste preference [[pgen-0010003-b38]].</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b38">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b37">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b36">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b35">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list11">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_2"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_3"/>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:isPartOf>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion">
+                            <dcterms:hasPart>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2">
+                                    <rdf:value>According to morphological and molecular evidence, the available phylogeny of the order Carnivora consists of two groups, the Feliformia (cats, mongooses, civets, and hyenas) and the Caniformia (wolves, bears, raccoons, mustelids, and pinnipeds) [[pgen-0010003-b23],[pgen-0010003-b24]]. It is difficult to determine when the alteration of Tas1r2 occurred and whether it preceded or followed the cat ancestor's change in diet to exclude plants. Clearly, because dogs have a human-like T1R2 structure (see [pgen-0010003-g001]) and an avidity for sweet carbohydrates [[pgen-0010003-b25]], the changes in the cat Tas1r2 must have occurred after the divergence of the Feliformia and the Caniformia.</rdf:value>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b25">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001"/>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b24">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b23">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_1"/>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list10">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_1"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                                <dcterms:title>
+Tas1r2 in Felidae</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                              </doco:Section>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_2">
+                                <rdf:value>For this study, we made the working assumption that the Felidae T1R family shows specificity similar to that known from rodents and primates. Because the umami receptor is composed of the heteromer, T1R1/T1R3, and because cats can taste amino acids, it would appear likely that both of these proteins should be functional. The sweet-taste receptor is composed of the heteromer T1R2/T1R3. Because the cat cannot taste sweet stimuli, the most likely assumption is that the cat T1R2 is non-functional.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_2">
+                                    <rdf:value>These results suggest that the cat Tas1r2 pseudogene is not transcribed, or if it is transcribed, it rapidly degrades, perhaps through a nonsense-mediated mRNA decay pathway [[pgen-0010003-b22]].</rdf:value>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b22">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1"/>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list9">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_2"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                                <dcterms:title>Molecular Features of Cat Tas1r2
+</dcterms:title>                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                              </doco:Section>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list7">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_2"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:hasPart>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Conclusion">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Conclusion:para_1">
+                                    <rdf:value>It is known that Felidae do not detect sweetness of carbohydrates yet can taste amino acids. Our results indicate that the gene encoding one member of the sweet-taste receptor heteromer is an unexpressed pseudogene. Given this observation, we suggest that the most parsimonious explanation for the inability of Felidae to respond to sweeteners is the lack of a functional T1R2 protein.</rdf:value>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Conclusion"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list12">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Conclusion:para_1"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                                <dcterms:title>Conclusion</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                              </doco:Section>
+                            </dcterms:hasPart>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                            <dcterms:title>Discussion</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                            <biotea:sectionList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list5">
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Conclusion"/>
+                              </rdf:Seq>
+                            </biotea:sectionList>
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                          </doco:Section>
+                        </dcterms:isPartOf>
+                        <dcterms:title>Genes Affecting Taste Behavior</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                    <biotea:sectionList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list1">
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Abstract">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Abstract:para_1">
+                                <rdf:value></rdf:value>
+                                <rdf:value>Although domestic cats (Felis silvestris catus) possess an otherwise functional sense of taste, they, unlike most mammals, do not prefer and may be unable to detect the sweetness of sugars. One possible explanation for this behavior is that cats lack the sensory system to taste sugars and therefore are indifferent to them. Drawing on work in mice, demonstrating that alleles of sweet-receptor genes predict low sugar intake, we examined the possibility that genes involved in the initial transduction of sweet perception might account for the indifference to sweet-tasting foods by cats. We characterized the sweet-receptor genes of domestic cats as well as those of other members of the Felidae family of obligate carnivores, tiger and cheetah. Because the mammalian sweet-taste receptor is formed by the dimerization of two proteins (T1R2 and T1R3; gene symbols Tas1r2 and Tas1r3), we identified and sequenced both genes in the cat by screening a feline genomic BAC library and by performing PCR with degenerate primers on cat genomic DNA. Gene expression was assessed by RT-PCR of taste tissue, in situ hybridization, and immunohistochemistry. The cat Tas1r3 gene shows high sequence similarity with functional Tas1r3 genes of other species. Message from Tas1r3 was detected by RT-PCR of taste tissue. In situ hybridization and immunohistochemical studies demonstrate that Tas1r3 is expressed, as expected, in taste buds. However, the cat Tas1r2 gene shows a 247-base pair microdeletion in exon 3 and stop codons in exons 4 and 6. There was no evidence of detectable mRNA from cat Tas1r2 by RT-PCR or in situ hybridization, and no evidence of protein expression by immunohistochemistry. Tas1r2 in tiger and cheetah and in six healthy adult domestic cats all show the similar deletion and stop codons. We conclude that cat Tas1r3 is an apparently functional and expressed receptor but that cat Tas1r2 is an unexpressed pseudogene. A functional sweet-taste receptor heteromer cannot form, and thus the cat lacks the receptor likely necessary for detection of sweet stimuli. This molecular change was very likely an important event in the evolution of the cat's carnivorous behavior.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Abstract"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list1">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Abstract:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:title>Abstract</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Abstract"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Introduction"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Conclusion"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-"/>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-:para_1">
+                                <rdf:value>We prepared BAC DNAs from positive clones by using a Qiagen Large Construct Kit (Valencia, California, United States). The BAC DNAs were digested using Sau3A I and the digested BAC DNA fragments subcloned into pGEM-3Z (Promega) vector. After transformants were arrayed to a nylon membrane, two separate hybridizations were performed by using pooled Tas1r2 and Tas1r3 overgo probes. By sequencing positive clones from the shotgun libraries and by using a chromosome walking strategy, we obtained the full coding region of the cat Tas1r3 and exon 3 to exon 6 of cat Tas1r2.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list18">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                            <dcterms:title>Production of shotgun libraries for BACs containing cat Tas1r2 and Tas1r3.</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-:para_1">
+                                <rdf:value>Because exon 1 and exon 2 of the cat Tas1r2 were not present in the positive BACs selected above, we designed degenerate primers based on Tas1r2 alignments from different species (human, rodents, and dog) and performed PCR using cat genomic DNA as a template. The PCR products were sequenced. The feline BAC library was then re-screened using PCR products as probes, and new positive BAC clones were retrieved. Using a chromosome walking strategy, we obtained the complete sequence of exon 1 and exon 2 of cat Tas1r2 from these newly retrieved BAC clones.</rdf:value>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list19">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                            <dcterms:title>Identification of exon 1 and exon 2 of the cat Tas1r2 by PCR strategy.</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-"/>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-">
+                            <dcterms:hasPart>
+                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-:para_1">
+                                <rdf:value>The probes corresponding to exons 3 and 6 of cat Tas1r2 and Tas1r3 were amplified by PCR using the primers described in [pgen-0010003-t003]. Digoxigenin-labeled cRNA probes were synthesized using a DIG RNA labeling kit (Roche). Taste bud–containing vallate tongue tissue was obtained as above. Fresh frozen sections (14 μm/section) of cat circumvallate papillae were attached to clean SuperFrost/Plus slides and prepared for in situ hybridization [[pgen-0010003-b39]]. High-stringency hybridizations were carried out at 70 °C overnight in 50% formamide, 5X SSC, 5X Denhardt's, 250 μg/ml yeast RNA, and 500 μg/ml sperm DNA using the mixed cRNA probes. Sections were washed at 72 °C with 0.2X SSC three times. Signals were detected using alkaline phosphatase–conjugated antibodies to digoxigenin and standard chromogenic substrates and observed with a Nikon SA Microphot Microscope. Control hybridizations were performed with sense probes.</rdf:value>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b39">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <bibo:cites>
+                                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t003">
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-:para_1"/>
+                                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-:para_1"/>
+                                  </bibo:Document>
+                                </bibo:cites>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-"/>
+                              </doco:Paragraph>
+                            </dcterms:hasPart>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list21">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+                            <dcterms:title>In situ hybridization.</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-"/>
+                        <rdf:li>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information">
+                            <dcterms:hasPart>
+                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers">
+                                <dcterms:hasPart>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers:para_1">
+                                    <rdf:value>The GenBank (http://www.ncbi.nlm.nih.gov/Genbank/) accession numbers for the genomes discussed in this paper are cat Tas1r3 (AY819786), cat Tas1r2 (AY819787), dog Tas1r2 (AY916758), dog Tas1r3 (AY916759), human TAS1R3 (BK000152), and human TAS1R2 (NM_152232).
+</rdf:value>                        <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list25">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers:para_1"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information"/>
+                                <dcterms:title>Accession Numbers</dcterms:title>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                              </doco:Section>
+                            </dcterms:hasPart>
+                            <biotea:sectionList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list20">
+                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers"/>
+                              </rdf:Seq>
+                            </biotea:sectionList>
+                            <dcterms:title>Supporting Information</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                          </doco:Section>
+                        </rdf:li>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers"/>
+                      </rdf:Seq>
+                    </biotea:sectionList>
+                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/genome/guide/dog/"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information_Accession-Numbers"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Conclusion"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-"/>
+                    <dcterms:title>Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference toward Sugar</dcterms:title>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae"/>
+                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/Genbank/"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Supporting-Information"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Abstract"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-"/>
+                    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                  </bibo:AcademicArticle>
+                </dcterms:isPartOf>
+              </doco:Section>
+            </rdf:li>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-"/>
+            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-"/>
+          </rdf:Seq>
+        </biotea:sectionList>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Identification-of-exon-1-and-exon-2-of-the-cat-Tas1r2-by-PCR-strategy-"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_In-situ-hybridization-"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Preparation-of-overgo-probes-"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Animal-tissue-"/>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Production-of-shotgun-libraries-for-BACs-containing-cat-Tas1r2-and-Tas1r3-"/>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Immunohistochemistry-"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-"/>
+        <dcterms:title>no-title_1</dcterms:title>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Examination-of-stop-codons-in-six-individual-cats-and-other-species-within-Feliformia-"/>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_RT-PCR-"/>
+      </doco:Section>
+    </dcterms:isPartOf>
+    <dcterms:title>Immunohistochemistry.</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                                                              </doco:Section>
+                                                            </dcterms:isPartOf>
+                                                          </doco:Paragraph>
+                                                        </bibo:citedBy>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae:para_2"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_3"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_2"/>
+                                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_1"/>
+                                                      </bibo:Document>
+                                                    </bibo:cites>
+                                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/s4"/>
+                                                    <dcterms:references rdf:resource="http://www.ncbi.nlm.nih.gov/genome/guide/dog/"/>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+                                                  </doco:Paragraph>
+                                                </bibo:citedBy>
+                                              </bibo:Document>
+                                            </bibo:cites>
+                                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression"/>
+                                          </doco:Paragraph>
+                                        </bibo:citedBy>
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_4"/>
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_3"/>
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure:para_2"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b20">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites>
+                                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b19">
+                                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                      </bibo:Document>
+                                    </bibo:cites>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g001"/>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-"/>
+                                  </doco:Paragraph>
+                                </dcterms:hasPart>
+                                <biotea:paragraphList>
+                                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list8">
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_1"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_2"/>
+                                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_3"/>
+                                  </rdf:Seq>
+                                </biotea:paragraphList>
+                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                                <dcterms:title>Molecular Features of Cat Tas1r3
+</dcterms:title>                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                              </doco:Section>
+                            </dcterms:isPartOf>
+                          </doco:Paragraph>
+                        </bibo:citedBy>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_1"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-t003"/>
+                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r2-"/>
+                  </doco:Paragraph>
+                </bibo:citedBy>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Molecular-Features-of-Cat-Tas1r3-:para_2"/>
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_2"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-g002"/>
+            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression"/>
+          </doco:Paragraph>
+        </dcterms:hasPart>
+        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_1"/>
+        <biotea:paragraphList>
+          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list5">
+            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_1"/>
+            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression:para_2"/>
+          </rdf:Seq>
+        </biotea:paragraphList>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results"/>
+        <dcterms:title>RNA and Protein Expression</dcterms:title>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+      </doco:Section>
+    </dcterms:hasPart>
+    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+    <biotea:sectionList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/1183522/list2">
+        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Molecular-Cloning-of-Cat-Tas1r3-and-Tas1r2--Sequence-and-Gene-Structure"/>
+        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_RNA-and-Protein-Expression"/>
+        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results_Confirmation-of-Tas1r2-Sequence-in-Six-Individual-Cats--Tiger--and-Cheetah"/>
+      </rdf:Seq>
+    </biotea:sectionList>
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results:para_1">
+        <rdf:value>We identified DNA sequences of Tas1r3 and Tas1r2 from the domestic cat by screening a feline BAC library and using a PCR strategy on cat genomic DNA with degenerate primers. The feline sequences were compared with those of other species, and gene structures were determined. The expression of these two receptors was then evaluated by in situ hybridization and immunohistochemistry.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Results"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list3">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Results:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:title>Results</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                                                              </doco:Section>
+                                                            </dcterms:isPartOf>
+                                                            <dcterms:title
+                                                            >Confirmation of Tas1r2 Sequence in Six Individual Cats, Tiger, and Cheetah</dcterms:title>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                                                          </doco:Section>
+                                                        </dcterms:isPartOf>
+                                                      </doco:Paragraph>
+                                                    </bibo:citedBy>
+                                                  </bibo:Document>
+                                                </bibo:cites>
+                                                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_-Tas1r2-in-Felidae"/>
+                                              </doco:Paragraph>
+                                            </bibo:citedBy>
+                                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                          </bibo:Document>
+                                        </bibo:cites>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Introduction"/>
+                                      </doco:Paragraph>
+                                    </dcterms:hasPart>
+                                    <biotea:paragraphList>
+                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list2">
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_1"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_2"/>
+                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Introduction:para_3"/>
+                                      </rdf:Seq>
+                                    </biotea:paragraphList>
+                                    <dcterms:title>Introduction</dcterms:title>
+                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+                                  </doco:Section>
+                                </dcterms:isPartOf>
+                              </doco:Paragraph>
+                            </bibo:citedBy>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b18">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b17">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b16"/>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b15">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion"/>
+                      </doco:Paragraph>
+                    </bibo:citedBy>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b27">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b26">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b33"/>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b14"/>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b29"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b30">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b34">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b13"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/1183522/pgen-0010003-b28">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Discussion_Genes-Affecting-Taste-Behavior:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+              </doco:Paragraph>
+            </bibo:citedBy>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/1183522/list17">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1_Screening-a-feline-genomic-BAC-library-:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/1183522/Materials-and-Methods_no-title-1"/>
+    <dcterms:title>Screening a feline genomic BAC library.</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/1183522"/>
+  </doco:Section>
+</rdf:RDF>

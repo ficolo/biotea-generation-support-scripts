@@ -1,0 +1,649 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wd="http://www.wikidata.org/entity/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:biotea="https://biotea.github.io/biotea-ontololgy#"
+    xmlns:doco="http://purl.org/spar/doco/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2">
+    <rdf:value>To test whether the transcriptional activity of p53 may be altered by TRP2 knockdown, the set of melanoma lines were stably transduced with a reporter gene construct (pGreenFire) coding for GFP under the control of a p53 response element. The mean GFP expression was measured by flow cytometry and normalized for the relative number of incorporated pGreenFire copies as determined by real time PCR. As we have shown previously expression levels of p53 do not necessarily correlate with its transcriptional activity suggesting posttranslational inactivation of p53 [pone.0087440-Houben1] which has recently been shown to occur in melanoma e.g. by iASPP [pone.0087440-Lu1]. Accordingly, the M26 and WueMel melanoma cell lines show high p53 expression ([pone-0087440-g002]) without any p53 reporter gene activity ([pone-0087440-g003]).</rdf:value>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g003">
+        <bibo:citedBy>
+          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_3">
+            <rdf:value>Interestingly, TRP2 knockdown by two of the three shRNAs (#1 and #3) showed no impact on p53 reporter gene activity. However, infection with the TRP2-shRNA_#2 led to increased p53 reporter gene activity in FM88, Mel-U and MelJuso but not in M26 and WueMel 45 melanoma cells ([pone-0087440-g003]). Therefore, the results obtained with TRP2-shRNA_#1 and #3 suggest that TRP2 does not play a role in the regulation of p53 while induction of p53 reporter gene activity upon infection with the most effective TRP2-shRNA_#2 in some of the cells would be consistent with an inhibitory function of TRP2 in the p53 pathway. However, shRNAs notoriously exert off target effects [pone.0087440-Jackson1]. To evaluate whether this is the case for TRP2-shRNA_#2 we investigated whether the observed p53 activation can be rescued by re-expression of TRP2. For this experiment we generated a modified TRP2 expression construct coding for an TRP2 mRNA in which the shRNA-binding site is modified by six silent mutations (TRP2in). When TRP2-shRNA_#2 was expressed no downregulation of TRP2 was observed in cells stably expressing the TRP2in construct thus, confirming the insensitivity of the ectopic TRP2in mRNA ([pone-0087440-g004]) to TRP2-shRNA_#2. Subsequent analysis of p53 transcriptional activity revealed that expression of this shRNA insensitive TRP2in could not revert the increase in p53 reporter gene activity in the presence of shRNA#2, indicating that this is only an off target effect. Moreover, ectopic expression of TRP2 in TRP2-negative WueMel45 melanoma cell line did not repress p53 expression or transcriptional activity as it would be expected when TRP2 functions as negative regulator in the p53 pathway ([pone-0087440-g004]).</rdf:value>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g004">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_3"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites>
+              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Jackson1">
+                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_3"/>
+              </bibo:Document>
+            </bibo:cites>
+            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g003"/>
+            <dcterms:isPartOf>
+              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression">
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_3"/>
+                <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+                <dcterms:hasPart>
+                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_1">
+                    <rdf:value>To further scrutinize a possible role of TRP2 in the regulation of p53 we performed a series of TRP2 knockdown experiments addressing the expression and transcriptional activity of p53. Initially, we analyzed the expression of p53 and TRP2 in the melanoma cell lines FM88, M26, MelU, MelJuso, and WueMel45. p53 was present in all five melanoma lines, whereas TRP2 expression was detected by western blot in all cell lines except WueMel45. Three short hairpin RNAs were engineered to suppress TRP2 expression. The efficacy of TRP2 knockdown was confirmed by immunoblot; all three shRNAs strongly reduced TRP2 protein expression in melanoma cell lines and the knockdown was most prominent for TRP2-shRNA_#2 ([pone-0087440-g002]). To this end, even the most efficient TRP2 knockdown had no effect on p53 expression levels as determined by western blot ([pone-0087440-g002]).</rdf:value>
+                    <bibo:cites>
+                      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g002">
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+                        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_1"/>
+                      </bibo:Document>
+                    </bibo:cites>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+                  </doco:Paragraph>
+                </dcterms:hasPart>
+                <biotea:paragraphList>
+                  <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list16">
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_1"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+                    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_3"/>
+                  </rdf:Seq>
+                </biotea:paragraphList>
+                <dcterms:isPartOf>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Results">
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+                    <dcterms:hasPart>
+                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma">
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_2">
+                            <rdf:value>Overall p53 expression was detectable (score ≥1) in 99 out of 139 (71,2%) cases of primary melanoma and in 17 out of 33 (51,5%) cases of metastatic melanoma ([pone-0087440-g001]). p53 immunoreaction showed consistent prominent nuclear and light cytoplasmic staining pattern in all samples. TRP2 was detected in 119 out of 139 (85%) cases of primary melanoma and 26 out of 33 (78%) cases of metastatic melanoma displaying nuclear and cytoplasmic staining. To compare p53 and TRP2 expression a semi-quantitative immunoreactive score was determined by multiplying the percentage of positive cells (P) with the average staining intensity (I) using the formula Q = P x I [pone.0087440-vanDiest1], [pone.0087440-Cregger1] ([pone-0087440-g001]). Statistical regression analysis did not reveal any negative correlation between TRP2 and p53 expression ([pone-0087440-g001]). Quite the contrary, a very poorly fitting coefficient of determination (R2 = 0,0258) and only borderline-significant (p = 0,352) positive correlation was observed. Moreover, of all 52 samples with very weak or no TRP2 staining (histology score of 0 or 1) 17 (33%) also displayed very weak or negative p53 staining (histology score of 0 or 1). On the other hand of all 120 samples with middle to strong TRP2 staining (histology score of 2–12) 44 (37%) displayed very weak or negative p53 staining (histology score of 0 or 1). Taken together these analyses reveal, that p53 expression is independent of the TRP2 expression level. Moreover, both proteins are detectable in the majority of samples and therefore expression is not mutually exclusive.</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Cregger1">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-vanDiest1">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g001">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_2"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <dcterms:hasPart>
+                          <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_1">
+                            <rdf:value>Prompted by a report demonstrating an inhibitory effect of TRP2 on p53 in a melanoma cell line [pone.0087440-Sendoel1] we examined the expression of both proteins in a large panel of 172 paraffin embedded primary and metastatic melanoma samples by IHC. For this study we utilized a tumor tissue microarray of 129 primary and 23 metastatic melanomas. In addition a series of consecutive formalin-fixed, paraffin-embedded sections of human primary (n = 10) and metastatic melanoma (n = 10) were included where p53 mutational status was determined by nested PCR amplification and direct sequencing of exons 5–8 which harbor 95% of the known p53 mutations [pone.0087440-Houben1]. In line with previous reports no p53 mutations could be detected (data not shown) [pone.0087440-Houben1], [pone.0087440-Albino2].</rdf:value>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Albino2">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_1"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites>
+                              <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben1">
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_1"/>
+                                <bibo:citedBy>
+                                  <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay:para_1">
+                                    <rdf:value>The p53 reporter construct pGreenFire lentiviral vector codes for a puromycin resistence and for green fluorescent protein (GFP) under the control of a p53 responsive element (4× CGACATGCCCGGGCATGT). Following puromycin selection flow cytometry to monitor GFP expression in pGreenFire transduced cells was performed on a FACSCanto (BD, Heidelberg, Germany). Mean GFP fluorescence intensities were normalized to the relative presence of the reporter constructs in the infected cells as determined by real time PCR [pone.0087440-Houben1].</rdf:value>
+                                    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben1"/>
+                                    <dcterms:isPartOf>
+                                      <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay">
+                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay:para_1"/>
+                                        <biotea:paragraphList>
+                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list12">
+                                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay:para_1"/>
+                                          </rdf:Seq>
+                                        </biotea:paragraphList>
+                                        <dcterms:isPartOf>
+                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods">
+                                            <biotea:sectionList>
+                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/3903882/list2">
+                                                <rdf:li>
+                                                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement">
+                                                    <dcterms:hasPart>
+                                                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement:para_1">
+                                                        <rdf:value
+                                                        >Tumor samples from primary and metastatic melanomas were obtained by surgical excision for either therapeutic or diagnostic purposes and had undergone routine histology. The Institutional Review Board of Würzburg University Hospital approved all described studies and waived the need for written consent for histochemical analysis of anonymised tumor samples. Generation of the WueMel 45 melanoma cell line was done after written consent from the patient (Ethikkommission der Medizinischen Fakultät der Universität Würzburg; sequential study number 169/12).</rdf:value>
+                                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement"/>
+                                                      </doco:Paragraph>
+                                                    </dcterms:hasPart>
+                                                    <biotea:paragraphList>
+                                                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list4">
+                                                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement:para_1"/>
+                                                      </rdf:Seq>
+                                                    </biotea:paragraphList>
+                                                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+                                                    <dcterms:title
+                                                    >Ethics Statement</dcterms:title>
+                                                    <dcterms:isPartOf>
+                                                      <bibo:AcademicArticle rdf:about="http://linkingdata.io/pmcdoc/pmc/3903882">
+                                                        <dcterms:hasPart>
+                                                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture">
+                                                            <dcterms:hasPart>
+                                                              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1">
+    <rdf:value>One melanoma cell line (WueMel45) was generated in our lab from a melanoma metastasis obtained from a patient for therapeutic purposes. This cell line as well as the melanoma cell lines FM88 [pone.0087440-Bakker1], MelU [pone.0087440-Houben2], MelJuso [pone.0087440-Lehmann1] and M26 [pone.0087440-Becker1] were grown in RPMI 1640 supplemented with 10% fetal calf serum. For all five cell lines all coding exons of the p53 gene were sequenced demonstrating p53 wild type status [pone.0087440-Houben1].</rdf:value>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben1"/>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Becker1">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lehmann1">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben2">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites>
+      <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Bakker1">
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+      </bibo:Document>
+    </bibo:cites>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture"/>
+                                                              </doco:Paragraph>
+                                                            </dcterms:hasPart>
+                                                            <biotea:paragraphList>
+                                                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list9">
+    <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+                                                              </rdf:Seq>
+                                                            </biotea:paragraphList>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+                                                            <dcterms:title
+                                                            >Cell culture</dcterms:title>
+                                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                          </doco:Section>
+                                                        </dcterms:hasPart>
+                                                        <biotea:sectionList>
+                                                          <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/3903882/list1">
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Abstract">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Abstract:para_1">
+        <rdf:value>p53 is a central tumor suppressor protein and its inhibition is believed to be a prerequisite for cancer development. In approximately 50% of all malignancies this is achieved by inactivating mutations in the p53 gene. However, in several cancer entities, including melanoma, p53 mutations are rare. It has been recently proposed that tyrosinase related protein 2 (TRP2), a protein involved in melanin synthesis, may act as suppressor of the p53 pathway in melanoma. To scrutinize this notion we analyzed p53 and TRP2 expression by immunohistochemistry in 172 melanoma tissues and did not find any correlation. Furthermore, we applied three different TRP2 shRNAs to five melanoma cell lines and could not observe a target specific effect of the TRP2 knockdown on either p53 expression nor p53 reporter gene activity. Likewise, ectopic expression of TRP2 in a TRP2 negative melanoma cell line had no impact on p53 expression. In conclusion our data suggest that p53 repression critically controlled by TRP2 is not a general event in melanoma.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Abstract"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list1">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Abstract:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:title>Abstract</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Introduction">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_2">
+        <rdf:value>In this report we further scrutinize a possible role of TRP2 in the regulation of p53 in five different melanoma cell lines and do not find such a relation.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Introduction"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1">
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Grob1">
+            <bibo:citedBy>
+              <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1">
+                <dcterms:isPartOf>
+                  <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Discussion">
+                    <dcterms:hasPart>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2">
+                        <rdf:value>In our study we investigated the role of the TRP2 in p53 regulation prompted by a report of Sendoel and colleagues who identified in Caenorhabditis elegans the TRP2 homolog TYR2 as a protein secreted by neurons and acting paracrine in neighboring germ cells to suppress CEP-1 (p53 homolog in the worm) dependent apoptosis [pone.0087440-Sendoel1]. Using the melanoma cell line WM266-4 which has been established from a lymph node metastasis [pone.0087440-Westermark1], [pone.0087440-Herlyn1] they demonstrated that such a mechanism is evolutionarily conserved. In this respect they demonstrate that a TRP2 shRNA leads to upregulation of p53 protein levels and that the shRNA mediated TRP2 knockdown increased cisplatin induced apoptosis in the melanoma cell line [pone.0087440-Sendoel1]. To scrutinize to which extent TRP2 is restricting p53 expression and/or p53 function in melanoma we analyzed a large set of melanoma tissues as well as five melanoma cell lines. However, immunohistochemical analysis of the 172 melanoma lesions did not reveal any correlation between TRP2 and p53 expression, arguing against a critical dependency. Furthermore, neither efficient TRP2 knockdown in TRP2-positive melanoma cells using three different shRNAs caused a target specific increase in p53 function nor did overexpression of TRP2 in a TRP2 negative melanoma cell line repress p53 expression. The discrepancy between our data and the one reported by Sendoel et al. could be due to the fact that different cell lines were used in the two studies. Therefore, we cannot exclude that the inhibitory effect of TRP2 on p53 described by Sendoel et al. is a cell line specific phenomenon. It is also known that different cell culture practices and cell culture conditions used in different laboratories can have a major influence on gene expression and consequently can lead to different experimental results [pone.0087440-Eberle1], [pone.0087440-Reid1]. Our data from cell culture experiments, however, are not only consistent between different cell lines and different shRNAs, but the conclusion derived from these experiments is also in line with our immunohistochemical studies. In summary our results suggest that TRP2 is not generally suppressing p53 in melanoma and that with respect to future therapeutic strategies the aforementioned proteins i.e. iASPP, p63 and MDMX appear to be more promising targets.</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Reid1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Eberle1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Herlyn1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Westermark1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sendoel1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_1"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Discussion"/>
+                      </doco:Paragraph>
+                    </dcterms:hasPart>
+                    <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                    <biotea:paragraphList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list17">
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_2"/>
+                      </rdf:Seq>
+                    </biotea:paragraphList>
+                    <dcterms:title>Discussion</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                  </doco:Section>
+                </dcterms:isPartOf>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Tuve1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                    <bibo:citedBy>
+                      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results:para_1">
+                        <rdf:value>The cores of specimens on the tissue microarray (TMA) slides were scored using a semi-quantitative scoring system where staining intensity and the proportion of stained tumor cells is taken into account [pone.0087440-Tuve1]–[pone.0087440-Olivares1]. Every tumor was given a score according to the intensity of staining (no staining  = 0, weak staining  = 1, moderate staining  = 2, strong staining  = 3) and the extent of stained cells (up to 10% = 1, 11–50% = 2, 51–80% = 3, 81–100% = 4). The final histology score was determined by multiplying the intensity scores with the extent of positivity scores of stained cells, yielding scores of 0, 1, 2, 3, 4, 6, 8, 9 or 12. Scoring of the samples was performed by two independent individuals.</rdf:value>
+                        <bibo:cites>
+                          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Olivares1">
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results:para_1"/>
+                            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+                          </bibo:Document>
+                        </bibo:cites>
+                        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Tuve1"/>
+                        <dcterms:isPartOf>
+                          <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results">
+                            <dcterms:hasPart rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results:para_1"/>
+                            <biotea:paragraphList>
+                              <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list7">
+                                <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results:para_1"/>
+                              </rdf:Seq>
+                            </biotea:paragraphList>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+                            <dcterms:title>Scoring of Immunohistochemistry staining results</dcterms:title>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                          </doco:Section>
+                        </dcterms:isPartOf>
+                      </doco:Paragraph>
+                    </bibo:citedBy>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Muthusamy1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Cheok1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lu1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lee1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Grob1"/>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Gartner1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <rdf:value>Inactivation or at least partial repression of the p53 tumor suppressor pathway is thought to occur in almost all human cancers, and inactivating p53 mutations are the genetic alterations most frequently observed in malignancies [pone.0087440-Essmann1], [pone.0087440-Cheok1]. However, in several cancer entities, including melanoma p53 mutations are rare [pone.0087440-Lee1]. In these cancers with suppressed wild type p53 function, restoration of p53 activity is regarded as an attractive therapeutic strategy [pone.0087440-Cheok1], [pone.0087440-Lee1]. However, for the development of such therapeutic approaches we need to understand the molecular mechanisms restricting p53 function in p53 wild type tumors. The great interest in such mechanisms in melanoma is reflected by several high impact publications during the last 12 months. Lu and co-workers, for example, demonstrated that in melanoma a cyclin B1/cdk1 protein complex phosphorylates iASPP leading to the inhibition of iASPP dimerization, increased nuclear entry of iASPP monomers, as well as binding and inhibition of p53 [pone.0087440-Lu1]. Gembarska and colleagues demonstrated that increased protein levels of the p53 inhibitor MDMX are frequently found in melanomas rendering the p53 tumor suppressor inactive [pone.0087440-Gembarska1]. A similar mechanism has previously been described for MDM2 [pone.0087440-Gembarska1], [pone.0087440-Muthusamy1], [pone.0087440-Polsky1]. Moreover, p53 function can be suppressed in melanoma due to expression of other p53 family members, including p63 and the N-terminal truncated isoforms ΔNp73 which both act dominant-negative via heterodimerization [pone.0087440-Grob1], [pone.0087440-Tuve1], [pone.0087440-Matin1]. Most recently, a synonymous mutation in the BCL2L12 gene was identified in melanoma leading to increased expression of BCL2L12 which binds to p53 and inhibits its transcriptional activity [pone.0087440-Gartner1].</rdf:value>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Gembarska1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Matin1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Essmann1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+                <bibo:cites>
+                  <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Polsky1">
+                    <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Discussion:para_1"/>
+                  </bibo:Document>
+                </bibo:cites>
+              </doco:Paragraph>
+            </bibo:citedBy>
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lu1"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Smalley1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Daniotti1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <rdf:value>Advanced melanoma is a cancer that is largely resistant to cytotoxic drugs or irradiation; this had been at least in part attributed to an impaired p53 dependent apoptosis response [pone.0087440-Smalley1]. The main biological functions of the transcription factor p53 include regulation of cell cycle progression, apoptosis, senescence, cellular differentiation and DNA repair [pone.0087440-Soussi1]. Due to fast ubiquitination by the E3 ligase MDM2 and subsequent proteasomal degradation, p53 is frequently undetectable in normal cells [pone.0087440-Sherr1]. However, upon several different stresses, including oncogenic stress or DNA damage, the amount of p53 is increased due to disruption of its degradation [pone.0087440-Gembarska1], [pone.0087440-Munger1]. p53 is a prototypic tumor suppressor and inactivating mutations in the p53 gene are present in approximately half of all human cancers [pone.0087440-Soussi1]. Alternative mechanisms of p53 inactivation include MDM2/4 overexpression [pone.0087440-Sherr1], [pone.0087440-Gembarska1], inhibition by viral oncoproteins [pone.0087440-Munger1] and loss of p14ARF, which binds MDM2 and inhibits its E3 ubiquitin ligase activity [pone.0087440-Sherr1]. In addition, the transcriptional activity of p53 can also be impaired on a post-translational level by competition for DNA-binding sites by the p73 isoform ΔNp73 [pone.0087440-Grob1], [pone.0087440-Tuve1], functional antagonism with the inhibitor of apoptosis-stimulating protein (iASPP) [pone.0087440-Grob1], [pone.0087440-Lu1] and sequestration in the cytosol by the ubiquitin ligase Parc [pone.0087440-Nikolaev1]. Moreover, inhibition of p53 expression by tyrosine-related protein 2 (TRP2) has been proposed as a mechanism of p53 restriction [pone.0087440-Sendoel1]. Importantly, all of the aforementioned p53 inactivation mechanisms except inhibition by viral oncoproteins have been described in melanoma cells. This is of particular interest since p53 is frequently expressed in melanoma but inactivating mutations are rarely detectable [pone.0087440-Albino1]–[pone.0087440-Daniotti1]. Interestingly, the putative negative p53 regulator TRP2 is a marker of the melanocytic lineage and is expressed in more than 80% of metastatic melanoma lesions [pone.0087440-Takeuchi1]. TRP2 is transcriptionally regulated by microphthalmia transcription factor (MITF) and Sox10. TRP2 acts in the melanin synthesis pathway downstream of tyrosinase catalysing the conversion of dopachrome to 5,5-dihydroxyindole-2-carboxylic acid (DHICA) [pone.0087440-Hearing1]–[pone.0087440-Olivares1]. Beside its function in melanin synthesis TRP2 has been proposed to regulate neural progenitor cell proliferation and to function as a pro-survival and anti-apoptotic molecule [pone.0087440-Jiao1]. In melanoma cell lines an impaired apoptotic response after radiation or treatment with chemotherapeutic agents was found to be associated with increased expression of TRP2 [pone.0087440-Pak1]. A possible mechanistic explanation for the anti-apoptotic property of TRP2 has recently been described [pone.0087440-Sendoel1]. Sendoel and co-workers showed in Caenorhabditis elegans that secretion of the TRP2 homolog Tyr2 by sensory neurons inhibits p53 expression of germ cells. Moreover, TRP2 knockdown in WM266-4 melanoma cells lead to increased p53 expression sensitizing the cells to cisplatin-induced apoptosis.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Albino1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Munger1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Olivares1"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Hearing1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Tuve1"/>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Introduction"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Jiao1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Soussi1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Nikolaev1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Pak1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Gembarska1"/>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Takeuchi1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sherr1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sendoel1"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list2">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_1"/>
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Introduction:para_2"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:title>Introduction</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement"/>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-:para_1">
+        <rdf:value>After anonymization of tissue samples a dermatohistopathologist (C.K.) reviewed slides from all blocks, selecting representative areas of tumor tissue to be cored for generation of TMA as previously described [pone.0087440-Kononen1]. The TMA used in this study contained 152 unique cases of primary melanoma (n = 129), and metastatic melanoma (n = 23). Additionally, 20 melanoma tissues (10 primary and 10 metastatic melanoma) for which a p53 wild type status had been confirmed by sequencing of the exon 5–8 were included in these studies.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Kononen1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list5">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Tumor material and Tissue microarray (TMA)</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-:para_1">
+        <rdf:value>4 µm sections of paraffin-embedded tumors and TMA were dried at 56°C and then treated twice with xylene for 10 min at room temperature. Subsequently, sections were washed twice with absolute ethanol and twice with 70% ethanol followed by one rinse with bi-distilled water. For antigen retrieval, sections were incubated with citrate buffer pH 9.0 (DAKO, Hamburg, Germany) for 10 min at 90°C and rinsed with bi-distilled water. Next, slides were rinsed twice with phosphate-buffered saline (PBS) and thereafter incubated with Blocking Solution (DAKO, S2023) for 10 min at room temperature. After two additional washing steps with PBS for 10 min at room temperature, the monoclonal α-p53 antibody (DO-7, DAKO) or α-TRP2 antibody (D18, Santa Cruz) was added to the sections at a predetermined concentration in PBS, followed by an over night incubation at 4°C. After two 10 min washes in PBS, biotinylated multispecies-specific secondary antibody (DAKO, K5003) was added to the sections for 30 min at room temperature. Slides were then washed twice in PBS/bovine serum albumin, and bound antibodies were visualized using streptavidin-HRP (DAKO K5003) and Vector Vip (Vector Laboratories, Burlingame USA) as peroxidase substrate according to the manufacturer's guidelines. Finally, the nuclei were stained with hemalaun.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list6">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Immunohistochemistry (IHC)</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results"/>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis:para_1">
+        <rdf:value>The relationship between the p53 and TRP2 expression was statistically analyzed using the Prism Graph software 5.0 (San Diego, CA). The coefficient of determination (R2) and the p value were determined applying linear regression analysis comparing p53 and TRP2 histology scores.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list8">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Statistical analysis</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture"/>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cloning">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cloning:para_1">
+        <rdf:value>The shRNA vectors TRP2_shRNA #1, #2 and #3 were obtained by cloning the shRNA sequences 5′-GTGATTCAAACAACTAACAGA, 5′-AAGGTTGGCAATTTCATGCTGT and 5′-CCACCAGTGATTCGGCAGA, respectively (the sense strand is given), into the lentiviral vector KH1 [pone.0087440-Verhaegen1]. A Scr shRNA construct was used as a control [pone.0087440-Houben3]. A TRP2 cDNA was amplified by PCR and inserted into the retroviral expression vector pIH [pone.0087440-Houben4]. To make the TRP2 mRNA insensitive to the TRP2_shRNA #2 (TRP2in) six silent mutations (5′- ACAG; exchanged nucleotides displayed in bold) were introduced in the shRNA target sequence using the quick change mutagenesis kit (Stratagene, Waldbrunn, Germany).</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben4">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cloning:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben3">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cloning:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Verhaegen1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cloning:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cloning"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list10">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cloning:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Cloning</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection:para_1">
+        <rdf:value>Infectious viruses were raised by transfecting HEK293T cells [pone.0087440-Smith1]. The lentiviral shRNA vectors and the pGreenFire p53 reporter construct (SBI, Mountain View, Canada) were transfected in combination with the helper constructs p59, p60 and p61. The retroviral vector pIH-TRP2insens was transfected in combination with the helper constructs pHIT60 and pHIT456. Two days following transfection, virus supernatants were harvested and filtered through 0.45 µm pore size filters. For infection, virus-containing supernatants were supplemented with 4 µg/ml polybrene and then added to the target cells overnight. Then medium was changed and the cells were cultured for 3 more days prior to subjecting lysates of the cells to further analysis. Pure populations carrying the pGreenFire reporter were selected by culturing the cells in the presence of puromycin.</rdf:value>
+        <bibo:cites>
+          <bibo:Document rdf:about="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Smith1">
+            <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection:para_1"/>
+          </bibo:Document>
+        </bibo:cites>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list11">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Lentiviral and retroviral infection</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay"/>
+                                                            <rdf:li>
+                                                              <doco:Section rdf:about="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot">
+    <dcterms:hasPart>
+      <doco:Paragraph rdf:about="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot:para_1">
+        <rdf:value>Cells were lysed in Laemmli buffer and proteins were resolved by SDS-polyacrylamid gel electrophoresis and transferred to nitrocellulose membranes. Following blocking for 1 h with PBS containing 0.05% Tween 20 and 5% powdered skim milk, blots were incubated overnight with the primary antibody, washed three times with PBS with 0.05% Tween 20, and then incubated with a peroxidase coupled secondary antibody. Following extensive washing, the bands were detected using a chemoluminescence detection kit (Roche Diagnostics, Mannheim, Germany). Antibodies to p53 (D-01, Santa Cruz, Heidelberg, Germany) TRP2 (D18, Santa Cruz, Heidelberg, Germany) and β-tubulin (Sigma, Ottobrunn, Germany) were used.</rdf:value>
+        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot"/>
+      </doco:Paragraph>
+    </dcterms:hasPart>
+    <biotea:paragraphList>
+      <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list13">
+        <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot:para_1"/>
+      </rdf:Seq>
+    </biotea:paragraphList>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+    <dcterms:title>Western blot</dcterms:title>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                                              </doco:Section>
+                                                            </rdf:li>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+                                                            <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Discussion"/>
+                                                          </rdf:Seq>
+                                                        </biotea:sectionList>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay"/>
+                                                        <dcterms:title
+                                                        >p53 Regulation by TRP2 Is Not Pervasive in Melanoma</dcterms:title>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cloning"/>
+                                                        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Discussion"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Introduction"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Abstract"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results"/>
+                                                        <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma"/>
+                                                      </bibo:AcademicArticle>
+                                                    </dcterms:isPartOf>
+                                                  </doco:Section>
+                                                </rdf:li>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cloning"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay"/>
+                                                <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot"/>
+                                              </rdf:Seq>
+                                            </biotea:sectionList>
+                                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_p53-reporter-gene-assay"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Tumor-material-and-Tissue-microarray--TMA-"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Immunohistochemistry--IHC-"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Scoring-of-Immunohistochemistry-staining-results"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Statistical-analysis"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Lentiviral-and-retroviral-infection"/>
+                                            <dcterms:title>Materials and Methods</dcterms:title>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Ethics-Statement"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Cloning"/>
+                                            <dcterms:hasPart rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Materials-and-Methods_Western-blot"/>
+                                          </doco:Section>
+                                        </dcterms:isPartOf>
+                                        <dcterms:title>p53 reporter gene assay</dcterms:title>
+                                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                                      </doco:Section>
+                                    </dcterms:isPartOf>
+                                  </doco:Paragraph>
+                                </bibo:citedBy>
+                                <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Materials-and-Methods_Cell-culture:para_1"/>
+                              </bibo:Document>
+                            </bibo:cites>
+                            <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Sendoel1"/>
+                            <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma"/>
+                          </doco:Paragraph>
+                        </dcterms:hasPart>
+                        <biotea:paragraphList>
+                          <rdf:Seq rdf:about="http://linkingdata.io/listOfParagraphs/pmcdoc_resource/3903882/list15">
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_1"/>
+                            <rdf:li rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma:para_2"/>
+                          </rdf:Seq>
+                        </biotea:paragraphList>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results"/>
+                        <dcterms:title>TRP2 and p53 co-expression in melanoma</dcterms:title>
+                        <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                      </doco:Section>
+                    </dcterms:hasPart>
+                    <biotea:sectionList>
+                      <rdf:Seq rdf:about="http://linkingdata.io/listOfSections/pmcdoc_resource/3903882/list12">
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-and-p53-co-expression-in-melanoma"/>
+                        <rdf:li rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+                      </rdf:Seq>
+                    </biotea:sectionList>
+                    <dcterms:title>Results</dcterms:title>
+                    <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+                  </doco:Section>
+                </dcterms:isPartOf>
+                <dcterms:title>TRP2 knockdown does not impact on p53 expression</dcterms:title>
+                <dcterms:isPartOf rdf:resource="http://linkingdata.io/pmcdoc/pmc/3903882"/>
+              </doco:Section>
+            </dcterms:isPartOf>
+          </doco:Paragraph>
+        </bibo:citedBy>
+        <bibo:citedBy rdf:resource="http://linkingdata.io/paragraph/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression:para_2"/>
+      </bibo:Document>
+    </bibo:cites>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone-0087440-g002"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Lu1"/>
+    <bibo:cites rdf:resource="http://linkingdata.io/reference/pmcdoc_resource/3903882/pone.0087440-Houben1"/>
+    <dcterms:isPartOf rdf:resource="http://linkingdata.io/section/pmcdoc_resource/3903882/Results_TRP2-knockdown-does-not-impact-on-p53-expression"/>
+  </doco:Paragraph>
+</rdf:RDF>
